@@ -1,0 +1,1721 @@
+﻿Log file open, 11/13/17 13:38:15
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(121092571) SRandInit(121092571).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.097307
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.13-13.38.15:958][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.13-13.38.15:958][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.13-13.38.15:967][  0]LogInit: Computer: SONOFMORT
+[2017.11.13-13.38.15:967][  0]LogInit: User: Jordan
+[2017.11.13-13.38.15:967][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.13-13.38.15:967][  0]LogInit: High frequency timer resolution =3.320335 MHz
+[2017.11.13-13.38.15:967][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.11.13-13.38.15:967][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.13-13.38.15:967][  0]LogMemory: Process Physical Memory: 292.03 MB used, 292.03 MB peak
+[2017.11.13-13.38.15:967][  0]LogMemory: Process Virtual Memory: 274.11 MB used, 274.11 MB peak
+[2017.11.13-13.38.15:967][  0]LogMemory: Physical Memory: 5502.76 MB used,  10830.63 MB free, 16333.39 MB total
+[2017.11.13-13.38.15:967][  0]LogMemory: Virtual Memory: 679.16 MB used,  10830.63 MB free, 134217728.00 MB total
+[2017.11.13-13.38.16:043][  0]LogInit: Using OS detected language (en-US).
+[2017.11.13-13.38.16:043][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.13-13.38.16:048][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.13-13.38.17:112][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.13-13.38.17:179][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.13-13.38.17:179][  0]LogD3D11RHI:       8096/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.13-13.38.17:183][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.13-13.38.17:183][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.13-13.38.17:183][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.13-13.38.17:189][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.13-13.38.17:189][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.13-13.38.17:189][  0]LogWindows: EnumDisplayDevices:
+[2017.11.13-13.38.17:189][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.13-13.38.17:190][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.13-13.38.17:190][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.13-13.38.17:190][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.13-13.38.17:190][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.13-13.38.17:190][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.13-13.38.17:190][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.13-13.38.17:190][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.13-13.38.17:190][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.13-13.38.17:220][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.13-13.38.17:232][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.13-13.38.17:326][  0]LogShaderCompilers: Guid format shader working directory is -16 characters bigger than the processId version (C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/2548/).
+[2017.11.13-13.38.17:326][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/AD308D6D4D743CBE44A1DE91D7529AD9/'.
+[2017.11.13-13.38.17:326][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.13-13.38.18:679][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.13-13.38.18:735][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.13-13.38.18:790][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.13-13.38.18:849][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.13-13.38.18:905][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.13-13.38.18:961][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.13-13.38.19:049][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.13-13.38.19:115][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.13-13.38.19:171][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.13-13.38.19:230][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.13-13.38.19:290][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.13-13.38.19:350][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.13-13.38.19:409][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.13-13.38.19:469][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.13-13.38.19:525][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.13-13.38.19:639][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.13-13.38.19:639][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.13-13.38.19:685][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.13-13.38.19:784][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.13-13.38.19:818][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.13-13.38.19:872][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.13-13.38.19:926][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.13-13.38.19:980][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.13-13.38.20:050][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.13-13.38.20:050][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.13-13.38.20:580][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.13-13.38.20:677][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.13-13.38.20:677][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.13-13.38.20:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.13-13.38.20:677][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.13-13.38.20:677][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.13-13.38.20:677][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.13-13.38.20:696][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.13-13.38.20:710][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.13-13.38.20:725][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.13-13.38.20:725][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.13-13.38.20:726][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.13-13.38.20:726][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.13-13.38.21:189][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.13-13.38.21:264][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.13-13.38.21:445][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.13-13.38.21:494][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.13-13.38.21:550][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.13-13.38.21:550][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.13-13.38.21:550][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.13-13.38.22:200][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2017.11.13-13.38.22:262][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
+[2017.11.13-13.38.22:334][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.050767 seconds
+[2017.11.13-13.38.22:339][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.13-13.38.22:339][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.11.13-13.38.22:339][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.13-13.38.22:402][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.13-13.38.25:216][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.13-13.38.25:274][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.13-13.38.25:910][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.13-13.38.26:373][  0]SourceControl: Info Source control is disabled
+[2017.11.13-13.38.26:460][  0]SourceControl: Info Source control is disabled
+[2017.11.13-13.38.26:516][  0]SourceControl: Info Source control is disabled
+[2017.11.13-13.38.26:572][  0]SourceControl: Info Source control is disabled
+[2017.11.13-13.38.27:393][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.13-13.38.28:099][  0]LogEngine: Initializing Engine...
+[2017.11.13-13.38.28:101][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.13-13.38.28:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.13-13.38.28:319][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.13-13.38.28:468][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.13-13.38.28:487][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-13.38.28:505][  0]LogInit: FAudioDevice initialized.
+[2017.11.13-13.38.28:554][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.13-13.38.28:563][  0]LogInit: Texture streaming: Enabled
+[2017.11.13-13.38.28:659][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.13-13.38.28:925][  0]LogInit: Transaction tracking system initialized
+[2017.11.13-13.38.29:273][  0]BlueprintLog: New page: Editor Load
+[2017.11.13-13.38.30:434][  0]LocalizationService: Info Localization service is disabled
+[2017.11.13-13.38.31:205][  0]LogConsoleResponse:Display: 
+[2017.11.13-13.38.31:351][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.13-13.38.31:351][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.13-13.38.31:527][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/' took 0.01s
+[2017.11.13-13.38.32:641][  0]SourceControl: Info Source control is disabled
+[2017.11.13-13.38.32:641][  0]Cmd: MAP LOAD FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.13-13.38.32:642][  0]LightingResults: New page: Lighting Build
+[2017.11.13-13.38.32:687][  0]MapCheck: New page: Map Check
+[2017.11.13-13.38.32:687][  0]LightingResults: New page: Lighting Build
+[2017.11.13-13.38.33:409][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.13-13.38.33:436][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.13-13.38.33:457][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.13-13.38.33:545][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 87.511ms to complete.
+[2017.11.13-13.38.33:545][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.904
+[2017.11.13-13.38.33:608][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.13-13.38.33:796][  0]LogCollectionManager: Loaded 0 collections in 0.001305 seconds
+[2017.11.13-13.38.33:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2017.11.13-13.38.33:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2017.11.13-13.38.33:912][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2017.11.13-13.38.33:912][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.13-13.38.33:922][  0]LogContentBrowser: Native class hierarchy populated in 0.0101 seconds. Added 2329 classes and 491 folders.
+[2017.11.13-13.38.34:017][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.11.13-13.38.34:099][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.13-13.38.34:190][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.13-13.38.34:320][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.13-13.38.34:355][  0]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.13-13.38.34:357][  0]LogSlate: Took 0.000310 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.13-13.38.34:381][  0]LogSlate: Took 0.018114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.13-13.38.34:555][  0]LogRenderer: Reallocating scene render targets to support 1152x576 NumSamples 1 (Frame:1).
+[2017.11.13-13.38.34:773][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.13-13.38.34:872][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.13-13.38.34:872][  0]LogLoad: (Engine Initialization) Total time: 20.79 seconds
+[2017.11.13-13.38.34:872][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.20 seconds
+[2017.11.13-13.38.34:872][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.13-13.38.34:872][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.13-13.38.35:213][  0]LogOcInput: OculusInput pre-init called
+[2017.11.13-13.38.35:213][  0]LogHMD: Starting GearVRController plugin
+[2017.11.13-13.38.35:237][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.13-13.38.35:270][  0]LogSlate: Took 0.000617 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.13-13.38.35:549][  1]LogAssetRegistry: Asset discovery search completed in 13.3082 seconds
+[2017.11.13-13.38.35:550][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.13-13.38.35:550][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000025 seconds (updated 0 objects)
+[2017.11.13-13.39.34:227][ 52]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.11.13-13.39.35:027][ 66]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.13-13.39.37:900][283]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.11.13-13.39.38:775][381]Cmd: DELETE
+[2017.11.13-13.39.38:775][381]Cmd: ACTOR DELETE
+[2017.11.13-13.39.38:789][381]LogEditorActor: Deleted Actor: TextRenderActor
+[2017.11.13-13.39.38:798][381]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2017.11.13-13.39.41:173][664]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor)
+[2017.11.13-13.39.41:744][724]LogEditorViewport: Clicking on Actor (LMB): DocumentationActor (DocumentationActor1)
+[2017.11.13-13.39.42:632][826]Cmd: DELETE
+[2017.11.13-13.39.42:632][826]Cmd: ACTOR DELETE
+[2017.11.13-13.39.42:633][826]LogEditorActor: Deleted Actor: DocumentationActor
+[2017.11.13-13.39.42:642][826]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.11.13-13.40.03:413][847]LogSlate: Took 0.000390 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.13-13.40.03:422][847]LightingResults: New page: Lighting Build
+[2017.11.13-13.40.03:423][847]MapCheck: New page: Map Check
+[2017.11.13-13.40.03:423][847]LightingResults: New page: Lighting Build
+[2017.11.13-13.40.03:435][847]LogAIModule: Creating AISystem for world Untitled
+[2017.11.13-13.40.03:446][847]LoadErrors: New page: New Map
+[2017.11.13-13.40.03:476][847]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2017.11.13-13.40.15:236][894]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.11.13-13.40.19:677][414]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.11.13-13.40.23:565][669]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.13-13.40.23:671][670]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGGame
+[2017.11.13-13.40.23:671][670]LogTemp: CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.13-13.40.23:671][670]LogTemp: Initial Dir: D:\Games\UE_4.16
+[2017.11.13-13.40.23:671][670]LogTemp: Env CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.13-13.40.23:671][670]LogTemp: BranchPath = SONOFMORT/D/Games/UE_4.16/Engine/Binaries --- GameBranchPath = SONOFMORT/D/Games/UE_4.16/Engine/Binaries
+[2017.11.13-13.40.23:707][671]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jordan\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.13-13.40.45:649][244]LogSlate: Took 0.000363 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.13-13.41.34:629][ 20]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.11.13-13.41.38:442][423]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.11.13-13.46.23:027][898]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 64X64)
+[2017.11.13-13.47.43:133][201]Cmd: TRANSACTION UNDO
+[2017.11.13-13.47.43:133][201]LogEditorTransaction: Undo Move Actors
+[2017.11.13-13.48.13:998][740]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.11.13-13.48.15:016][740]LogSlate: Took 0.025319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.13-13.48.15:347][741]LogSlate: Took 0.006409 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.13-13.48.33:853][821]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-13.48.34:649][911]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-13.50.46:438][741]MapCheck: New page: Map Check
+[2017.11.13-13.50.46:456][741]LightingResults: New page: Lighting Build - 13 Nov 2017 13:50:46
+[2017.11.13-13.50.46:643][741]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-13.50.46:761][741]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-13.50.46:786][741]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-13.50.47:822][741]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-13.50.47:822][741]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-13.50.51:486][741]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-13.50.51:486][741]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-13.50.51:486][741]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-13.50.51:486][741]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-13.50.51:486][741]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-13.50.51:486][741]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-13.50.51:683][741]LogEditorBuildUtils: Build time 0:05
+[2017.11.13-13.50.51:720][742]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. Is special engine material.
+[2017.11.13-13.50.56:004][788]Job is a success!
+[2017.11.13-13.50.56:455][789]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.11.13-13.50.56:455][789]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.13-13.50.56:455][789]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.13-13.50.56:455][789]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X32)
+[2017.11.13-13.50.56:500][789]Lightmass on SONOFMORT: 1.27 sec total, 156 ms importing, 18 ms setup, 195 ms photons, 818 ms processing, 0 ms extra exporting [37/37 mappings]. Threads: 3.24 sec total, 766 ms processing.
+[2017.11.13-13.50.56:526][789]LogStaticLightingSystem: Illumination: 9.73 sec (41 ms encoding lightmaps, 10 ms encoding shadowmaps)
+[2017.11.13-13.50.56:526][789]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-13.50.56:526][789]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.11.13-13.50.57:493][789]DumpUnbuiltLightIteractions
+[2017.11.13-13.50.57:493][789]Lights with unbuilt interactions: 0
+[2017.11.13-13.50.57:493][789]
+[2017.11.13-13.50.57:493][789]Primitives with unbuilt interactions: 0
+[2017.11.13-13.50.57:502][790]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-13.50.57:502][790]MapCheck: New page: Untitled_1 - 13 Nov 2017 13:50:57
+[2017.11.13-13.50.57:637][790]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 134.874ms to complete.
+[2017.11.13-13.51.16:187][ 71]LogSavePackage: Save=166.61ms
+[2017.11.13-13.51.16:187][ 71]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Untitled_1_Auto1B8CAC78F40CCB782C60C5590C8B3E7CE.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Temp/Untitled_1_Auto1.umap'
+[2017.11.13-13.51.16:191][ 71]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Temp/Untitled_1_Auto1.umap
+[2017.11.13-13.51.16:193][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.190
+[2017.11.13-13.51.16:193][ 71]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.190
+[2017.11.13-13.54.53:294][839]LogEditorActor: Deleted Actor: AtmosphericFog
+[2017.11.13-13.54.53:311][839]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.11.13-13.55.12:970][588]LogRenderer: Reallocating scene render targets to support 1528x576 NumSamples 1 (Frame:75280).
+[2017.11.13-13.58.38:945][863]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.39:044][863]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.48:203][879]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2017.11.13-13.58.48:203][879]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-13.58.48:203][879]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.13-13.58.50:184][107]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.50:195][107]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.13-13.58.53:033][416]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.53:071][416]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.13-13.58.55:362][658]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.55:377][658]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.13-13.58.57:161][847]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.57:175][847]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.13-13.58.57:934][925]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.58.57:948][925]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.13-13.59.03:729][579]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.03:747][579]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.11.13-13.59.08:876][130]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-13.59.08:876][130]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-13.59.08:876][130]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.13-13.59.13:653][689]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.19:022][290]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.24:370][860]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-13.59.24:370][860]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-13.59.24:370][860]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.13-13.59.28:563][363]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.31:026][650]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-13.59.31:026][650]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-13.59.31:026][650]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.13-13.59.40:418][775]LogMaterialEditor: Applying material NewMaterial
+[2017.11.13-13.59.41:057][775]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.41:101][775]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.41:123][775]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-13.59.41:157][775]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy NewMaterial, compiling. 
+[2017.11.13-13.59.42:574][775]TextureStreamingBuild:Display: Compiling optional shaders took 1.422 seconds.
+[2017.11.13-13.59.43:114][837]LogMaterialEditor: Saving and Compiling material NewMaterial
+[2017.11.13-13.59.45:166][837]LogSlate: Took 0.000270 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.13-13.59.45:183][837]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Landscape/NewMaterial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/NewMaterial.uasset" SILENT=true
+[2017.11.13-13.59.45:212][837]LogSavePackage: Save=26.60ms
+[2017.11.13-13.59.45:212][837]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/NewMaterialD59F0403452A93028D241CBF13C647A6.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/NewMaterial.uasset'
+[2017.11.13-13.59.45:218][837]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/NewMaterial.uasset
+[2017.11.13-13.59.45:225][837]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-13.59.45:225][837]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-13.59.45:225][837]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.13-14.00.00:391][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-14.00.00:541][ 29]LogSavePackage: Save=134.64ms
+[2017.11.13-14.00.00:542][ 29]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial295493FE4906888EDCB0369E75C252C8.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-14.00.00:548][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-14.00.00:564][ 29]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-14.00.00:583][ 29]LogSavePackage: Save=16.89ms
+[2017.11.13-14.00.00:583][ 29]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData47387BE6496FDF29BA533EAEAD8C2843.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-14.00.00:589][ 29]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-14.00.00:594][ 29]LogFileHelpers: Saving map 'Tutorial' took 0.325
+[2017.11.13-14.00.09:870][138]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.00.11:726][347]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-14.00.11:753][347]LogMaterial:Warning: Material /Game/Materials/Landscape/NewMaterial.NewMaterial needed to have new flag set bUsedWithStaticLighting !
+[2017.11.13-14.00.11:753][347]LogMaterial:Warning: Material /Engine/Transient.NewMaterial needed to have new flag set bUsedWithStaticLighting !
+[2017.11.13-14.00.11:756][347]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-14.00.11:772][347]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-14.00.11:800][347]LogMaterial: Missing cached shader map for material NewMaterial, compiling. 
+[2017.11.13-14.00.42:574][528]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-14.00.42:574][528]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.00.42:574][528]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.01.42:568][331]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-14.01.43:987][499]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-14.01.44:771][591]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.01.44:805][591]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.01.44:820][591]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:01:44)
+[2017.11.13-14.01.44:820][591]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.01.44:827][591]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006682s)
+[2017.11.13-14.01.44:828][591]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.01.44:828][591]LogPlayLevel: PIE: World Init took: (0.000773s)
+[2017.11.13-14.01.44:828][591]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007672s)
+[2017.11.13-14.01.44:854][591]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.01.44:865][591]LogInit: FAudioDevice initialized.
+[2017.11.13-14.01.44:912][591]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.01.44:927][591]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.01.44
+[2017.11.13-14.01.44:927][591]LogWorld: Bringing up level for play took: 0.002285
+[2017.11.13-14.01.44:975][591]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.13-14.01.44:978][591]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.565
+[2017.11.13-14.01.53:586][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Landscape/NewMaterial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/NewMaterial.uasset" SILENT=true
+[2017.11.13-14.01.53:597][567]LogSavePackage: Save=4.29ms
+[2017.11.13-14.01.53:598][567]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/NewMaterial509CA50C445516FABB2A46BA2CFB3B41.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/NewMaterial.uasset'
+[2017.11.13-14.01.53:604][567]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/NewMaterial.uasset
+[2017.11.13-14.04.21:274][925]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-14.04.21:443][925]LogSavePackage: Save=143.56ms
+[2017.11.13-14.04.21:443][925]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/TutorialA70375F34CE8896AF2F208A4787F1E50.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-14.04.21:450][925]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-14.04.21:485][925]LogFileHelpers: Saving map 'Tutorial' took 0.327
+[2017.11.13-14.04.36:301][695]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.04.36:310][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.04.36:310][695]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:04:36)
+[2017.11.13-14.04.36:310][695]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.04.36:317][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006655s)
+[2017.11.13-14.04.36:317][695]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.04.36:318][695]LogPlayLevel: PIE: World Init took: (0.000900s)
+[2017.11.13-14.04.36:318][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007792s)
+[2017.11.13-14.04.36:342][695]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.04.36:352][695]LogInit: FAudioDevice initialized.
+[2017.11.13-14.04.36:383][695]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.04.36:386][695]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.04.36
+[2017.11.13-14.04.36:386][695]LogWorld: Bringing up level for play took: 0.002285
+[2017.11.13-14.04.36:389][695]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.847
+[2017.11.13-14.05.51:285][326]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Trees/OakTree1.2.fbx)
+[2017.11.13-14.05.51:296][326]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.13-14.05.51:296][326]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.13-14.05.51:296][326]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.13-14.05.51:296][326]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.13-14.05.51:296][326]LogFbx: ItemName: Material, ItemCount : 2
+[2017.11.13-14.05.51:296][326]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.13-14.05.51:301][326]LogFbx: Loading FBX Scene from E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Trees/OakTree1.2.fbx
+[2017.11.13-14.05.51:308][326]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.13-14.05.55:056][326]LogFbx: Loading FBX Scene from E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Trees/OakTree1.2.fbx
+[2017.11.13-14.05.55:063][326]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.13-14.05.55:065][326]LogLinker: Can't find file '/Game/Assets/Trees/OakTreeLeaf'
+[2017.11.13-14.05.55:065][326]LogLinker: Can't find file '/Game/Assets/Trees/OakTreeLeaf'
+[2017.11.13-14.05.55:073][326]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.05.55:088][326]LogLinker: Can't find file '/Game/Assets/Trees/OakTreeTrunk'
+[2017.11.13-14.05.55:088][326]LogLinker: Can't find file '/Game/Assets/Trees/OakTreeTrunk'
+[2017.11.13-14.05.55:095][326]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.05.55:110][326]LogFbx:Warning: Triangulating static mesh OakTree1
+[2017.11.13-14.05.55:131][326]LogStaticMesh: Building static mesh OakTree1_2...
+[2017.11.13-14.05.55:154][326]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Trees/OakTree1_2.OakTree1_2
+[2017.11.13-14.05.55:167][326]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.13-14.06.02:905][918]LogRenderer: Reallocating scene render targets to support 1528x924 NumSamples 1 (Frame:1).
+[2017.11.13-14.06.33:862][514]LogActorFactory: Actor Factory created OakTree1_2
+[2017.11.13-14.06.37:064][826]LogActorFactory: Actor Factory created OakTree1_2
+[2017.11.13-14.06.48:039][ 81]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (OakTree1_2)
+[2017.11.13-14.06.53:902][657]Cmd: PIVOT SNAPPED
+[2017.11.13-14.07.04:550][828]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.04:623][828]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.04:636][828]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.04:677][828]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.07.09:738][216]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.09:757][216]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.07.12:896][459]LogMaterialEditor: Saving and Compiling material OakTreeLeaf
+[2017.11.13-14.07.13:582][459]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.13:624][459]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.13:644][459]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.07.13:683][459]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeLeaf, compiling. 
+[2017.11.13-14.07.15:555][459]TextureStreamingBuild:Display: Compiling optional shaders took 1.877 seconds.
+[2017.11.13-14.07.17:986][459]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTreeLeaf" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeLeaf.uasset" SILENT=true
+[2017.11.13-14.07.18:001][459]LogSavePackage: Save=12.76ms
+[2017.11.13-14.07.18:001][459]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeLeaf591FDD1A4439F4DD1273479C055BE583.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeLeaf.uasset'
+[2017.11.13-14.07.18:008][459]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeLeaf.uasset
+[2017.11.13-14.07.18:014][459]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.13-14.07.18:014][459]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.07.18:014][459]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.13-14.07.36:973][190]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.37:041][190]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.37:054][190]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.37:095][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.07.43:363][669]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.13-14.07.43:363][669]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.07.43:363][669]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.13-14.07.46:059][898]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.46:077][898]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.07.49:625][172]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.49:642][172]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.07.54:817][580]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.13-14.07.55:512][580]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.55:555][580]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.55:577][580]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.07.55:611][580]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.13-14.07.57:252][580]TextureStreamingBuild:Display: Compiling optional shaders took 1.646 seconds.
+[2017.11.13-14.07.58:308][668]LogMaterialEditor: Saving and Compiling material OakTreeTrunk
+[2017.11.13-14.08.00:347][668]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTreeTrunk" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset" SILENT=true
+[2017.11.13-14.08.00:363][668]LogSavePackage: Save=13.30ms
+[2017.11.13-14.08.00:363][668]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeTrunkE46E26EF4201B44E88514D802E7BF80C.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset'
+[2017.11.13-14.08.00:370][668]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset
+[2017.11.13-14.08.00:377][668]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.13-14.08.00:377][668]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.08.00:377][668]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.13-14.08.04:418][ 46]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.08.05:106][121]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-14.08.05:793][180]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-14.08.10:175][663]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1_2)
+[2017.11.13-14.08.16:738][391]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (OakTree1_2)
+[2017.11.13-14.08.21:212][806]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.13-14.08.22:332][921]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.08.22:874][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1_2)
+[2017.11.13-14.08.46:339][595]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-14.09.11:079][454]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1_2)
+[2017.11.13-14.09.14:015][756]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-14.09.31:502][722]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.09.31:512][722]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.09.31:512][722]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:09:31)
+[2017.11.13-14.09.31:512][722]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.09.31:519][722]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006804s)
+[2017.11.13-14.09.31:520][722]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.09.31:520][722]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2017.11.13-14.09.31:520][722]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007702s)
+[2017.11.13-14.09.31:557][722]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.09.31:570][722]LogInit: FAudioDevice initialized.
+[2017.11.13-14.09.31:600][722]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.09.31:604][722]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.09.31
+[2017.11.13-14.09.31:604][722]LogWorld: Bringing up level for play took: 0.002445
+[2017.11.13-14.09.31:607][722]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.065
+[2017.11.13-14.10.50:128][963]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.10.50:138][963]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.10.50:138][963]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:10:50)
+[2017.11.13-14.10.50:138][963]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.10.50:145][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006751s)
+[2017.11.13-14.10.50:145][963]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.10.50:146][963]LogPlayLevel: PIE: World Init took: (0.000780s)
+[2017.11.13-14.10.50:146][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007733s)
+[2017.11.13-14.10.50:179][963]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.10.50:200][963]LogInit: FAudioDevice initialized.
+[2017.11.13-14.10.50:234][963]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.10.50:238][963]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.10.50
+[2017.11.13-14.10.50:238][963]LogWorld: Bringing up level for play took: 0.002522
+[2017.11.13-14.10.50:241][963]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.698
+[2017.11.13-14.10.51:298][ 70]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-14.10.51:688][ 71]LogRenderer: Reallocating scene render targets to support 1620x924 NumSamples 1 (Frame:109).
+[2017.11.13-14.10.51:750][ 72]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:111).
+[2017.11.13-14.11.03:440][276]MapCheck: New page: Map Check
+[2017.11.13-14.11.03:460][276]LightingResults: New page: Lighting Build - 13 Nov 2017 14:11:03
+[2017.11.13-14.11.03:479][276]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.11.03:484][276]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.11.03:484][276]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.11.03:485][276]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.11.03:485][276]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.11.08:061][276]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.11.08:061][276]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.11.08:061][276]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.11.08:061][276]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.11.08:061][276]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.11.08:061][276]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.11.08:245][276]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.11.09:152][312]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.13-14.11.09:163][312]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.13-14.11.09:202][313]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.11.09:209][313]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.11.19:039][677]Job is a success!
+[2017.11.13-14.11.19:135][678]LogMaterial:Warning: Material /Game/Assets/Trees/OakTreeLeaf.OakTreeLeaf needed to have new flag set bUsedWithStaticLighting !
+[2017.11.13-14.11.19:138][678]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.11.19:169][678]LogMaterial:Warning: Material /Game/Assets/Trees/OakTreeTrunk.OakTreeTrunk needed to have new flag set bUsedWithStaticLighting !
+[2017.11.13-14.11.19:171][678]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.11.13-14.11.19:338][678]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2017.11.13-14.11.19:401][678]LogStaticLightingSystem: Illumination: 15.9 sec (107 ms encoding lightmaps, 16 ms encoding shadowmaps)
+[2017.11.13-14.11.19:401][678]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.11.19:401][678]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.11.20:074][678]DumpUnbuiltLightIteractions
+[2017.11.13-14.11.20:074][678]Lights with unbuilt interactions: 0
+[2017.11.13-14.11.20:074][678]
+[2017.11.13-14.11.20:074][678]Primitives with unbuilt interactions: 0
+[2017.11.13-14.11.20:086][679]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.11.20:086][679]MapCheck: New page: Tutorial - 13 Nov 2017 14:11:20
+[2017.11.13-14.11.20:240][679]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 154.27ms to complete.
+[2017.11.13-14.11.53:587][696]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-14.12.14:637][119]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.12.14:647][119]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.12.14:647][119]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:12:14)
+[2017.11.13-14.12.14:647][119]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.12.14:654][119]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006945s)
+[2017.11.13-14.12.14:654][119]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.12.14:655][119]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.11.13-14.12.14:655][119]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007853s)
+[2017.11.13-14.12.14:690][119]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.12.14:709][119]LogInit: FAudioDevice initialized.
+[2017.11.13-14.12.14:744][119]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.12.14:747][119]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.12.14
+[2017.11.13-14.12.14:748][119]LogWorld: Bringing up level for play took: 0.002540
+[2017.11.13-14.12.14:751][119]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.792
+[2017.11.13-14.12.15:660][218]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-14.13.31:336][476]Cmd: SELECT NONE
+[2017.11.13-14.14.05:615][762]Cmd: SELECT NONE
+[2017.11.13-14.14.11:254][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1)
+[2017.11.13-14.14.12:333][417]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.14.12:934][472]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1)
+[2017.11.13-14.15.14:046][811]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.15.14:057][811]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.15.14:058][811]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:15:14)
+[2017.11.13-14.15.14:058][811]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.15.14:065][811]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007505s)
+[2017.11.13-14.15.14:066][811]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.15.14:067][811]LogPlayLevel: PIE: World Init took: (0.001304s)
+[2017.11.13-14.15.14:067][811]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009111s)
+[2017.11.13-14.15.14:113][811]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.15.14:128][811]LogInit: FAudioDevice initialized.
+[2017.11.13-14.15.14:163][811]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.15.14:168][811]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.15.14
+[2017.11.13-14.15.14:169][811]LogWorld: Bringing up level for play took: 0.004907
+[2017.11.13-14.15.14:172][811]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.629
+[2017.11.13-14.16.17:974][ 86]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.11.13-14.16.19:251][218]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.11.13-14.16.33:962][542]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.16.33:977][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.16.33:977][542]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:16:33)
+[2017.11.13-14.16.33:977][542]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.16.33:985][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008428s)
+[2017.11.13-14.16.33:986][542]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.16.33:987][542]LogPlayLevel: PIE: World Init took: (0.001307s)
+[2017.11.13-14.16.33:987][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009965s)
+[2017.11.13-14.16.34:017][542]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.16.34:027][542]LogInit: FAudioDevice initialized.
+[2017.11.13-14.16.34:065][542]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.16.34:068][542]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.16.34
+[2017.11.13-14.16.34:068][542]LogWorld: Bringing up level for play took: 0.002790
+[2017.11.13-14.16.34:072][542]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.529
+[2017.11.13-14.16.36:450][790]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-14.17.14:392][703]Cmd: SELECT NONE
+[2017.11.13-14.17.24:333][652]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.17.24:342][652]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.17.24:342][652]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:17:24)
+[2017.11.13-14.17.24:342][652]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.17.24:352][652]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009450s)
+[2017.11.13-14.17.24:353][652]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.17.24:353][652]LogPlayLevel: PIE: World Init took: (0.001745s)
+[2017.11.13-14.17.24:354][652]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011454s)
+[2017.11.13-14.17.24:391][652]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.17.24:402][652]LogInit: FAudioDevice initialized.
+[2017.11.13-14.17.24:440][652]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.17.24:447][652]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.17.24
+[2017.11.13-14.17.24:448][652]LogWorld: Bringing up level for play took: 0.006153
+[2017.11.13-14.17.24:450][652]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.908
+[2017.11.13-14.19.25:077][173]MapCheck: New page: Map Check
+[2017.11.13-14.19.25:097][173]LightingResults: New page: Lighting Build - 13 Nov 2017 14:19:25
+[2017.11.13-14.19.25:112][173]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.19.25:114][173]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.19.25:115][173]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.19.25:115][173]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.19.25:116][173]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.19.29:630][173]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.19.29:630][173]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.19.29:630][173]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.19.29:630][173]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.19.29:630][173]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.19.29:630][173]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.19.29:781][173]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.19.29:790][173]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.13-14.19.29:797][173]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.13-14.19.30:162][186]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.13-14.19.30:168][186]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.13-14.19.30:190][187]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.19.30:197][187]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.19.36:570][382]Job is a success!
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 32X32)
+[2017.11.13-14.19.36:777][383]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 256X64)
+[2017.11.13-14.19.36:790][383]Lightmass on SONOFMORT: 2.07 sec total, 293 ms importing, 55 ms setup, 395 ms photons, 1.26 sec processing, 0 ms extra exporting [38/38 mappings]. Threads: 5.03 sec total, 2.81 sec processing.
+[2017.11.13-14.19.36:821][383]LogStaticLightingSystem: Illumination: 11.6 sec (103 ms encoding lightmaps, 12 ms encoding shadowmaps)
+[2017.11.13-14.19.36:821][383]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.19.36:821][383]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.19.37:638][383]DumpUnbuiltLightIteractions
+[2017.11.13-14.19.37:638][383]Lights with unbuilt interactions: 0
+[2017.11.13-14.19.37:638][383]
+[2017.11.13-14.19.37:638][383]Primitives with unbuilt interactions: 0
+[2017.11.13-14.19.37:695][384]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.19.37:696][384]MapCheck: New page: Tutorial - 13 Nov 2017 14:19:37
+[2017.11.13-14.19.37:824][384]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 129.213ms to complete.
+[2017.11.13-14.19.49:445][606]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.13-14.19.49:470][606]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2017.11.13-14.19.49:657][606]LogSavePackage: Save=205.46ms
+[2017.11.13-14.19.49:657][606]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_Auto2EB0E702B4B2258A418D43C8AD9DD235C.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto2.umap'
+[2017.11.13-14.19.49:661][606]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto2.umap
+[2017.11.13-14.19.49:664][606]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tutorial' took 0.237
+[2017.11.13-14.19.49:664][606]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.237
+[2017.11.13-14.19.49:667][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tutorial_BuiltData] ([1] browsable assets)...
+[2017.11.13-14.19.49:667][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_BuiltData]
+[2017.11.13-14.19.49:688][606]LogSavePackage: Save=15.10ms
+[2017.11.13-14.19.49:688][606]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData_Auto2750EC2224C9C898EA9D0FF8E918596B9.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_BuiltData_Auto2.uasset'
+[2017.11.13-14.19.49:692][606]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_BuiltData_Auto2.uasset
+[2017.11.13-14.19.49:695][606]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Trees/OakTree1_2] ([1] browsable assets)...
+[2017.11.13-14.19.49:709][606]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Trees/OakTree1_2.OakTree1_2]
+[2017.11.13-14.19.49:709][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trees/OakTree1_2]
+[2017.11.13-14.19.49:725][606]LogSavePackage: Save=14.01ms
+[2017.11.13-14.19.49:725][606]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTree1_2_Auto255ED2EC841FACABDB95F039121624460.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Trees/OakTree1_2_Auto2.uasset'
+[2017.11.13-14.19.49:729][606]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Trees/OakTree1_2_Auto2.uasset
+[2017.11.13-14.19.49:731][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Trees/OakTreeLeaf] ([1] browsable assets)...
+[2017.11.13-14.19.49:731][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trees/OakTreeLeaf]
+[2017.11.13-14.19.49:742][606]LogSavePackage: Save=3.52ms
+[2017.11.13-14.19.49:742][606]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeLeaf_Auto2167CC1954E2DBB58EC46BE856C3FD0B8.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Trees/OakTreeLeaf_Auto2.uasset'
+[2017.11.13-14.19.49:745][606]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Trees/OakTreeLeaf_Auto2.uasset
+[2017.11.13-14.19.49:747][606]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Trees/OakTreeTrunk] ([1] browsable assets)...
+[2017.11.13-14.19.49:747][606]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Trees/OakTreeTrunk]
+[2017.11.13-14.19.49:759][606]LogSavePackage: Save=3.81ms
+[2017.11.13-14.19.49:759][606]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeTrunk_Auto2CAB1C1714117786C26DC63A1EA053B72.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Trees/OakTreeTrunk_Auto2.uasset'
+[2017.11.13-14.19.49:764][606]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Trees/OakTreeTrunk_Auto2.uasset
+[2017.11.13-14.19.49:764][606]LogFileHelpers: Auto-saving content packages took 0.098
+[2017.11.13-14.19.58:516][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Landscape/Grass" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/Grass.uasset" SILENT=true
+[2017.11.13-14.19.58:531][392]LogSavePackage: Save=12.86ms
+[2017.11.13-14.19.58:531][392]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/GrassF4B2A54C43A3A5BB23BBE4BA9481356C.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/Grass.uasset'
+[2017.11.13-14.19.58:538][392]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Landscape/Grass.uasset
+[2017.11.13-14.20.02:674][797]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.20.02:674][797]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:20:02)
+[2017.11.13-14.20.02:674][797]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.20.02:681][797]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006904s)
+[2017.11.13-14.20.02:682][797]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.20.02:682][797]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2017.11.13-14.20.02:682][797]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007782s)
+[2017.11.13-14.20.02:711][797]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.20.02:726][797]LogInit: FAudioDevice initialized.
+[2017.11.13-14.20.02:785][797]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.20.02:789][797]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.20.02
+[2017.11.13-14.20.02:789][797]LogWorld: Bringing up level for play took: 0.003008
+[2017.11.13-14.20.02:798][797]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.744
+[2017.11.13-14.21.08:513][920]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.11.13-14.21.08:522][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.21.08:522][920]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:21:08)
+[2017.11.13-14.21.08:522][920]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.21.08:529][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006697s)
+[2017.11.13-14.21.08:529][920]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.21.08:529][920]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2017.11.13-14.21.08:530][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007713s)
+[2017.11.13-14.21.08:560][920]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.21.08:572][920]LogInit: FAudioDevice initialized.
+[2017.11.13-14.21.08:627][920]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.21.08:630][920]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.21.08
+[2017.11.13-14.21.08:630][920]LogWorld: Bringing up level for play took: 0.002297
+[2017.11.13-14.21.08:638][920]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 1.096
+[2017.11.13-14.21.13:549][443]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.21.13:549][443]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:21:13)
+[2017.11.13-14.21.13:549][443]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.21.13:556][443]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006683s)
+[2017.11.13-14.21.13:557][443]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.21.13:557][443]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2017.11.13-14.21.13:557][443]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007590s)
+[2017.11.13-14.21.13:586][443]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.21.13:597][443]LogInit: FAudioDevice initialized.
+[2017.11.13-14.21.13:635][443]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.21.13:638][443]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.21.13
+[2017.11.13-14.21.13:639][443]LogWorld: Bringing up level for play took: 0.002237
+[2017.11.13-14.21.13:641][443]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.099
+[2017.11.13-14.21.15:335][637]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-14.24.46:826][904]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-14.27.01:643][488]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1)
+[2017.11.13-14.27.25:533][806]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.27.36:256][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-14.27.36:440][472]LogSavePackage: Save=156.68ms
+[2017.11.13-14.27.36:440][472]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/TutorialA27864AA432A9EDFB640D1BC29578F3C.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-14.27.36:450][472]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-14.27.36:515][472]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-14.27.36:557][472]LogSavePackage: Save=34.21ms
+[2017.11.13-14.27.36:557][472]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltDataEFB12130415F1443734F55BB96196C02.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-14.27.36:568][472]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-14.30.15:990][715]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Rocks/Rock1.fbx)
+[2017.11.13-14.30.15:999][715]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.13-14.30.15:999][715]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.13-14.30.15:999][715]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.13-14.30.15:999][715]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.13-14.30.16:004][715]LogFbx: Loading FBX Scene from E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Rocks/Rock1.fbx
+[2017.11.13-14.30.16:015][715]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.13-14.30.17:369][715]LogFbx: Loading FBX Scene from E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Rocks/Rock1.fbx
+[2017.11.13-14.30.17:375][715]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.13-14.30.17:378][715]LogLinker: Can't find file '/Game/Assets/Rocks/Rock'
+[2017.11.13-14.30.17:378][715]LogLinker: Can't find file '/Game/Assets/Rocks/Rock'
+[2017.11.13-14.30.17:385][715]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.30.17:403][715]LogFbx:Warning: Triangulating static mesh Rock1
+[2017.11.13-14.30.17:408][715]LogStaticMesh: Building static mesh Rock1...
+[2017.11.13-14.30.17:409][715]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Rocks/Rock1.Rock1
+[2017.11.13-14.30.17:417][715]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.13-14.30.33:812][426]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Rocks/BigRock1.fbx)
+[2017.11.13-14.30.33:819][426]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.13-14.30.33:819][426]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.13-14.30.33:819][426]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.13-14.30.33:819][426]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.13-14.30.33:825][426]LogFbx: Loading FBX Scene from E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Rocks/BigRock1.fbx
+[2017.11.13-14.30.33:833][426]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.13-14.30.34:911][426]LogFbx: Loading FBX Scene from E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/Rocks/BigRock1.fbx
+[2017.11.13-14.30.34:917][426]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.13-14.30.34:924][426]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.30.34:940][426]LogFbx:Warning: Triangulating static mesh BigRock1
+[2017.11.13-14.30.34:959][426]LogStaticMesh: Building static mesh BigRock1...
+[2017.11.13-14.30.34:961][426]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Rocks/BigRock1.BigRock1
+[2017.11.13-14.30.34:976][426]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.13-14.31.02:085][453]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.02:163][453]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.02:179][453]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.02:223][453]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.31.08:859][814]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.08:877][814]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.31.11:033][921]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.11:054][921]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.31.14:491][110]LogMaterialEditor: Applying material Rock
+[2017.11.13-14.31.15:302][110]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.15:349][110]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.15:371][110]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.31.15:412][110]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rock, compiling. 
+[2017.11.13-14.31.18:394][110]TextureStreamingBuild:Display: Compiling optional shaders took 2.989 seconds.
+[2017.11.13-14.31.21:805][315]LogMaterialEditor: Saving and Compiling material Rock
+[2017.11.13-14.31.25:519][315]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/Rock" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset" SILENT=true
+[2017.11.13-14.31.25:534][315]LogSavePackage: Save=12.32ms
+[2017.11.13-14.31.25:534][315]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Rock1CD9E19C42770612F6C76F8EC7BE09B6.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset'
+[2017.11.13-14.31.25:542][315]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset
+[2017.11.13-14.31.25:561][315]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.13-14.31.25:561][315]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.31.25:561][315]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.13-14.31.47:613][382]LogMaterialEditor: Saving and Compiling material Rock
+[2017.11.13-14.31.47:676][382]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/Rock" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset" SILENT=true
+[2017.11.13-14.31.47:689][382]LogSavePackage: Save=4.17ms
+[2017.11.13-14.31.47:689][382]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Rock99791FA4438DF82A6EC9388C3036C86D.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset'
+[2017.11.13-14.31.47:694][382]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset
+[2017.11.13-14.31.51:421][628]LogActorFactory: Actor Factory created BigRock1
+[2017.11.13-14.31.54:223][820]LogActorFactory: Actor Factory created BigRock1
+[2017.11.13-14.32.13:231][585]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigRock1)
+[2017.11.13-14.32.19:889][ 63]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.13-14.32.36:817][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock1)
+[2017.11.13-14.32.37:834][756]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock1)
+[2017.11.13-14.33.17:781][252]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/Rock" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Rock.uasset" SILENT=true
+[2017.11.13-14.33.17:799][252]LogSavePackage: Save=16.19ms
+[2017.11.13-14.33.17:799][252]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/RockA1FCE99C4203D9E0EE8C829EE8C923C5.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Rock.uasset'
+[2017.11.13-14.33.17:805][252]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/Rock.uasset
+[2017.11.13-14.33.27:731][ 79]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rock" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rock.uasset" SILENT=true
+[2017.11.13-14.33.27:747][ 79]LogSavePackage: Save=13.76ms
+[2017.11.13-14.33.27:747][ 79]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Rock0271C930473E36FA7BC4FD8C5A424970.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rock.uasset'
+[2017.11.13-14.33.27:754][ 79]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rock.uasset
+[2017.11.13-14.33.32:270][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/Rock" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset" SILENT=true
+[2017.11.13-14.33.32:289][453]LogSavePackage: Save=15.52ms
+[2017.11.13-14.33.32:289][453]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Rock625661D84CBFBA950977CCBDF41E3BE5.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset'
+[2017.11.13-14.33.32:296][453]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset
+[2017.11.13-14.34.00:422][973]MapCheck: New page: Map Check
+[2017.11.13-14.34.00:437][973]LightingResults: New page: Lighting Build - 13 Nov 2017 14:34:00
+[2017.11.13-14.34.00:456][973]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.34.00:461][973]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.34.00:461][973]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.34.00:462][973]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.34.00:462][973]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.34.04:975][973]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.34.04:975][973]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.34.04:975][973]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.34.04:975][973]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.34.04:975][973]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.34.04:975][973]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.34.05:152][973]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.34.05:169][973]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.13-14.34.05:174][973]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.13-14.34.09:238][115]Job is a success!
+[2017.11.13-14.34.09:317][116]LogMaterial:Warning: Material /Game/Assets/Rocks/Rock.Rock needed to have new flag set bUsedWithStaticLighting !
+[2017.11.13-14.34.09:320][116]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 32X32)
+[2017.11.13-14.34.09:526][116]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 512X64)
+[2017.11.13-14.34.09:579][116]LogStaticLightingSystem: Illumination: 9.11 sec (133 ms encoding lightmaps, 30 ms encoding shadowmaps)
+[2017.11.13-14.34.09:579][116]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.34.09:579][116]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.34.09:983][116]DumpUnbuiltLightIteractions
+[2017.11.13-14.34.09:983][116]Lights with unbuilt interactions: 0
+[2017.11.13-14.34.09:983][116]
+[2017.11.13-14.34.09:983][116]Primitives with unbuilt interactions: 0
+[2017.11.13-14.34.09:995][117]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.34.09:995][117]MapCheck: New page: Tutorial - 13 Nov 2017 14:34:09
+[2017.11.13-14.34.10:141][117]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 145.737ms to complete.
+[2017.11.13-14.34.42:682][ 15]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.34.42:691][ 15]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.34.42:692][ 15]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:34:42)
+[2017.11.13-14.34.42:692][ 15]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.34.42:699][ 15]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007027s)
+[2017.11.13-14.34.42:699][ 15]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.34.42:700][ 15]LogPlayLevel: PIE: World Init took: (0.000791s)
+[2017.11.13-14.34.42:700][ 15]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.008029s)
+[2017.11.13-14.34.42:733][ 15]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.34.42:749][ 15]LogInit: FAudioDevice initialized.
+[2017.11.13-14.34.42:781][ 15]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.34.42:784][ 15]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.34.42
+[2017.11.13-14.34.42:784][ 15]LogWorld: Bringing up level for play took: 0.002172
+[2017.11.13-14.34.42:787][ 15]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.755
+[2017.11.13-14.36.30:269][767]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 E:/Year 2/FMP/Charm/Assets/LowpolyForestPack/RockTexture/rockTexture1.png)
+[2017.11.13-14.36.30:632][767]LogTexture:Display: Building textures: rockTexture1 (AutoDXT, 512X512)
+[2017.11.13-14.36.33:939][ 40]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.34:041][ 40]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.34:057][ 40]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.34:100][ 40]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.36.36:309][163]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.42:968][542]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.42:985][542]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.13-14.36.48:743][818]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.48:762][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.13-14.36.51:206][950]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.51:227][950]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.11.13-14.36.57:536][351]LogMaterialEditor: Applying material Rock
+[2017.11.13-14.36.58:317][351]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.58:366][351]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.58:405][351]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.13-14.36.58:450][351]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rock, compiling. 
+[2017.11.13-14.37.01:783][351]TextureStreamingBuild:Display: Compiling optional shaders took 3.339 seconds.
+[2017.11.13-14.37.07:856][571]LogMaterialEditor: Saving and Compiling material Rock
+[2017.11.13-14.37.08:494][571]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/Rock" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset" SILENT=true
+[2017.11.13-14.37.08:517][571]LogSavePackage: Save=15.05ms
+[2017.11.13-14.37.08:517][571]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/RockB84E9D8B44D69E50AC53BEB00EB64C22.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset'
+[2017.11.13-14.37.08:525][571]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset
+[2017.11.13-14.37.08:533][571]MaterialEditorStats: Info Base pass shader: 81 instructions
+[2017.11.13-14.37.08:533][571]MaterialEditorStats: Info Vertex shader: 31 instructions
+[2017.11.13-14.37.08:533][571]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.11.13-14.37.08:533][571]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.11.13-14.37.16:369][254]MapCheck: New page: Map Check
+[2017.11.13-14.37.16:393][254]LightingResults: New page: Lighting Build - 13 Nov 2017 14:37:16
+[2017.11.13-14.37.16:407][254]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.37.16:409][254]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.37.16:409][254]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.37.16:410][254]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.37.16:411][254]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.37.20:929][254]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.37.20:929][254]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.37.20:929][254]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.37.20:929][254]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.37.20:929][254]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.37.20:929][254]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.37.21:090][254]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.37.21:101][254]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.13-14.37.21:108][254]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.13-14.37.25:274][424]Job is a success!
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2017.11.13-14.37.25:534][425]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 512X64)
+[2017.11.13-14.37.25:581][425]LogStaticLightingSystem: Illumination: 9.16 sec (121 ms encoding lightmaps, 30 ms encoding shadowmaps)
+[2017.11.13-14.37.25:582][425]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.37.25:582][425]Lightmass on SONOFMORT: 2.51 sec total, 251 ms importing, 48 ms setup, 185 ms photons, 1.93 sec processing, 0 ms extra exporting [41/41 mappings]. Threads: 7.68 sec total, 4.44 sec processing.
+[2017.11.13-14.37.25:582][425]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.37.25:934][425]DumpUnbuiltLightIteractions
+[2017.11.13-14.37.25:934][425]Lights with unbuilt interactions: 0
+[2017.11.13-14.37.25:934][425]
+[2017.11.13-14.37.25:934][425]Primitives with unbuilt interactions: 0
+[2017.11.13-14.37.25:991][426]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.37.25:991][426]MapCheck: New page: Tutorial - 13 Nov 2017 14:37:25
+[2017.11.13-14.37.26:126][426]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 134.747ms to complete.
+[2017.11.13-14.37.31:400][906]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock2)
+[2017.11.13-14.37.33:712][107]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.13-14.37.33:713][107]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.13-14.37.33:727][107]LogEditorActor: Deleted 2 Actors (0.016 secs)
+[2017.11.13-14.37.36:820][395]LogActorFactory: Actor Factory created BigRock1
+[2017.11.13-14.37.38:496][529]LogActorFactory: Actor Factory created BigRock1
+[2017.11.13-14.37.45:189][ 38]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (BigRock1)
+[2017.11.13-14.37.47:211][148]Cmd: ACTOR BAKEPREPIVOT
+[2017.11.13-14.37.57:552][124]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock1)
+[2017.11.13-14.38.01:833][512]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.38.07:477][ 12]MapCheck: New page: Map Check
+[2017.11.13-14.38.07:494][ 12]LightingResults: New page: Lighting Build - 13 Nov 2017 14:38:07
+[2017.11.13-14.38.07:512][ 12]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.38.07:514][ 12]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.38.07:514][ 12]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.38.07:515][ 12]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.38.07:515][ 12]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.38.12:035][ 12]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.38.12:036][ 12]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.38.12:036][ 12]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.38.12:036][ 12]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.38.12:036][ 12]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.38.12:036][ 12]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.38.12:165][ 12]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.38.14:729][ 20]Job is a success!
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 32X32)
+[2017.11.13-14.38.15:349][ 21]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 512X64)
+[2017.11.13-14.38.15:394][ 21]Lightmass on SONOFMORT: 2.06 sec total, 246 ms importing, 40 ms setup, 170 ms photons, 1.54 sec processing, 0 ms extra exporting [40/40 mappings]. Threads: 6.14 sec total, 1.95 sec processing.
+[2017.11.13-14.38.15:399][ 21]LogStaticLightingSystem: Illumination: 7.56 sec (165 ms encoding lightmaps, 8 ms encoding shadowmaps)
+[2017.11.13-14.38.15:399][ 21]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.38.15:399][ 21]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.38.16:039][ 21]DumpUnbuiltLightIteractions
+[2017.11.13-14.38.16:039][ 21]Lights with unbuilt interactions: 0
+[2017.11.13-14.38.16:039][ 21]
+[2017.11.13-14.38.16:039][ 21]Primitives with unbuilt interactions: 0
+[2017.11.13-14.38.16:055][ 22]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.38.16:055][ 22]MapCheck: New page: Tutorial - 13 Nov 2017 14:38:16
+[2017.11.13-14.38.16:238][ 22]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 183.909ms to complete.
+[2017.11.13-14.38.31:982][ 69]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.13-14.38.32:146][ 69]LogSavePackage: Save=155.80ms
+[2017.11.13-14.38.32:146][ 69]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_Auto35D59302C472A8F747269718290827B03.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto3.umap'
+[2017.11.13-14.38.32:150][ 69]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto3.umap
+[2017.11.13-14.38.32:152][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tutorial' took 0.194
+[2017.11.13-14.38.32:152][ 69]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.194
+[2017.11.13-14.38.32:155][ 69]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Tutorial_BuiltData] ([1] browsable assets)...
+[2017.11.13-14.38.32:155][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/Tutorial_BuiltData]
+[2017.11.13-14.38.32:183][ 69]LogSavePackage: Save=16.71ms
+[2017.11.13-14.38.32:183][ 69]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData_Auto368A30B0A475B2B6569BBC2B44DCCE1CB.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_BuiltData_Auto3.uasset'
+[2017.11.13-14.38.32:186][ 69]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_BuiltData_Auto3.uasset
+[2017.11.13-14.38.32:188][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Rocks/BigRock1] ([1] browsable assets)...
+[2017.11.13-14.38.32:204][ 69]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/Assets/Rocks/BigRock1.BigRock1]
+[2017.11.13-14.38.32:204][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Rocks/BigRock1]
+[2017.11.13-14.38.32:218][ 69]LogSavePackage: Save=11.97ms
+[2017.11.13-14.38.32:218][ 69]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/BigRock1_Auto38D4D8BBE435F0F0A33C9AEA5C2D3835E.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Rocks/BigRock1_Auto3.uasset'
+[2017.11.13-14.38.32:222][ 69]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Rocks/BigRock1_Auto3.uasset
+[2017.11.13-14.38.32:223][ 69]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Rocks/rockTexture1] ([1] browsable assets)...
+[2017.11.13-14.38.32:233][ 69]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Assets/Rocks/rockTexture1.rockTexture1]
+[2017.11.13-14.38.32:233][ 69]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Rocks/rockTexture1]
+[2017.11.13-14.38.32:241][ 69]LogSavePackage: Save=5.22ms
+[2017.11.13-14.38.32:241][ 69]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/rockTexture1_Auto354D8D5AE401D088EA3B904BBC6BED0FF.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Rocks/rockTexture1_Auto3.uasset'
+[2017.11.13-14.38.32:245][ 69]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Rocks/rockTexture1_Auto3.uasset
+[2017.11.13-14.38.32:245][ 69]LogFileHelpers: Auto-saving content packages took 0.092
+[2017.11.13-14.39.17:875][661]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock1)
+[2017.11.13-14.39.18:762][735]Cmd: DELETE
+[2017.11.13-14.39.18:762][735]Cmd: ACTOR DELETE
+[2017.11.13-14.39.18:763][735]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.13-14.39.18:779][735]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.11.13-14.40.41:204][689]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.40.41:213][689]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.40.41:214][689]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:40:41)
+[2017.11.13-14.40.41:214][689]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.40.41:221][689]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007040s)
+[2017.11.13-14.40.41:222][689]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.40.41:222][689]LogPlayLevel: PIE: World Init took: (0.000807s)
+[2017.11.13-14.40.41:222][689]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.008137s)
+[2017.11.13-14.40.41:256][689]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.40.41:272][689]LogInit: FAudioDevice initialized.
+[2017.11.13-14.40.41:302][689]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.40.41:305][689]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.40.41
+[2017.11.13-14.40.41:306][689]LogWorld: Bringing up level for play took: 0.002450
+[2017.11.13-14.40.41:308][689]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.234
+[2017.11.13-14.41.02:920][ 61]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.41.02:996][ 61]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.41.03:012][ 61]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.41.03:053][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.41.17:935][503]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.13-14.41.17:935][503]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.41.17:935][503]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.41.30:792][864]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.41.30:876][864]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.41.30:893][864]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.41.30:938][864]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.13-14.41.34:639][201]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.41.38:997][610]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.41.49:139][579]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.41.57:060][371]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.41.57:061][371]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.41.57:061][371]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.41.57:811][455]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.00:179][688]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.02:146][885]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.04:980][174]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.05:416][218]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.12:761][958]LogMaterialEditor: Applying material OakTreeLeaf
+[2017.11.13-14.42.13:561][958]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.42.13:616][958]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.42.13:660][958]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.13-14.42.13:711][958]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeLeaf, compiling. 
+[2017.11.13-14.42.16:648][958]TextureStreamingBuild:Display: Compiling optional shaders took 2.944 seconds.
+[2017.11.13-14.42.16:678][958]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.42.16:678][958]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.42.16:678][958]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.42.30:055][320]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.42.30:055][320]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.42.30:055][320]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.42.31:148][447]LogMaterialEditor: Saving and Compiling material OakTreeLeaf
+[2017.11.13-14.42.31:181][447]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTreeLeaf" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeLeaf.uasset" SILENT=true
+[2017.11.13-14.42.31:206][447]LogSavePackage: Save=16.85ms
+[2017.11.13-14.42.31:206][447]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeLeafF5F2F419452AD9CD92A8F19CC92F2B83.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeLeaf.uasset'
+[2017.11.13-14.42.31:214][447]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeLeaf.uasset
+[2017.11.13-14.42.34:670][820]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.13-14.42.35:441][820]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.35:489][820]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.35:537][820]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.42.35:589][820]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.13-14.42.38:318][820]TextureStreamingBuild:Display: Compiling optional shaders took 2.735 seconds.
+[2017.11.13-14.42.40:024][991]LogMaterialEditor: Saving and Compiling material OakTreeTrunk
+[2017.11.13-14.42.44:339][991]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTreeTrunk" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset" SILENT=true
+[2017.11.13-14.42.44:362][991]LogSavePackage: Save=14.35ms
+[2017.11.13-14.42.44:362][991]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeTrunkB41C6F89487DF1BB0159B4BB26EC3FCA.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset'
+[2017.11.13-14.42.44:370][991]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset
+[2017.11.13-14.42.44:378][991]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.42.44:378][991]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.42.44:378][991]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.42.53:051][936]MapCheck: New page: Map Check
+[2017.11.13-14.42.53:070][936]LightingResults: New page: Lighting Build - 13 Nov 2017 14:42:53
+[2017.11.13-14.42.53:084][936]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.42.53:086][936]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.42.53:086][936]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.42.53:087][936]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.42.53:087][936]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.42.57:602][936]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.42.57:602][936]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.42.57:602][936]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.42.57:602][936]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.42.57:602][936]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.42.57:602][936]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.42.57:776][936]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.42.57:791][936]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.13-14.42.57:798][936]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.13-14.42.57:827][937]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.42.57:834][937]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.43.02:662][ 50]Job is a success!
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 64X32)
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 64X64)
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 64X64)
+[2017.11.13-14.43.03:290][ 51]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 32X32)
+[2017.11.13-14.43.03:307][ 51]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 512X64)
+[2017.11.13-14.43.03:350][ 51]Lightmass on SONOFMORT: 2.56 sec total, 356 ms importing, 48 ms setup, 249 ms photons, 1.79 sec processing, 0 ms extra exporting [39/39 mappings]. Threads: 7.11 sec total, 2.89 sec processing.
+[2017.11.13-14.43.03:350][ 51]LogStaticLightingSystem: Illumination: 9.93 sec (177 ms encoding lightmaps, 31 ms encoding shadowmaps)
+[2017.11.13-14.43.03:350][ 51]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.43.03:350][ 51]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.43.03:613][ 51]DumpUnbuiltLightIteractions
+[2017.11.13-14.43.03:614][ 51]Lights with unbuilt interactions: 0
+[2017.11.13-14.43.03:614][ 51]
+[2017.11.13-14.43.03:614][ 51]Primitives with unbuilt interactions: 0
+[2017.11.13-14.43.03:621][ 52]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.43.03:621][ 52]MapCheck: New page: Tutorial - 13 Nov 2017 14:43:03
+[2017.11.13-14.43.03:778][ 52]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 157.059ms to complete.
+[2017.11.13-14.43.10:670][448]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.43.10:679][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.43.10:679][448]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:43:10)
+[2017.11.13-14.43.10:679][448]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.43.10:689][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009420s)
+[2017.11.13-14.43.10:690][448]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.43.10:690][448]LogPlayLevel: PIE: World Init took: (0.000817s)
+[2017.11.13-14.43.10:690][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.010534s)
+[2017.11.13-14.43.10:720][448]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.43.10:733][448]LogInit: FAudioDevice initialized.
+[2017.11.13-14.43.10:771][448]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.43.10:774][448]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.43.10
+[2017.11.13-14.43.10:774][448]LogWorld: Bringing up level for play took: 0.002373
+[2017.11.13-14.43.10:777][448]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.766
+[2017.11.13-14.43.32:849][859]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.43.36:022][185]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.43.38:936][470]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.43.47:518][298]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.43.47:518][298]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.43.47:518][298]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.43.51:947][776]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.13-14.43.52:697][776]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.43.52:751][776]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.43.52:788][776]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.43.52:849][776]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.13-14.43.55:466][776]TextureStreamingBuild:Display: Compiling optional shaders took 2.623 seconds.
+[2017.11.13-14.44.02:488][118]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.44.02:488][118]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.44.02:488][118]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.44.04:774][347]MapCheck: New page: Map Check
+[2017.11.13-14.44.04:798][347]LightingResults: New page: Lighting Build - 13 Nov 2017 14:44:04
+[2017.11.13-14.44.04:814][347]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-14.44.04:816][347]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-14.44.04:816][347]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-14.44.04:817][347]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-14.44.04:817][347]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-14.44.09:336][347]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-14.44.09:337][347]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-14.44.09:337][347]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-14.44.09:337][347]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-14.44.09:337][347]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-14.44.09:337][347]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-14.44.09:449][347]LogEditorBuildUtils: Build time 0:04
+[2017.11.13-14.44.09:466][347]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.44.09:473][347]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-14.44.13:487][556]Job is a success!
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 32X32)
+[2017.11.13-14.44.13:703][557]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 512X64)
+[2017.11.13-14.44.13:717][557]Lightmass on SONOFMORT: 2.25 sec total, 309 ms importing, 50 ms setup, 196 ms photons, 1.62 sec processing, 0 ms extra exporting [39/39 mappings]. Threads: 6.41 sec total, 3.82 sec processing.
+[2017.11.13-14.44.13:748][557]LogStaticLightingSystem: Illumination: 8.92 sec (102 ms encoding lightmaps, 26 ms encoding shadowmaps)
+[2017.11.13-14.44.13:748][557]LogStaticLightingSystem: Lightmap texture memory:  0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 4 textures
+[2017.11.13-14.44.13:748][557]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.13-14.44.14:340][557]DumpUnbuiltLightIteractions
+[2017.11.13-14.44.14:340][557]Lights with unbuilt interactions: 0
+[2017.11.13-14.44.14:340][557]
+[2017.11.13-14.44.14:340][557]Primitives with unbuilt interactions: 0
+[2017.11.13-14.44.14:393][558]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-14.44.14:393][558]MapCheck: New page: Tutorial - 13 Nov 2017 14:44:14
+[2017.11.13-14.44.14:521][558]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 127.093ms to complete.
+[2017.11.13-14.44.15:845][674]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.44.27:327][820]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.44.35:666][653]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.44.35:666][653]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.44.35:666][653]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.44.58:680][227]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.13-14.44.59:406][227]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.44.59:457][227]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.44.59:491][227]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.13-14.44.59:539][227]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.13-14.45.03:078][227]TextureStreamingBuild:Display: Compiling optional shaders took 3.545 seconds.
+[2017.11.13-14.45.12:231][673]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.13-14.45.12:231][673]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.45.12:231][673]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.13-14.45.20:388][408]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.45.20:403][408]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.45.20:403][408]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:45:20)
+[2017.11.13-14.45.20:403][408]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.45.20:410][408]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006875s)
+[2017.11.13-14.45.20:410][408]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.45.20:411][408]LogPlayLevel: PIE: World Init took: (0.000784s)
+[2017.11.13-14.45.20:411][408]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.007863s)
+[2017.11.13-14.45.20:445][408]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.45.20:459][408]LogInit: FAudioDevice initialized.
+[2017.11.13-14.45.20:497][408]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.45.20:501][408]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.45.20
+[2017.11.13-14.45.20:501][408]LogWorld: Bringing up level for play took: 0.002278
+[2017.11.13-14.45.20:504][408]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.962
+[2017.11.13-14.45.24:182][797]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-14.45.24:374][799]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:393).
+[2017.11.13-14.45.56:246][ 53]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.13-14.46.44:163][472]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.46.44:269][472]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.46.44:284][472]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.46.50:849][ 61]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.46.50:864][ 61]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.13-14.46.54:588][414]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.46.54:603][414]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.13-14.46.58:420][760]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.46.58:442][760]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_1, compiling. 
+[2017.11.13-14.47.07:348][619]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-14.47.07:348][619]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.47.07:348][619]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.13-14.47.24:333][454]LogMaterialEditor: Applying material White
+[2017.11.13-14.47.25:117][454]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.47.25:172][454]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.47.25:203][454]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-14.47.25:249][454]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2017.11.13-14.47.27:800][454]TextureStreamingBuild:Display: Compiling optional shaders took 2.556 seconds.
+[2017.11.13-14.47.33:936][473]MaterialEditorStats: Info Base pass shader: 79 instructions
+[2017.11.13-14.47.33:936][473]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.13-14.47.33:936][473]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.13-14.48.23:932][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-14.48.24:098][751]LogSavePackage: Save=143.04ms
+[2017.11.13-14.48.24:098][751]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial7978354B4EDDD9C14CD42AA01FDBCAD9.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-14.48.24:105][751]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-14.48.24:124][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-14.48.24:161][751]LogSavePackage: Save=28.62ms
+[2017.11.13-14.48.24:161][751]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData9279A9B54EEB704BC62B9FB359E23046.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-14.48.24:168][751]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-14.48.26:982][ 52]LogMaterialEditor: Saving and Compiling material White
+[2017.11.13-14.48.27:014][ 52]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/WhiteBox/White" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/WhiteBox/White.uasset" SILENT=true
+[2017.11.13-14.48.27:028][ 52]LogSavePackage: Save=11.49ms
+[2017.11.13-14.48.27:028][ 52]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/White7CA4A04549F0FA81BF63FD892C2D17DB.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/WhiteBox/White.uasset'
+[2017.11.13-14.48.27:035][ 52]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/WhiteBox/White.uasset
+[2017.11.13-14.48.32:615][559]LogSavePackage: Save=7.01ms
+[2017.11.13-14.48.32:615][559]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial676104444CC91882C2FF9ABDE418DAAF.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.13-14.48.32:623][559]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.13-14.48.32:624][559]LogFileHelpers: Saving map 'Tutorial' took 0.164
+[2017.11.13-14.48.32:641][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/BigRock1" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/BigRock1.uasset" SILENT=true
+[2017.11.13-14.48.32:656][559]LogSavePackage: Save=12.28ms
+[2017.11.13-14.48.32:656][559]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/BigRock1C60B666F459B65A55ED408B87152B146.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/BigRock1.uasset'
+[2017.11.13-14.48.32:662][559]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/BigRock1.uasset
+[2017.11.13-14.48.32:679][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTree1_2" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTree1_2.uasset" SILENT=true
+[2017.11.13-14.48.32:696][559]LogSavePackage: Save=14.04ms
+[2017.11.13-14.48.32:696][559]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTree1_2E7CF550845E249F83064799FE3D94A8B.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTree1_2.uasset'
+[2017.11.13-14.48.32:702][559]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTree1_2.uasset
+[2017.11.13-14.48.32:720][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTreeTrunk" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset" SILENT=true
+[2017.11.13-14.48.32:744][559]LogSavePackage: Save=13.83ms
+[2017.11.13-14.48.32:744][559]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/OakTreeTrunk3D0EDA1F43D1839D7AD747A9CCC19511.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset'
+[2017.11.13-14.48.32:752][559]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset
+[2017.11.13-14.48.32:766][559]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/rockTexture1" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/rockTexture1.uasset" SILENT=true
+[2017.11.13-14.48.32:783][559]LogSavePackage: Save=14.27ms
+[2017.11.13-14.48.32:783][559]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/rockTexture1A53AF0D8405C5E4FC3A6D9AFCE155A85.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/rockTexture1.uasset'
+[2017.11.13-14.48.32:792][559]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/rockTexture1.uasset
+[2017.11.13-14.50.47:319][970]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.50.55:434][803]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-14.50.57:743][ 33]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-14.50.57:754][ 33]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-14.50.57:754][ 33]PIE: New page: PIE session: Tutorial (13 Nov 2017 14:50:57)
+[2017.11.13-14.50.57:754][ 33]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-14.50.57:769][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014412s)
+[2017.11.13-14.50.57:771][ 33]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-14.50.57:771][ 33]LogPlayLevel: PIE: World Init took: (0.002137s)
+[2017.11.13-14.50.57:771][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.016882s)
+[2017.11.13-14.50.57:812][ 33]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-14.50.57:830][ 33]LogInit: FAudioDevice initialized.
+[2017.11.13-14.50.57:867][ 33]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-14.50.57:871][ 33]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-14.50.57
+[2017.11.13-14.50.57:871][ 33]LogWorld: Bringing up level for play took: 0.002292
+[2017.11.13-14.50.57:874][ 33]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.332
+[2017.11.13-14.51.11:376][574]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-15.00.48:028][453]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.13-15.00.48:307][453]LogSavePackage: Save=264.51ms
+[2017.11.13-15.00.48:307][453]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_Auto4EF83501847E200DA52D90DAE31C6AAEC.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto4.umap'
+[2017.11.13-15.00.48:323][453]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto4.umap
+[2017.11.13-15.00.48:326][453]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tutorial' took 0.355
+[2017.11.13-15.00.48:326][453]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.355
+[2017.11.13-15.09.45:817][123]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/ParkourGame/Sounds/Keytronic_-_Homesick_(Keymix).wav)
+[2017.11.13-15.09.45:970][123]Error: Unable to read wave file 'Keytronic_-_Homesick__Keymix_' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2017.11.13-15.10.03:787][123]LogSlate: Took 0.016946 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.11.13-15.10.13:179][123]LogAssetTools:Warning: Failed to import 'E:/ParkourGame/Sounds/Keytronic_-_Homesick_(Keymix).wav'. Failed to create asset '/Game/Music/Keytronic_-_Homesick__Keymix_'.
+Please see Output Log for details.
+[2017.11.13-15.11.06:794][761]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/Year 2/FMP/Charm/Music/Keytronic_-_Homesick_(Keymix).wav)
+[2017.11.13-15.11.07:311][761]LogAudioDerivedData:Display: Building compressed audio format OGG wave Keytronic_-_Homesick__Keymix_...
+[2017.11.13-15.11.13:333][761]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Music/Keytronic_-_Homesick__Keymix_.Keytronic_-_Homesick__Keymix_.
+[2017.11.13-15.11.16:578][836]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tutorial' took 0.019
+[2017.11.13-15.11.16:581][836]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Music/Keytronic_-_Homesick__Keymix_] ([1] browsable assets)...
+[2017.11.13-15.11.16:718][836]OBJ SavePackage:     Rendered thumbnail for [SoundWave /Game/Music/Keytronic_-_Homesick__Keymix_.Keytronic_-_Homesick__Keymix_]
+[2017.11.13-15.11.16:718][836]OBJ SavePackage: Finished generating thumbnails for package [/Game/Music/Keytronic_-_Homesick__Keymix_]
+[2017.11.13-15.11.16:747][836]LogSavePackage: Save=26.32ms
+[2017.11.13-15.11.16:747][836]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Keytronic_-_Homesick__Keymix__Auto50D8F2EA446BEF6EA6ACEE9ACD23C86A5.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Music/Keytronic_-_Homesick__Keymix__Auto5.uasset'
+[2017.11.13-15.11.16:751][836]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Music/Keytronic_-_Homesick__Keymix__Auto5.uasset
+[2017.11.13-15.11.16:751][836]LogFileHelpers: Auto-saving content packages took 0.172
+[2017.11.13-15.11.37:720][852]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.11.37:729][852]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.11.37:730][852]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:11:37)
+[2017.11.13-15.11.37:730][852]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.11.37:738][852]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008607s)
+[2017.11.13-15.11.37:739][852]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.11.37:740][852]LogPlayLevel: PIE: World Init took: (0.001253s)
+[2017.11.13-15.11.37:740][852]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.010134s)
+[2017.11.13-15.11.37:772][852]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.11.37:789][852]LogInit: FAudioDevice initialized.
+[2017.11.13-15.11.37:825][852]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.11.37:828][852]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.11.37
+[2017.11.13-15.11.37:828][852]LogWorld: Bringing up level for play took: 0.002111
+[2017.11.13-15.11.37:831][852]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.288
+[2017.11.13-15.11.42:953][361]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.11.42:964][361]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.11.42:964][361]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:11:42)
+[2017.11.13-15.11.42:964][361]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.11.42:974][361]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009783s)
+[2017.11.13-15.11.42:975][361]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.11.42:975][361]LogPlayLevel: PIE: World Init took: (0.000753s)
+[2017.11.13-15.11.42:975][361]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.010769s)
+[2017.11.13-15.11.43:010][361]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.11.43:022][361]LogInit: FAudioDevice initialized.
+[2017.11.13-15.11.43:053][361]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.11.43:056][361]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.11.43
+[2017.11.13-15.11.43:056][361]LogWorld: Bringing up level for play took: 0.002047
+[2017.11.13-15.11.43:058][361]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.484
+[2017.11.13-15.11.58:380][847]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.11.58:391][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.11.58:391][847]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:11:58)
+[2017.11.13-15.11.58:391][847]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.11.58:399][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008150s)
+[2017.11.13-15.11.58:399][847]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.11.58:400][847]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2017.11.13-15.11.58:400][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009170s)
+[2017.11.13-15.11.58:430][847]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.11.58:443][847]LogInit: FAudioDevice initialized.
+[2017.11.13-15.11.58:479][847]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.11.58:482][847]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.11.58
+[2017.11.13-15.11.58:483][847]LogWorld: Bringing up level for play took: 0.002413
+[2017.11.13-15.11.58:486][847]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.943
+[2017.11.13-15.12.02:891][259]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.12.02:902][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.12.02:902][259]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:12:02)
+[2017.11.13-15.12.02:902][259]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.12.02:911][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009093s)
+[2017.11.13-15.12.02:912][259]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.12.02:912][259]LogPlayLevel: PIE: World Init took: (0.000632s)
+[2017.11.13-15.12.02:912][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009929s)
+[2017.11.13-15.12.02:941][259]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.12.02:953][259]LogInit: FAudioDevice initialized.
+[2017.11.13-15.12.02:986][259]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.12.02:989][259]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.12.02
+[2017.11.13-15.12.02:989][259]LogWorld: Bringing up level for play took: 0.001987
+[2017.11.13-15.12.02:992][259]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.551
+[2017.11.13-15.12.17:223][783]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.13-15.12.19:391][968]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.12.22:614][268]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.12.27:709][775]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.12.27:719][775]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.12.27:719][775]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:12:27)
+[2017.11.13-15.12.27:719][775]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.12.27:729][775]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009682s)
+[2017.11.13-15.12.27:729][775]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.12.27:730][775]LogPlayLevel: PIE: World Init took: (0.000751s)
+[2017.11.13-15.12.27:730][775]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.010663s)
+[2017.11.13-15.12.27:759][775]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.12.27:777][775]LogInit: FAudioDevice initialized.
+[2017.11.13-15.12.27:813][775]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.12.27:817][775]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.12.27
+[2017.11.13-15.12.27:817][775]LogWorld: Bringing up level for play took: 0.002346
+[2017.11.13-15.12.27:819][775]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.277
+[2017.11.13-15.12.35:461][620]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-15.12.54:097][811]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.13-15.12.54:581][864]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-15.12.55:395][954]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.13-15.12.56:944][132]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.12.58:747][343]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.12.59:846][469]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.13.06:261][230]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.13.06:272][230]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.13.06:272][230]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:13:06)
+[2017.11.13-15.13.06:273][230]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.13.06:281][230]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008767s)
+[2017.11.13-15.13.06:282][230]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.13.06:282][230]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2017.11.13-15.13.06:282][230]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009778s)
+[2017.11.13-15.13.06:312][230]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.13.06:324][230]LogInit: FAudioDevice initialized.
+[2017.11.13-15.13.06:364][230]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.13.06:368][230]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.13.06
+[2017.11.13-15.13.06:369][230]LogWorld: Bringing up level for play took: 0.003106
+[2017.11.13-15.13.06:372][230]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.83
+[2017.11.13-15.13.33:564][286]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.13.33:574][286]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.13.33:574][286]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:13:33)
+[2017.11.13-15.13.33:574][286]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.13.33:585][286]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010883s)
+[2017.11.13-15.13.33:586][286]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.13.33:586][286]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.11.13-15.13.33:586][286]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011770s)
+[2017.11.13-15.13.33:623][286]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.13.33:636][286]LogInit: FAudioDevice initialized.
+[2017.11.13-15.13.33:679][286]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.13.33:682][286]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.13.33
+[2017.11.13-15.13.33:683][286]LogWorld: Bringing up level for play took: 0.002231
+[2017.11.13-15.13.33:685][286]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.143
+[2017.11.13-15.14.47:256][995]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-15.16.11:789][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-15.16.11:989][796]LogSavePackage: Save=168.89ms
+[2017.11.13-15.16.11:989][796]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial958EB17545703F160E0971A7E42ACE6B.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-15.16.12:001][796]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-15.16.12:019][796]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-15.16.12:065][796]LogSavePackage: Save=33.74ms
+[2017.11.13-15.16.12:065][796]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltDataE8ADF67649116F2C34ABD3A78E02E4E9.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-15.16.12:069][796]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-15.16.14:786][973]LogSavePackage: Save=29.12ms
+[2017.11.13-15.16.14:786][973]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Keytronic_-_Homesick__Keymix_A73FA6E94E743B7FD185998DFC459FBB.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Keytronic_-_Homesick__Keymix_.uasset'
+[2017.11.13-15.16.14:792][973]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Keytronic_-_Homesick__Keymix_.uasset
+[2017.11.13-15.16.14:823][973]LogSavePackage: Save=21.98ms
+[2017.11.13-15.16.14:823][973]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Keytronic_-_Homesick__Keymix__CueDC23B7BB4215037CC2C726ABD681E89A.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Keytronic_-_Homesick__Keymix__Cue.uasset'
+[2017.11.13-15.16.14:832][973]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Keytronic_-_Homesick__Keymix__Cue.uasset
+[2017.11.13-15.17.57:468][273]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/Year 2/FMP/Charm/Music/birds_singing.wav)
+[2017.11.13-15.17.57:490][273]Error: Unable to read wave file 'birds_singing' - "Unsupported wave file format.  Only PCM, ADPCM, and DVI ADPCM can be imported."
+[2017.11.13-15.17.59:661][273]LogAssetTools:Warning: Failed to import 'E:/Year 2/FMP/Charm/Music/birds_singing.wav'. Failed to create asset '/Game/Music/Sounds/birds_singing'.
+Please see Output Log for details.
+[2017.11.13-15.18.34:042][564]LogFactory: FactoryCreateFile: SoundWave with ReimportSoundFactory (0 0 E:/Year 2/FMP/Charm/Music/birds_singing.wav)
+[2017.11.13-15.18.34:071][564]LogAudioDerivedData:Display: Building compressed audio format OGG wave birds_singing...
+[2017.11.13-15.18.34:580][564]LogAudioDerivedData:Warning: Updated SoundWave->RawPCMDataSize during cooking SoundWave /Game/Music/Sounds/birds_singing.birds_singing.
+[2017.11.13-15.19.05:362][135]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.19.05:371][135]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.19.05:371][135]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:19:05)
+[2017.11.13-15.19.05:371][135]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.19.05:380][135]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008474s)
+[2017.11.13-15.19.05:381][135]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.19.05:381][135]LogPlayLevel: PIE: World Init took: (0.001366s)
+[2017.11.13-15.19.05:382][135]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.010195s)
+[2017.11.13-15.19.05:412][135]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.19.05:428][135]LogInit: FAudioDevice initialized.
+[2017.11.13-15.19.05:464][135]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.19.05:467][135]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.19.05
+[2017.11.13-15.19.05:467][135]LogWorld: Bringing up level for play took: 0.002039
+[2017.11.13-15.19.05:470][135]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.072
+[2017.11.13-15.20.50:450][ 66]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.20.50:461][ 66]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.20.50:461][ 66]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:20:50)
+[2017.11.13-15.20.50:461][ 66]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.20.50:471][ 66]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010134s)
+[2017.11.13-15.20.50:472][ 66]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.20.50:472][ 66]LogPlayLevel: PIE: World Init took: (0.000763s)
+[2017.11.13-15.20.50:472][ 66]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011142s)
+[2017.11.13-15.20.50:506][ 66]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.20.50:520][ 66]LogInit: FAudioDevice initialized.
+[2017.11.13-15.20.50:553][ 66]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.20.50:556][ 66]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.20.50
+[2017.11.13-15.20.50:556][ 66]LogWorld: Bringing up level for play took: 0.002033
+[2017.11.13-15.20.50:558][ 66]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 1.016
+[2017.11.13-15.21.04:746][ 64]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.21.04:756][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.21.04:756][ 64]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:21:04)
+[2017.11.13-15.21.04:756][ 64]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.21.04:767][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011402s)
+[2017.11.13-15.21.04:768][ 64]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.21.04:768][ 64]LogPlayLevel: PIE: World Init took: (0.000850s)
+[2017.11.13-15.21.04:769][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.012491s)
+[2017.11.13-15.21.04:805][ 64]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.21.04:817][ 64]LogInit: FAudioDevice initialized.
+[2017.11.13-15.21.04:852][ 64]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.21.04:856][ 64]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.21.04
+[2017.11.13-15.21.04:856][ 64]LogWorld: Bringing up level for play took: 0.002683
+[2017.11.13-15.21.04:860][ 64]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.682
+[2017.11.13-15.21.16:892][255]LogEditorActor: Deleted Actor: AmbientSound
+[2017.11.13-15.21.16:907][255]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.11.13-15.21.26:381][109]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.21.26:391][109]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.21.26:391][109]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:21:26)
+[2017.11.13-15.21.26:391][109]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.21.26:399][109]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007735s)
+[2017.11.13-15.21.26:400][109]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.21.26:400][109]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.11.13-15.21.26:400][109]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.008917s)
+[2017.11.13-15.21.26:431][109]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.21.26:445][109]LogInit: FAudioDevice initialized.
+[2017.11.13-15.21.26:478][109]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.21.26:481][109]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.21.26
+[2017.11.13-15.21.26:481][109]LogWorld: Bringing up level for play took: 0.001942
+[2017.11.13-15.21.26:484][109]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.942
+[2017.11.13-15.21.36:313][233]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-15.21.58:203][812]LogActorComponent: ReregisterComponent: (/Game/Tutorial.Tutorial:PersistentLevel.birds_singing_Cue_5.AudioComponent0) Not currently registered. Aborting.
+[2017.11.13-15.22.18:481][371]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-15.22.20:542][597]Cmd: SELECT NONE
+[2017.11.13-15.24.03:138][723]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Music/Sounds/birds_singing_Cue" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Sounds/birds_singing_Cue.uasset" SILENT=true
+[2017.11.13-15.24.03:147][723]LogSavePackage: Save=5.43ms
+[2017.11.13-15.24.03:147][723]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/birds_singing_Cue478DF7534524A0CFFDBB84A726848A41.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Sounds/birds_singing_Cue.uasset'
+[2017.11.13-15.24.03:154][723]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Sounds/birds_singing_Cue.uasset
+[2017.11.13-15.24.14:813][794]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.11.13-15.24.33:019][588]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.13-15.24.43:687][659]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.13-15.24.46:163][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-15.24.46:346][901]LogSavePackage: Save=154.70ms
+[2017.11.13-15.24.46:346][901]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/TutorialA14DC2914AF0405F839539B31ACEADFB.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-15.24.46:356][901]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-15.24.46:373][901]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-15.24.46:414][901]LogSavePackage: Save=28.75ms
+[2017.11.13-15.24.46:414][901]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData4F788A6C46C27C922C356CA5D1FBED96.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-15.24.46:421][901]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-15.24.48:441][ 63]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Music/Sounds/birds_singing" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Sounds/birds_singing.uasset" SILENT=true
+[2017.11.13-15.24.48:451][ 63]LogSavePackage: Save=6.64ms
+[2017.11.13-15.24.48:451][ 63]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/birds_singingB242D0024318D1C4BCE719A66C6E9F90.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Sounds/birds_singing.uasset'
+[2017.11.13-15.24.48:457][ 63]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Music/Sounds/birds_singing.uasset
+[2017.11.13-15.33.43:057][506]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.33.43:068][506]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.33.43:068][506]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:33:43)
+[2017.11.13-15.33.43:068][506]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.33.43:078][506]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010059s)
+[2017.11.13-15.33.43:079][506]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.33.43:079][506]LogPlayLevel: PIE: World Init took: (0.001136s)
+[2017.11.13-15.33.43:080][506]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011521s)
+[2017.11.13-15.33.43:117][506]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.33.43:129][506]LogInit: FAudioDevice initialized.
+[2017.11.13-15.33.43:163][506]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.33.43:167][506]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.33.43
+[2017.11.13-15.33.43:168][506]LogWorld: Bringing up level for play took: 0.002952
+[2017.11.13-15.33.43:172][506]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.37
+[2017.11.13-15.33.44:629][663]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-15.34.09:369][288]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.11.13-15.35.16:874][826]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.11.13-15.35.23:161][423]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.35.25:434][649]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.35.28:355][888]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.11.13-15.37.26:252][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto6.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.13-15.37.26:431][483]LogSavePackage: Save=169.18ms
+[2017.11.13-15.37.26:431][483]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_Auto6ED60CAB64886C7A3070523B20416AC08.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto6.umap'
+[2017.11.13-15.37.26:436][483]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Tutorial_Auto6.umap
+[2017.11.13-15.37.26:440][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Tutorial' took 0.209
+[2017.11.13-15.37.26:440][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.209
+[2017.11.13-15.37.53:017][223]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.37.53:026][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.37.53:026][223]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:37:53)
+[2017.11.13-15.37.53:027][223]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.37.53:037][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010542s)
+[2017.11.13-15.37.53:038][223]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.37.53:038][223]LogPlayLevel: PIE: World Init took: (0.000854s)
+[2017.11.13-15.37.53:038][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011610s)
+[2017.11.13-15.37.53:077][223]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.37.53:089][223]LogInit: FAudioDevice initialized.
+[2017.11.13-15.37.53:121][223]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.37.53:123][223]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.37.53
+[2017.11.13-15.37.53:124][223]LogWorld: Bringing up level for play took: 0.002134
+[2017.11.13-15.37.53:126][223]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.416
+[2017.11.13-15.38.10:797][ 63]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.38.10:815][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.38.10:815][ 63]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:38:10)
+[2017.11.13-15.38.10:815][ 63]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.38.10:824][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009133s)
+[2017.11.13-15.38.10:825][ 63]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.38.10:825][ 63]LogPlayLevel: PIE: World Init took: (0.000651s)
+[2017.11.13-15.38.10:825][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009981s)
+[2017.11.13-15.38.10:856][ 63]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.38.10:871][ 63]LogInit: FAudioDevice initialized.
+[2017.11.13-15.38.10:902][ 63]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.38.10:906][ 63]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.38.10
+[2017.11.13-15.38.10:906][ 63]LogWorld: Bringing up level for play took: 0.002319
+[2017.11.13-15.38.10:908][ 63]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.634
+[2017.11.13-15.39.32:226][938]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.13-15.39.33:642][ 45]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.39.33:658][ 45]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.39.33:659][ 45]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:39:33)
+[2017.11.13-15.39.33:659][ 45]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.39.33:671][ 45]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011899s)
+[2017.11.13-15.39.33:671][ 45]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.39.33:671][ 45]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2017.11.13-15.39.33:672][ 45]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.012900s)
+[2017.11.13-15.39.33:703][ 45]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.39.33:714][ 45]LogInit: FAudioDevice initialized.
+[2017.11.13-15.39.33:775][ 45]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.39.33:778][ 45]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.39.33
+[2017.11.13-15.39.33:778][ 45]LogWorld: Bringing up level for play took: 0.002073
+[2017.11.13-15.39.33:783][ 45]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.241
+[2017.11.13-15.40.00:425][660]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.13-15.40.01:726][761]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.40.01:741][761]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.40.01:741][761]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:40:01)
+[2017.11.13-15.40.01:741][761]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.40.01:751][761]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010255s)
+[2017.11.13-15.40.01:752][761]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.40.01:752][761]LogPlayLevel: PIE: World Init took: (0.000715s)
+[2017.11.13-15.40.01:752][761]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011177s)
+[2017.11.13-15.40.01:780][761]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.40.01:792][761]LogInit: FAudioDevice initialized.
+[2017.11.13-15.40.01:859][761]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.40.01:862][761]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.40.01
+[2017.11.13-15.40.01:862][761]LogWorld: Bringing up level for play took: 0.002132
+[2017.11.13-15.40.01:868][761]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.326
+[2017.11.13-15.40.27:952][269]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.13-15.40.28:736][309]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.40.28:753][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.40.28:753][309]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:40:28)
+[2017.11.13-15.40.28:753][309]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.40.28:762][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008906s)
+[2017.11.13-15.40.28:763][309]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.40.28:763][309]LogPlayLevel: PIE: World Init took: (0.000708s)
+[2017.11.13-15.40.28:763][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.009842s)
+[2017.11.13-15.40.28:794][309]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.40.28:807][309]LogInit: FAudioDevice initialized.
+[2017.11.13-15.40.28:870][309]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.40.28:873][309]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.40.28
+[2017.11.13-15.40.28:873][309]LogWorld: Bringing up level for play took: 0.002220
+[2017.11.13-15.40.28:878][309]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.664
+[2017.11.13-15.40.55:382][866]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2017.11.13-15.40.56:450][941]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.40.56:464][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.40.56:464][941]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:40:56)
+[2017.11.13-15.40.56:464][941]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.40.56:474][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009794s)
+[2017.11.13-15.40.56:474][941]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.40.56:475][941]LogPlayLevel: PIE: World Init took: (0.000910s)
+[2017.11.13-15.40.56:475][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.010965s)
+[2017.11.13-15.40.56:506][941]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.40.56:522][941]LogInit: FAudioDevice initialized.
+[2017.11.13-15.40.56:577][941]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.40.56:581][941]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.40.56
+[2017.11.13-15.40.56:581][941]LogWorld: Bringing up level for play took: 0.002655
+[2017.11.13-15.40.56:587][941]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 1.045
+[2017.11.13-15.41.53:993][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-15.41.54:194][496]LogSavePackage: Save=171.56ms
+[2017.11.13-15.41.54:194][496]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial7C6670A64B845EF43E02DB9087C4B4C3.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-15.41.54:201][496]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-15.41.54:220][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-15.41.54:258][496]LogSavePackage: Save=28.48ms
+[2017.11.13-15.41.54:258][496]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltDataD599C4A445711E167B97CB9F5DE2167F.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-15.41.54:262][496]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-15.41.57:365][790]MapCheck: New page: Map Check
+[2017.11.13-15.41.57:388][790]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.13-15.41.57:388][790]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.13-15.41.57:695][790]LightingResults: New page: Lighting Build - 13 Nov 2017 15:41:57
+[2017.11.13-15.41.57:715][790]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.13-15.41.57:718][790]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.13-15.41.57:719][790]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.13-15.41.57:720][790]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.13-15.41.57:720][790]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2548
+[2017.11.13-15.42.02:236][790]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.13-15.42.02:236][790]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.13-15.42.02:236][790]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.13-15.42.02:236][790]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.13-15.42.02:236][790]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.13-15.42.02:236][790]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.13-15.42.02:393][790]LogEditorBuildUtils: Build time 0:05
+[2017.11.13-15.42.02:440][791]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-15.42.02:446][791]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.13-15.42.02:481][792]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.13-15.42.02:487][792]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.13-15.42.07:006][933]Job is a success!
+[2017.11.13-15.42.07:426][934]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.13-15.42.07:427][934]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.13-15.42.07:462][934]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2017.11.13-15.42.07:462][934]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 32X512)
+[2017.11.13-15.42.07:462][934]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 512X64)
+[2017.11.13-15.42.07:476][934]Lightmass on SONOFMORT: 2.16 sec total, 247 ms importing, 30 ms setup, 195 ms photons, 1.62 sec processing, 0 ms extra exporting [60/60 mappings]. Threads: 6.44 sec total, 3.14 sec processing.
+[2017.11.13-15.42.07:502][934]LogMaterial:Warning: Material /Game/Materials/WhiteBox/White.White needed to have new flag set bUsedWithStaticLighting !
+[2017.11.13-15.42.07:505][934]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.13-15.42.07:541][934]LogStaticLightingSystem: Illumination: 9.81 sec (315 ms encoding lightmaps, 27 ms encoding shadowmaps)
+[2017.11.13-15.42.07:542][934]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.13-15.42.07:542][934]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.11.13-15.42.08:242][934]DumpUnbuiltLightIteractions
+[2017.11.13-15.42.08:242][934]Lights with unbuilt interactions: 0
+[2017.11.13-15.42.08:242][934]
+[2017.11.13-15.42.08:242][934]Primitives with unbuilt interactions: 0
+[2017.11.13-15.42.08:249][935]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.13-15.42.08:249][935]MapCheck: New page: Tutorial - 13 Nov 2017 15:42:08
+[2017.11.13-15.42.08:384][935]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 134.876ms to complete.
+[2017.11.13-15.42.29:686][893]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.42.29:698][893]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.42.29:698][893]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:42:29)
+[2017.11.13-15.42.29:698][893]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.42.29:710][893]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011858s)
+[2017.11.13-15.42.29:711][893]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.42.29:711][893]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2017.11.13-15.42.29:711][893]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.013019s)
+[2017.11.13-15.42.29:741][893]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.42.29:753][893]LogInit: FAudioDevice initialized.
+[2017.11.13-15.42.29:786][893]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.42.29:789][893]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.42.29
+[2017.11.13-15.42.29:789][893]LogWorld: Bringing up level for play took: 0.002421
+[2017.11.13-15.42.29:792][893]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial 0.25
+[2017.11.13-15.42.30:240][937]Cmd: LevelEditor.ToggleImmersive
+[2017.11.13-15.45.20:846][971]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.13-15.45.20:858][971]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.13-15.45.20:858][971]PIE: New page: PIE session: Tutorial (13 Nov 2017 15:45:20)
+[2017.11.13-15.45.20:858][971]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Tutorial
+[2017.11.13-15.45.20:869][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010220s)
+[2017.11.13-15.45.20:869][971]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.13-15.45.20:870][971]LogPlayLevel: PIE: World Init took: (0.000799s)
+[2017.11.13-15.45.20:870][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Tutorial.Tutorial to /Game/UEDPIE_0_Tutorial.Tutorial (0.011234s)
+[2017.11.13-15.45.20:902][971]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.13-15.45.20:917][971]LogInit: FAudioDevice initialized.
+[2017.11.13-15.45.20:950][971]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.13-15.45.20:953][971]LogWorld: Bringing World /Game/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.13-15.45.20
+[2017.11.13-15.45.20:954][971]LogWorld: Bringing up level for play took: 0.002207
+[2017.11.13-15.45.20:956][971]PIE: Info Play in editor start time for /Game/UEDPIE_0_Tutorial -0.586
+[2017.11.13-15.45.42:731][340]LogEditorViewport: Clicking on Actor (LMB): TextRenderActor (TextRenderActor)
+[2017.11.13-15.47.01:423][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.13-15.47.01:622][691]LogSavePackage: Save=163.18ms
+[2017.11.13-15.47.01:622][691]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial7D177B6246DD8DFB34F246884C3FB815.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.13-15.47.01:628][691]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap
+[2017.11.13-15.47.01:667][691]LogFileHelpers: Saving map 'Tutorial' took 0.383
+[2017.11.13-15.47.01:669][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Tutorial_BuiltData" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.13-15.47.01:756][691]LogSavePackage: Save=74.12ms
+[2017.11.13-15.47.01:756][691]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData121186954DEF6D9C2A44F3B33AC8A34A.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset'
+[2017.11.13-15.47.01:763][691]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Tutorial_BuiltData.uasset
+[2017.11.13-15.47.02:119][691]LogSavePackage: Save=322.87ms
+[2017.11.13-15.47.02:119][691]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonCharacter439D9CE741B106B1157548941A2623E5.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset'
+[2017.11.13-15.47.02:126][691]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.13-15.47.02:129][691]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Materials/WhiteBox/White" FILE="C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/WhiteBox/White.uasset" SILENT=true
+[2017.11.13-15.47.02:145][691]LogSavePackage: Save=4.34ms
+[2017.11.13-15.47.02:145][691]LogSavePackage: Moving 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Saved/White6EF53C734299C84C917B3091053CB833.tmp' to 'C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/WhiteBox/White.uasset'
+[2017.11.13-15.47.02:152][691]LogSavePackage:Display: Finished SavePackage C:/Users/Jordan/Documents/Unreal Projects/FMP/RPG_Game/RPG_Game/Content/Materials/WhiteBox/White.uasset
+[2017.11.13-15.47.12:376][510]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.13-15.47.12:593][524]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGGame
+[2017.11.13-15.47.12:593][524]LogTemp: CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.13-15.47.12:593][524]LogTemp: Initial Dir: D:\Games\UE_4.16
+[2017.11.13-15.47.12:593][524]LogTemp: Env CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.13-15.47.12:604][525]LogTemp: BranchPath = SONOFMORT/D/Games/UE_4.16/Engine/Binaries --- GameBranchPath = SONOFMORT/D/Games/UE_4.16/Engine/Binaries
+[2017.11.13-15.47.12:640][528]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jordan\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.

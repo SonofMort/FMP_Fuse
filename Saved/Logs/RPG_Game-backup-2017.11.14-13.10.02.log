@@ -1,0 +1,1301 @@
+﻿Log file open, 11/14/17 12:12:23
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1644988090) SRandInit(-1644988090).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.105746
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.14-12.12.23:933][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.14-12.12.23:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.14-12.12.24:015][  0]LogInit: Computer: C217-09
+[2017.11.14-12.12.24:015][  0]LogInit: User: jordanboast
+[2017.11.14-12.12.24:015][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.14-12.12.24:015][  0]LogInit: High frequency timer resolution =3.328128 MHz
+[2017.11.14-12.12.24:015][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.11.14-12.12.24:015][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.14-12.12.24:015][  0]LogMemory: Process Physical Memory: 273.97 MB used, 273.97 MB peak
+[2017.11.14-12.12.24:015][  0]LogMemory: Process Virtual Memory: 261.22 MB used, 261.22 MB peak
+[2017.11.14-12.12.24:015][  0]LogMemory: Physical Memory: 5127.93 MB used,  11176.61 MB free, 16304.54 MB total
+[2017.11.14-12.12.24:015][  0]LogMemory: Virtual Memory: 635.31 MB used,  11176.61 MB free, 134217728.00 MB total
+[2017.11.14-12.12.24:350][  0]LogInit: Using OS detected language (en-US).
+[2017.11.14-12.12.24:350][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.14-12.12.24:437][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.14-12.12.27:149][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.14-12.12.27:169][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2017.11.14-12.12.27:169][  0]LogD3D11RHI:       4062/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.11.14-12.12.27:170][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.14-12.12.27:170][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.14-12.12.27:170][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.14-12.12.27:187][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.14-12.12.27:187][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2017.11.14-12.12.27:187][  0]LogWindows: EnumDisplayDevices:
+[2017.11.14-12.12.27:187][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2017.11.14-12.12.27:187][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.11.14-12.12.27:188][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.11.14-12.12.27:188][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2017.11.14-12.12.27:188][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.14-12.12.27:188][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2017.11.14-12.12.27:188][  0]LogD3D11RHI:   Driver Version: 377.11 (internal:21.21.13.7711, unified:377.11)
+[2017.11.14-12.12.27:188][  0]LogD3D11RHI:      Driver Date: 3-17-2017
+[2017.11.14-12.12.27:188][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.14-12.12.27:201][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.14-12.12.27:211][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.14-12.12.27:253][  0]LogShaderCompilers: Guid format shader working directory is 20 characters bigger than the processId version (E:/Year 2/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/211760/).
+[2017.11.14-12.12.27:253][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jordan.boast/AppData/Local/Temp/UnrealShaderWorkingDir/F7483BED4DC9A29329401095BA99B1D2/'.
+[2017.11.14-12.12.27:253][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.14-12.12.29:711][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.14-12.12.29:748][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.14-12.12.29:784][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.14-12.12.29:820][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.14-12.12.29:873][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.14-12.12.29:926][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.14-12.12.29:961][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.14-12.12.29:998][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.14-12.12.30:030][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.14-12.12.30:069][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.14-12.12.30:104][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.14-12.12.30:139][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.14-12.12.30:173][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.14-12.12.30:208][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.14-12.12.30:242][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.14-12.12.30:310][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.14-12.12.30:310][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.14-12.12.30:339][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.14-12.12.30:428][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.14-12.12.30:465][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.14-12.12.30:499][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.14-12.12.30:537][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.14-12.12.30:579][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.14-12.12.30:617][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.14-12.12.30:617][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.14-12.12.31:261][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.14-12.12.32:104][  0]LogDerivedDataCache: Loaded boot cache 0.84s 90MB C:/Users/jordan.boast/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.14-12.12.32:104][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jordan.boast/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.14-12.12.32:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.14-12.12.32:104][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.14-12.12.32:104][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.14-12.12.32:104][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.14-12.12.32:149][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.14-12.12.32:161][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jordan.boast/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.14-12.12.32:171][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.14-12.12.32:171][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.14-12.12.32:188][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.14-12.12.32:188][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.14-12.12.33:517][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.14-12.12.33:662][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.14-12.12.33:870][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.14-12.12.33:911][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.14-12.12.33:946][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.14-12.12.33:946][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.14-12.12.33:946][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.14-12.12.34:896][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2017.11.14-12.12.34:965][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.11.14-12.12.35:122][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.142580 seconds
+[2017.11.14-12.12.35:127][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.14-12.12.35:127][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.14-12.12.35:127][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.14-12.12.35:197][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.14-12.12.41:222][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.14-12.12.41:257][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.14-12.12.41:808][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.14-12.12.42:224][  0]SourceControl: Info Source control is disabled
+[2017.11.14-12.12.42:233][  0]SourceControl: Info Source control is disabled
+[2017.11.14-12.12.42:274][  0]SourceControl: Info Source control is disabled
+[2017.11.14-12.12.42:324][  0]SourceControl: Info Source control is disabled
+[2017.11.14-12.12.43:075][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.14-12.12.43:607][  0]LogEngine: Initializing Engine...
+[2017.11.14-12.12.43:607][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.14-12.12.43:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.14-12.12.43:829][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.14-12.12.43:928][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.14-12.12.43:933][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.12.43:976][  0]LogInit: FAudioDevice initialized.
+[2017.11.14-12.12.44:024][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/jordan.boast/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.14-12.12.44:031][  0]LogInit: Texture streaming: Enabled
+[2017.11.14-12.12.44:116][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.14-12.12.44:647][  0]LogInit: Transaction tracking system initialized
+[2017.11.14-12.12.44:922][  0]BlueprintLog: New page: Editor Load
+[2017.11.14-12.12.45:680][  0]LocalizationService: Info Localization service is disabled
+[2017.11.14-12.12.46:437][  0]LogConsoleResponse:Display: 
+[2017.11.14-12.12.47:533][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.14-12.12.47:533][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.14-12.12.47:900][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/' took 0.01s
+[2017.11.14-12.12.48:938][  0]SourceControl: Info Source control is disabled
+[2017.11.14-12.12.48:938][  0]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-12.12.48:938][  0]LogEditorServer:Warning: Can't find file 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Tutorial.umap'
+[2017.11.14-12.12.48:938][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-12.12.48:971][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 32.943ms to complete.
+[2017.11.14-12.12.48:971][  0]LogFileHelpers: Loading map 'Tutorial' took 0.033
+[2017.11.14-12.12.49:365][  0]LogCollectionManager: Loaded 0 collections in 0.034097 seconds
+[2017.11.14-12.12.49:454][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2017.11.14-12.12.49:454][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/jordanboast/Collections/' took 0.01s
+[2017.11.14-12.12.49:454][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2017.11.14-12.12.49:454][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.14-12.12.49:464][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2329 classes and 491 folders.
+[2017.11.14-12.12.49:517][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.11.14-12.12.51:573][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.14-12.12.51:620][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2017.11.14-12.12.51:651][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.14-12.12.51:667][  0]LogSlate: Took 0.010289 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.14-12.12.51:698][  0]LogSlate: Took 0.029076 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.14-12.12.51:732][  0]LogSlate: Took 0.030447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.14-12.12.51:902][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2017.11.14-12.12.52:056][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.14-12.12.52:115][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.14-12.12.52:115][  0]LogLoad: (Engine Initialization) Total time: 31.74 seconds
+[2017.11.14-12.12.52:115][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
+[2017.11.14-12.12.52:115][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.11.14-12.12.52:126][  0]LogEditorViewport: Clicking Background
+[2017.11.14-12.12.52:146][  0]LogEditorViewport: Clicking Background
+[2017.11.14-12.12.52:148][  0]LogOcInput: OculusInput pre-init called
+[2017.11.14-12.12.52:148][  0]LogHMD: Starting GearVRController plugin
+[2017.11.14-12.12.52:159][  0]LogAssetRegistry: Asset discovery search completed in 17.2161 seconds
+[2017.11.14-12.12.52:160][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.11.14-12.12.52:160][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.11.14-12.12.52:162][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.14-12.12.52:220][  0]LogSlate: Took 0.025036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-12.21.44:952][108]LogSlate: Took 0.000107 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-12.21.45:335][108]LogAudioDerivedData:Display: Building compressed audio format OGG wave birds_singing...
+[2017.11.14-12.21.45:876][108]LogAudioDerivedData:Display: Building compressed audio format OGG wave Keytronic_-_Homesick__Keymix_...
+[2017.11.14-12.21.51:307][108]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.14-12.21.51:345][108]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.14-12.21.51:363][108]LogMaterial: Missing cached shader map for material Grass, compiling. 
+[2017.11.14-12.21.51:381][108]LogMaterial: Missing cached shader map for material White, compiling. 
+[2017.11.14-12.21.51:397][108]LogStaticMesh: Building static mesh OakTree1_2...
+[2017.11.14-12.21.51:415][108]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Trees/OakTree1_2.OakTree1_2
+[2017.11.14-12.21.51:524][108]LogMaterial: Missing cached shader map for material Grass, compiling. 
+[2017.11.14-12.21.51:564][108]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2017.11.14-12.21.51:574][108]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.14-12.21.51:620][108]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.14-12.21.51:622][108]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2017.11.14-12.21.51:659][108]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.14-12.21.51:689][108]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.14-12.21.51:694][108]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2017.11.14-12.21.51:718][108]LogSlate: Took 0.000160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.14-12.21.51:726][108]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.14-12.21.51:750][108]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.14-12.21.51:753][108]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2017.11.14-12.21.51:779][108]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 32X512)
+[2017.11.14-12.21.51:780][108]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 512X64)
+[2017.11.14-12.21.51:782][108]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 32X32)
+[2017.11.14-12.21.51:783][108]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.21.51:837][108]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.14-12.21.51:837][108]LightingResults: New page: Lighting Build
+[2017.11.14-12.21.51:886][108]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.11.14-12.21.51:887][108]LoadErrors: New page: Loading map: Tutorial.umap
+[2017.11.14-12.21.51:887][108]MapCheck: New page: Map Check
+[2017.11.14-12.21.51:887][108]LightingResults: New page: Lighting Build
+[2017.11.14-12.21.51:922][108]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.14-12.21.51:964][108]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.14-12.21.52:034][108]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 69.944ms to complete.
+[2017.11.14-12.21.52:035][108]LogFileHelpers: Loading map 'Tutorial' took 0.199
+[2017.11.14-12.22.05:936][579]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.14-12.22.06:068][588]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGGame
+[2017.11.14-12.22.06:068][588]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.14-12.22.06:068][588]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.11.14-12.22.06:068][588]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.14-12.22.06:071][588]LogTemp: BranchPath = C217-09/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = C217-09/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.14-12.22.06:191][601]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jordan.boast\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.14-12.22.52:873][ 67]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.14-12.23.26:420][ 51]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.23.26:502][ 51]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.23.26:502][ 51]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:23:26)
+[2017.11.14-12.23.26:502][ 51]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.23.26:528][ 51]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025764s)
+[2017.11.14-12.23.26:528][ 51]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.23.26:529][ 51]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.11.14-12.23.26:529][ 51]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.026617s)
+[2017.11.14-12.23.26:541][ 51]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.23.26:550][ 51]LogInit: FAudioDevice initialized.
+[2017.11.14-12.23.26:595][ 51]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.23.26:598][ 51]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.23.26
+[2017.11.14-12.23.26:598][ 51]LogWorld: Bringing up level for play took: 0.001577
+[2017.11.14-12.23.26:636][ 51]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.11.14-12.23.26:638][ 51]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.489
+[2017.11.14-12.23.27:771][182]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-12.23.27:917][183]LogRenderer: Reallocating scene render targets to support 1572x812 NumSamples 1 (Frame:133).
+[2017.11.14-12.23.27:972][184]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:135).
+[2017.11.14-12.24.12:495][ 14]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.24.12:524][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.24.12:524][ 14]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:24:12)
+[2017.11.14-12.24.12:524][ 14]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.24.12:537][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012731s)
+[2017.11.14-12.24.12:538][ 14]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.24.12:538][ 14]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.11.14-12.24.12:538][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.013985s)
+[2017.11.14-12.24.12:557][ 14]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.24.12:569][ 14]LogInit: FAudioDevice initialized.
+[2017.11.14-12.24.12:598][ 14]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.24.12:601][ 14]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.24.12
+[2017.11.14-12.24.12:601][ 14]LogWorld: Bringing up level for play took: 0.001919
+[2017.11.14-12.24.12:603][ 14]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.455
+[2017.11.14-12.25.02:609][996]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.25.06:823][215]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.25.42:371][247]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.25.54:615][960]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.54:615][960]LogEditorTransaction: Undo Scale Actors
+[2017.11.14-12.25.55:049][972]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.55:049][972]LogEditorTransaction: Undo Select Brush Surface
+[2017.11.14-12.25.55:648][  5]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.55:648][  5]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.14-12.25.57:070][ 93]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.57:070][ 93]LogEditorTransaction: Undo Move Actors
+[2017.11.14-12.25.57:718][131]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.57:718][131]LogEditorTransaction: Undo Select Brush Surface
+[2017.11.14-12.25.58:643][188]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.58:643][188]LogEditorTransaction: Undo Move Actors
+[2017.11.14-12.25.59:992][269]Cmd: TRANSACTION UNDO
+[2017.11.14-12.25.59:992][269]LogEditorTransaction: Undo Select Brush Surface
+[2017.11.14-12.26.01:061][327]Cmd: TRANSACTION UNDO
+[2017.11.14-12.26.01:061][327]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.14-12.26.02:140][385]Cmd: TRANSACTION UNDO
+[2017.11.14-12.26.02:141][385]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.14-12.26.03:122][445]Cmd: TRANSACTION UNDO
+[2017.11.14-12.26.03:122][445]LogEditorTransaction: Undo Edit Game Default Map
+[2017.11.14-12.26.05:450][589]Cmd: SELECT NONE
+[2017.11.14-12.26.10:172][941]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.11.14-12.26.10:243][945]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGGame
+[2017.11.14-12.26.10:243][945]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.14-12.26.10:243][945]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.11.14-12.26.10:243][945]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.11.14-12.26.10:243][945]LogTemp: BranchPath = C217-09/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = C217-09/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.11.14-12.26.10:261][947]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\jordan.boast\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.11.14-12.26.17:791][728]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.14-12.26.18:104][728]LogSavePackage: Save=233.96ms
+[2017.11.14-12.26.18:104][728]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial65FDA64949D82DC7B29DBBA8B2090A5D.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.14-12.26.18:109][728]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.14-12.26.18:129][728]LogFileHelpers: Saving map 'Tutorial' took 0.375
+[2017.11.14-12.26.19:320][863]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.26.19:343][863]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.26.19:343][863]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:26:19)
+[2017.11.14-12.26.19:343][863]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.26.19:348][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005703s)
+[2017.11.14-12.26.19:349][863]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.26.19:349][863]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.11.14-12.26.19:349][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.006397s)
+[2017.11.14-12.26.19:358][863]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.26.19:366][863]LogInit: FAudioDevice initialized.
+[2017.11.14-12.26.19:396][863]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.26.19:398][863]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.26.19
+[2017.11.14-12.26.19:398][863]LogWorld: Bringing up level for play took: 0.001292
+[2017.11.14-12.26.19:400][863]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.747
+[2017.11.14-12.26.21:339][ 93]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-12.32.08:315][969]LogStaticMesh: Building static mesh BigRock1...
+[2017.11.14-12.32.08:323][969]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Rocks/BigRock1.BigRock1
+[2017.11.14-12.32.08:327][969]LogTexture:Display: Building textures: rockTexture1 (AutoDXT, 512X512)
+[2017.11.14-12.32.08:355][969]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.22:567][144]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Year 2\FMP\Charm\Assets\BigRock1NotBroke.fbx)
+[2017.11.14-12.32.22:583][144]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.14-12.32.22:583][144]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.14-12.32.22:584][144]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.14-12.32.22:584][144]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.14-12.32.22:584][144]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.14-12.32.22:584][144]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.14-12.32.22:591][144]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\BigRock1NotBroke.fbx
+[2017.11.14-12.32.22:601][144]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.32.24:406][144]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\BigRock1NotBroke.fbx
+[2017.11.14-12.32.24:411][144]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.32.24:413][144]LogLinker: Can't find file '/Game/Assets/Rocks/Rock'
+[2017.11.14-12.32.24:413][144]LogLinker: Can't find file '/Game/Assets/Rocks/Rock'
+[2017.11.14-12.32.24:416][144]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.24:428][144]LogFbx:Warning: Triangulating static mesh BigRock1
+[2017.11.14-12.32.24:439][144]LogStaticMesh: Building static mesh BigRock1NotBroke...
+[2017.11.14-12.32.24:446][144]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Rocks/BigRock1NotBroke.BigRock1NotBroke
+[2017.11.14-12.32.29:022][391]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.29:117][391]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.29:128][391]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.29:165][391]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.32.29:192][391]LogSlate: Took 0.019227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.14-12.32.29:392][392]LogSlate: Took 0.005749 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.14-12.32.29:863][447]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.32.29:863][447]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.32.29:863][447]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.32.33:995][940]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.34:008][940]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.32.34:698][ 20]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.32.34:698][ 20]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.32.34:698][ 20]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.32.36:129][190]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.36:149][190]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.32.36:823][268]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.32.36:823][268]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.32.36:823][268]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.32.38:409][458]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.38:421][458]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.32.39:073][533]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.32.39:073][533]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.32.39:074][533]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.32.46:217][390]LogMaterialEditor: Applying material Rock
+[2017.11.14-12.32.46:699][390]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.46:731][390]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.46:753][390]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.32.46:789][390]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rock, compiling. 
+[2017.11.14-12.32.47:308][390]TextureStreamingBuild:Display: Compiling optional shaders took 0.530 seconds.
+[2017.11.14-12.32.47:442][404]LogMaterialEditor: Saving and Compiling material Rock
+[2017.11.14-12.32.48:499][404]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/Rock" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset" SILENT=true
+[2017.11.14-12.32.48:526][404]LogSavePackage: Save=24.44ms
+[2017.11.14-12.32.48:527][404]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Rock474086E64674C014B498D395261C2CF7.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset'
+[2017.11.14-12.32.48:529][404]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset
+[2017.11.14-12.32.48:532][404]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.32.48:532][404]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.32.48:532][404]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.33.04:744][375]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/BigRock1NotBroke" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/BigRock1NotBroke.uasset" SILENT=true
+[2017.11.14-12.33.04:766][375]LogSavePackage: Save=17.31ms
+[2017.11.14-12.33.04:766][375]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/BigRock1NotBroke130E98234DBC1DAB30A3F4AFB30F2525.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/BigRock1NotBroke.uasset'
+[2017.11.14-12.33.04:768][375]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/BigRock1NotBroke.uasset
+[2017.11.14-12.33.12:196][ 45]LogActorFactory: Actor Factory created BigRock1NotBroke
+[2017.11.14-12.33.13:374][172]LogActorFactory: Actor Factory created BigRock1NotBroke
+[2017.11.14-12.33.37:625][709]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (BigRock1NotBroke)
+[2017.11.14-12.33.52:903][295]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.34.04:215][381]MapCheck: New page: Map Check
+[2017.11.14-12.34.04:223][381]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.14-12.34.04:223][381]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.14-12.34.04:235][381]LightingResults: New page: Lighting Build - 14 Nov 2017 12:34:04
+[2017.11.14-12.34.04:322][381]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.14-12.34.04:401][381]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.14-12.34.04:410][381]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.14-12.34.05:539][381]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.14-12.34.05:539][381]LogSwarmInterface: [TryOpenConnection] Local Process ID is 211760
+[2017.11.14-12.34.07:886][381]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.14-12.34.07:887][381]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.14-12.34.07:887][381]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.14-12.34.07:887][381]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.14-12.34.07:887][381]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.14-12.34.07:887][381]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.14-12.34.08:094][381]LogEditorBuildUtils: Build time 0:03
+[2017.11.14-12.34.08:188][382]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.14-12.34.08:193][382]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.14-12.34.08:575][395]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.14-12.34.08:583][395]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.14-12.34.08:598][396]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.14-12.34.08:604][396]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.14-12.34.08:616][397]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.14-12.34.08:621][397]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.14-12.34.08:637][398]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.14-12.34.08:643][398]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.14-12.34.13:210][584]Job is a success!
+[2017.11.14-12.34.13:264][585]LogMaterial:Warning: Material /Game/Assets/Rocks/Rock.Rock needed to have new flag set bUsedWithStaticLighting !
+[2017.11.14-12.34.13:266][585]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 1024X512)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 1024X1024)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 1024X1024)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 256X128)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 256X256)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 256X256)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.14-12.34.13:492][585]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.14-12.34.13:513][585]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 32X512)
+[2017.11.14-12.34.13:513][585]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 32X32)
+[2017.11.14-12.34.13:513][585]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 512X64)
+[2017.11.14-12.34.13:679][585]Lightmass on C217-09: 1.37 sec total, 280 ms importing, 29 ms setup, 311 ms photons, 742 ms processing, 0 ms extra exporting [62/62 mappings]. Threads: 5.03 sec total, 2.02 sec processing.
+[2017.11.14-12.34.13:703][585]LogStaticLightingSystem: Illumination: 9.45 sec (204 ms encoding lightmaps, 16 ms encoding shadowmaps)
+[2017.11.14-12.34.13:703][585]LogStaticLightingSystem: Lightmap texture memory:  2.8 MB (0.2 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.14-12.34.13:703][585]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.0 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.11.14-12.34.13:903][585]DumpUnbuiltLightIteractions
+[2017.11.14-12.34.13:904][585]Lights with unbuilt interactions: 0
+[2017.11.14-12.34.13:904][585]
+[2017.11.14-12.34.13:904][585]Primitives with unbuilt interactions: 0
+[2017.11.14-12.34.13:912][586]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.14-12.34.13:912][586]MapCheck: New page: Tutorial - 14 Nov 2017 12:34:13
+[2017.11.14-12.34.13:965][586]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 53.869ms to complete.
+[2017.11.14-12.36.49:526][830]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Year 2\FMP\Charm\Assets\Spruce3.fbx)
+[2017.11.14-12.36.49:538][830]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.14-12.36.49:538][830]LogFbx: ItemName: AnimationStack, ItemCount : 1
+[2017.11.14-12.36.49:538][830]LogFbx: ItemName: AnimationLayer, ItemCount : 1
+[2017.11.14-12.36.49:538][830]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.14-12.36.49:538][830]LogFbx: ItemName: Material, ItemCount : 2
+[2017.11.14-12.36.49:538][830]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.14-12.36.49:555][830]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\Spruce3.fbx
+[2017.11.14-12.36.49:577][830]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.36.51:141][830]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\Spruce3.fbx
+[2017.11.14-12.36.51:147][830]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.36.51:149][830]LogLinker: Can't find file '/Game/Assets/Trees/SpruceTreeTrunk'
+[2017.11.14-12.36.51:149][830]LogLinker: Can't find file '/Game/Assets/Trees/SpruceTreeTrunk'
+[2017.11.14-12.36.51:154][830]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.36.51:166][830]LogLinker: Can't find file '/Game/Assets/Trees/SpruceTreeLeaf'
+[2017.11.14-12.36.51:166][830]LogLinker: Can't find file '/Game/Assets/Trees/SpruceTreeLeaf'
+[2017.11.14-12.36.51:170][830]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.36.51:185][830]LogFbx:Warning: Triangulating static mesh SpruceTree3
+[2017.11.14-12.36.51:201][830]LogStaticMesh: Building static mesh Spruce3...
+[2017.11.14-12.36.51:217][830]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Trees/Spruce3.Spruce3
+[2017.11.14-12.37.15:612][100]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/Spruce3" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/Spruce3.uasset" SILENT=true
+[2017.11.14-12.37.15:629][100]LogSavePackage: Save=13.81ms
+[2017.11.14-12.37.15:629][100]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Spruce38DDD70394B7DE7B729D9EB9AB551CA9E.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/Spruce3.uasset'
+[2017.11.14-12.37.15:634][100]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/Spruce3.uasset
+[2017.11.14-12.37.20:397][378]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.20:455][378]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.20:466][378]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.20:502][378]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.21:415][441]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.21:415][441]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.21:415][441]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.28:164][946]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.28:177][946]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.28:880][993]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.28:880][993]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.28:880][993]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.30:193][ 81]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.30:204][ 81]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.30:944][132]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.30:945][132]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.30:945][132]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.34:224][378]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.34:236][378]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.34:948][431]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.34:948][431]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.34:948][431]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.38:741][696]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.38:756][696]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.39:486][746]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.39:486][746]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.39:486][746]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.42:632][968]LogMaterialEditor: Applying material SpruceTreeLeaf
+[2017.11.14-12.37.43:092][968]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.43:121][968]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.43:143][968]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.43:176][968]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SpruceTreeLeaf, compiling. 
+[2017.11.14-12.37.43:664][968]TextureStreamingBuild:Display: Compiling optional shaders took 0.494 seconds.
+[2017.11.14-12.37.44:152][  6]LogMaterialEditor: Saving and Compiling material SpruceTreeLeaf
+[2017.11.14-12.37.44:918][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/SpruceTreeLeaf" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset" SILENT=true
+[2017.11.14-12.37.44:940][  6]LogSavePackage: Save=18.50ms
+[2017.11.14-12.37.44:940][  6]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/SpruceTreeLeaf5F2B103A473EB29A2C7026A29F453316.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset'
+[2017.11.14-12.37.44:942][  6]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset
+[2017.11.14-12.37.44:947][  6]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.44:947][  6]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.44:947][  6]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.37.46:949][122]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.37.47:001][122]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.37.47:011][122]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.37.47:045][122]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.47:793][172]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.47:793][172]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.47:793][172]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.53:615][611]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.37.53:630][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.54:331][661]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.54:331][661]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.54:331][661]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.55:967][771]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.37.55:983][771]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.56:687][814]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.56:687][814]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.56:687][814]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.37.57:656][879]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.37.57:671][879]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.37.58:364][926]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.37.58:365][926]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.37.58:365][926]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.38.00:802][100]LogMaterialEditor: Applying material SpruceTreeTrunk
+[2017.11.14-12.38.01:278][100]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.38.01:308][100]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.38.01:329][100]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.38.01:363][100]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SpruceTreeTrunk, compiling. 
+[2017.11.14-12.38.01:874][100]TextureStreamingBuild:Display: Compiling optional shaders took 0.517 seconds.
+[2017.11.14-12.38.02:328][135]LogMaterialEditor: Saving and Compiling material SpruceTreeTrunk
+[2017.11.14-12.38.03:133][135]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/SpruceTreeTrunk" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeTrunk.uasset" SILENT=true
+[2017.11.14-12.38.03:154][135]LogSavePackage: Save=17.05ms
+[2017.11.14-12.38.03:154][135]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/SpruceTreeTrunkDCE2B3AA45A28E0E6FE72DA9C6A1A303.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeTrunk.uasset'
+[2017.11.14-12.38.03:157][135]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeTrunk.uasset
+[2017.11.14-12.38.03:162][135]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.38.03:162][135]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.38.03:162][135]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.38.09:613][472]LogActorFactory: Actor Factory created Spruce3
+[2017.11.14-12.38.11:354][649]LogActorFactory: Actor Factory created Spruce3
+[2017.11.14-12.39.06:106][236]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.14-12.39.06:171][236]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.14-12.39.06:182][236]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2017.11.14-12.39.06:216][236]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.39.07:249][345]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.14-12.39.07:249][345]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.39.07:249][345]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.14-12.39.10:232][611]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.10:304][611]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.10:314][611]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.10:350][611]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.39.11:012][656]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.39.11:012][656]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.39.11:012][656]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.39.13:516][850]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.14:198][903]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.39.14:198][903]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.39.14:198][903]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.39.16:295][ 65]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.16:997][121]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.39.16:997][121]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.39.16:997][121]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.39.18:606][245]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.19:273][298]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.14-12.39.19:273][298]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.39.19:273][298]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.39.20:845][420]LogMaterialEditor: Applying material SpruceTreeLeaf
+[2017.11.14-12.39.21:293][420]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.11.14-12.39.21:320][420]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.39.21:342][420]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.39.21:374][420]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SpruceTreeLeaf, compiling. 
+[2017.11.14-12.39.21:934][420]TextureStreamingBuild:Display: Compiling optional shaders took 0.566 seconds.
+[2017.11.14-12.39.23:189][518]LogMaterialEditor: Saving and Compiling material SpruceTreeLeaf
+[2017.11.14-12.39.23:284][518]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/SpruceTreeLeaf" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset" SILENT=true
+[2017.11.14-12.39.23:336][518]LogSavePackage: Save=16.46ms
+[2017.11.14-12.39.23:336][518]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/SpruceTreeLeaf78D793A9488C25B4ECD1349E5BDEA4BD.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset'
+[2017.11.14-12.39.23:339][518]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset
+[2017.11.14-12.39.23:345][518]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.14-12.39.23:345][518]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.39.23:345][518]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.39.26:425][802]MapCheck: New page: Map Check
+[2017.11.14-12.39.26:437][802]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.14-12.39.26:437][802]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.14-12.39.26:445][802]LightingResults: New page: Lighting Build - 14 Nov 2017 12:39:26
+[2017.11.14-12.39.26:455][802]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.14-12.39.26:487][802]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.14-12.39.26:487][802]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.14-12.39.26:488][802]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.14-12.39.26:488][802]LogSwarmInterface: [TryOpenConnection] Local Process ID is 211760
+[2017.11.14-12.39.31:019][802]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.14-12.39.31:020][802]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.14-12.39.31:020][802]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.14-12.39.31:020][802]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.14-12.39.31:020][802]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.14-12.39.31:020][802]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.14-12.39.31:165][802]LogEditorBuildUtils: Build time 0:04
+[2017.11.14-12.39.31:177][802]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.14-12.39.31:182][802]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.14-12.39.31:198][803]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.14-12.39.31:203][803]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.14-12.39.31:229][804]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.14-12.39.31:235][804]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.14-12.39.33:928][961]Job is a success!
+[2017.11.14-12.39.33:978][962]LogMaterial:Warning: Material /Game/Assets/Trees/SpruceTreeTrunk.SpruceTreeTrunk needed to have new flag set bUsedWithStaticLighting !
+[2017.11.14-12.39.33:980][962]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2017.11.14-12.39.34:001][962]LogMaterial:Warning: Material /Game/Assets/Trees/SpruceTreeLeaf.SpruceTreeLeaf needed to have new flag set bUsedWithStaticLighting !
+[2017.11.14-12.39.34:003][962]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 1024X512)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 1024X1024)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 1024X1024)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 512X256)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 512X512)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 512X512)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.14-12.39.34:249][962]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.14-12.39.34:294][962]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 32X32)
+[2017.11.14-12.39.34:294][962]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 32X512)
+[2017.11.14-12.39.34:294][962]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 1024X64)
+[2017.11.14-12.39.34:314][962]Lightmass on C217-09: 1.46 sec total, 196 ms importing, 27 ms setup, 272 ms photons, 949 ms processing, 0 ms extra exporting [64/64 mappings]. Threads: 6.46 sec total, 3.00 sec processing.
+[2017.11.14-12.39.34:323][962]LogStaticLightingSystem: Illumination: 7.86 sec (225 ms encoding lightmaps, 42 ms encoding shadowmaps)
+[2017.11.14-12.39.34:323][962]LogStaticLightingSystem: Lightmap texture memory:  3.3 MB (0.7 MB streaming, 2.7 MB non-streaming), 6 textures
+[2017.11.14-12.39.34:323][962]LogStaticLightingSystem: Shadowmap texture memory: 0.1 MB (0.1 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.11.14-12.39.35:037][962]DumpUnbuiltLightIteractions
+[2017.11.14-12.39.35:037][962]Lights with unbuilt interactions: 0
+[2017.11.14-12.39.35:037][962]
+[2017.11.14-12.39.35:037][962]Primitives with unbuilt interactions: 0
+[2017.11.14-12.39.35:046][963]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.14-12.39.35:046][963]MapCheck: New page: Tutorial - 14 Nov 2017 12:39:35
+[2017.11.14-12.39.35:100][963]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 54.159ms to complete.
+[2017.11.14-12.39.36:043][ 56]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.39.36:062][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.39.36:062][ 56]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:39:36)
+[2017.11.14-12.39.36:063][ 56]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.39.36:071][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008540s)
+[2017.11.14-12.39.36:072][ 56]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.39.36:072][ 56]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.11.14-12.39.36:072][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.009385s)
+[2017.11.14-12.39.36:083][ 56]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.39.36:094][ 56]LogInit: FAudioDevice initialized.
+[2017.11.14-12.39.36:129][ 56]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.39.36:132][ 56]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.39.36
+[2017.11.14-12.39.36:132][ 56]LogWorld: Bringing up level for play took: 0.002482
+[2017.11.14-12.39.36:135][ 56]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.002
+[2017.11.14-12.39.36:676][117]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-12.40.17:397][667]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.40.17:415][667]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.40.17:415][667]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:40:17)
+[2017.11.14-12.40.17:415][667]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.40.17:422][667]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006626s)
+[2017.11.14-12.40.17:422][667]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.40.17:422][667]LogPlayLevel: PIE: World Init took: (0.000574s)
+[2017.11.14-12.40.17:422][667]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.007386s)
+[2017.11.14-12.40.17:432][667]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.40.17:441][667]LogInit: FAudioDevice initialized.
+[2017.11.14-12.40.17:476][667]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.40.17:479][667]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.40.17
+[2017.11.14-12.40.17:479][667]LogWorld: Bringing up level for play took: 0.002131
+[2017.11.14-12.40.17:481][667]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.655
+[2017.11.14-12.41.01:840][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.14-12.41.02:000][812]LogSavePackage: Save=136.87ms
+[2017.11.14-12.41.02:000][812]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial43FE3F304C7312E2F897CB92D7631C4B.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.14-12.41.02:004][812]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.14-12.41.02:027][812]LogFileHelpers: Saving map 'Tutorial' took 0.226
+[2017.11.14-12.41.02:028][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.14-12.41.02:127][812]LogSavePackage: Save=96.62ms
+[2017.11.14-12.41.02:127][812]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData6A6E353B42FCAC6EB6E26B9B6735323A.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2017.11.14-12.41.02:130][812]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.14-12.41.02:133][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Rocks/Rock" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset" SILENT=true
+[2017.11.14-12.41.02:160][812]LogSavePackage: Save=13.15ms
+[2017.11.14-12.41.02:160][812]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/RockD78A83D94B603E6ADD5716861EEEE114.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset'
+[2017.11.14-12.41.02:163][812]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Rocks/Rock.uasset
+[2017.11.14-12.41.02:165][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/SpruceTreeTrunk" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeTrunk.uasset" SILENT=true
+[2017.11.14-12.41.02:202][812]LogSavePackage: Save=27.13ms
+[2017.11.14-12.41.02:202][812]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/SpruceTreeTrunk76E31A3942B9870590359DA3F34D2C62.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeTrunk.uasset'
+[2017.11.14-12.41.02:206][812]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeTrunk.uasset
+[2017.11.14-12.41.02:208][812]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/SpruceTreeLeaf" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset" SILENT=true
+[2017.11.14-12.41.02:219][812]LogSavePackage: Save=7.53ms
+[2017.11.14-12.41.02:219][812]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/SpruceTreeLeafC0A7376845B78B66F14404A57B77E6A4.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset'
+[2017.11.14-12.41.02:222][812]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/SpruceTreeLeaf.uasset
+[2017.11.14-12.48.11:271][884]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Year 2\FMP\Charm\Assets\pileofbricks.fbx)
+[2017.11.14-12.48.11:300][884]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.14-12.48.11:300][884]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.14-12.48.11:300][884]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.14-12.48.11:300][884]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.14-12.48.11:300][884]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.11.14-12.48.11:315][884]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\pileofbricks.fbx
+[2017.11.14-12.48.11:346][884]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.48.14:739][884]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\pileofbricks.fbx
+[2017.11.14-12.48.14:746][884]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.48.14:748][884]LogLinker: Can't find file '/Game/Assets/Debris/stone'
+[2017.11.14-12.48.14:748][884]LogLinker: Can't find file '/Game/Assets/Debris/stone'
+[2017.11.14-12.48.14:754][884]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.14:782][884]LogStaticMesh: Building static mesh pileofbricks...
+[2017.11.14-12.48.14:794][884]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Debris/pileofbricks.pileofbricks
+[2017.11.14-12.48.14:801][884]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.14-12.48.20:740][213]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.20:788][213]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.20:798][213]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.20:831][213]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.48.21:615][265]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.48.21:615][265]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.48.21:615][265]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.48.27:132][646]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.27:148][646]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.48.27:861][694]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.48.27:861][694]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.48.27:861][694]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.48.30:727][883]LogMaterialEditor: Applying material stone
+[2017.11.14-12.48.31:209][883]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.31:237][883]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.31:259][883]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.48.31:291][883]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stone, compiling. 
+[2017.11.14-12.48.31:822][883]TextureStreamingBuild:Display: Compiling optional shaders took 0.537 seconds.
+[2017.11.14-12.48.31:937][892]LogMaterialEditor: Saving and Compiling material stone
+[2017.11.14-12.48.33:069][892]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Debris/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/stone.uasset" SILENT=true
+[2017.11.14-12.48.33:125][892]LogSavePackage: Save=15.46ms
+[2017.11.14-12.48.33:125][892]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stone89E573FC45C32529CB01E5A1D2B44942.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/stone.uasset'
+[2017.11.14-12.48.33:128][892]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/stone.uasset
+[2017.11.14-12.48.33:133][892]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.48.33:133][892]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.48.33:133][892]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.48.57:988][262]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Debris/pileofbricks" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/pileofbricks.uasset" SILENT=true
+[2017.11.14-12.48.58:006][262]LogSavePackage: Save=14.72ms
+[2017.11.14-12.48.58:006][262]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/pileofbricks7C2E5FDD4C4440F6D0C68783B5F3A5CA.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/pileofbricks.uasset'
+[2017.11.14-12.48.58:009][262]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/pileofbricks.uasset
+[2017.11.14-12.49.07:059][  0]LogActorFactory: Actor Factory created pileofbricks
+[2017.11.14-12.49.08:040][ 91]LogActorFactory: Actor Factory created pileofbricks
+[2017.11.14-12.49.12:624][516]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.49.16:833][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (pileofbricks)
+[2017.11.14-12.49.35:065][516]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.49.52:538][543]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 E:\Year 2\FMP\Charm\Assets\Wall.fbx)
+[2017.11.14-12.49.52:558][543]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2017.11.14-12.49.52:558][543]LogFbx: ItemName: Model, ItemCount : 1
+[2017.11.14-12.49.52:558][543]LogFbx: ItemName: Geometry, ItemCount : 1
+[2017.11.14-12.49.52:558][543]LogFbx: ItemName: Material, ItemCount : 1
+[2017.11.14-12.49.52:558][543]LogFbx: ItemName: Texture, ItemCount : 2
+[2017.11.14-12.49.52:570][543]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\Wall.fbx
+[2017.11.14-12.49.52:587][543]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.50.04:081][543]LogFbx: Loading FBX Scene from E:\Year 2\FMP\Charm\Assets\Wall.fbx
+[2017.11.14-12.50.04:087][543]LogFbx: FBX Scene Loaded Succesfully
+[2017.11.14-12.50.04:090][543]LogLinker: Can't find file '/Game/Assets/Walls/stone'
+[2017.11.14-12.50.04:090][543]LogLinker: Can't find file '/Game/Assets/Walls/stone'
+[2017.11.14-12.50.04:095][543]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.50.04:107][543]LogStaticMesh: Building static mesh Wall...
+[2017.11.14-12.50.04:111][543]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Walls/Wall.Wall
+[2017.11.14-12.50.04:117][543]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2017.11.14-12.50.06:970][710]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.07:019][710]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.07:030][710]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.07:064][710]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.50.07:846][757]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.07:846][757]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.07:846][757]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.14:828][203]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.14:841][203]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.14-12.50.15:600][249]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.15:600][249]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.15:600][249]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.21:039][601]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.21:727][648]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.21:727][648]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.21:727][648]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.23:778][784]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.24:450][830]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.24:450][830]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.24:450][830]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.26:519][968]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.27:226][ 17]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.27:226][ 17]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.27:226][ 17]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.31:081][275]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.31:819][326]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.31:819][326]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.31:819][326]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.34:270][490]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.34:942][536]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.34:942][536]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.34:942][536]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.38:363][765]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.39:057][812]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.39:057][812]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.39:057][812]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.41:815][997]LogMaterialEditor: Applying material stone
+[2017.11.14-12.50.42:281][997]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.42:311][997]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.50.42:332][997]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.50.42:366][997]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stone, compiling. 
+[2017.11.14-12.50.42:857][997]TextureStreamingBuild:Display: Compiling optional shaders took 0.497 seconds.
+[2017.11.14-12.50.44:189][ 87]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.44:189][ 87]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.44:189][ 87]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.50.45:510][174]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.46:171][219]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2017.11.14-12.50.46:171][219]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.46:171][219]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.50:481][506]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.51:184][554]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.14-12.50.51:184][554]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.51:184][554]MaterialEditorStats: Info Texture samplers: 1/16
+[2017.11.14-12.50.53:497][708]LogMaterialEditor: Applying material stone
+[2017.11.14-12.50.53:957][708]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.11.14-12.50.53:988][708]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.50.54:009][708]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.50.54:041][708]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy stone, compiling. 
+[2017.11.14-12.50.54:543][708]TextureStreamingBuild:Display: Compiling optional shaders took 0.508 seconds.
+[2017.11.14-12.50.54:886][732]LogMaterialEditor: Saving and Compiling material stone
+[2017.11.14-12.50.55:715][732]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/stone.uasset" SILENT=true
+[2017.11.14-12.50.55:733][732]LogSavePackage: Save=14.49ms
+[2017.11.14-12.50.55:733][732]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stone9E3F904348814F6F65BE779DDD027A58.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/stone.uasset'
+[2017.11.14-12.50.55:735][732]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/stone.uasset
+[2017.11.14-12.50.55:740][732]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.14-12.50.55:740][732]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.14-12.50.55:740][732]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.11.14-12.51.12:761][582]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/Wall" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/Wall.uasset" SILENT=true
+[2017.11.14-12.51.12:778][582]LogSavePackage: Save=13.29ms
+[2017.11.14-12.51.12:778][582]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Wall8E18A3AC447864850ED28EB25F4803C0.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/Wall.uasset'
+[2017.11.14-12.51.12:780][582]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/Wall.uasset
+[2017.11.14-12.51.14:950][721]LogActorFactory: Actor Factory created Wall
+[2017.11.14-12.51.15:939][806]LogActorFactory: Actor Factory created Wall
+[2017.11.14-12.51.39:334][206]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.51.44:202][625]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.14-12.51.52:327][374]Cmd: DELETE
+[2017.11.14-12.51.52:327][374]Cmd: ACTOR DELETE
+[2017.11.14-12.51.52:328][374]LogEditorActor: Deleted Actor: Brush
+[2017.11.14-12.51.52:341][374]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.11.14-12.51.53:636][498]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.14-12.52.00:846][145]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.52.06:110][576]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2017.11.14-12.52.12:566][174]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall2)
+[2017.11.14-12.52.13:854][292]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall3)
+[2017.11.14-12.52.16:816][563]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.52.20:704][880]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall4)
+[2017.11.14-12.52.25:147][289]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.52.38:242][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall)
+[2017.11.14-12.52.48:514][361]Cmd: DELETE
+[2017.11.14-12.52.48:514][361]Cmd: ACTOR DELETE
+[2017.11.14-12.52.48:514][361]LogEditorActor: Deleted Actor: Brush
+[2017.11.14-12.52.48:526][361]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.11.14-12.52.49:696][473]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2017.11.14-12.52.55:461][  5]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall6)
+[2017.11.14-12.52.56:061][ 58]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall7)
+[2017.11.14-12.53.03:876][768]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Wall8)
+[2017.11.14-12.53.18:472][125]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.14-12.53.23:071][515]LogMaterial: Missing cached shader map for material LayerVisMaterial, compiling. 
+[2017.11.14-12.53.23:117][515]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.11.14-12.53.23:144][515]LogMaterial: Missing cached shader map for material SelectBrushMaterial, compiling. 
+[2017.11.14-12.53.23:206][515]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.11.14-12.53.23:241][515]LogMaterial: Missing cached shader map for material LandscapeLayerUsageMaterial, compiling. 
+[2017.11.14-12.53.23:324][515]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.14-12.53.23:340][515]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.14-12.53.23:359][515]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.14-12.53.23:384][515]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.14-12.53.23:421][515]LogMaterial: Missing cached shader map for material AlphaBrushMaterial, compiling. 
+[2017.11.14-12.53.23:451][515]LogMaterial: Missing cached shader map for material CircleBrushMaterial, compiling. 
+[2017.11.14-12.53.23:488][515]LogMaterial: Missing cached shader map for material MaskBrushMaterial, compiling. 
+[2017.11.14-12.53.23:532][515]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.11.14-12.53.51:548][150]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2017.11.14-12.54.34:297][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.14-12.54.34:335][ 66]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2017.11.14-12.54.34:457][ 66]LogSavePackage: Save=139.01ms
+[2017.11.14-12.54.34:457][ 66]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/TutorialACD828D2482FBA67AA77BD9CBBF45A73.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.14-12.54.34:461][ 66]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.14-12.54.34:485][ 66]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.14-12.54.34:584][ 66]LogSavePackage: Save=86.46ms
+[2017.11.14-12.54.34:584][ 66]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltDataFE96BFB047212A1B3DA11389ACEFCE6D.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2017.11.14-12.54.34:585][ 66]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.14-12.54.36:870][272]MapCheck: New page: Map Check
+[2017.11.14-12.54.36:882][272]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.14-12.54.36:882][272]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.14-12.54.36:890][272]LightingResults: New page: Lighting Build - 14 Nov 2017 12:54:36
+[2017.11.14-12.54.36:903][272]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.14-12.54.36:929][272]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.14-12.54.36:929][272]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.14-12.54.36:930][272]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.14-12.54.36:930][272]LogSwarmInterface: [TryOpenConnection] Local Process ID is 211760
+[2017.11.14-12.54.41:442][272]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.14-12.54.41:443][272]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.14-12.54.41:443][272]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.14-12.54.41:443][272]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.14-12.54.41:443][272]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.14-12.54.41:443][272]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.14-12.54.41:598][272]LogEditorBuildUtils: Build time 0:04
+[2017.11.14-12.54.41:611][272]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.14-12.54.41:615][272]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.14-12.54.41:633][273]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.14-12.54.41:640][273]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.14-12.54.41:671][274]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.14-12.54.41:677][274]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.14-12.54.41:693][275]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.14-12.54.41:697][275]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.14-12.54.44:916][420]Job is a success!
+[2017.11.14-12.54.44:982][421]LogMaterial:Warning: Material /Game/Assets/Walls/stone.stone needed to have new flag set bUsedWithStaticLighting !
+[2017.11.14-12.54.44:983][421]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.54.45:006][421]LogMaterial:Warning: Material /Game/Assets/Debris/stone.stone needed to have new flag set bUsedWithStaticLighting !
+[2017.11.14-12.54.45:008][421]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 64X32)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 64X64)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 64X64)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.14-12.54.45:252][421]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.14-12.54.45:298][421]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X32)
+[2017.11.14-12.54.45:298][421]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 32X32)
+[2017.11.14-12.54.45:298][421]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 1024X128)
+[2017.11.14-12.54.45:320][421]Lightmass on C217-09: 1.58 sec total, 153 ms importing, 33 ms setup, 291 ms photons, 1.09 sec processing, 0 ms extra exporting [63/63 mappings]. Threads: 7.48 sec total, 3.78 sec processing.
+[2017.11.14-12.54.45:329][421]LogStaticLightingSystem: Illumination: 8.41 sec (225 ms encoding lightmaps, 43 ms encoding shadowmaps)
+[2017.11.14-12.54.45:329][421]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.14-12.54.45:329][421]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 3 textures
+[2017.11.14-12.54.45:474][421]DumpUnbuiltLightIteractions
+[2017.11.14-12.54.45:474][421]Lights with unbuilt interactions: 0
+[2017.11.14-12.54.45:474][421]
+[2017.11.14-12.54.45:474][421]Primitives with unbuilt interactions: 0
+[2017.11.14-12.54.45:483][422]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.14-12.54.45:483][422]MapCheck: New page: Tutorial - 14 Nov 2017 12:54:45
+[2017.11.14-12.54.45:545][422]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 61.469ms to complete.
+[2017.11.14-12.55.14:740][192]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.55.14:758][192]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.55.14:758][192]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:55:14)
+[2017.11.14-12.55.14:758][192]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.55.14:767][192]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008908s)
+[2017.11.14-12.55.14:768][192]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.55.14:768][192]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2017.11.14-12.55.14:769][192]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.010108s)
+[2017.11.14-12.55.14:777][192]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.55.14:786][192]LogInit: FAudioDevice initialized.
+[2017.11.14-12.55.14:816][192]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.55.14:819][192]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.55.14
+[2017.11.14-12.55.14:819][192]LogWorld: Bringing up level for play took: 0.001653
+[2017.11.14-12.55.14:821][192]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.691
+[2017.11.14-12.55.16:022][313]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-12.56.03:379][374]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-12.58.01:003][751]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.14-12.58.01:021][751]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.14-12.58.01:021][751]PIE: New page: PIE session: Tutorial (14 Nov 2017 12:58:01)
+[2017.11.14-12.58.01:021][751]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.14-12.58.01:028][751]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006605s)
+[2017.11.14-12.58.01:029][751]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.14-12.58.01:029][751]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2017.11.14-12.58.01:029][751]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.007591s)
+[2017.11.14-12.58.01:040][751]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2017.11.14-12.58.01:050][751]LogInit: FAudioDevice initialized.
+[2017.11.14-12.58.01:078][751]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.14-12.58.01:081][751]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.14-12.58.01
+[2017.11.14-12.58.01:081][751]LogWorld: Bringing up level for play took: 0.001629
+[2017.11.14-12.58.01:083][751]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.952
+[2017.11.14-12.58.02:362][874]Cmd: LevelEditor.ToggleImmersive
+[2017.11.14-12.59.08:141][445]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0005 seconds. Added 2 classes and 2 folders.
+[2017.11.14-13.05.51:354][755]LogSavePackage: Save=178.01ms
+[2017.11.14-13.05.51:355][755]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_Auto1EB46F57F4A833B1F367B5097E36AA428.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto1.umap'
+[2017.11.14-13.05.51:356][755]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto1.umap
+[2017.11.14-13.05.51:361][755]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/ThirdPersonBP/Maps/Tutorial' took 0.206
+[2017.11.14-13.05.51:361][755]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.206
+[2017.11.14-13.05.51:362][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/ThirdPersonBP/Maps/Tutorial_BuiltData] ([1] browsable assets)...
+[2017.11.14-13.05.51:362][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/ThirdPersonBP/Maps/Tutorial_BuiltData]
+[2017.11.14-13.05.51:416][755]LogSavePackage: Save=41.43ms
+[2017.11.14-13.05.51:416][755]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData_Auto18C1AD17E4F19D60089BB44B34B04DBA0.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_BuiltData_Auto1.uasset'
+[2017.11.14-13.05.51:417][755]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_BuiltData_Auto1.uasset
+[2017.11.14-13.05.51:418][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Debris/stone] ([1] browsable assets)...
+[2017.11.14-13.05.51:418][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Debris/stone]
+[2017.11.14-13.05.51:418][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Debris/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Debris/stone_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.14-13.05.51:552][755]LogSavePackage: Save=125.46ms
+[2017.11.14-13.05.51:552][755]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stone_Auto181A957FE463B6880062852A36F265188.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Debris/stone_Auto1.uasset'
+[2017.11.14-13.05.51:553][755]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Debris/stone_Auto1.uasset
+[2017.11.14-13.05.51:553][755]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Assets/Walls/stone] ([1] browsable assets)...
+[2017.11.14-13.05.51:553][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Walls/stone]
+[2017.11.14-13.05.51:553][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Walls/stone_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.14-13.05.51:566][755]LogSavePackage: Save=8.14ms
+[2017.11.14-13.05.51:566][755]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stone_Auto1D95F29374A9FEC8EE0F617BEF2B156B9.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Walls/stone_Auto1.uasset'
+[2017.11.14-13.05.51:566][755]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Walls/stone_Auto1.uasset
+[2017.11.14-13.05.51:567][755]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Particles/Magic] ([1] browsable assets)...
+[2017.11.14-13.05.51:572][755]OBJ SavePackage:     Rendered thumbnail for [ParticleSystem /Game/Particles/Magic.Magic]
+[2017.11.14-13.05.51:572][755]OBJ SavePackage: Finished generating thumbnails for package [/Game/Particles/Magic]
+[2017.11.14-13.05.51:572][755]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Magic" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Particles/Magic_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2017.11.14-13.05.51:586][755]LogSavePackage: Save=11.06ms
+[2017.11.14-13.05.51:586][755]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Magic_Auto15E8FA7534931A2F98CCD6D8FE9646E83.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Particles/Magic_Auto1.uasset'
+[2017.11.14-13.05.51:586][755]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Particles/Magic_Auto1.uasset
+[2017.11.14-13.05.51:586][755]LogFileHelpers: Auto-saving content packages took 0.225
+[2017.11.14-13.07.09:376][212]LogCascade: Quitting Cascade. FXSystem=0x000001C5ED425DA0
+[2017.11.14-13.07.12:067][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.14-13.07.12:226][433]LogSavePackage: Save=146.10ms
+[2017.11.14-13.07.12:227][433]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial659709044DF5DE6C91698BB02EF21C8A.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.14-13.07.12:236][433]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.14-13.07.12:262][433]LogFileHelpers: Saving map 'Tutorial' took 0.241
+[2017.11.14-13.07.12:263][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.14-13.07.12:334][433]LogSavePackage: Save=67.57ms
+[2017.11.14-13.07.12:334][433]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData5FD32217472D4D6CED157DAA4E78B253.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2017.11.14-13.07.12:359][433]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.14-13.07.12:361][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Debris/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/stone.uasset" SILENT=true
+[2017.11.14-13.07.12:371][433]LogSavePackage: Save=7.65ms
+[2017.11.14-13.07.12:371][433]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stoneB1393BD2483073D44C38BAA26B6C0398.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/stone.uasset'
+[2017.11.14-13.07.12:377][433]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Debris/stone.uasset
+[2017.11.14-13.07.12:379][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Walls/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/stone.uasset" SILENT=true
+[2017.11.14-13.07.12:389][433]LogSavePackage: Save=7.10ms
+[2017.11.14-13.07.12:389][433]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stone109FEDAB43F40C426D726080A950E6CC.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/stone.uasset'
+[2017.11.14-13.07.12:394][433]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Walls/stone.uasset
+[2017.11.14-13.07.12:400][433]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Particles/Magic" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Particles/Magic.uasset" SILENT=true
+[2017.11.14-13.07.12:415][433]LogSavePackage: Save=12.15ms
+[2017.11.14-13.07.12:415][433]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Magic02CA699F498830A1C3344BBB667821E5.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Particles/Magic.uasset'
+[2017.11.14-13.07.12:419][433]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Particles/Magic.uasset
+[2017.11.14-13.07.20:694][751]Cmd: QUIT_EDITOR
+[2017.11.14-13.07.22:848][751]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.14-13.07.23:048][751]LogExit: Preparing to exit.
+[2017.11.14-13.07.25:298][751]LogExit: Editor shut down
+[2017.11.14-13.07.25:319][751]LogExit: Transaction tracking system shut down
+[2017.11.14-13.07.32:679][751]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.14-13.07.32:679][751]LogExit: Object subsystem successfully closed.
+[2017.11.14-13.07.33:203][751]LogD3D11RHI: Shutdown
+[2017.11.14-13.07.33:203][751]LogD3D11RHI: CleanupD3DDevice
+[2017.11.14-13.07.33:534][751]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.14-13.07.36:064][751]LogModuleManager: Shutting down and abandoning module DistCurveEditor (536)
+[2017.11.14-13.07.36:064][751]LogModuleManager: Shutting down and abandoning module Cascade (534)
+[2017.11.14-13.07.36:064][751]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2017.11.14-13.07.36:064][751]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2017.11.14-13.07.36:064][751]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (528)
+[2017.11.14-13.07.36:118][751]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (526)
+[2017.11.14-13.07.36:118][751]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.11.14-13.07.36:126][751]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.11.14-13.07.36:134][751]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.11.14-13.07.36:134][751]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.11.14-13.07.36:134][751]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.11.14-13.07.36:196][751]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.14-13.07.36:219][751]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.11.14-13.07.36:219][751]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.11.14-13.07.36:219][751]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.11.14-13.07.36:219][751]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' was aborted.
+[2017.11.14-13.07.36:219][751]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/jordanboast/Collections/' was aborted.
+[2017.11.14-13.07.36:219][751]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' was aborted.
+[2017.11.14-13.07.36:219][751]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.14-13.07.36:256][751]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.14-13.07.36:295][751]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.14-13.07.36:295][751]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.14-13.07.36:295][751]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.14-13.07.36:295][751]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.14-13.07.36:295][751]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.14-13.07.36:295][751]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.14-13.07.36:329][751]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.14-13.07.36:332][751]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.14-13.07.36:336][751]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.14-13.07.36:373][751]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.14-13.07.36:380][751]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.14-13.07.36:499][751]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.14-13.07.36:500][751]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.14-13.07.36:561][751]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.14-13.07.36:602][751]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.14-13.07.36:602][751]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.14-13.07.36:602][751]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.14-13.07.36:602][751]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.14-13.07.36:602][751]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.14-13.07.36:645][751]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.14-13.07.36:657][751]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.14-13.07.36:734][751]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.14-13.07.36:781][751]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.14-13.07.36:781][751]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.14-13.07.36:781][751]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.14-13.07.36:781][751]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.14-13.07.36:781][751]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.14-13.07.37:274][751]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.14-13.07.37:274][751]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.14-13.07.37:274][751]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.14-13.07.37:322][751]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.14-13.07.37:381][751]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.14-13.07.37:381][751]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.14-13.07.37:387][751]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.14-13.07.37:443][751]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.14-13.07.37:518][751]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.14-13.07.37:570][751]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.14-13.07.37:570][751]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.14-13.07.37:781][751]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.14-13.07.37:790][751]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.14-13.07.37:790][751]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.14-13.07.37:823][751]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.14-13.07.37:856][751]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.14-13.07.37:856][751]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.14-13.07.37:857][751]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.14-13.07.37:857][751]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.14-13.07.37:858][751]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.14-13.07.37:867][751]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.14-13.07.37:878][751]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.14-13.07.37:889][751]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.14-13.07.37:894][751]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.14-13.07.37:946][751]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.14-13.07.37:989][751]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.14-13.07.38:026][751]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.14-13.07.38:067][751]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.14-13.07.38:067][751]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.14-13.07.38:096][751]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.14-13.07.38:128][751]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.14-13.07.38:285][751]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.14-13.07.38:285][751]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.14-13.07.38:285][751]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.14-13.07.38:341][751]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.14-13.07.38:365][751]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.14-13.07.38:369][751]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.14-13.07.38:375][751]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.14-13.07.38:607][751]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.14-13.07.38:649][751]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.14-13.07.38:658][751]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.14-13.07.38:659][751]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.14-13.07.38:667][751]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.14-13.07.38:726][751]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.14-13.07.38:726][751]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.14-13.07.39:160][751]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.14-13.07.39:160][751]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.14-13.07.39:160][751]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.14-13.07.39:160][751]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.14-13.07.39:160][751]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.14-13.07.39:160][751]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.14-13.07.39:166][751]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.14-13.07.39:166][751]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.14-13.07.39:174][751]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.14-13.07.39:408][751]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.14-13.07.39:460][751]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.14-13.07.39:460][751]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.14-13.07.39:460][751]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.14-13.07.39:520][751]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.14-13.07.39:527][751]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.14-13.07.39:527][751]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.14-13.07.39:527][751]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.14-13.07.39:527][751]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.14-13.07.39:527][751]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.14-13.07.39:534][751]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.14-13.07.39:534][751]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.14-13.07.39:534][751]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.14-13.07.39:563][751]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.14-13.07.39:563][751]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.14-13.07.39:571][751]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.14-13.07.39:571][751]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.14-13.07.39:622][751]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.14-13.07.39:622][751]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.14-13.07.39:622][751]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.14-13.07.39:623][751]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.14-13.07.39:623][751]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.14-13.07.39:633][751]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.14-13.07.39:676][751]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.14-13.07.39:676][751]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.14-13.07.39:676][751]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.14-13.07.39:676][751]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.14-13.07.39:683][751]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.14-13.07.39:689][751]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.14-13.07.39:874][751]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.14-13.07.39:880][751]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.14-13.07.39:880][751]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.14-13.07.39:880][751]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.14-13.07.39:880][751]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.14-13.07.39:887][751]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.14-13.07.39:894][751]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.14-13.07.39:906][751]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.14-13.07.39:926][751]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.14-13.07.39:933][751]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.14-13.07.39:969][751]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.14-13.07.39:988][751]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.14-13.07.39:988][751]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.14-13.07.39:988][751]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.14-13.07.39:988][751]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.14-13.07.40:049][751]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.14-13.07.40:149][751]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.14-13.07.40:296][751]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.14-13.07.40:319][751]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.14-13.07.40:325][751]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.14-13.07.40:325][751]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.14-13.07.40:350][751]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.14-13.07.40:350][751]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.14-13.07.40:352][751]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.14-13.07.40:352][751]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.14-13.07.40:371][751]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.14-13.07.40:371][751]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.14-13.07.40:378][751]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.14-13.07.40:416][751]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.14-13.07.40:455][751]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.14-13.07.40:455][751]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.14-13.07.40:749][751]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.14-13.07.40:756][751]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.14-13.07.40:767][751]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.14-13.07.40:767][751]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.14-13.07.40:828][751]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.14-13.07.40:828][751]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.14-13.07.40:884][751]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.14-13.07.40:956][751]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.14-13.07.41:048][751]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.14-13.07.41:135][751]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.14-13.07.41:218][751]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.14-13.07.41:218][751]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.14-13.07.41:218][751]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.14-13.07.41:427][751]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.14-13.07.41:427][751]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.14-13.07.41:441][751]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.14-13.07.41:441][751]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.14-13.07.41:441][751]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.14-13.07.41:441][751]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.14-13.07.41:441][751]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.14-13.07.41:441][751]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.14-13.07.41:779][751]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.14-13.07.41:779][751]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/' was aborted.
+[2017.11.14-13.07.41:779][751]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.14-13.07.41:779][751]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.14-13.07.41:825][751]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.14-13.07.41:829][751]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.14-13.07.41:829][751]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.14-13.07.41:829][751]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.14-13.07.41:829][751]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.14-13.07.41:852][751]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.14-13.07.41:862][751]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.14-13.07.41:862][751]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.14-13.07.41:871][751]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.14-13.07.41:971][751]LogDerivedDataCache: Shutdown
+[2017.11.14-13.07.41:971][751]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.14-13.07.41:971][751]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.14-13.07.41:991][751]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.14-13.07.42:014][751]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.14-13.07.42:033][751]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.14-13.07.42:068][751]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.14-13.07.42:094][751]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.14-13.07.42:094][751]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.14-13.07.42:094][751]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.14-13.07.42:094][751]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.14-13.07.42:112][751]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.14-13.07.42:113][751]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.14-13.07.42:145][751]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.14-13.07.42:145][751]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.14-13.07.42:194][751]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.14-13.07.42:234][751]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.14-13.07.42:270][751]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.14-13.07.42:298][751]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.14-13.07.42:298][751]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.14-13.07.42:334][751]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.14-13.07.42:381][751]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.14-13.07.42:381][751]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.14-13.07.42:418][751]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.14-13.07.42:418][751]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.14-13.07.42:418][751]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.14-13.07.42:418][751]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.14-13.07.42:523][751]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.14-13.07.42:577][751]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.14-13.07.42:577][751]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.14-13.07.42:591][751]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BB1516621-4A42-48E4-1F1B-4DB30D721511%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f7adcfee480587e46a6f9faa7d3cf87a%7C%7Caf618593-11eb-40b3-a061-12e3ed8be334&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.14-13.07.42:593][751]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.14-13.07.42:633][751]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.14-13.07.42:686][751]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.14-13.07.42:707][751]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.14-13.07.42:707][751]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.14-13.07.42:738][751]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.14-13.07.42:738][751]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.14-13.07.42:738][751]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.14-13.07.42:738][751]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.14-13.07.42:925][751]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.14-13.07.43:043][751]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.14-13.07.43:043][751]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.14-13.07.43:081][751]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.14-13.07.43:081][751]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.14-13.07.43:081][751]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.14-13.07.43:081][751]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.14-13.07.43:123][751]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.14-13.07.43:130][751]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.14-13.07.43:162][751]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.14-13.07.43:238][751]LogExit: Exiting.
+[2017.11.14-13.07.43:253][751]Log file closed, 11/14/17 13:07:43

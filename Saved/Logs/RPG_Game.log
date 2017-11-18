@@ -551,3 +551,348 @@ LogInit: Object subsystem initialized
 [2017.11.18-21.56.55:885][309]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
 [2017.11.18-21.56.55:896][309]SourceControl: Info Commited [master 1b28176] Material.
 [2017.11.18-22.02.24:183][718]LogD3D11RHI: Timed out while waiting for GPU to catch up. (500 ms)
+[2017.11.18-22.05.55:463][401]SourceControl: Info On branch master
+[2017.11.18-22.05.55:464][401]SourceControl: Info Your branch and 'origin/master' have diverged,
+[2017.11.18-22.05.55:464][401]SourceControl: Info and have 4 and 2 different commits each, respectively.
+[2017.11.18-22.05.55:464][401]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
+[2017.11.18-22.05.55:464][401]SourceControl: Info nothing to commit, working tree clean
+[2017.11.18-22.05.56:604][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Jeff" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Jeff.uasset" SILENT=true
+[2017.11.18-22.05.56:786][401]LogSavePackage: Save=163.52ms
+[2017.11.18-22.05.56:786][401]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/JeffE5E1578844841CC9E35766A857C47E99.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Jeff.uasset'
+[2017.11.18-22.05.56:816][401]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Jeff.uasset
+[2017.11.18-22.05.56:971][401]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/RyansCommit" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/RyansCommit.uasset" SILENT=true
+[2017.11.18-22.05.56:981][401]LogSavePackage: Save=1.57ms
+[2017.11.18-22.05.56:981][401]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/RyansCommit6A92A7AD455AFCD3320221931D000C96.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/RyansCommit.uasset'
+[2017.11.18-22.05.56:983][401]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/RyansCommit.uasset
+[2017.11.18-22.06.04:690][928]SourceControl: Info fatal: F:/UE/UE_4.16/Engine/Content/: 'F:/UE/UE_4.16/Engine/Content/' is outside repository
+[2017.11.18-22.06.11:589][928]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.18-22.06.11:632][928]SourceControl: Info [master 12087a1] Jeff
+[2017.11.18-22.06.11:632][928]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.18-22.06.11:632][928]SourceControl: Info  copy Content/{RyansCommit.uasset => Jeff.uasset} (98%)
+[2017.11.18-22.06.11:632][928]SourceControl: Info  rewrite Content/RyansCommit.uasset (100%)
+[2017.11.18-22.06.11:646][928]SourceControl: Info Commited [master 12087a1] Jeff.
+[2017.11.18-22.08.44:487][874]LogMaterial: Missing cached shader map for material MAT, compiling. 
+[2017.11.18-22.10.11:509][292]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JeffBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/JeffBP.uasset" SILENT=true
+[2017.11.18-22.10.11:580][292]LogSavePackage: Save=69.79ms
+[2017.11.18-22.10.11:585][292]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/JeffBPDEE45C4C49B95455021FC7BBA050061B.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/JeffBP.uasset'
+[2017.11.18-22.10.11:587][292]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/JeffBP.uasset
+[2017.11.18-22.10.17:570][857]SourceControl: Info fatal: F:/UE/UE_4.16/Engine/Content/: 'F:/UE/UE_4.16/Engine/Content/' is outside repository
+[2017.11.18-22.10.26:060][857]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.18-22.10.26:113][857]SourceControl: Info [master 1da9b77] Classes
+[2017.11.18-22.10.26:113][857]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.11.18-22.10.26:113][857]SourceControl: Info  create mode 100644 Content/JeffBP.uasset
+[2017.11.18-22.10.26:126][857]SourceControl: Info Commited [master 1da9b77] Classes.
+[2017.11.18-22.12.26:898][648]SourceControl: Info fatal: F:/UE/UE_4.16/Engine/Content/: 'F:/UE/UE_4.16/Engine/Content/' is outside repository
+[2017.11.18-22.12.27:147][648]EditorErrors:Warning: Warning No assets to check in!
+[2017.11.18-22.12.35:724][385]SourceControl: Info On branch master
+[2017.11.18-22.12.35:724][385]SourceControl: Info Your branch and 'origin/master' have diverged,
+[2017.11.18-22.12.35:724][385]SourceControl: Info and have 1 and 4 different commits each, respectively.
+[2017.11.18-22.12.35:724][385]SourceControl: Info   (use "git pull" to merge the remote branch into yours)
+[2017.11.18-22.12.35:724][385]SourceControl: Info nothing to commit, working tree clean
+[2017.11.18-22.12.38:047][385]LogMetaData: Removing '/Game/BJeff.BJeff:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/JeffBP.PackageMetaData'
+[2017.11.18-22.12.38:048][385]LogMetaData: Removing '/Game/BJeff.SKEL_BJeff_C' ref from Metadata '/Game/JeffBP.PackageMetaData'
+[2017.11.18-22.12.38:048][385]LogMetaData: Removing '/Game/BJeff.BJeff_C' ref from Metadata '/Game/JeffBP.PackageMetaData'
+[2017.11.18-22.12.38:048][385]LogMetaData: Removing '/Game/BJeff.BJeff:EventGraph.K2Node_Event_0' ref from Metadata '/Game/JeffBP.PackageMetaData'
+[2017.11.18-22.12.38:048][385]LogMetaData: Removing '/Game/BJeff.BJeff:EventGraph.K2Node_Event_1' ref from Metadata '/Game/JeffBP.PackageMetaData'
+[2017.11.18-22.12.38:048][385]LogMetaData: Removing '/Game/BJeff.BJeff:EventGraph.K2Node_Event_2' ref from Metadata '/Game/JeffBP.PackageMetaData'
+[2017.11.18-22.12.38:083][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BJeff" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/BJeff.uasset" SILENT=true
+[2017.11.18-22.12.38:148][385]LogSavePackage: Save=63.75ms
+[2017.11.18-22.12.38:148][385]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/BJeffA760F8EA4A23F74C26F3638C132A689F.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/BJeff.uasset'
+[2017.11.18-22.12.38:150][385]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/BJeff.uasset
+[2017.11.18-22.12.38:269][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/JeffBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/JeffBP.uasset" SILENT=true
+[2017.11.18-22.12.38:278][385]LogSavePackage: Save=1.58ms
+[2017.11.18-22.12.38:278][385]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/JeffBP1F63E17D4E3DF917C5DA0CA17E3B0490.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/JeffBP.uasset'
+[2017.11.18-22.12.38:280][385]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/JeffBP.uasset
+[2017.11.18-22.12.40:903][566]SourceControl: Info fatal: F:/UE/UE_4.16/Engine/Content/: 'F:/UE/UE_4.16/Engine/Content/' is outside repository
+[2017.11.18-22.12.52:217][566]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.18-22.12.52:261][566]SourceControl: Info [master a9956a6]  this is the jeff revolution
+[2017.11.18-22.12.52:261][566]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.18-22.12.52:261][566]SourceControl: Info  copy Content/{JeffBP.uasset => BJeff.uasset} (52%)
+[2017.11.18-22.12.52:261][566]SourceControl: Info  rewrite Content/JeffBP.uasset (100%)
+[2017.11.18-22.12.52:276][566]SourceControl: Info Commited [master a9956a6]  this is the jeff revolution.
+[2017.11.18-22.13.31:111][935]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.18-22.13.41:628][936]Cmd: QUIT_EDITOR
+[2017.11.18-22.13.43:670][936]LogExit: Preparing to exit.
+[2017.11.18-22.13.49:069][936]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/' was aborted.
+[2017.11.18-22.13.55:057][936]LogExit: Editor shut down
+[2017.11.18-22.13.55:600][936]LogExit: Transaction tracking system shut down
+[2017.11.18-22.14.03:796][936]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.18-22.14.03:806][936]LogExit: Object subsystem successfully closed.
+[2017.11.18-22.14.06:545][936]LogD3D11RHI: Shutdown
+[2017.11.18-22.14.06:545][936]LogD3D11RHI: CleanupD3DDevice
+[2017.11.18-22.14.11:138][936]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.18-22.14.11:806][936]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (528)
+[2017.11.18-22.14.11:812][936]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (526)
+[2017.11.18-22.14.11:813][936]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (524)
+[2017.11.18-22.14.11:813][936]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.11.18-22.14.11:824][936]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.11.18-22.14.11:826][936]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.11.18-22.14.11:885][936]LogDirectoryWatcher: A directory notification for 'F:/UE/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.18-22.14.12:641][936]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.11.18-22.14.12:641][936]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.11.18-22.14.12:641][936]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.11.18-22.14.12:642][936]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/Collections/' was aborted.
+[2017.11.18-22.14.12:642][936]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/Developers/Ryan/Collections/' was aborted.
+[2017.11.18-22.14.12:642][936]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Saved/Collections/' was aborted.
+[2017.11.18-22.14.12:738][936]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.11.18-22.14.12:740][936]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.18-22.14.12:740][936]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.18-22.14.12:749][936]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.18-22.14.12:750][936]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.18-22.14.12:750][936]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.18-22.14.12:750][936]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.18-22.14.12:750][936]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.18-22.14.12:750][936]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.18-22.14.12:751][936]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.18-22.14.12:759][936]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.18-22.14.12:760][936]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.18-22.14.12:760][936]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.18-22.14.12:762][936]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.18-22.14.12:767][936]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.18-22.14.12:768][936]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.18-22.14.12:771][936]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.18-22.14.12:778][936]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.18-22.14.12:778][936]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.18-22.14.12:784][936]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.18-22.14.12:784][936]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.18-22.14.12:807][936]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.18-22.14.12:811][936]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.18-22.14.12:822][936]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.18-22.14.12:824][936]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.18-22.14.12:824][936]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.18-22.14.12:825][936]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.18-22.14.12:825][936]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.18-22.14.12:825][936]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.18-22.14.13:146][936]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.18-22.14.13:146][936]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.18-22.14.13:146][936]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.18-22.14.13:147][936]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.18-22.14.13:147][936]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.18-22.14.13:152][936]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.18-22.14.13:153][936]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.18-22.14.13:153][936]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.18-22.14.13:156][936]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.18-22.14.13:157][936]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.18-22.14.13:157][936]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.18-22.14.13:158][936]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.18-22.14.13:159][936]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.18-22.14.13:159][936]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.18-22.14.13:167][936]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.18-22.14.13:167][936]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.18-22.14.13:204][936]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.18-22.14.13:217][936]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.18-22.14.13:218][936]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.18-22.14.13:218][936]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.18-22.14.13:220][936]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.18-22.14.13:221][936]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.18-22.14.13:222][936]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.18-22.14.13:223][936]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.18-22.14.13:288][936]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.18-22.14.13:289][936]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.18-22.14.13:290][936]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.18-22.14.13:297][936]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.18-22.14.13:297][936]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.18-22.14.13:307][936]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.18-22.14.13:321][936]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.18-22.14.13:330][936]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.18-22.14.13:330][936]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.18-22.14.13:331][936]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.18-22.14.13:356][936]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.18-22.14.13:376][936]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.18-22.14.13:386][936]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.18-22.14.13:387][936]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.18-22.14.13:391][936]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.18-22.14.13:391][936]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.18-22.14.13:391][936]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.18-22.14.13:412][936]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.18-22.14.13:412][936]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.18-22.14.13:412][936]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.18-22.14.13:412][936]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.18-22.14.13:426][936]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.18-22.14.13:436][936]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.18-22.14.13:436][936]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.18-22.14.13:436][936]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.18-22.14.13:436][936]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.18-22.14.13:436][936]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.18-22.14.13:448][936]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.18-22.14.13:448][936]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.18-22.14.13:449][936]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.18-22.14.13:472][936]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.18-22.14.13:473][936]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.18-22.14.13:473][936]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.18-22.14.13:474][936]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.18-22.14.13:476][936]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.18-22.14.13:476][936]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.18-22.14.13:477][936]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.18-22.14.13:477][936]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.18-22.14.13:477][936]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.18-22.14.13:477][936]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.18-22.14.13:477][936]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.18-22.14.13:478][936]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.18-22.14.13:478][936]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.18-22.14.13:483][936]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.18-22.14.13:494][936]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.18-22.14.13:494][936]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.18-22.14.13:495][936]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.18-22.14.13:495][936]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.18-22.14.13:496][936]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.18-22.14.13:499][936]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.18-22.14.13:499][936]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.18-22.14.13:499][936]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.18-22.14.13:499][936]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.18-22.14.13:499][936]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.18-22.14.13:499][936]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.18-22.14.13:506][936]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.18-22.14.13:507][936]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.18-22.14.13:633][936]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.18-22.14.13:705][936]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.18-22.14.13:706][936]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.18-22.14.13:707][936]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.18-22.14.13:707][936]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.18-22.14.13:707][936]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.18-22.14.13:707][936]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.18-22.14.13:707][936]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.18-22.14.13:707][936]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.18-22.14.13:808][936]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.18-22.14.13:909][936]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.18-22.14.13:911][936]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.18-22.14.13:916][936]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.18-22.14.13:916][936]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.18-22.14.13:917][936]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.18-22.14.13:935][936]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.18-22.14.14:096][936]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.18-22.14.14:096][936]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.18-22.14.14:096][936]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.18-22.14.14:097][936]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.18-22.14.14:144][936]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.18-22.14.14:145][936]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.18-22.14.14:146][936]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.18-22.14.14:146][936]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.18-22.14.14:146][936]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.18-22.14.14:159][936]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.18-22.14.14:160][936]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.18-22.14.14:160][936]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.18-22.14.14:162][936]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.18-22.14.14:162][936]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.18-22.14.14:165][936]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.18-22.14.14:174][936]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.18-22.14.14:177][936]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.18-22.14.14:213][936]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.18-22.14.14:216][936]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.18-22.14.14:216][936]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.18-22.14.14:218][936]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.18-22.14.14:225][936]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.18-22.14.14:225][936]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.18-22.14.14:262][936]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.18-22.14.14:262][936]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.18-22.14.14:262][936]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.18-22.14.14:262][936]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.18-22.14.14:262][936]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.18-22.14.14:263][936]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.18-22.14.16:148][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.18-22.14.16:148][936]LogDirectoryWatcher: A directory notification for '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/' was aborted.
+[2017.11.18-22.14.16:148][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.18-22.14.16:148][936]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.18-22.14.16:580][936]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.18-22.14.16:706][936]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.18-22.14.16:706][936]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.18-22.14.16:706][936]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.18-22.14.16:720][936]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.18-22.14.16:726][936]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.18-22.14.16:735][936]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.18-22.14.16:744][936]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.18-22.14.16:745][936]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.18-22.14.16:894][936]LogDerivedDataCache: Shutdown
+[2017.11.18-22.14.16:894][936]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.18-22.14.16:894][936]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.18-22.14.16:900][936]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.18-22.14.16:908][936]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.18-22.14.16:921][936]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.18-22.14.16:921][936]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.18-22.14.16:923][936]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.18-22.14.16:934][936]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.18-22.14.16:934][936]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.18-22.14.16:971][936]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.18-22.14.17:188][936]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.18-22.14.17:188][936]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.18-22.14.17:188][936]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.18-22.14.17:189][936]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.18-22.14.17:189][936]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.18-22.14.17:215][936]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.18-22.14.17:215][936]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.18-22.14.17:216][936]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.18-22.14.17:218][936]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.18-22.14.17:219][936]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.18-22.14.17:220][936]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.18-22.14.17:222][936]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.18-22.14.17:222][936]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.18-22.14.17:223][936]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.18-22.14.17:224][936]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.18-22.14.17:224][936]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.18-22.14.17:224][936]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.18-22.14.17:230][936]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.18-22.14.17:234][936]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.18-22.14.17:234][936]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.18-22.14.17:235][936]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.18-22.14.17:235][936]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.18-22.14.17:235][936]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.18-22.14.17:258][936]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.18-22.14.17:263][936]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.18-22.14.17:264][936]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.18-22.14.17:264][936]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.18-22.14.17:276][936]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.18-22.14.17:278][936]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.18-22.14.17:278][936]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.18-22.14.17:278][936]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.18-22.14.17:278][936]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.18-22.14.17:278][936]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.18-22.14.17:282][936]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.18-22.14.17:282][936]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.18-22.14.17:282][936]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.18-22.14.17:283][936]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.18-22.14.17:286][936]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.18-22.14.17:286][936]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.18-22.14.17:287][936]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.18-22.14.17:315][936]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.18-22.14.17:322][936]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.18-22.14.17:322][936]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.18-22.14.17:322][936]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B8D7C12B5-4988-A572-CB73-6D9EC03EDAC6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=80685d1f44f32b1fbce3579e86be7684%7C1cd4d5901e88499eb9139176ba5a7f4f%7Cd4885e74-c0c5-4abc-a5e8-67608077d65b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.18-22.14.17:374][936]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.18-22.14.17:413][936]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.18-22.14.17:423][936]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.18-22.14.17:424][936]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.18-22.14.17:451][936]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.18-22.14.17:452][936]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.18-22.14.17:452][936]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.18-22.14.17:452][936]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.18-22.14.17:452][936]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.18-22.14.17:587][936]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.18-22.14.17:588][936]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.18-22.14.17:588][936]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.18-22.14.17:588][936]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.18-22.14.17:588][936]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.18-22.14.17:588][936]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.18-22.14.17:588][936]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.18-22.14.17:596][936]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.18-22.14.17:600][936]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.18-22.14.17:600][936]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.18-22.14.17:659][936]LogExit: Exiting.
+[2017.11.18-22.14.18:319][936]Log file closed, 11/18/17 22:14:18

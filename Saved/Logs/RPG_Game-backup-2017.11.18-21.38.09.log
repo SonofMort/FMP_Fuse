@@ -1,0 +1,636 @@
+﻿Log file open, 11/16/17 21:25:33
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1079404231) SRandInit(-1079404231).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 7.665308
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.11.16-21.25.36:565][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-21.25.36:565][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.16-21.25.36:786][  0]LogInit: Computer: SONOFMORT
+[2017.11.16-21.25.36:786][  0]LogInit: User: Jordan
+[2017.11.16-21.25.36:786][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.16-21.25.36:786][  0]LogInit: High frequency timer resolution =3.320340 MHz
+[2017.11.16-21.25.36:809][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.11.16-21.25.36:809][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-21.25.36:809][  0]LogMemory: Process Physical Memory: 275.07 MB used, 275.07 MB peak
+[2017.11.16-21.25.36:809][  0]LogMemory: Process Virtual Memory: 266.81 MB used, 266.81 MB peak
+[2017.11.16-21.25.36:809][  0]LogMemory: Physical Memory: 6486.46 MB used,  9846.93 MB free, 16333.39 MB total
+[2017.11.16-21.25.36:809][  0]LogMemory: Virtual Memory: 667.52 MB used,  9846.93 MB free, 134217728.00 MB total
+[2017.11.16-21.25.38:723][  0]LogInit: Using OS detected language (en-US).
+[2017.11.16-21.25.38:723][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.16-21.25.38:860][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.11.16-21.25.43:268][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.16-21.25.43:351][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.11.16-21.25.43:351][  0]LogD3D11RHI:       8096/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.16-21.25.43:355][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.16-21.25.43:355][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.16-21.25.43:355][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.16-21.25.43:364][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.16-21.25.43:364][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.16-21.25.43:364][  0]LogWindows: EnumDisplayDevices:
+[2017.11.16-21.25.43:364][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.11.16-21.25.43:365][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.11.16-21.25.43:365][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-21.25.43:365][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.11.16-21.25.43:365][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2017.11.16-21.25.43:365][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.11.16-21.25.43:365][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2017.11.16-21.25.43:365][  0]LogD3D11RHI:      Driver Date: Unknown
+[2017.11.16-21.25.43:366][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.16-21.25.43:402][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.16-21.25.44:094][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.16-21.25.44:321][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (E:/Year 2/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/2520/).
+[2017.11.16-21.25.44:321][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/DC5B083E4E2D86C8692B3C80655862AD/'.
+[2017.11.16-21.25.44:332][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.16-21.25.48:154][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.16-21.25.48:212][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.16-21.25.48:272][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.16-21.25.48:333][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.16-21.25.48:411][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.16-21.25.48:470][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.16-21.25.48:531][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.16-21.25.48:603][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.16-21.25.48:676][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.16-21.25.48:778][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.16-21.25.48:858][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.16-21.25.48:929][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.16-21.25.49:005][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.16-21.25.49:082][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.16-21.25.49:138][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.16-21.25.49:257][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.16-21.25.49:257][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.16-21.25.49:303][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.16-21.25.49:448][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.16-21.25.49:482][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.16-21.25.49:540][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.16-21.25.49:603][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.16-21.25.49:688][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.16-21.25.49:752][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.16-21.25.49:752][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.16-21.25.51:110][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.16-21.25.51:774][  0]LogDerivedDataCache: Loaded boot cache 0.66s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-21.25.51:774][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.16-21.25.51:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.16-21.25.51:774][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.16-21.25.51:774][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.16-21.25.51:774][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.16-21.25.51:849][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.16-21.25.51:863][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.16-21.25.51:925][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.16-21.25.51:968][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.16-21.25.52:055][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-21.25.52:055][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.16-21.25.57:822][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.16-21.25.58:627][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.16-21.25.59:327][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.16-21.25.59:436][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.16-21.25.59:509][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.16-21.25.59:509][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.16-21.25.59:509][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.16-21.26.03:361][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2017.11.16-21.26.03:680][  0]LogAssetRegistry: FAssetRegistry took 0.0364 seconds to start up
+[2017.11.16-21.26.04:260][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.550982 seconds
+[2017.11.16-21.26.04:295][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.16-21.26.04:295][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.16-21.26.04:295][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.16-21.26.04:400][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.16-21.26.15:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.16-21.26.15:192][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.16-21.26.16:771][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.16-21.26.17:697][  0]SourceControl: Info Source control is disabled
+[2017.11.16-21.26.20:549][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.16-21.26.22:087][  0]LogEngine: Initializing Engine...
+[2017.11.16-21.26.22:127][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.16-21.26.22:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.16-21.26.22:618][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.16-21.26.23:111][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.16-21.26.23:200][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.26.23:215][  0]LogInit: FAudioDevice initialized.
+[2017.11.16-21.26.23:269][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.16-21.26.23:275][  0]LogInit: Texture streaming: Enabled
+[2017.11.16-21.26.23:497][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.16-21.26.24:047][  0]LogInit: Transaction tracking system initialized
+[2017.11.16-21.26.24:706][  0]BlueprintLog: New page: Editor Load
+[2017.11.16-21.26.26:820][  0]LocalizationService: Info Localization service is disabled
+[2017.11.16-21.26.28:067][  0]LogConsoleResponse:Display: 
+[2017.11.16-21.26.29:203][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.16-21.26.29:204][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.16-21.26.30:154][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/' took 0.07s
+[2017.11.16-21.26.31:790][  0]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.16-21.26.31:811][  0]LightingResults: New page: Lighting Build
+[2017.11.16-21.26.32:049][  0]MapCheck: New page: Map Check
+[2017.11.16-21.26.32:049][  0]LightingResults: New page: Lighting Build
+[2017.11.16-21.26.36:359][  0]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.26.36:881][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.16-21.26.36:952][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.16-21.26.37:073][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 106.728ms to complete.
+[2017.11.16-21.26.37:078][  0]LogFileHelpers: Loading map 'Tutorial' took 5.306
+[2017.11.16-21.26.38:519][  0]LogCollectionManager: Loaded 0 collections in 0.008465 seconds
+[2017.11.16-21.26.38:738][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2017.11.16-21.26.38:738][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2017.11.16-21.26.38:738][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2017.11.16-21.26.38:738][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.16-21.26.38:764][  0]LogContentBrowser: Native class hierarchy populated in 0.0226 seconds. Added 2329 classes and 491 folders.
+[2017.11.16-21.26.38:938][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.16-21.26.39:466][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.16-21.26.39:563][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.16-21.26.40:034][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.16-21.26.40:259][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.16-21.26.40:394][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.16-21.26.40:395][  0]LogLoad: (Engine Initialization) Total time: 87.78 seconds
+[2017.11.16-21.26.40:395][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.80 seconds
+[2017.11.16-21.26.40:395][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.16-21.26.40:395][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.16-21.26.40:784][  0]LogOcInput: OculusInput pre-init called
+[2017.11.16-21.26.40:790][  0]LogHMD: Starting GearVRController plugin
+[2017.11.16-21.26.41:024][  0]SourceControl: Info On branch master
+[2017.11.16-21.26.41:024][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.11.16-21.26.41:024][  0]SourceControl: Info Changes not staged for commit:
+[2017.11.16-21.26.41:024][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.16-21.26.41:024][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-AF12A61845381145903C5FACDA6EFF00/CrashReportClient.ini
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-C24698A94D6EB5F25DF1F9B50513A2BA/CrashReportClient.ini
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CB3F1CA64C68F1BD91227596C6096CB2/CrashReportClient.ini
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.13-15.49.29.log
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2017.11.16-21.26.41:024][  0]SourceControl: Info Untracked files:
+[2017.11.16-21.26.41:024][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-0586AF234BC751DB416B6EB486BB3657/
+[2017.11.16-21.26.41:024][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.16-21.25.33.log
+[2017.11.16-21.26.41:024][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.16-21.26.41:040][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.16-21.26.41:162][  0]LogSlate: Took 0.036447 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.16-21.26.41:189][  0]LogSlate: Took 0.001583 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.16-21.26.41:214][  0]LogSlate: Took 0.013990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.16-21.26.41:986][  1]LogRenderer: Reallocating scene render targets to support 1096x460 NumSamples 1 (Frame:1).
+[2017.11.16-21.26.42:441][  1]LogSlate: Took 0.008451 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-21.26.42:706][  2]LogSlate: Took 0.000400 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-21.26.43:020][  3]LogAssetRegistry: Asset discovery search completed in 39.3630 seconds
+[2017.11.16-21.26.43:038][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.16-21.26.43:038][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.11.16-21.27.21:186][315]LogRenderer: Reallocating scene render targets to support 1536x652 NumSamples 1 (Frame:209).
+[2017.11.16-21.27.28:795][146]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.27.29:322][146]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.27.29:335][146]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.27.29:401][146]PIE: New page: PIE session: Tutorial (16 Nov 2017 21:27:29)
+[2017.11.16-21.27.29:401][146]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.16-21.27.29:490][146]LogPlayLevel: PIE: StaticDuplicateObject took: (0.088889s)
+[2017.11.16-21.27.29:491][146]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.27.29:500][146]LogPlayLevel: PIE: World Init took: (0.009069s)
+[2017.11.16-21.27.29:526][146]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.124679s)
+[2017.11.16-21.27.29:556][146]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.27.29:567][146]LogInit: FAudioDevice initialized.
+[2017.11.16-21.27.29:680][146]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.27.29:727][146]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.16-21.27.29
+[2017.11.16-21.27.29:778][146]LogWorld: Bringing up level for play took: 0.044126
+[2017.11.16-21.27.29:907][146]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.16-21.27.30:063][146]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.088
+[2017.11.16-21.27.30:064][146]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.27.30:678][200]Cmd: LevelEditor.ToggleImmersive
+[2017.11.16-21.27.30:946][201]LogRenderer: Reallocating scene render targets to support 1920x1080 NumSamples 1 (Frame:56).
+[2017.11.16-21.28.33:691][411]LogNet: Browse: /Game/ThirdPersonBP/Maps/HelloWorld
+[2017.11.16-21.28.33:692][411]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/HelloWorld
+[2017.11.16-21.28.33:786][411]Cmd: MEM
+[2017.11.16-21.28.33:795][411]LogMemory: Platform Memory Stats for Windows
+[2017.11.16-21.28.33:795][411]LogMemory: Process Physical Memory: 1026.29 MB used, 1111.96 MB peak
+[2017.11.16-21.28.33:795][411]LogMemory: Process Virtual Memory: 1758.04 MB used, 2073.74 MB peak
+[2017.11.16-21.28.33:795][411]LogMemory: Physical Memory: 7155.32 MB used,  9178.06 MB free, 16333.39 MB total
+[2017.11.16-21.28.33:796][411]LogMemory: Virtual Memory: 2755.36 MB used,  9178.06 MB free, 134217728.00 MB total
+[2017.11.16-21.28.33:796][411]LogMemory: 
+[2017.11.16-21.28.33:796][411]Allocator Stats for TBB: (not implemented)
+[2017.11.16-21.28.36:777][411]LogAIModule: Creating AISystem for world HelloWorld
+[2017.11.16-21.28.36:778][411]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.28.36:810][411]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2017.11.16-21.28.36
+[2017.11.16-21.28.36:810][411]LogWorld: Bringing up level for play took: 0.001960
+[2017.11.16-21.28.36:835][411]LogLoad: Took 3.142963 seconds to LoadMap(/Game/ThirdPersonBP/Maps/HelloWorld)
+[2017.11.16-21.28.48:804][807]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.28.48:913][807]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.28.52:250][158]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.28.52:270][158]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.28.52:271][158]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.28.52:271][158]PIE: New page: PIE session: Tutorial (16 Nov 2017 21:28:52)
+[2017.11.16-21.28.52:271][158]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.16-21.28.52:282][158]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011726s)
+[2017.11.16-21.28.52:283][158]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.28.52:284][158]LogPlayLevel: PIE: World Init took: (0.000643s)
+[2017.11.16-21.28.52:284][158]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012589s)
+[2017.11.16-21.28.52:304][158]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.28.52:311][158]LogInit: FAudioDevice initialized.
+[2017.11.16-21.28.52:348][158]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.28.52:352][158]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.16-21.28.52
+[2017.11.16-21.28.52:352][158]LogWorld: Bringing up level for play took: 0.003570
+[2017.11.16-21.28.52:356][158]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.204
+[2017.11.16-21.28.52:357][158]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.30.30:017][753]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.30.30:057][753]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.30.35:390][286]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Whirlwind_Default_Area_01)
+[2017.11.16-21.30.49:292][669]LogSlate: Took 0.037165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.16-21.30.49:405][669]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2017.11.16-21.30.49:443][669]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh None.FX_Test_Player_Hips_01'
+[2017.11.16-21.30.53:519][909]LogCascade: Quitting Cascade. FXSystem=0x0000028AA84D2A20
+[2017.11.16-21.31.15:079][126]LogSlate: Took 0.010618 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.16-21.32.09:074][317]LogEditorViewport: Clicking on Actor (context menu): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.16-21.35.50:874][652]MapCheck: New page: Map Check
+[2017.11.16-21.35.50:942][652]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.16-21.35.50:948][652]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.16-21.35.51:085][652]LightingResults: New page: Lighting Build - 16 Nov 2017 21:35:51
+[2017.11.16-21.35.54:336][652]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.16-21.35.54:436][652]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.16-21.35.54:450][652]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.16-21.35.55:974][652]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.16-21.35.55:974][652]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2520
+[2017.11.16-21.35.58:814][652]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.16-21.35.58:836][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.16-21.35.58:836][652]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.16-21.35.58:836][652]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.16-21.35.58:836][652]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.16-21.35.58:836][652]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.16-21.35.59:049][652]LogEditorBuildUtils: Build time 0:08
+[2017.11.16-21.35.59:099][653]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.16-21.35.59:178][653]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.16-21.35.59:648][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.16-21.35.59:653][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.16-21.35.59:677][671]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.16-21.35.59:683][671]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.16-21.35.59:698][672]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.16-21.35.59:705][672]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.16-21.35.59:720][673]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.16-21.35.59:726][673]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.16-21.35.59:747][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.35.59:754][674]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.35.59:768][675]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.35.59:775][675]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.35.59:790][676]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Yellow, compiling. 
+[2017.11.16-21.35.59:796][676]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Yellow, compiling. 
+[2017.11.16-21.35.59:813][677]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DarkLeaves, compiling. 
+[2017.11.16-21.35.59:819][677]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DarkLeaves, compiling. 
+[2017.11.16-21.35.59:835][678]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rose, compiling. 
+[2017.11.16-21.35.59:844][678]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rose, compiling. 
+[2017.11.16-21.35.59:858][679]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Blue, compiling. 
+[2017.11.16-21.35.59:864][679]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Blue, compiling. 
+[2017.11.16-21.35.59:882][680]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Leaves, compiling. 
+[2017.11.16-21.35.59:888][680]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Leaves, compiling. 
+[2017.11.16-21.35.59:911][681]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.35.59:916][681]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.35.59:931][682]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2017.11.16-21.35.59:940][682]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2017.11.16-21.35.59:954][683]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer roof, compiling. 
+[2017.11.16-21.35.59:960][683]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer roof, compiling. 
+[2017.11.16-21.35.59:977][684]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.16-21.35.59:983][684]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.16-21.36.26:029][927]LogEditorActor: Deleted Actor: SkyLight
+[2017.11.16-21.36.26:045][927]LogEditorActor: Deleted 1 Actors (0.024 secs)
+[2017.11.16-21.36.30:222][249]Job is a success!
+[2017.11.16-21.36.30:388][250]LogMaterial:Warning: Material /Game/Assets/Well/Hut/stone.stone needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.36.30:390][250]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2017.11.16-21.36.30:485][250]LogMaterial:Warning: Material /Game/Assets/Well/Hut/wood.wood needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.36.30:494][250]LogMaterial: Missing cached shader map for material wood, compiling. 
+[2017.11.16-21.36.30:522][250]LogMaterial:Warning: Material /Game/Assets/Well/Hut/roof.roof needed to have new flag set bUsedWithStaticLighting !
+[2017.11.16-21.36.30:524][250]LogMaterial: Missing cached shader map for material roof, compiling. 
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.16-21.36.31:126][250]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.16-21.36.31:266][250]LogStaticLightingSystem: Illumination: 40.1 sec (562 ms encoding lightmaps, 23 ms encoding shadowmaps)
+[2017.11.16-21.36.31:266][250]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.16-21.36.31:266][250]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 0 textures
+[2017.11.16-21.36.31:839][250]DumpUnbuiltLightIteractions
+[2017.11.16-21.36.31:839][250]Lights with unbuilt interactions: 0
+[2017.11.16-21.36.31:839][250]
+[2017.11.16-21.36.31:839][250]Primitives with unbuilt interactions: 0
+[2017.11.16-21.36.31:846][251]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.16-21.36.31:846][251]MapCheck: New page: Tutorial - 16 Nov 2017 21:36:31
+[2017.11.16-21.36.31:873][251]MapCheck:Warning: Warning WellHut_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.36.31:873][251]MapCheck:Warning: Warning WellHut_2 Static mesh actor has NULL StaticMesh property 
+[2017.11.16-21.36.31:986][251]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 139.689ms to complete.
+[2017.11.16-21.37.05:308][293]Cmd: DELETE
+[2017.11.16-21.37.05:308][293]Cmd: ACTOR DELETE
+[2017.11.16-21.37.05:374][293]LogEditorActor: Deleted Actor: SkyLight
+[2017.11.16-21.37.05:385][293]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.11.16-21.37.08:803][684]Cmd: TRANSACTION UNDO
+[2017.11.16-21.37.08:803][684]LogEditorTransaction: Undo Delete Actors
+[2017.11.16-21.38.24:103][727]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.11.16-21.38.25:460][727]LogSlate: Took 0.010478 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.16-21.39.09:791][ 64]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'D:/Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.11.16-21.39.26:516][341]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.39.26:546][341]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.39.26:546][341]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.11.16-21.39.26:546][341]LogPlayLevel: [PlayLevel] Compiling BP_Sky_Sphere before play...
+[2017.11.16-21.39.26:891][341]LogPlayLevel: PlayLevel: Blueprint regeneration took 345 ms (1 blueprints)
+[2017.11.16-21.39.26:891][341]PIE: New page: PIE session: Tutorial (16 Nov 2017 21:39:26)
+[2017.11.16-21.39.26:892][341]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.16-21.39.26:904][341]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012099s)
+[2017.11.16-21.39.26:905][341]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.39.26:905][341]LogPlayLevel: PIE: World Init took: (0.001438s)
+[2017.11.16-21.39.26:905][341]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.013829s)
+[2017.11.16-21.39.26:934][341]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.39.26:948][341]LogInit: FAudioDevice initialized.
+[2017.11.16-21.39.26:983][341]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.39.26:988][341]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.16-21.39.26
+[2017.11.16-21.39.26:988][341]LogWorld: Bringing up level for play took: 0.003426
+[2017.11.16-21.39.26:991][341]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.839
+[2017.11.16-21.39.26:991][341]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.39.40:731][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.39.40:771][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.40.07:180][476]Cmd: DELETE
+[2017.11.16-21.40.07:180][476]Cmd: ACTOR DELETE
+[2017.11.16-21.40.07:181][476]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.11.16-21.40.07:195][476]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.11.16-21.41.16:455][392]Cmd: DELETE
+[2017.11.16-21.41.16:455][392]Cmd: ACTOR DELETE
+[2017.11.16-21.41.16:456][392]LogEditorActor: Deleted Actor: PointLight
+[2017.11.16-21.41.16:471][392]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.11.16-21.41.17:921][552]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.11.16-21.41.22:877][ 35]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.11.16-21.41.23:910][132]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.16-21.42.32:453][365]MapCheck: New page: Map Check
+[2017.11.16-21.42.32:465][365]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.16-21.42.32:465][365]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.16-21.42.32:486][365]LightingResults: New page: Lighting Build - 16 Nov 2017 21:42:32
+[2017.11.16-21.42.32:499][365]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.16-21.42.32:504][365]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.16-21.42.32:504][365]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.16-21.42.32:505][365]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.16-21.42.32:505][365]LogSwarmInterface: [TryOpenConnection] Local Process ID is 2520
+[2017.11.16-21.42.37:261][365]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.16-21.42.37:261][365]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.16-21.42.37:261][365]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.16-21.42.37:261][365]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.16-21.42.37:261][365]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.16-21.42.37:261][365]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.16-21.42.37:346][365]LogEditorBuildUtils: Build time 0:04
+[2017.11.16-21.42.37:389][366]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.42.37:397][366]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.16-21.42.37:428][367]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2017.11.16-21.42.37:436][367]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2017.11.16-21.42.37:455][368]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer roof, compiling. 
+[2017.11.16-21.42.37:464][368]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer roof, compiling. 
+[2017.11.16-21.43.04:728][980]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (OakTree1)
+[2017.11.16-21.43.13:852][493]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.14:052][493]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.14:089][493]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.14:132][493]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.16-21.43.20:486][886]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.23:288][ 74]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.27:369][351]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.30:058][525]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.36:036][915]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.43.36:036][915]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.43.36:036][915]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.43.36:593][957]Job is a success!
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2017.11.16-21.43.37:229][958]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2017.11.16-21.43.37:275][958]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8, 64X64)
+[2017.11.16-21.43.37:276][958]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8, 512X64)
+[2017.11.16-21.43.37:319][958]LogStaticLightingSystem: Illumination: 1:04 min (512 ms encoding lightmaps, 35 ms encoding shadowmaps)
+[2017.11.16-21.43.37:319][958]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.16-21.43.37:319][958]LogStaticLightingSystem: Shadowmap texture memory: 0.2 MB (0.2 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.16-21.43.38:302][958]DumpUnbuiltLightIteractions
+[2017.11.16-21.43.38:303][958]Lights with unbuilt interactions: 0
+[2017.11.16-21.43.38:303][958]
+[2017.11.16-21.43.38:303][958]Primitives with unbuilt interactions: 0
+[2017.11.16-21.43.38:309][959]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.16-21.43.38:309][959]MapCheck: New page: Tutorial - 16 Nov 2017 21:43:38
+[2017.11.16-21.43.38:450][959]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 141.05ms to complete.
+[2017.11.16-21.43.45:348][730]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.43.49:389][136]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.43.49:389][136]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.43.49:389][136]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.43.59:943][315]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.01:783][491]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.01:830][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.16-21.44.01:834][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.16-21.44.05:933][892]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.05:950][892]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.16-21.44.11:262][415]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.16-21.44.11:262][415]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.44.11:262][415]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.44.17:241][ 84]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.16-21.44.17:909][ 84]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.17:956][ 84]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.17:999][ 84]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.18:048][ 84]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.16-21.44.19:352][ 84]TextureStreamingBuild:Display: Compiling optional shaders took 1.310 seconds.
+[2017.11.16-21.44.23:070][306]MaterialEditorStats: Info Base pass shader: 86 instructions
+[2017.11.16-21.44.23:070][306]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.44.23:070][306]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.44.33:085][333]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.36:429][671]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.11.16-21.44.36:429][671]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.44.36:430][671]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.44.38:108][856]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.16-21.44.38:807][856]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.38:855][856]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.38:889][856]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.44.38:935][856]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.16-21.44.40:174][856]TextureStreamingBuild:Display: Compiling optional shaders took 1.245 seconds.
+[2017.11.16-21.44.44:208][ 77]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.11.16-21.44.44:208][ 77]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.44.44:208][ 77]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.44.53:290][950]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.44.53:311][950]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.44.53:311][950]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.44.53:311][950]PIE: New page: PIE session: Tutorial (16 Nov 2017 21:44:53)
+[2017.11.16-21.44.53:311][950]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.16-21.44.53:326][950]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014530s)
+[2017.11.16-21.44.53:326][950]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.44.53:327][950]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.11.16-21.44.53:327][950]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.015404s)
+[2017.11.16-21.44.53:352][950]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.44.53:361][950]LogInit: FAudioDevice initialized.
+[2017.11.16-21.44.53:392][950]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.44.53:396][950]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.16-21.44.53
+[2017.11.16-21.44.53:397][950]LogWorld: Bringing up level for play took: 0.003524
+[2017.11.16-21.44.53:399][950]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.753
+[2017.11.16-21.44.53:399][950]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.45.04:061][118]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.45.04:356][118]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.45.12:048][906]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.12:065][906]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.11.16-21.45.14:160][114]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.16-21.45.14:889][114]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.14:945][114]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.14:979][114]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.15:027][114]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.16-21.45.16:507][114]TextureStreamingBuild:Display: Compiling optional shaders took 1.487 seconds.
+[2017.11.16-21.45.23:725][788]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.11.16-21.45.23:725][788]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.45.23:725][788]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.45.31:865][524]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.34:066][741]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.34:086][741]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.11.16-21.45.38:398][177]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.45.38:398][177]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.45.38:398][177]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.45.39:424][285]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.43:260][674]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.46:647][ 31]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.45.46:647][ 31]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.45.46:647][ 31]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.45.48:451][238]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.45.51:364][544]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.45.51:364][544]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.45.51:364][544]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.45.59:565][482]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.03:009][835]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.46.03:009][835]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.46.03:009][835]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.46.08:295][438]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.12:042][826]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.46.12:042][826]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.46.12:042][826]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.46.13:175][953]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.16-21.46.13:850][953]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.13:895][953]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.13:931][953]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.13:976][953]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.16-21.46.15:243][953]TextureStreamingBuild:Display: Compiling optional shaders took 1.274 seconds.
+[2017.11.16-21.46.16:818][100]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.46.16:846][100]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.46.16:846][100]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.46.16:846][100]PIE: New page: PIE session: Tutorial (16 Nov 2017 21:46:16)
+[2017.11.16-21.46.16:846][100]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.16-21.46.16:862][100]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016040s)
+[2017.11.16-21.46.16:863][100]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.46.16:863][100]LogPlayLevel: PIE: World Init took: (0.000730s)
+[2017.11.16-21.46.16:863][100]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.016987s)
+[2017.11.16-21.46.16:892][100]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.46.16:901][100]LogInit: FAudioDevice initialized.
+[2017.11.16-21.46.16:932][100]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.46.16:936][100]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.16-21.46.16
+[2017.11.16-21.46.16:936][100]LogWorld: Bringing up level for play took: 0.003552
+[2017.11.16-21.46.16:939][100]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.788
+[2017.11.16-21.46.16:940][100]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.46.23:116][713]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.46.23:116][713]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.46.23:116][713]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.46.32:197][711]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.46.32:250][711]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.46.38:844][400]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.41:639][683]LogMaterialEditor: Applying material OakTreeTrunk
+[2017.11.16-21.46.42:383][683]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.42:427][683]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.42:462][683]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2017.11.16-21.46.42:514][683]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy OakTreeTrunk, compiling. 
+[2017.11.16-21.46.43:984][683]TextureStreamingBuild:Display: Compiling optional shaders took 1.476 seconds.
+[2017.11.16-21.46.49:336][165]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.16-21.46.49:358][165]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.46.49:358][165]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.16-21.46.49:358][165]PIE: New page: PIE session: Tutorial (16 Nov 2017 21:46:49)
+[2017.11.16-21.46.49:358][165]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.16-21.46.49:371][165]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012427s)
+[2017.11.16-21.46.49:371][165]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.16-21.46.49:372][165]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2017.11.16-21.46.49:372][165]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.013398s)
+[2017.11.16-21.46.49:401][165]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.16-21.46.49:410][165]LogInit: FAudioDevice initialized.
+[2017.11.16-21.46.49:445][165]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2017.11.16-21.46.49:452][165]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.16-21.46.49
+[2017.11.16-21.46.49:453][165]LogWorld: Bringing up level for play took: 0.003740
+[2017.11.16-21.46.49:456][165]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.696
+[2017.11.16-21.46.49:456][165]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.46.54:924][706]MaterialEditorStats: Info Base pass shader: 85 instructions
+[2017.11.16-21.46.54:924][706]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2017.11.16-21.46.54:924][706]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.11.16-21.47.06:157][938]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.47.06:210][938]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.16-21.47.14:452][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.16-21.47.14:986][690]LogSavePackage: Save=428.54ms
+[2017.11.16-21.47.14:986][690]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial5202A37B417B0BE02B53748AD4F9E9F7.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.16-21.47.14:999][690]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.16-21.47.15:151][690]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.16-21.47.15:397][690]LogSavePackage: Save=155.44ms
+[2017.11.16-21.47.15:397][690]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltDataD9FCE2BB4286D12D65818CA76CCEC7B9.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2017.11.16-21.47.15:404][690]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.16-21.47.19:842][ 93]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'D:/Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.11.16-21.47.19:890][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Engine/EngineSky/BP_Sky_Sphere" FILE="../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" SILENT=true
+[2017.11.16-21.47.20:121][ 93]LogSavePackage: Save=205.64ms
+[2017.11.16-21.47.20:121][ 93]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/BP_Sky_SphereE015F69B4181F8D3B9D04EABAF742F06.tmp' to '../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset'
+[2017.11.16-21.47.20:144][ 93]LogSavePackage:Display: Finished SavePackage ../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset
+[2017.11.16-21.47.20:161][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Trees/OakTreeTrunk" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset" SILENT=true
+[2017.11.16-21.47.20:197][ 93]LogSavePackage: Save=21.03ms
+[2017.11.16-21.47.20:197][ 93]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/OakTreeTrunk4369260D4B96DFC92B9E18A5206FADF0.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset'
+[2017.11.16-21.47.20:204][ 93]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Trees/OakTreeTrunk.uasset
+[2017.11.16-21.47.20:225][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Well/Hut/roof" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/roof.uasset" SILENT=true
+[2017.11.16-21.47.20:257][ 93]LogSavePackage: Save=18.94ms
+[2017.11.16-21.47.20:257][ 93]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/roofABE930E2407AB4AA60E9768404587E1C.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/roof.uasset'
+[2017.11.16-21.47.20:265][ 93]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/roof.uasset
+[2017.11.16-21.47.20:285][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Well/Hut/stone" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/stone.uasset" SILENT=true
+[2017.11.16-21.47.20:318][ 93]LogSavePackage: Save=19.32ms
+[2017.11.16-21.47.20:318][ 93]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/stone3373E1474E11ACF15784808F6ADE5867.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/stone.uasset'
+[2017.11.16-21.47.20:326][ 93]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/stone.uasset
+[2017.11.16-21.47.20:341][ 93]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Well/Hut/wood" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/wood.uasset" SILENT=true
+[2017.11.16-21.47.20:384][ 93]LogSavePackage: Save=31.39ms
+[2017.11.16-21.47.20:384][ 93]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/wood27DB0955426DDCED7DD576A306B4E7EE.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/wood.uasset'
+[2017.11.16-21.47.20:392][ 93]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Assets/Well/Hut/wood.uasset
+[2017.11.16-21.47.20:760][126]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'D:/Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.11.16-21.47.24:103][444]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/: 'D:/Games/UE_4.16/Engine/Content/' is outside repository
+[2017.11.16-21.47.44:219][444]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.16-21.47.44:467][444]SourceControl: Info [master 29433a6] Changed some lighting
+[2017.11.16-21.47.44:467][444]SourceControl: Info  6 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.16-21.47.44:467][444]SourceControl: Info  rewrite Content/Assets/Well/Hut/roof.uasset (98%)
+[2017.11.16-21.47.44:467][444]SourceControl: Info  rewrite Content/Assets/Well/Hut/stone.uasset (97%)
+[2017.11.16-21.47.44:467][444]SourceControl: Info  rewrite Content/Assets/Well/Hut/wood.uasset (98%)
+[2017.11.16-21.47.44:467][444]SourceControl: Info  rewrite Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset (75%)
+[2017.11.16-21.47.44:477][444]SourceControl: Info Commited [master 29433a6] Changed some lighting.

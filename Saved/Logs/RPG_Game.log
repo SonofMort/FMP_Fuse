@@ -140,3 +140,393 @@ LogInit: Object subsystem initialized
 [2017.11.27-13.07.50:525][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
 [2017.11.27-13.07.50:525][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
 [2017.11.27-13.07.50:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.05:976][  0]LogPackageName: SearchForPackageOnDisk took   0.210s, but failed to resolve JW_FlameDungeon.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.05:976][  0]LogPackageName: SearchForPackageOnDisk took   0.210s, but failed to resolve JW_FlameDungeon.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.05:976][  0]LogPackageName: SearchForPackageOnDisk took   0.230s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.05:976][  0]LogPackageName: SearchForPackageOnDisk took   0.203s, but failed to resolve JW_Ice_Mountain.
+[2017.11.27-13.08.05:976][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.06:857][  0]LogPackageName: SearchForPackageOnDisk took   0.207s, but failed to resolve FX_Meshes.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.06:857][  0]LogPackageName: SearchForPackageOnDisk took   0.205s, but failed to resolve FX_Meshes.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.06:857][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.06:857][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.27-13.08.06:923][  0]LogPackageName: SearchForPackageOnDisk took   0.207s, but failed to resolve 'FX_Ambient.
+[2017.11.27-13.08.06:923][  0]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2017.11.27-13.08.06:923][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.27-13.08.07:050][  0]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.07:050][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.08:053][  0]LogPackageName: SearchForPackageOnDisk took   0.203s, but failed to resolve CastleEffects.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.08:053][  0]LogPackageName: SearchForPackageOnDisk took   0.203s, but failed to resolve StaticMesh'FX_Meshes.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.08:053][  0]LogPackageName: SearchForPackageOnDisk took   0.201s to resolve m_FogSheet_02.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.08:053][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.08:106][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.27-13.08.08:803][  0]LogPackageName: SearchForPackageOnDisk took   0.446s, but failed to resolve FX_Test_LAN.
+[2017.11.27-13.08.08:803][  0]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2017.11.27-13.08.08:803][  0]SourceControl: Info Source control is disabled
+[2017.11.27-13.08.09:097][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.09:097][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.09:097][  0]LogPackageName: SearchForPackageOnDisk took   0.204s to resolve m_FogSheet_02.
+[2017.11.27-13.08.10:337][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.10:337][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.10:337][  0]LogPackageName: SearchForPackageOnDisk took   0.213s to resolve m_FogSheet_02.
+[2017.11.27-13.08.10:337][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.10:337][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.10:337][  0]LogPackageName: SearchForPackageOnDisk took   0.207s to resolve m_FogSheet_02.
+[2017.11.27-13.08.10:539][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.27-13.08.11:645][  0]LogEngine: Initializing Engine...
+[2017.11.27-13.08.11:679][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.11.27-13.08.11:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.27-13.08.11:951][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.27-13.08.12:251][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.27-13.08.12:333][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.27-13.08.12:362][  0]LogInit: FAudioDevice initialized.
+[2017.11.27-13.08.12:412][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.27-13.08.12:418][  0]LogInit: Texture streaming: Enabled
+[2017.11.27-13.08.12:599][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.27-13.08.15:726][  0]LogInit: Transaction tracking system initialized
+[2017.11.27-13.08.16:263][  0]BlueprintLog: New page: Editor Load
+[2017.11.27-13.08.17:988][  0]LocalizationService: Info Localization service is disabled
+[2017.11.27-13.08.19:226][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.19:226][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.19:226][  0]LogPackageName: SearchForPackageOnDisk took   0.270s, but failed to resolve JW_Ice_Mountain.
+[2017.11.27-13.08.19:226][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.27-13.08.19:226][  0]LogPackageName:Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.19:226][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.19:226][  0]LogPackageName: SearchForPackageOnDisk took   0.241s to resolve S_Survival_CA_Chicken_02.
+[2017.11.27-13.08.19:304][  0]LogConsoleResponse:Display: 
+[2017.11.27-13.08.20:360][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.20:360][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.20:360][  0]LogPackageName: SearchForPackageOnDisk took   0.209s, but failed to resolve JW_Ice_Mountain.
+[2017.11.27-13.08.20:360][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2017.11.27-13.08.20:360][  0]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2017.11.27-13.08.20:360][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2017.11.27-13.08.20:360][  0]LogPackageName: SearchForPackageOnDisk took   0.204s, but failed to resolve Env_ALL_Artifacts.
+[2017.11.27-13.08.20:360][  0]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2017.11.27-13.08.20:360][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.27-13.08.20:361][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.27-13.08.21:599][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/' took 0.11s
+[2017.11.27-13.08.22:996][  0]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.27-13.08.23:005][  0]LightingResults: New page: Lighting Build
+[2017.11.27-13.08.23:313][  0]MapCheck: New page: Map Check
+[2017.11.27-13.08.23:313][  0]LightingResults: New page: Lighting Build
+[2017.11.27-13.08.26:334][  0]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.08.26:909][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.27-13.08.27:050][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.27-13.08.27:144][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 93.033ms to complete.
+[2017.11.27-13.08.27:144][  0]LogFileHelpers: Loading map 'Tutorial' took 4.156
+[2017.11.27-13.08.28:943][  0]LogCollectionManager: Loaded 0 collections in 0.002264 seconds
+[2017.11.27-13.08.29:096][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2017.11.27-13.08.29:096][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2017.11.27-13.08.29:096][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2017.11.27-13.08.29:096][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.27-13.08.29:124][  0]LogContentBrowser: Native class hierarchy populated in 0.0114 seconds. Added 2329 classes and 491 folders.
+[2017.11.27-13.08.29:296][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.11.27-13.08.30:156][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.11.27-13.08.30:269][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.27-13.08.30:755][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.27-13.08.30:973][  0]LogSlate: Took 0.036232 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.27-13.08.31:062][  0]LogSlate: Took 0.009953 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.27-13.08.31:090][  0]LogSlate: Took 0.014063 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.27-13.08.31:518][  0]LogRenderer: Reallocating scene render targets to support 1536x624 NumSamples 1 (Frame:1).
+[2017.11.27-13.08.32:059][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.27-13.08.32:193][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.11.27-13.08.32:193][  0]LogLoad: (Engine Initialization) Total time: 71.38 seconds
+[2017.11.27-13.08.32:193][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.80 seconds
+[2017.11.27-13.08.32:193][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.27-13.08.32:193][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.27-13.08.32:552][  0]LogOcInput: OculusInput pre-init called
+[2017.11.27-13.08.32:562][  0]LogHMD: Starting GearVRController plugin
+[2017.11.27-13.08.32:786][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.27-13.08.33:017][  0]LogSlate: Took 0.032625 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-13.08.33:624][  3]LogAssetRegistry: Asset discovery search completed in 43.3253 seconds
+[2017.11.27-13.08.33:634][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.27-13.08.33:634][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000042 seconds (updated 0 objects)
+[2017.11.27-13.08.33:670][  3]LogSlate: Took 0.000486 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-13.08.39:821][706]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.08.40:190][706]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.08.40:203][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.08.40:262][706]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:08:40)
+[2017.11.27-13.08.40:268][706]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.08.40:371][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.102846s)
+[2017.11.27-13.08.40:371][706]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.08.40:371][706]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2017.11.27-13.08.40:379][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.110754s)
+[2017.11.27-13.08.40:400][706]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.27-13.08.40:412][706]LogInit: FAudioDevice initialized.
+[2017.11.27-13.08.40:542][706]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.08.40:607][706]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.08.40
+[2017.11.27-13.08.40:629][706]LogWorld: Bringing up level for play took: 0.019478
+[2017.11.27-13.08.40:787][706]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.11.27-13.08.40:905][706]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.706
+[2017.11.27-13.08.40:905][706]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.09.29:388][488]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.09.29:543][488]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.09.31:355][676]LogSlate: Took 0.051020 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-13.09.31:828][676]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.27-13.09.32:093][676]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.11.27-13.09.33:795][676]LogSlate: Took 0.004713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.27-13.09.48:945][873]LogSlate: Took 0.008494 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.27-13.10.41:863][986]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.10.41:892][986]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.10.41:892][986]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.10.41:892][986]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:10:41)
+[2017.11.27-13.10.41:892][986]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.10.41:904][986]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011450s)
+[2017.11.27-13.10.41:904][986]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.10.41:904][986]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2017.11.27-13.10.41:905][986]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012339s)
+[2017.11.27-13.10.41:951][986]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.27-13.10.41:963][986]LogInit: FAudioDevice initialized.
+[2017.11.27-13.10.42:005][986]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.10.42:009][986]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.10.42
+[2017.11.27-13.10.42:010][986]LogWorld: Bringing up level for play took: 0.003310
+[2017.11.27-13.10.42:012][986]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial -0.186
+[2017.11.27-13.10.42:013][986]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.10.56:160][674]LogNet: Browse: /Game/ThirdPersonBP/Maps/HelloWorld
+[2017.11.27-13.10.56:160][674]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/HelloWorld
+[2017.11.27-13.10.56:191][674]Cmd: MEM
+[2017.11.27-13.10.56:287][674]LogMemory: Platform Memory Stats for Windows
+[2017.11.27-13.10.56:287][674]LogMemory: Process Physical Memory: 1244.48 MB used, 1251.43 MB peak
+[2017.11.27-13.10.56:287][674]LogMemory: Process Virtual Memory: 2013.07 MB used, 2391.61 MB peak
+[2017.11.27-13.10.56:287][674]LogMemory: Physical Memory: 6238.89 MB used,  10094.50 MB free, 16333.39 MB total
+[2017.11.27-13.10.56:287][674]LogMemory: Virtual Memory: 3191.28 MB used,  10094.50 MB free, 134217728.00 MB total
+[2017.11.27-13.10.56:287][674]LogMemory: 
+[2017.11.27-13.10.56:287][674]Allocator Stats for TBB: (not implemented)
+[2017.11.27-13.10.56:369][674]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2017.11.27-13.10.56:391][674]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2017.11.27-13.10.56:428][674]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2017.11.27-13.10.56:753][674]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.313 s
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: === Handled ensure: ===
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: 
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: 
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: Stack: 
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000844DE2B6
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008428B8C2
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000842A1E86
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007D84BCF7
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007D81C23D
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000083B10377
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000083E131A6
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000083E29393
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x0000000083E2891A
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000070D35ACF
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000070CEEEA8
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-Engine.dll!0x0000000070D5460D
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006E7F2F55
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000006F018D86
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor.exe!0x000000002466E2B2
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor.exe!0x000000002465F0B0
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor.exe!0x000000002465F12A
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor.exe!0x0000000024670CF9
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: UE4Editor.exe!0x00000000246725F7
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: KERNEL32.DLL!0x00000000B9A31FE4
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: ntdll.dll!0x00000000BB13EF91
+[2017.11.27-13.10.56:753][674]LogOutputDevice:Error: 
+[2017.11.27-13.10.56:759][674]LogStats:                SubmitErrorReport -  0.000 s
+[2017.11.27-13.11.00:012][674]LogStats:                    SendNewReport -  3.253 s
+[2017.11.27-13.11.00:012][674]LogStats:             FDebug::EnsureFailed -  3.572 s
+[2017.11.27-13.11.02:664][674]LogAIModule: Creating AISystem for world HelloWorld
+[2017.11.27-13.11.02:665][674]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.11.02:668][674]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2017.11.27-13.11.02
+[2017.11.27-13.11.02:668][674]LogWorld: Bringing up level for play took: 0.001550
+[2017.11.27-13.11.02:671][674]LogLoad: Took 6.510940 seconds to LoadMap(/Game/ThirdPersonBP/Maps/HelloWorld)
+[2017.11.27-13.11.04:469][882]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.11.04:506][882]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.11.09:032][419]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.11.09:054][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.11.09:054][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.11.09:055][419]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:11:09)
+[2017.11.27-13.11.09:055][419]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.11.09:066][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011695s)
+[2017.11.27-13.11.09:067][419]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.11.09:067][419]LogPlayLevel: PIE: World Init took: (0.000840s)
+[2017.11.27-13.11.09:067][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012748s)
+[2017.11.27-13.11.09:089][419]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.27-13.11.09:100][419]LogInit: FAudioDevice initialized.
+[2017.11.27-13.11.09:133][419]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.11.09:137][419]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.11.09
+[2017.11.27-13.11.09:137][419]LogWorld: Bringing up level for play took: 0.003238
+[2017.11.27-13.11.09:140][419]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.941
+[2017.11.27-13.11.09:140][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.11.09:543][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.11.09:597][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.11.16:571][269]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WellHut2)
+[2017.11.27-13.12.02:099][328]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.12.02:121][328]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.12.02:122][328]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.12.02:122][328]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:12:02)
+[2017.11.27-13.12.02:122][328]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.12.02:133][328]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011525s)
+[2017.11.27-13.12.02:134][328]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.12.02:134][328]LogPlayLevel: PIE: World Init took: (0.000634s)
+[2017.11.27-13.12.02:134][328]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012370s)
+[2017.11.27-13.12.02:176][328]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.27-13.12.02:187][328]LogInit: FAudioDevice initialized.
+[2017.11.27-13.12.02:218][328]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.12.02:223][328]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.12.02
+[2017.11.27-13.12.02:223][328]LogWorld: Bringing up level for play took: 0.003557
+[2017.11.27-13.12.02:226][328]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.027
+[2017.11.27-13.12.02:226][328]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.12.03:754][507]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.12.03:807][507]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.12.04:973][637]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.11.27-13.12.14:214][671]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
+[2017.11.27-13.12.23:634][751]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2017.11.27-13.12.29:040][379]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2017.11.27-13.12.34:380][986]MapCheck: New page: Map Check
+[2017.11.27-13.12.34:448][986]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.27-13.12.34:459][986]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.27-13.12.34:559][986]LightingResults: New page: Lighting Build - 27 Nov 2017 13:12:34
+[2017.11.27-13.12.34:715][986]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.27-13.12.34:816][986]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.27-13.12.34:838][986]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.27-13.12.35:874][986]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.27-13.12.35:874][986]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7716
+[2017.11.27-13.12.38:739][986]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.27-13.12.38:753][986]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.27-13.12.38:753][986]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.27-13.12.38:753][986]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.27-13.12.38:753][986]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.27-13.12.38:753][986]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.27-13.12.38:906][986]LogEditorBuildUtils: Build time 0:04
+[2017.11.27-13.12.38:944][987]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling. 
+[2017.11.27-13.12.39:014][987]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling. 
+[2017.11.27-13.12.39:204][993]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.27-13.12.39:210][993]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.27-13.13.15:019][236]Job is a success!
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.27-13.13.15:699][237]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.27-13.13.15:718][237]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 64X64)
+[2017.11.27-13.13.15:718][237]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 512X64)
+[2017.11.27-13.13.15:757][237]Lightmass on SONOFMORT: 33.6 sec total, 185 ms importing, 26 ms setup, 2.46 sec photons, 30.8 sec processing, 0 ms extra exporting [80/80 mappings]. Threads: 2:03 min total, 1:29 min processing.
+[2017.11.27-13.13.15:785][237]LogStaticLightingSystem: Illumination: 41.1 sec (458 ms encoding lightmaps, 11 ms encoding shadowmaps)
+[2017.11.27-13.13.15:785][237]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.27-13.13.15:785][237]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.27-13.13.16:773][237]DumpUnbuiltLightIteractions
+[2017.11.27-13.13.16:773][237]Lights with unbuilt interactions: 0
+[2017.11.27-13.13.16:773][237]
+[2017.11.27-13.13.16:773][237]Primitives with unbuilt interactions: 0
+[2017.11.27-13.13.16:781][238]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.27-13.13.16:781][238]MapCheck: New page: Tutorial - 27 Nov 2017 13:13:16
+[2017.11.27-13.13.16:962][238]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 180.288ms to complete.
+[2017.11.27-13.13.41:000][107]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.13.41:022][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.13.41:023][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.13.41:023][107]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:13:41)
+[2017.11.27-13.13.41:023][107]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.13.41:034][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011635s)
+[2017.11.27-13.13.41:035][107]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.13.41:035][107]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.11.27-13.13.41:035][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Tutorial.Tutorial to /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial (0.012503s)
+[2017.11.27-13.13.41:056][107]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2017.11.27-13.13.41:067][107]LogInit: FAudioDevice initialized.
+[2017.11.27-13.13.41:095][107]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.13.41:100][107]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.13.41
+[2017.11.27-13.13.41:100][107]LogWorld: Bringing up level for play took: 0.003513
+[2017.11.27-13.13.41:103][107]PIE: Info Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Tutorial 0.904
+[2017.11.27-13.13.41:103][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.13.51:655][370]LogNet: Browse: /Game/ThirdPersonBP/Maps/HelloWorld
+[2017.11.27-13.13.51:656][370]LogLoad: LoadMap: /Game/ThirdPersonBP/Maps/HelloWorld
+[2017.11.27-13.13.51:673][370]Cmd: MEM
+[2017.11.27-13.13.51:686][370]LogMemory: Platform Memory Stats for Windows
+[2017.11.27-13.13.51:686][370]LogMemory: Process Physical Memory: 1443.24 MB used, 1474.34 MB peak
+[2017.11.27-13.13.51:686][370]LogMemory: Process Virtual Memory: 2378.34 MB used, 2391.61 MB peak
+[2017.11.27-13.13.51:686][370]LogMemory: Physical Memory: 6402.74 MB used,  9930.65 MB free, 16333.39 MB total
+[2017.11.27-13.13.51:686][370]LogMemory: Virtual Memory: 3807.05 MB used,  9930.65 MB free, 134217728.00 MB total
+[2017.11.27-13.13.51:686][370]LogMemory: 
+[2017.11.27-13.13.51:686][370]Allocator Stats for TBB: (not implemented)
+[2017.11.27-13.13.51:715][370]LogAIModule: Creating AISystem for world HelloWorld
+[2017.11.27-13.13.51:715][370]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.13.51:718][370]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2017.11.27-13.13.51
+[2017.11.27-13.13.51:718][370]LogWorld: Bringing up level for play took: 0.001500
+[2017.11.27-13.13.51:721][370]LogLoad: Took 0.064462 seconds to LoadMap(/Game/ThirdPersonBP/Maps/HelloWorld)
+[2017.11.27-13.13.52:973][519]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.13.53:017][519]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.14.51:276][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-13.14.51:908][ 16]LogSavePackage: Save=547.84ms
+[2017.11.27-13.14.51:908][ 16]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial7EB5FA0247A237E3DA6BDC84F1F7389D.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.27-13.14.51:928][ 16]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.27-13.14.51:974][ 16]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.27-13.14.52:208][ 16]LogSavePackage: Save=142.02ms
+[2017.11.27-13.14.52:208][ 16]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltData0526F35D4AE62ACC383B6A9DAC86A432.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2017.11.27-13.14.52:216][ 16]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.27-13.15.43:374][720]SourceControl: Info On branch master
+[2017.11.27-13.15.43:374][720]SourceControl: Info Your branch is up-to-date with 'origin/master'.
+[2017.11.27-13.15.43:375][720]SourceControl: Info Changes not staged for commit:
+[2017.11.27-13.15.43:375][720]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.11.27-13.15.43:375][720]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2017.11.27-13.15.43:375][720]SourceControl: Info Untracked files:
+[2017.11.27-13.15.43:375][720]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-13-14-51.umap
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	Saved/Backup/Tutorial_BuiltData_2017-11-27-13-14-51.uasset
+[2017.11.27-13.15.43:375][720]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-38C55914452C5AF575EDE2BAC6E158BD_0000/
+[2017.11.27-13.15.43:375][720]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.11.27-13.15.52:086][643]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/: 'D:/Games/UE_4.16/Engine/Content/' is outside repository
+[2017.11.27-13.15.52:316][643]EditorErrors:Warning: Warning No assets to check in!
+[2017.11.27-13.16.05:543][135]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WellHut2)
+[2017.11.27-13.17.06:538][294]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2017.11.27-13.17.06:570][294]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2017.11.27-13.17.06:585][294]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2017.11.27-13.17.06:710][294]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2017.11.27-13.18.05:378][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-13.18.05:509][944]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 8X8)
+[2017.11.27-13.18.05:510][944]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 8X8)
+[2017.11.27-13.18.05:510][944]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 8X8)
+[2017.11.27-13.18.05:510][944]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 8X8)
+[2017.11.27-13.18.05:511][944]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 8X8)
+[2017.11.27-13.18.05:511][944]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 8X8)
+[2017.11.27-13.18.05:511][944]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 8X8)
+[2017.11.27-13.18.05:512][944]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 8X8)
+[2017.11.27-13.18.05:512][944]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 8X8)
+[2017.11.27-13.18.05:512][944]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 8X8)
+[2017.11.27-13.18.05:512][944]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 8X8)
+[2017.11.27-13.18.05:513][944]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2017.11.27-13.18.05:513][944]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 8X8)
+[2017.11.27-13.18.05:823][944]LogSavePackage: Save=421.64ms
+[2017.11.27-13.18.05:823][944]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial4DE51F25476281DCC2DD3DB6E40719F7.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.27-13.18.05:832][944]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.27-13.18.05:865][944]LogFileHelpers: Saving map 'Tutorial' took 0.608
+[2017.11.27-13.18.07:778][151]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/: 'D:/Games/UE_4.16/Engine/Content/' is outside repository
+[2017.11.27-13.18.18:989][151]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.27-13.18.19:066][151]SourceControl: Info [master fc71520] grass change
+[2017.11.27-13.18.19:066][151]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.11.27-13.18.19:077][151]SourceControl: Info Commited [master fc71520] grass change.

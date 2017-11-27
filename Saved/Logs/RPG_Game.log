@@ -1,9 +1,18 @@
+<<<<<<< HEAD
+﻿Log file open, 11/27/17 13:35:24
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1430542675) SRandInit(-1430542675).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.099694
+=======
 ﻿Log file open, 11/27/17 13:07:29
 LogInit:Display: Running engine for game: RPG_Game
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(509648416) SRandInit(509648416).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 2.637309
+>>>>>>> 170a7544b90e9b732e48f58af8a67a4b158dad25
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,6 +59,1216 @@ LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
+[2017.11.27-13.35.25:394][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.27-13.35.25:394][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.11.27-13.35.25:402][  0]LogInit: Computer: RYAN-PC
+[2017.11.27-13.35.25:402][  0]LogInit: User: Ryan
+[2017.11.27-13.35.25:402][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.11.27-13.35.25:402][  0]LogInit: High frequency timer resolution =3.417994 MHz
+[2017.11.27-13.35.25:403][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2017.11.27-13.35.25:403][  0]LogMemory: Platform Memory Stats for Windows
+[2017.11.27-13.35.25:403][  0]LogMemory: Process Physical Memory: 274.08 MB used, 274.08 MB peak
+[2017.11.27-13.35.25:403][  0]LogMemory: Process Virtual Memory: 260.99 MB used, 260.99 MB peak
+[2017.11.27-13.35.25:403][  0]LogMemory: Physical Memory: 4230.61 MB used,  3907.26 MB free, 8137.87 MB total
+[2017.11.27-13.35.25:403][  0]LogMemory: Virtual Memory: 638.62 MB used,  3907.26 MB free, 134217728.00 MB total
+[2017.11.27-13.35.26:261][  0]LogInit: Using OS detected language (en-GB).
+[2017.11.27-13.35.26:261][  0]LogInit: Using OS detected locale (en-GB).
+[2017.11.27-13.35.26:265][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.11.27-13.35.27:402][  0]LogD3D11RHI: D3D11 adapters:
+[2017.11.27-13.35.27:444][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2017.11.27-13.35.27:444][  0]LogD3D11RHI:       8091/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.11.27-13.35.27:445][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.11.27-13.35.27:445][  0]LogD3D11RHI:       0/0/4068 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.11.27-13.35.27:445][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.11.27-13.35.27:448][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.11.27-13.35.27:448][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2017.11.27-13.35.27:448][  0]LogWindows: EnumDisplayDevices:
+[2017.11.27-13.35.27:448][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2017.11.27-13.35.27:449][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2017.11.27-13.35.27:449][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.11.27-13.35.27:449][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2017.11.27-13.35.27:449][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.11.27-13.35.27:449][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2017.11.27-13.35.27:449][  0]LogD3D11RHI:   Driver Version: 388.13 (internal:23.21.13.8813, unified:388.13)
+[2017.11.27-13.35.27:449][  0]LogD3D11RHI:      Driver Date: 10-27-2017
+[2017.11.27-13.35.27:449][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.11.27-13.35.27:470][  0]LogD3D11RHI: Async texture creation enabled
+[2017.11.27-13.35.27:483][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.11.27-13.35.27:531][  0]LogShaderCompilers: Guid format shader working directory is -3 characters bigger than the processId version (../../../../../GitDownloaded/FMP_RPG_Game_Charm/Intermediate/Shaders/WorkingDirectory/14080/).
+[2017.11.27-13.35.27:531][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ryan/AppData/Local/Temp/UnrealShaderWorkingDir/010AE3B542F0C87FA2BD4FB028F29328/'.
+[2017.11.27-13.35.27:531][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.11.27-13.35.28:773][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.11.27-13.35.28:816][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.11.27-13.35.28:858][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.11.27-13.35.28:900][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.11.27-13.35.28:944][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.11.27-13.35.28:987][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.11.27-13.35.29:029][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.11.27-13.35.29:071][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.11.27-13.35.29:108][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.11.27-13.35.29:149][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.11.27-13.35.29:191][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.11.27-13.35.29:232][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.11.27-13.35.29:273][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.11.27-13.35.29:313][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.11.27-13.35.29:355][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.11.27-13.35.29:438][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.11.27-13.35.29:438][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.11.27-13.35.29:470][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.11.27-13.35.29:552][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.11.27-13.35.29:577][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.11.27-13.35.29:619][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.11.27-13.35.29:661][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.11.27-13.35.29:702][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.11.27-13.35.29:745][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.11.27-13.35.29:745][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.11.27-13.35.30:226][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.11.27-13.35.30:689][  0]LogDerivedDataCache: Loaded boot cache 0.46s 90MB C:/Users/Ryan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.27-13.35.30:689][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Ryan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.11.27-13.35.30:689][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../GitDownloaded/FMP_RPG_Game_Charm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.11.27-13.35.30:689][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.11.27-13.35.30:690][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../GitDownloaded/FMP_RPG_Game_Charm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.11.27-13.35.30:690][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.11.27-13.35.30:706][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.11.27-13.35.30:719][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ryan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.11.27-13.35.30:729][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.11.27-13.35.30:729][  0]LogSlate: Using Freetype 2.6.0
+[2017.11.27-13.35.30:732][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.27-13.35.30:732][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.11.27-13.35.31:241][  0]LogInit: Selected Device Profile: [Windows]
+[2017.11.27-13.35.31:311][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.11.27-13.35.31:505][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.11.27-13.35.31:543][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.11.27-13.35.31:584][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.11.27-13.35.31:584][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.11.27-13.35.31:584][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.11.27-13.35.32:188][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2017.11.27-13.35.32:254][  0]LogAssetRegistry: FAssetRegistry took 0.0251 seconds to start up
+[2017.11.27-13.35.32:295][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.025004 seconds
+[2017.11.27-13.35.32:300][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.11.27-13.35.32:300][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.11.27-13.35.32:300][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.11.27-13.35.32:350][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.11.27-13.35.35:621][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.11.27-13.35.35:658][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.11.27-13.35.36:342][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.11.27-13.35.36:825][  0]SourceControl: Info Source control is disabled
+[2017.11.27-13.35.38:079][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.11.27-13.35.38:608][  0]LogEngine: Initializing Engine...
+[2017.11.27-13.35.38:701][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.11.27-13.35.38:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.11.27-13.35.38:888][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.11.27-13.35.38:995][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.11.27-13.35.39:013][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.35.39:049][  0]LogInit: FAudioDevice initialized.
+[2017.11.27-13.35.39:088][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Ryan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.11.27-13.35.39:092][  0]LogInit: Texture streaming: Enabled
+[2017.11.27-13.35.39:214][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.11.27-13.35.39:536][  0]LogInit: Transaction tracking system initialized
+[2017.11.27-13.35.39:803][  0]BlueprintLog: New page: Editor Load
+[2017.11.27-13.35.40:897][  0]LocalizationService: Info Localization service is disabled
+[2017.11.27-13.35.41:473][  0]LogConsoleResponse:Display: 
+[2017.11.27-13.35.41:630][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.11.27-13.35.41:630][  0]LogCook:Display: Mobile HDR setting 1
+[2017.11.27-13.35.41:778][  0]LogFileCache: Scanning file cache for directory 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/' took 0.03s
+[2017.11.27-13.35.42:675][  0]Cmd: MAP LOAD FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/ThirdPersonBP/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.27-13.35.42:675][  0]LogEditorServer:Warning: Can't find file '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/ThirdPersonBP/Maps/Tutorial.umap'
+[2017.11.27-13.35.42:675][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.27-13.35.42:715][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.401ms to complete.
+[2017.11.27-13.35.42:715][  0]LogFileHelpers: Loading map 'Tutorial' took 0.041
+[2017.11.27-13.35.42:781][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.27-13.35.42:871][  0]LogCollectionManager: Loaded 0 collections in 0.001487 seconds
+[2017.11.27-13.35.42:950][  0]LogFileCache: Scanning file cache for directory 'F:/GitDownloaded/FMP_RPG_Game_Charm/Saved/Collections/' took 0.01s
+[2017.11.27-13.35.42:950][  0]LogFileCache: Scanning file cache for directory 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/Developers/Ryan/Collections/' took 0.01s
+[2017.11.27-13.35.42:950][  0]LogFileCache: Scanning file cache for directory 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/Collections/' took 0.01s
+[2017.11.27-13.35.42:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.11.27-13.35.42:959][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2329 classes and 491 folders.
+[2017.11.27-13.35.43:016][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.27-13.35.43:139][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.11.27-13.35.43:176][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.27-13.35.43:242][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.11.27-13.35.43:248][  0]LogSlate: Took 0.001430 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.27-13.35.43:251][  0]LogSlate: Took 0.001444 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.11.27-13.35.43:258][  0]LogSlate: Took 0.001497 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.11.27-13.35.43:355][  0]LogRenderer: Reallocating scene render targets to support 1168x600 NumSamples 1 (Frame:1).
+[2017.11.27-13.35.43:422][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.11.27-13.35.43:480][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.11.27-13.35.43:480][  0]LogLoad: (Engine Initialization) Total time: 19.69 seconds
+[2017.11.27-13.35.43:480][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.11.27-13.35.43:480][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.11.27-13.35.43:480][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.11.27-13.35.43:490][  0]LogOcInput: OculusInput pre-init called
+[2017.11.27-13.35.43:490][  0]LogHMD: Starting GearVRController plugin
+[2017.11.27-13.35.43:508][  0]SourceControl: Info On branch master
+[2017.11.27-13.35.43:508][  0]SourceControl: Info Your branch is behind 'origin/master' by 3 commits, and can be fast-forwarded.
+[2017.11.27-13.35.43:508][  0]SourceControl: Info   (use "git pull" to update your local branch)
+[2017.11.27-13.35.43:508][  0]SourceControl: Info Changes to be committed:
+[2017.11.27-13.35.43:508][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Gameplay/MessageHUD.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/Diffuse_Door.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/MAT_Door.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/M_Door.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/Mesh/Diffuse_Door.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/Mesh/MAT_Door.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Door01/Mesh/M_Door.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/Interactables/Interact.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	deleted:    Content/ThirdPersonBP/Blueprints/ThirdPersonCharacter.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	deleted:    Content/ThirdPersonBP/Blueprints/ThirdPersonGameMode.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	deleted:    Content/ThirdPersonBP/Maps/HelloWorld.umap
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	deleted:    Content/ThirdPersonBP/Maps/Tutorial.umap
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	new file:   Content/untitled.uasset
+[2017.11.27-13.35.43:508][  0]SourceControl: Info Changes not staged for commit:
+[2017.11.27-13.35.43:508][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.11.27-13.35.43:508][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	modified:   Config/DefaultEngine.ini
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	modified:   Config/DefaultInput.ini
+[2017.11.27-13.35.43:508][  0]SourceControl: Info 	modified:   Content/Gameplay/ExitHUD.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Content/Gameplay/MessageHUD.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/Interactables/Door01/Diffuse_Door.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/Interactables/Door01/MAT_Door.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/Interactables/Door01/M_Door.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Content/Interactables/Interact.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/JeffBP.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/RPGGM.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/RyansCommit.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Content/untitled.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Input.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto1.umap
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto2.umap
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/ThirdPersonBP/Maps/Tutorial_Auto3.umap
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-201B9C4242D66B9BC35728B444FADC68/CrashReportClient.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2BFC6C464683685B21462B8212BBA977/CrashReportClient.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-AA75E3184C476D02B9B16190A8156FF2/CrashReportClient.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-CFC21D204B0434B26D753780BEB171D1/CrashReportClient.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E0F274D04CC7E3C39E227EA126D23E68/CrashReportClient.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-F557218346A08499584E1F9CBDCB2336/CrashReportClient.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.13-15.52.00.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.18-21.38.09.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.18-22.08.59.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.23-21.57.24.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.23-23.54.54.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.23-23.57.37.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.24-01.13.20.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.24-01.14.54.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2017.11.27-13.35.43:509][  0]SourceControl: Info Untracked files:
+[2017.11.27-13.35.43:509][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	.gitignore
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Autosaves/Game/Gameplay/ThirdPersonPlayer_Auto4.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Autosaves/Game/Interactables/
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Autosaves/Game/untitled_Auto1.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Autosaves/Game/untitled_Auto2.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/DoorBP_2017-11-27-12-21-18.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/DoorBP_2017-11-27-12-26-24.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/DoorBP_2017-11-27-12-35-17.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/DoorBP_2017-11-27-12-40-33.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/ExitHUD_2017-11-27-12-30-45.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/Interact_2017-11-27-12-22-25.uasset
+[2017.11.27-13.35.43:509][  0]SourceControl: Info 	Saved/Backup/M_Door_2017-11-27-11-53-31.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/MessageHUD_2017-11-27-12-44-22.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/MessageHUD_2017-11-27-12-51-18.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/MessageHUD_2017-11-27-13-07-02.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-26-19-48-31.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-12-27-59.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-12-41-34.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-12-52-23.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-13-00-30.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-13-08-59.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-13-18-25.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-13-23-47.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/ThirdPersonPlayer_2017-11-27-13-29-05.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-01-13-28.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-02-16-57.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-02-41-53.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-11-54-03.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-12-05-38.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-12-18-38.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-12-54-10.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_2017-11-27-13-11-22.umap
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_BuiltData_2017-11-27-12-19-33.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_BuiltData_2017-11-27-12-54-11.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Backup/Tutorial_BuiltData_2017-11-27-13-11-22.uasset
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-0F535511474F33DD94BA2B82573A1404/
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-83140D92464DDD0C633D9F87A66986EB/
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-9494E3CA4C05FB608B61D8BAB24C8278/
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-D282A68F483099A01389D2B75B1B422E/
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-0F535511474F33DD94BA2B82573A1404_0000/
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-D282A68F483099A01389D2B75B1B422E_0000/
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.26-19.38.31.log
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.27-01.01.57.log
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.27-11.41.37.log
+[2017.11.27-13.35.43:510][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.27-13.35.24.log
+[2017.11.27-13.35.43:510][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.11.27-13.35.43:578][  1]LogAssetRegistry: Asset discovery search completed in 11.3455 seconds
+[2017.11.27-13.35.43:581][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.11.27-13.35.43:581][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000031 seconds (updated 0 objects)
+[2017.11.27-13.35.43:598][  1]LogSlate: Took 0.001633 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-13.36.20:513][298]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-13.36.20:967][298]SourceControl: Info rm 'Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset'
+[2017.11.27-13.39.04:381][964]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2017.11.27-13.39.06:625][974]SourceControl:Error: Error fatal: Could not switch to '/Temp/': No such file or directory
+[2017.11.27-13.39.08:177][135]LogAIModule: Creating AISystem for world HelloWorld
+[2017.11.27-13.39.08:196][135]Cmd: MAP LOAD FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.27-13.39.08:196][135]LightingResults: New page: Lighting Build
+[2017.11.27-13.39.08:230][135]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.11.27-13.39.08:230][135]LoadErrors: New page: Loading map: HelloWorld.umap
+[2017.11.27-13.39.08:231][135]MapCheck: New page: Map Check
+[2017.11.27-13.39.08:231][135]LightingResults: New page: Lighting Build
+[2017.11.27-13.39.08:276][135]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.27-13.39.08:305][135]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.27-13.39.08:345][135]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.992ms to complete.
+[2017.11.27-13.39.08:345][135]LogFileHelpers: Loading map 'HelloWorld' took 0.149
+[2017.11.27-13.39.10:390][354]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData'
+[2017.11.27-13.39.10:390][354]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData' while loading ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap.
+[2017.11.27-13.39.10:390][354]LoadErrors:Error: Error /Game/Maps/Tutorial : Can't find file for asset. /Game/ThirdPersonBP/Maps/Tutorial_BuiltData
+[2017.11.27-13.39.10:445][354]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData'
+[2017.11.27-13.39.10:445][354]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData' while loading ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap.
+[2017.11.27-13.39.10:447][354]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData'
+[2017.11.27-13.39.10:447][354]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData' while loading NULL.
+[2017.11.27-13.39.10:447][354]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData'
+[2017.11.27-13.39.10:447][354]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData' while loading NULL.
+[2017.11.27-13.39.10:468][354]LogLinker:Warning: Can't find file '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData'
+[2017.11.27-13.39.10:468][354]LoadErrors: Info Failed to load /Game/ThirdPersonBP/Maps/Tutorial_BuiltData.Tutorial_BuiltData Referenced by PersistentLevel
+[2017.11.27-13.39.10:469][354]LogLinker:Warning: Can't find file for asset '/Game/ThirdPersonBP/Maps/Tutorial_BuiltData' while loading NULL.
+[2017.11.27-13.39.10:539][354]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 8X8)
+[2017.11.27-13.39.10:540][354]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 8X8)
+[2017.11.27-13.39.10:541][354]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 8X8)
+[2017.11.27-13.39.10:541][354]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 8X8)
+[2017.11.27-13.39.10:541][354]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 8X8)
+[2017.11.27-13.39.10:541][354]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2017.11.27-13.39.10:541][354]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 8X8)
+[2017.11.27-13.39.10:731][354]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.39.10:755][354]Cmd: MAP LOAD FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.11.27-13.39.10:755][354]LightingResults: New page: Lighting Build
+[2017.11.27-13.39.10:755][354]LoadErrors: New page: Loading map: Tutorial.umap
+[2017.11.27-13.39.10:756][354]MapCheck: New page: Map Check
+[2017.11.27-13.39.10:756][354]LightingResults: New page: Lighting Build
+[2017.11.27-13.39.10:839][354]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.11.27-13.39.10:868][354]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.11.27-13.39.10:921][354]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 52.41ms to complete.
+[2017.11.27-13.39.10:921][354]LogFileHelpers: Loading map 'Tutorial' took 0.167
+[2017.11.27-13.39.14:333][737]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-13.39.14:576][737]LogSavePackage: Save=227.06ms
+[2017.11.27-13.39.14:576][737]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Tutorial92B2276845EF691AF37F9CA6F7D0082E.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap'
+[2017.11.27-13.39.14:577][737]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap
+[2017.11.27-13.39.18:321][174]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.39.18:436][174]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.39.18:436][174]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.39.18:436][174]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:39:18)
+[2017.11.27-13.39.18:436][174]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.39.18:446][174]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009938s)
+[2017.11.27-13.39.18:447][174]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.39.18:447][174]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.11.27-13.39.18:447][174]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010689s)
+[2017.11.27-13.39.18:471][174]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.39.18:477][174]LogInit: FAudioDevice initialized.
+[2017.11.27-13.39.18:523][174]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.39.18:528][174]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.39.18
+[2017.11.27-13.39.18:528][174]LogWorld: Bringing up level for play took: 0.003167
+[2017.11.27-13.39.18:562][174]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.11.27-13.39.18:566][174]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.634
+[2017.11.27-13.39.18:567][174]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.39.21:771][551]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.39.21:805][551]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.39.32:621][780]Cmd: TRANSACTION UNDO
+[2017.11.27-13.39.32:621][780]LogEditorTransaction: Undo Rotate Actors
+[2017.11.27-13.39.32:664][780]LogSlate: Took 0.000212 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.11.27-13.39.33:398][862]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.27-13.39.34:518][975]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.39.36:193][152]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.39.57:291][634]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.39.57:945][708]Cmd: TRANSACTION UNDO
+[2017.11.27-13.39.57:945][708]LogEditorTransaction: Undo Clicking on Actors
+[2017.11.27-13.39.58:727][792]Cmd: TRANSACTION UNDO
+[2017.11.27-13.39.58:727][792]LogEditorTransaction: Undo Rotate Actors
+[2017.11.27-13.39.59:350][861]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.40.01:380][ 80]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.40.14:712][656]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2017.11.27-13.40.16:386][838]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.40.24:628][762]Cmd: TRANSACTION UNDO
+[2017.11.27-13.40.24:628][762]LogEditorTransaction: Undo Rotate Actors
+[2017.11.27-13.40.25:275][813]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.11.27-13.40.28:459][126]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.40.28:474][126]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.40.28:474][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.40.28:474][126]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:40:28)
+[2017.11.27-13.40.28:474][126]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.40.28:484][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009491s)
+[2017.11.27-13.40.28:484][126]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.40.28:484][126]LogPlayLevel: PIE: World Init took: (0.000519s)
+[2017.11.27-13.40.28:485][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010203s)
+[2017.11.27-13.40.28:504][126]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.40.28:511][126]LogInit: FAudioDevice initialized.
+[2017.11.27-13.40.28:540][126]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.40.28:544][126]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.40.28
+[2017.11.27-13.40.28:544][126]LogWorld: Bringing up level for play took: 0.002968
+[2017.11.27-13.40.28:547][126]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.653
+[2017.11.27-13.40.28:547][126]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.40.45:115][110]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.40.45:155][110]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.40.48:948][537]LogAIModule: Creating AISystem for world HelloWorld
+[2017.11.27-13.40.58:883][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-13.40.59:119][303]LogSavePackage: Save=221.57ms
+[2017.11.27-13.40.59:119][303]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/TutorialDA801541468235B2A9F860AD038C5308.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap'
+[2017.11.27-13.40.59:121][303]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap
+[2017.11.27-13.40.59:142][303]LogFileHelpers: Saving map 'Tutorial' took 0.312
+[2017.11.27-13.41.09:663][540]LogSlate: Took 0.001485 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.11.27-13.41.14:947][154]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.41.14:963][154]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.14:963][154]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.41.14:963][154]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:41:14)
+[2017.11.27-13.41.14:963][154]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.41.14:973][154]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009720s)
+[2017.11.27-13.41.14:974][154]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.41.14:974][154]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.11.27-13.41.14:974][154]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010462s)
+[2017.11.27-13.41.14:992][154]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.41.14:999][154]LogInit: FAudioDevice initialized.
+[2017.11.27-13.41.15:027][154]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.41.15:031][154]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.41.15
+[2017.11.27-13.41.15:031][154]LogWorld: Bringing up level for play took: 0.002957
+[2017.11.27-13.41.15:034][154]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.166
+[2017.11.27-13.41.15:034][154]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.31:433][119]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.31:472][119]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.39:888][105]LogBlueprint:Warning: Node '/Game/Interactables/Door01/BP/DoorBP.DoorBP:EventGraph.Interact_1' missing NodeGuid, this can cause deterministic cooking issues please resave package.
+[2017.11.27-13.41.44:088][568]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.41.44:104][568]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.44:104][568]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.41.44:105][568]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:41:44)
+[2017.11.27-13.41.44:105][568]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.41.44:114][568]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009869s)
+[2017.11.27-13.41.44:115][568]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.41.44:115][568]LogPlayLevel: PIE: World Init took: (0.000551s)
+[2017.11.27-13.41.44:115][568]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010628s)
+[2017.11.27-13.41.44:134][568]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.41.44:140][568]LogInit: FAudioDevice initialized.
+[2017.11.27-13.41.44:170][568]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.41.44:174][568]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.41.44
+[2017.11.27-13.41.44:174][568]LogWorld: Bringing up level for play took: 0.002932
+[2017.11.27-13.41.44:177][568]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.976
+[2017.11.27-13.41.44:177][568]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.53:144][641]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.53:183][641]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.41.54:632][767]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.11.27-13.41.55:250][767]LogSlate: Took 0.000163 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.11.27-13.41.57:318][  3]LogSlate: Took 0.001516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.11.27-13.42.22:183][687]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.42.22:201][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.42.22:201][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.42.22:201][687]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:42:22)
+[2017.11.27-13.42.22:201][687]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.42.22:211][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009702s)
+[2017.11.27-13.42.22:211][687]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.42.22:212][687]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.11.27-13.42.22:212][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010564s)
+[2017.11.27-13.42.22:238][687]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.42.22:244][687]LogInit: FAudioDevice initialized.
+[2017.11.27-13.42.22:278][687]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.42.22:282][687]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.42.22
+[2017.11.27-13.42.22:282][687]LogWorld: Bringing up level for play took: 0.002930
+[2017.11.27-13.42.22:284][687]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.916
+[2017.11.27-13.42.22:285][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.17:284][657]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.17:331][657]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.18:576][742]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.43.18:593][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.18:593][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.43.18:593][742]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:43:18)
+[2017.11.27-13.43.18:593][742]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.43.18:603][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009646s)
+[2017.11.27-13.43.18:604][742]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.43.18:604][742]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.11.27-13.43.18:604][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010367s)
+[2017.11.27-13.43.18:628][742]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.43.18:635][742]LogInit: FAudioDevice initialized.
+[2017.11.27-13.43.18:665][742]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.43.18:669][742]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.43.18
+[2017.11.27-13.43.18:669][742]LogWorld: Bringing up level for play took: 0.002908
+[2017.11.27-13.43.18:671][742]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.529
+[2017.11.27-13.43.18:672][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.35:723][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.35:771][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.43.45:973][150]BlueprintLog: New page: Compile Interact
+[2017.11.27-13.43.46:571][194]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Interact" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Interact.uasset" SILENT=true
+[2017.11.27-13.43.46:582][194]LogSavePackage: Save=3.24ms
+[2017.11.27-13.43.46:582][194]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/InteractC0DE1F064B94995BBBBBA38DDEB6A5F7.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Interact.uasset'
+[2017.11.27-13.43.46:584][194]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Interact.uasset
+[2017.11.27-13.43.48:666][388]BlueprintLog: New page: Compile ThirdPersonPlayer
+[2017.11.27-13.43.48:685][388]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.43.48:704][388]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.43.49:050][388]BlueprintEditorCompileResults:Warning: Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.43.49:051][388]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0505.26] Compile of ThirdPersonPlayer successful, but with 1 Warning(s) [in 384 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2017.11.27-13.43.49:458][407]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2017.11.27-13.43.49:550][407]LogSavePackage: Save=86.13ms
+[2017.11.27-13.43.49:550][407]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayerC8A33D9E4659C3515729C2B3FE663AA3.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2017.11.27-13.43.49:552][407]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.43.55:064][873]BlueprintLog: New page: Compile ThirdPersonPlayer
+[2017.11.27-13.43.55:084][873]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.43.55:102][873]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.43.55:392][873]BlueprintEditorCompileResults:Warning: Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.43.55:393][873]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0511.60] Compile of ThirdPersonPlayer successful, but with 1 Warning(s) [in 329 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2017.11.27-13.43.56:478][953]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2017.11.27-13.43.56:569][953]LogSavePackage: Save=85.77ms
+[2017.11.27-13.43.56:569][953]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayer834A61EC4E78019D588D06BB374ED3D4.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2017.11.27-13.43.56:571][953]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.44.04:022][645]BlueprintLog: New page: Compile ThirdPersonPlayer
+[2017.11.27-13.44.04:041][645]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.04:057][645]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.04:338][645]BlueprintEditorCompileResults:Warning: Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.04:339][645]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0520.55] Compile of ThirdPersonPlayer successful, but with 1 Warning(s) [in 317 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2017.11.27-13.44.05:189][704]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2017.11.27-13.44.05:281][704]LogSavePackage: Save=86.46ms
+[2017.11.27-13.44.05:281][704]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayer59CAB1AC4F6973C3770722B9A28C944A.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2017.11.27-13.44.05:283][704]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.44.07:939][927]BlueprintLog: New page: Compile ThirdPersonPlayer
+[2017.11.27-13.44.07:976][927]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.09:499][ 23]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2017.11.27-13.44.09:587][ 23]LogSavePackage: Save=82.30ms
+[2017.11.27-13.44.09:587][ 23]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayer8E8509D647D4E3389C56C9AC6AA3227B.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2017.11.27-13.44.09:589][ 23]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.44.42:812][670]BlueprintLog: New page: Compile ThirdPersonPlayer
+[2017.11.27-13.44.42:850][670]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.43:640][701]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2017.11.27-13.44.43:731][701]LogSavePackage: Save=84.95ms
+[2017.11.27-13.44.43:731][701]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayer80F3FDAC4EC9A2A8E4707D90E0491612.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2017.11.27-13.44.43:733][701]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.44.53:313][534]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.44.53:318][534]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.53:415][534]BlueprintEditorCompileResults:Warning: Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.44.53:416][534]LogBlueprint:Warning: [Compiler DoorBP] Warning [0569.63] Compile of DoorBP successful, but with 1 Warning(s) [in 102 ms] (/Game/Interactables/Door01/BP/DoorBP.DoorBP)
+[2017.11.27-13.44.53:956][576]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.44.53:984][576]LogSavePackage: Save=21.53ms
+[2017.11.27-13.44.53:984][576]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP04B6A94A49D3945AE5861B82E4686F75.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.44.53:986][576]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.45.34:456][174]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.45.34:462][174]LogBlueprint:Warning: [Compiler DoorBP] Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.45.34:560][174]BlueprintEditorCompileResults:Warning: Warning Interface ' Interact ' is already implemented as a function graph but is expected as an event. Remove the function graph and reimplement as an event.
+[2017.11.27-13.45.34:560][174]LogBlueprint:Warning: [Compiler DoorBP] Warning [0610.77] Compile of DoorBP successful, but with 1 Warning(s) [in 103 ms] (/Game/Interactables/Door01/BP/DoorBP.DoorBP)
+[2017.11.27-13.45.34:999][205]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.45.35:028][205]LogSavePackage: Save=24.04ms
+[2017.11.27-13.45.35:028][205]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP846C76DC46F842EFE777E1B42BAA8EEA.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.45.35:030][205]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.45.41:857][724]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.11.27-13.45.44:663][957]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.45.44:668][957]LogBlueprint:Error: [Compiler DoorBP] Error Graph named 'Interact' already exists in 'DoorBP'. Another one cannot be generated from  <None>
+[2017.11.27-13.45.44:844][957]BlueprintEditorCompileResults:Error: Error Graph named 'Interact' already exists in 'DoorBP'. Another one cannot be generated from  <None>
+[2017.11.27-13.45.44:845][957]LogBlueprint:Warning: [Compiler DoorBP] Warning [0621.05] Compile of DoorBP failed. 1 Fatal Issue(s) 0 Warning(s) [in 181 ms] (/Game/Interactables/Door01/BP/DoorBP.DoorBP)
+[2017.11.27-13.45.45:311][988]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.45.45:344][988]LogSavePackage: Save=25.39ms
+[2017.11.27-13.45.45:344][988]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBPC71B76BB4A96DD8D3A413D8352F8F0F5.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.45.45:346][988]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.45.56:736][964]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.45.57:356][  2]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.45.57:386][  2]LogSavePackage: Save=22.96ms
+[2017.11.27-13.45.57:386][  2]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBPFC0DC7974604695FB8E5CD8B10A55900.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.45.57:388][  2]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.46.21:570][ 87]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.46.22:112][118]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.46.22:141][118]LogSavePackage: Save=23.69ms
+[2017.11.27-13.46.22:141][118]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP79F1F26F4CFEEBC7EFB322BDBBD6E6E6.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.46.22:143][118]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.46.23:776][269]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.46.23:794][269]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.23:794][269]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.46.23:794][269]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:46:23)
+[2017.11.27-13.46.23:794][269]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.46.23:804][269]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009646s)
+[2017.11.27-13.46.23:804][269]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.46.23:804][269]LogPlayLevel: PIE: World Init took: (0.000544s)
+[2017.11.27-13.46.23:805][269]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010394s)
+[2017.11.27-13.46.23:829][269]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.46.23:835][269]LogInit: FAudioDevice initialized.
+[2017.11.27-13.46.23:865][269]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.46.23:869][269]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.46.23
+[2017.11.27-13.46.23:869][269]LogWorld: Bringing up level for play took: 0.002912
+[2017.11.27-13.46.23:872][269]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.672
+[2017.11.27-13.46.23:872][269]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.33:676][333]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.33:715][333]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.37:636][699]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.46.37:656][699]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.37:656][699]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.46.37:656][699]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:46:37)
+[2017.11.27-13.46.37:656][699]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.46.37:666][699]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010174s)
+[2017.11.27-13.46.37:667][699]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.46.37:667][699]LogPlayLevel: PIE: World Init took: (0.000539s)
+[2017.11.27-13.46.37:667][699]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.011040s)
+[2017.11.27-13.46.37:691][699]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.46.37:698][699]LogInit: FAudioDevice initialized.
+[2017.11.27-13.46.37:731][699]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.46.37:734][699]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.46.37
+[2017.11.27-13.46.37:735][699]LogWorld: Bringing up level for play took: 0.002906
+[2017.11.27-13.46.37:737][699]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.537
+[2017.11.27-13.46.37:737][699]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.40:422][986]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.40:463][986]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.51:836][ 39]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.46.52:412][ 74]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.46.52:441][ 74]LogSavePackage: Save=23.81ms
+[2017.11.27-13.46.52:441][ 74]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP231CF5BF49B5989F730D0A8EBF14B5A6.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.46.52:443][ 74]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.46.53:867][202]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.46.53:886][202]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.53:886][202]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.46.53:886][202]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:46:53)
+[2017.11.27-13.46.53:886][202]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.46.53:896][202]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009648s)
+[2017.11.27-13.46.53:896][202]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.46.53:896][202]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.11.27-13.46.53:896][202]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010384s)
+[2017.11.27-13.46.53:920][202]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.46.53:927][202]LogInit: FAudioDevice initialized.
+[2017.11.27-13.46.53:956][202]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.46.53:959][202]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.46.53
+[2017.11.27-13.46.53:960][202]LogWorld: Bringing up level for play took: 0.002922
+[2017.11.27-13.46.53:962][202]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.762
+[2017.11.27-13.46.53:962][202]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.58:587][701]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.46.58:627][701]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.01:246][936]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.47.01:264][936]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.01:264][936]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.47.01:265][936]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:47:01)
+[2017.11.27-13.47.01:265][936]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.47.01:274][936]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009615s)
+[2017.11.27-13.47.01:275][936]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.47.01:275][936]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.11.27-13.47.01:275][936]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010340s)
+[2017.11.27-13.47.01:300][936]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.47.01:306][936]LogInit: FAudioDevice initialized.
+[2017.11.27-13.47.01:336][936]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.47.01:340][936]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.47.01
+[2017.11.27-13.47.01:340][936]LogWorld: Bringing up level for play took: 0.002910
+[2017.11.27-13.47.01:343][936]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.143
+[2017.11.27-13.47.01:343][936]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.06:629][504]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.06:672][504]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.15:798][353]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.47.15:820][353]LogSavePackage: Save=16.83ms
+[2017.11.27-13.47.15:820][353]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBPE70B520D46A801B309E7C6B157D00E44.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.47.15:821][353]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.47.36:231][ 23]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.47.36:251][ 23]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.36:251][ 23]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.47.36:251][ 23]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:47:36)
+[2017.11.27-13.47.36:251][ 23]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.47.36:261][ 23]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009912s)
+[2017.11.27-13.47.36:262][ 23]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.47.36:262][ 23]LogPlayLevel: PIE: World Init took: (0.000645s)
+[2017.11.27-13.47.36:262][ 23]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010791s)
+[2017.11.27-13.47.36:286][ 23]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.47.36:293][ 23]LogInit: FAudioDevice initialized.
+[2017.11.27-13.47.36:324][ 23]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.47.36:328][ 23]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.47.36
+[2017.11.27-13.47.36:328][ 23]LogWorld: Bringing up level for play took: 0.002915
+[2017.11.27-13.47.36:331][ 23]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.87
+[2017.11.27-13.47.36:331][ 23]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.50:686][134]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.47.50:723][134]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.48.45:735][892]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP)
+[2017.11.27-13.49.50:136][619]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.49.50:814][662]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.49.50:845][662]LogSavePackage: Save=26.04ms
+[2017.11.27-13.49.50:845][662]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP86A5B0DE461949DC3CEA22B8DA0EB88D.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.49.50:847][662]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.50.08:151][191]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.50.08:727][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.50.08:761][224]LogSavePackage: Save=27.72ms
+[2017.11.27-13.50.08:761][224]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP7619094346B93372A3EDC992949BDAD9.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.50.08:763][224]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.50.14:735][754]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.50.15:338][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.50.15:371][790]LogSavePackage: Save=27.41ms
+[2017.11.27-13.50.15:371][790]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP55F61D2244026100107EBDB7C12BC00D.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.50.15:373][790]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.50.53:892][357]LogRenderer: Reallocating scene render targets to support 1168x744 NumSamples 1 (Frame:1).
+[2017.11.27-13.51.15:425][ 46]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.51.16:071][ 77]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.51.16:104][ 77]LogSavePackage: Save=27.42ms
+[2017.11.27-13.51.16:104][ 77]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBPE9102F374330092A6EABC186DB14F847.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.51.16:106][ 77]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.51.22:245][539]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.11.27-13.51.23:013][606]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.51.23:037][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.51.23:037][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.51.23:038][606]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:51:23)
+[2017.11.27-13.51.23:038][606]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.51.23:054][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015591s)
+[2017.11.27-13.51.23:054][606]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.51.23:055][606]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.11.27-13.51.23:055][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.016570s)
+[2017.11.27-13.51.23:086][606]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.51.23:094][606]LogInit: FAudioDevice initialized.
+[2017.11.27-13.51.23:129][606]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.51.23:133][606]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.51.23
+[2017.11.27-13.51.23:134][606]LogWorld: Bringing up level for play took: 0.003061
+[2017.11.27-13.51.23:136][606]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.064
+[2017.11.27-13.51.23:137][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.51.25:980][940]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.51.26:024][940]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.51.26:585][998]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP)
+[2017.11.27-13.51.30:430][449]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.51.30:447][449]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.51.30:447][449]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.51.30:447][449]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:51:30)
+[2017.11.27-13.51.30:447][449]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.51.30:457][449]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009946s)
+[2017.11.27-13.51.30:457][449]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.51.30:457][449]LogPlayLevel: PIE: World Init took: (0.000546s)
+[2017.11.27-13.51.30:457][449]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010718s)
+[2017.11.27-13.51.30:482][449]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.51.30:489][449]LogInit: FAudioDevice initialized.
+[2017.11.27-13.51.30:522][449]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.51.30:525][449]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.51.30
+[2017.11.27-13.51.30:526][449]LogWorld: Bringing up level for play took: 0.002937
+[2017.11.27-13.51.30:528][449]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.672
+[2017.11.27-13.51.30:528][449]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.18:550][756]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.18:594][756]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.19:792][843]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.52.19:808][843]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.19:808][843]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.52.19:808][843]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:52:19)
+[2017.11.27-13.52.19:808][843]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.52.19:818][843]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009652s)
+[2017.11.27-13.52.19:818][843]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.52.19:818][843]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.11.27-13.52.19:818][843]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010387s)
+[2017.11.27-13.52.19:842][843]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.52.19:848][843]LogInit: FAudioDevice initialized.
+[2017.11.27-13.52.19:882][843]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.52.19:886][843]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.52.19
+[2017.11.27-13.52.19:886][843]LogWorld: Bringing up level for play took: 0.002961
+[2017.11.27-13.52.19:889][843]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.689
+[2017.11.27-13.52.19:889][843]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.28:298][584]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.28:338][584]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.31:789][844]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.52.31:805][844]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.31:805][844]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.52.31:805][844]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:52:31)
+[2017.11.27-13.52.31:805][844]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.52.31:815][844]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009761s)
+[2017.11.27-13.52.31:815][844]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.52.31:816][844]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.11.27-13.52.31:816][844]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010512s)
+[2017.11.27-13.52.31:839][844]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.52.31:845][844]LogInit: FAudioDevice initialized.
+[2017.11.27-13.52.31:877][844]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.52.31:881][844]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.52.31
+[2017.11.27-13.52.31:881][844]LogWorld: Bringing up level for play took: 0.002963
+[2017.11.27-13.52.31:883][844]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.683
+[2017.11.27-13.52.31:883][844]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.51:215][553]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.52.51:256][553]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.28:391][680]BlueprintLog: New page: Compile DoorBP
+[2017.11.27-13.53.29:175][727]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.53.29:212][727]LogSavePackage: Save=30.27ms
+[2017.11.27-13.53.29:212][727]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP6DA453344C8D8493D444AE9B4A54E82C.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.53.29:214][727]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.53.32:453][  1]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.53.32:469][  1]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.32:469][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.53.32:469][  1]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:53:32)
+[2017.11.27-13.53.32:469][  1]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.53.32:479][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009665s)
+[2017.11.27-13.53.32:479][  1]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.53.32:480][  1]LogPlayLevel: PIE: World Init took: (0.000520s)
+[2017.11.27-13.53.32:480][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010390s)
+[2017.11.27-13.53.32:503][  1]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.53.32:509][  1]LogInit: FAudioDevice initialized.
+[2017.11.27-13.53.32:537][  1]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.53.32:540][  1]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.53.32
+[2017.11.27-13.53.32:541][  1]LogWorld: Bringing up level for play took: 0.002988
+[2017.11.27-13.53.32:543][  1]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.657
+[2017.11.27-13.53.32:543][  1]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.39:103][612]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.39:145][612]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.53:520][ 43]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.53.53:548][ 43]LogSavePackage: Save=23.47ms
+[2017.11.27-13.53.53:549][ 43]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBPBE12F10842A84CB5EBC184AA7DED0247.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.53.53:551][ 43]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.53.54:731][159]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.53.54:747][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.54:747][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.53.54:748][159]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:53:54)
+[2017.11.27-13.53.54:748][159]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.53.54:758][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009929s)
+[2017.11.27-13.53.54:758][159]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.53.54:758][159]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.11.27-13.53.54:758][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010682s)
+[2017.11.27-13.53.54:780][159]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.53.54:787][159]LogInit: FAudioDevice initialized.
+[2017.11.27-13.53.54:815][159]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.53.54:818][159]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.53.54
+[2017.11.27-13.53.54:819][159]LogWorld: Bringing up level for play took: 0.002990
+[2017.11.27-13.53.54:821][159]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.379
+[2017.11.27-13.53.54:821][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.58:816][625]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.53.58:857][625]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.54.22:974][181]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.54.23:002][181]LogSavePackage: Save=23.27ms
+[2017.11.27-13.54.23:002][181]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP8710D01444244763FB568A8D7F8A196B.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.54.23:004][181]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.54.24:432][329]LogTemp: Repeting last play command: Selected Viewport
+[2017.11.27-13.54.24:448][329]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.54.24:448][329]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.11.27-13.54.24:448][329]PIE: New page: PIE session: Tutorial (27 Nov 2017 13:54:24)
+[2017.11.27-13.54.24:449][329]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2017.11.27-13.54.24:458][329]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009778s)
+[2017.11.27-13.54.24:459][329]LogAIModule: Creating AISystem for world Tutorial
+[2017.11.27-13.54.24:459][329]LogPlayLevel: PIE: World Init took: (0.000523s)
+[2017.11.27-13.54.24:459][329]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.010510s)
+[2017.11.27-13.54.24:482][329]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID PRO USB Gaming Headset )' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.11.27-13.54.24:488][329]LogInit: FAudioDevice initialized.
+[2017.11.27-13.54.24:516][329]LogLoad: Game class is 'RPGGM_C'
+[2017.11.27-13.54.24:520][329]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-13.54.24
+[2017.11.27-13.54.24:521][329]LogWorld: Bringing up level for play took: 0.003201
+[2017.11.27-13.54.24:523][329]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial -0.677
+[2017.11.27-13.54.24:523][329]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.54.33:507][388]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.54.33:546][388]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2017.11.27-13.54.35:424][567]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Interactables/Door01/BP/DoorBP" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset" SILENT=true
+[2017.11.27-13.54.35:452][567]LogSavePackage: Save=23.49ms
+[2017.11.27-13.54.35:452][567]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/DoorBP0FACACB844E9829DFBBC3C879B0E35D5.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset'
+[2017.11.27-13.54.35:453][567]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.55.14:851][514]LogStaticMesh: Building static mesh SM_SpiderBoss_RubbleBit...
+[2017.11.27-13.55.14:867][514]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.11.27-13.55.14:867][514]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeEffects/Enemy/SM_SpiderBoss_RubbleBit.SM_SpiderBoss_RubbleBit
+[2017.11.27-13.55.15:270][515]LogRenderer: Reallocating scene render targets to support 1384x964 NumSamples 1 (Frame:1).
+[2017.11.27-13.55.15:333][515]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/Tutorial_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2017.11.27-13.55.15:601][515]LogSavePackage: Save=259.95ms
+[2017.11.27-13.55.15:601][515]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Tutorial_Auto1706472564C3B005D32416E82A2BB81D5.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/Tutorial_Auto1.umap'
+[2017.11.27-13.55.15:602][515]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/Tutorial_Auto1.umap
+[2017.11.27-13.55.15:603][515]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/Tutorial' took 0.284
+[2017.11.27-13.55.15:603][515]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.284
+[2017.11.27-13.55.15:605][515]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Gameplay/ThirdPersonPlayer] ([1] browsable assets)...
+[2017.11.27-13.55.15:605][515]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/ThirdPersonPlayer]
+[2017.11.27-13.55.15:688][515]LogSavePackage: Save=77.19ms
+[2017.11.27-13.55.15:688][515]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayer_Auto14C2656E64ECC90C240F547A417A9CF6C.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/ThirdPersonPlayer_Auto1.uasset'
+[2017.11.27-13.55.15:689][515]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/ThirdPersonPlayer_Auto1.uasset
+[2017.11.27-13.55.15:689][515]LogFileHelpers: Auto-saving content packages took 0.085
+[2017.11.27-13.55.19:502][861]LogStaticMesh: Building static mesh SM_SpiderBoss_RockSpawn...
+[2017.11.27-13.55.19:519][861]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2017.11.27-13.55.19:521][861]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeEffects/Enemy/SM_SpiderBoss_RockSpawn.SM_SpiderBoss_RockSpawn
+[2017.11.27-13.55.44:296][296]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-13.55.44:578][296]LogSavePackage: Save=263.20ms
+[2017.11.27-13.55.44:578][296]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Tutorial081891714FA68614A611118AA096BFDC.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap'
+[2017.11.27-13.55.44:580][296]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap
+[2017.11.27-13.55.48:150][639]MapCheck: New page: Map Check
+[2017.11.27-13.55.48:169][639]Cmd: MAP REBUILD ALLVISIBLE
+[2017.11.27-13.55.48:170][639]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2017.11.27-13.55.48:282][639]LightingResults: New page: Lighting Build - 27 Nov 2017 13:55:48
+[2017.11.27-13.55.48:327][639]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.11.27-13.55.50:032][639]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.11.27-13.55.50:044][639]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.11.27-13.55.51:067][639]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.11.27-13.55.51:068][639]LogSwarmInterface: [TryOpenConnection] Local Process ID is 14080
+[2017.11.27-13.55.54:624][639]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.11.27-13.55.54:625][639]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.11.27-13.55.54:625][639]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.11.27-13.55.54:625][639]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.11.27-13.55.54:625][639]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.11.27-13.55.54:625][639]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.11.27-13.55.54:818][639]LogEditorBuildUtils: Build time 0:06
+[2017.11.27-13.55.54:823][639]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2017.11.27-13.55.54:833][639]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer MaterialInstanceDynamic_2, compiling. 
+[2017.11.27-13.55.54:864][640]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.27-13.55.54:872][640]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_37, compiling. 
+[2017.11.27-13.55.54:926][642]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling. 
+[2017.11.27-13.55.54:932][642]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_61, compiling. 
+[2017.11.27-13.55.55:282][656]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.27-13.55.55:289][656]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeLeaf, compiling. 
+[2017.11.27-13.55.55:308][657]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.27-13.55.55:315][657]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer OakTreeTrunk, compiling. 
+[2017.11.27-13.55.55:335][658]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.27-13.55.55:343][658]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Rock, compiling. 
+[2017.11.27-13.55.55:370][659]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.27-13.55.55:379][659]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeTrunk, compiling. 
+[2017.11.27-13.55.55:406][660]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.27-13.55.55:416][660]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer SpruceTreeLeaf, compiling. 
+[2017.11.27-13.55.55:438][661]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.27-13.55.55:446][661]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.27-13.55.55:467][662]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.27-13.55.55:474][662]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.27-13.55.55:497][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Yellow, compiling. 
+[2017.11.27-13.55.55:505][663]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Yellow, compiling. 
+[2017.11.27-13.55.55:526][664]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DarkLeaves, compiling. 
+[2017.11.27-13.55.55:534][664]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_DarkLeaves, compiling. 
+[2017.11.27-13.55.55:564][665]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rose, compiling. 
+[2017.11.27-13.55.55:572][665]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Rose, compiling. 
+[2017.11.27-13.55.55:596][666]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Blue, compiling. 
+[2017.11.27-13.55.55:611][666]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Blue, compiling. 
+[2017.11.27-13.55.55:665][667]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Leaves, compiling. 
+[2017.11.27-13.55.55:673][667]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Leaves, compiling. 
+[2017.11.27-13.55.55:730][668]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.27-13.55.55:737][668]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer stone, compiling. 
+[2017.11.27-13.55.55:767][669]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2017.11.27-13.55.55:776][669]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer wood, compiling. 
+[2017.11.27-13.55.55:802][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer roof, compiling. 
+[2017.11.27-13.55.55:811][670]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer roof, compiling. 
+[2017.11.27-13.55.55:833][671]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.27-13.55.55:841][671]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer White, compiling. 
+[2017.11.27-13.56.14:542][449]Job is a success!
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
+[2017.11.27-13.56.14:887][450]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
+[2017.11.27-13.56.14:900][450]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2017.11.27-13.56.14:900][450]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
+[2017.11.27-13.56.14:960][450]Lightmass on RYAN-PC: 15.0 sec total, 146 ms importing, 37 ms setup, 2.06 sec photons, 12.6 sec processing, 0 ms extra exporting [80/80 mappings]. Threads: 1:28 min total, 1:12 min processing.
+[2017.11.27-13.56.14:989][450]LogStaticLightingSystem: Illumination: 26.6 sec (272 ms encoding lightmaps, 9 ms encoding shadowmaps)
+[2017.11.27-13.56.14:989][450]LogStaticLightingSystem: Lightmap texture memory:  0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 6 textures
+[2017.11.27-13.56.14:989][450]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.11.27-13.56.15:632][450]DumpUnbuiltLightIteractions
+[2017.11.27-13.56.15:632][450]Lights with unbuilt interactions: 0
+[2017.11.27-13.56.15:632][450]
+[2017.11.27-13.56.15:632][450]Primitives with unbuilt interactions: 0
+[2017.11.27-13.56.15:642][451]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.11.27-13.56.15:642][451]MapCheck: New page: Tutorial - 27 Nov 2017 13:56:15
+[2017.11.27-13.56.15:727][451]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 84.725ms to complete.
+[2017.11.27-13.57.00:187][907]SourceControl: Info fatal: F:/UE/UE_4.16/Engine/Content/: 'F:/UE/UE_4.16/Engine/Content/' is outside repository
+[2017.11.27-13.57.02:436][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2017.11.27-13.57.02:524][907]LogSavePackage: Save=80.52ms
+[2017.11.27-13.57.02:524][907]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/ThirdPersonPlayerA17FC30849A727CA0D65BF86E30EB145.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2017.11.27-13.57.02:526][907]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Gameplay/ThirdPersonPlayer.uasset
+[2017.11.27-13.57.02:584][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.11.27-13.57.02:863][907]LogSavePackage: Save=260.88ms
+[2017.11.27-13.57.02:863][907]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/TutorialC4C04EA64F7CADF6E361358AB06CE513.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap'
+[2017.11.27-13.57.02:865][907]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap
+[2017.11.27-13.57.02:887][907]LogFileHelpers: Saving map 'Tutorial' took 0.359
+[2017.11.27-13.57.02:895][907]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 512X64)
+[2017.11.27-13.57.02:896][907]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 64X64)
+[2017.11.27-13.57.02:898][907]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial_BuiltData" FILE="../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2017.11.27-13.57.02:976][907]LogSavePackage: Save=60.40ms
+[2017.11.27-13.57.02:976][907]LogSavePackage: Moving '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Saved/Tutorial_BuiltDataA228D7E54F265582DEB0B3B87F82EBB7.tmp' to '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial_BuiltData.uasset'
+[2017.11.27-13.57.02:979][907]LogSavePackage:Display: Finished SavePackage ../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/Maps/Tutorial_BuiltData.uasset
+[2017.11.27-13.57.35:202][867]SourceControl: Info fatal: F:/UE/UE_4.16/Engine/Content/: 'F:/UE/UE_4.16/Engine/Content/' is outside repository
+[2017.11.27-13.57.52:388][867]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.11.27-13.57.52:577][867]SourceControl: Info [master 4118d64] BP changes HUD message and door
+[2017.11.27-13.57.52:577][867]SourceControl: Info  9 files changed, 0 insertions(+), 0 deletions(-)
+[2017.11.27-13.57.52:577][867]SourceControl: Info  create mode 100644 Content/Gameplay/MessageHUD.uasset
+[2017.11.27-13.57.52:577][867]SourceControl: Info  create mode 100644 Content/Interactables/Door01/BP/DoorBP.uasset
+[2017.11.27-13.57.52:577][867]SourceControl: Info  create mode 100644 Content/Interactables/Interact.uasset
+[2017.11.27-13.57.52:577][867]SourceControl: Info  create mode 100644 Content/Maps/HelloWorld.umap
+[2017.11.27-13.57.52:577][867]SourceControl: Info  create mode 100644 Content/Maps/Tutorial.umap
+[2017.11.27-13.57.52:577][867]SourceControl: Info  create mode 100644 Content/Maps/Tutorial_BuiltData.uasset
+[2017.11.27-13.57.52:577][867]SourceControl: Info  delete mode 100644 Content/ThirdPersonBP/Maps/Tutorial_BuiltData.uasset
+[2017.11.27-13.57.52:589][867]SourceControl: Info Commited [master 4118d64] BP changes HUD message and door.
+[2017.11.27-13.57.55:689][203]Cmd: QUIT_EDITOR
+[2017.11.27-13.57.56:539][203]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.11.27-13.57.56:546][203]LogExit: Preparing to exit.
+[2017.11.27-13.57.57:297][203]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/' was aborted.
+[2017.11.27-13.57.57:328][203]LogExit: Editor shut down
+[2017.11.27-13.57.57:330][203]LogExit: Transaction tracking system shut down
+[2017.11.27-13.57.57:412][203]LogObj: Freed 0b from 0 cluster array pools.
+[2017.11.27-13.57.57:412][203]LogExit: Object subsystem successfully closed.
+[2017.11.27-13.57.57:434][203]LogD3D11RHI: Shutdown
+[2017.11.27-13.57.57:434][203]LogD3D11RHI: CleanupD3DDevice
+[2017.11.27-13.57.57:526][203]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (532)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.11.27-13.57.57:536][203]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.11.27-13.57.57:537][203]LogDirectoryWatcher: A directory notification for 'F:/UE/UE_4.16/FeaturePacks/' was aborted.
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.11.27-13.57.57:537][203]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/Collections/' was aborted.
+[2017.11.27-13.57.57:537][203]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Content/Developers/Ryan/Collections/' was aborted.
+[2017.11.27-13.57.57:537][203]LogDirectoryWatcher: A directory notification for 'F:/GitDownloaded/FMP_RPG_Game_Charm/Saved/Collections/' was aborted.
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.11.27-13.57.57:537][203]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.11.27-13.57.57:538][203]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.11.27-13.57.57:711][203]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.11.27-13.57.57:764][203]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.11.27-13.57.57:771][203]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.11.27-13.57.57:772][203]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.11.27-13.57.57:963][203]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.11.27-13.57.57:964][203]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.11.27-13.57.58:065][203]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.11.27-13.57.58:165][203]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.11.27-13.57.58:165][203]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.11.27-13.57.58:165][203]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.11.27-13.57.58:165][203]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.11.27-13.57.58:165][203]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.11.27-13.57.58:165][203]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.11.27-13.57.58:166][203]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.11.27-13.57.58:168][203]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.11.27-13.57.58:168][203]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.11.27-13.57.58:168][203]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.11.27-13.57.58:168][203]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.11.27-13.57.58:168][203]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.11.27-13.57.58:168][203]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.11.27-13.57.58:306][203]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.11.27-13.57.58:306][203]LogDirectoryWatcher: A directory notification for '../../../../../GitDownloaded/FMP_RPG_Game_Charm/Content/' was aborted.
+[2017.11.27-13.57.58:306][203]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.11.27-13.57.58:306][203]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.11.27-13.57.58:309][203]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.11.27-13.57.58:338][203]LogDerivedDataCache: Shutdown
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.11.27-13.57.58:338][203]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.11.27-13.57.58:339][203]LogOnline:Display: Unloading online subsystem: NULL
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.11.27-13.57.58:339][203]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.11.27-13.57.58:339][203]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.11.27-13.57.58:339][203]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B76361A36-43C9-39FE-761C-B89C217E6D70%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=80685d1f44f32b1fbce3579e86be7684%7C1cd4d5901e88499eb9139176ba5a7f4f%7Cd4885e74-c0c5-4abc-a5e8-67608077d65b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.11.27-13.57.58:360][203]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.11.27-13.57.58:361][203]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.11.27-13.57.58:362][203]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.11.27-13.57.58:363][203]LogExit: Exiting.
+[2017.11.27-13.57.58:375][203]Log file closed, 11/27/17 13:57:58
+=======
 [2017.11.27-13.07.30:531][  0]LogInit: Selected Device Profile: [Windows]
 [2017.11.27-13.07.30:531][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.11.27-13.07.30:602][  0]LogInit: Computer: SONOFMORT
@@ -530,6 +1749,7 @@ LogInit: Object subsystem initialized
 [2017.11.27-13.18.19:066][151]SourceControl: Info [master fc71520] grass change
 [2017.11.27-13.18.19:066][151]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
 [2017.11.27-13.18.19:077][151]SourceControl: Info Commited [master fc71520] grass change.
+<<<<<<< HEAD
 [2017.11.27-13.25.36:573][738]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (WellHut2)
 [2017.11.27-13.25.40:988][190]LogTemp: Repeting last play command: Selected Viewport
 [2017.11.27-13.25.41:014][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
@@ -1025,3 +2245,6 @@ LogInit: Object subsystem initialized
 [2017.11.27-14.01.48:563][841]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.11.27-14.01.48:575][841]LogExit: Exiting.
 [2017.11.27-14.01.48:597][841]Log file closed, 11/27/17 14:01:48
+=======
+>>>>>>> 170a7544b90e9b732e48f58af8a67a4b158dad25
+>>>>>>> 772a15e804fc24c248b68181b21aaf65fa2fca82

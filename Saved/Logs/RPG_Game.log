@@ -1,9 +1,9 @@
-﻿Log file open, 11/27/17 14:05:18
+﻿Log file open, 01/11/18 14:55:33
 LogInit:Display: Running engine for game: RPG_Game
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-843410021) SRandInit(-843410021).
-LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.096986
+LogInit:Display: RandInit(-1672512931) SRandInit(-1672512931).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.508716
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,262 +46,452 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  
-LogInit: Base directory: D:/Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.11.27-14.05.18:583][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.27-14.05.18:583][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.11.27-14.05.18:598][  0]LogInit: Computer: SONOFMORT
-[2017.11.27-14.05.18:598][  0]LogInit: User: Jordan
-[2017.11.27-14.05.18:598][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.11.27-14.05.18:598][  0]LogInit: High frequency timer resolution =3.320332 MHz
-[2017.11.27-14.05.18:598][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
-[2017.11.27-14.05.18:598][  0]LogMemory: Platform Memory Stats for Windows
-[2017.11.27-14.05.18:598][  0]LogMemory: Process Physical Memory: 275.25 MB used, 275.25 MB peak
-[2017.11.27-14.05.18:598][  0]LogMemory: Process Virtual Memory: 266.71 MB used, 266.71 MB peak
-[2017.11.27-14.05.18:598][  0]LogMemory: Physical Memory: 6024.48 MB used,  10308.90 MB free, 16333.39 MB total
-[2017.11.27-14.05.18:598][  0]LogMemory: Virtual Memory: 667.52 MB used,  10308.90 MB free, 134217728.00 MB total
-[2017.11.27-14.05.18:672][  0]LogInit: Using OS detected language (en-US).
-[2017.11.27-14.05.18:672][  0]LogInit: Using OS detected locale (en-GB).
-[2017.11.27-14.05.18:677][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.11.27-14.05.19:777][  0]LogD3D11RHI: D3D11 adapters:
-[2017.11.27-14.05.19:831][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.11.27-14.05.19:831][  0]LogD3D11RHI:       8096/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.11.27-14.05.19:833][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.11.27-14.05.19:833][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.11.27-14.05.19:833][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.11.27-14.05.19:839][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.11.27-14.05.19:839][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.11.27-14.05.19:839][  0]LogWindows: EnumDisplayDevices:
-[2017.11.27-14.05.19:839][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.11.27-14.05.19:839][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.11.27-14.05.19:840][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.27-14.05.19:840][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.11.27-14.05.19:840][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2017.11.27-14.05.19:840][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.11.27-14.05.19:840][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2017.11.27-14.05.19:840][  0]LogD3D11RHI:      Driver Date: Unknown
-[2017.11.27-14.05.19:840][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.11.27-14.05.19:868][  0]LogD3D11RHI: Async texture creation enabled
-[2017.11.27-14.05.19:887][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.11.27-14.05.19:980][  0]LogShaderCompilers: Guid format shader working directory is 16 characters bigger than the processId version (E:/Year 2/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/5552/).
-[2017.11.27-14.05.19:980][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/FA7B7AC2468CE855531968B4F2D9895F/'.
-[2017.11.27-14.05.19:980][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.11.27-14.05.21:146][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.11.27-14.05.21:201][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.11.27-14.05.21:259][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.11.27-14.05.21:316][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.11.27-14.05.21:375][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.11.27-14.05.21:430][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.11.27-14.05.21:488][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.11.27-14.05.21:546][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.11.27-14.05.21:594][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.11.27-14.05.21:651][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.11.27-14.05.21:705][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.11.27-14.05.21:760][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.11.27-14.05.21:816][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.11.27-14.05.21:874][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.11.27-14.05.21:927][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.11.27-14.05.22:038][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.11.27-14.05.22:038][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.11.27-14.05.22:082][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.11.27-14.05.22:178][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.11.27-14.05.22:210][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.11.27-14.05.22:268][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.11.27-14.05.22:322][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.11.27-14.05.22:381][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.11.27-14.05.22:442][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.11.27-14.05.22:442][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.11.27-14.05.23:087][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.11.27-14.05.23:174][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.11.27-14.05.23:174][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.11.27-14.05.23:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.11.27-14.05.23:174][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.11.27-14.05.23:174][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.11.27-14.05.23:174][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.11.27-14.05.23:193][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.11.27-14.05.23:206][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.11.27-14.05.23:218][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.11.27-14.05.23:218][  0]LogSlate: Using Freetype 2.6.0
-[2017.11.27-14.05.23:220][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.27-14.05.23:220][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.11.27-14.05.23:704][  0]LogInit: Selected Device Profile: [Windows]
-[2017.11.27-14.05.23:864][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.11.27-14.05.24:052][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.11.27-14.05.24:103][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.11.27-14.05.24:204][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.11.27-14.05.24:204][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.11.27-14.05.24:204][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.11.27-14.05.24:958][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
-[2017.11.27-14.05.25:020][  0]LogAssetRegistry: FAssetRegistry took 0.0260 seconds to start up
-[2017.11.27-14.05.25:119][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.077926 seconds
-[2017.11.27-14.05.25:126][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.11.27-14.05.25:126][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.11.27-14.05.25:126][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.11.27-14.05.25:209][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.11.27-14.05.28:669][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.11.27-14.05.28:740][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.11.27-14.05.29:504][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.11.27-14.05.30:060][  0]SourceControl: Info Source control is disabled
-[2017.11.27-14.05.33:626][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.11.27-14.05.34:882][  0]LogEngine: Initializing Engine...
-[2017.11.27-14.05.34:884][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.11.27-14.05.35:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.11.27-14.05.35:231][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.11.27-14.05.35:549][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.11.27-14.05.35:579][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2017.11.27-14.05.35:613][  0]LogInit: FAudioDevice initialized.
-[2017.11.27-14.05.35:707][  0]LogDerivedDataCache: Saved boot cache 0.09s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.11.27-14.05.35:719][  0]LogInit: Texture streaming: Enabled
-[2017.11.27-14.05.35:882][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.11.27-14.05.36:312][  0]LogInit: Transaction tracking system initialized
-[2017.11.27-14.05.36:987][  0]BlueprintLog: New page: Editor Load
-[2017.11.27-14.05.38:837][  0]LocalizationService: Info Localization service is disabled
-[2017.11.27-14.05.40:280][  0]LogConsoleResponse:Display: 
-[2017.11.27-14.05.40:523][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.11.27-14.05.40:524][  0]LogCook:Display: Mobile HDR setting 1
-[2017.11.27-14.05.41:028][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/' took 0.08s
-[2017.11.27-14.05.42:293][  0]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.11.27-14.05.42:293][  0]LightingResults: New page: Lighting Build
-[2017.11.27-14.05.42:337][  0]MapCheck: New page: Map Check
-[2017.11.27-14.05.42:337][  0]LightingResults: New page: Lighting Build
-[2017.11.27-14.05.43:103][  0]LogStaticMesh: Building static mesh M_Door...
-[2017.11.27-14.05.43:166][  0]LogStaticMesh: Built static mesh [0.06s] /Game/Interactables/Door01/Mesh/M_Door.M_Door
-[2017.11.27-14.05.43:204][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
-[2017.11.27-14.05.43:467][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
-[2017.11.27-14.05.43:481][  0]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 64X64)
-[2017.11.27-14.05.43:489][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
-[2017.11.27-14.05.43:688][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
-[2017.11.27-14.05.43:691][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 64X64)
-[2017.11.27-14.05.43:697][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
-[2017.11.27-14.05.43:864][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
-[2017.11.27-14.05.43:871][  0]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 64X32)
-[2017.11.27-14.05.43:878][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 512X64)
-[2017.11.27-14.05.43:879][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
-[2017.11.27-14.05.43:892][  0]LogTexture:Display: Building textures: Diffuse_Door (AutoDXT, 1024X1024)
-[2017.11.27-14.05.44:080][  0]LogMaterial: Missing cached shader map for material MAT_Door, compiling. 
-[2017.11.27-14.05.44:394][  0]LogAIModule: Creating AISystem for world Tutorial
-[2017.11.27-14.05.44:465][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.11.27-14.05.44:486][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.11.27-14.05.44:728][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 242.344ms to complete.
-[2017.11.27-14.05.44:728][  0]LogFileHelpers: Loading map 'Tutorial' took 2.436
-[2017.11.27-14.05.44:827][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.11.27-14.05.44:995][  0]LogCollectionManager: Loaded 0 collections in 0.001910 seconds
-[2017.11.27-14.05.45:109][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
-[2017.11.27-14.05.45:109][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
-[2017.11.27-14.05.45:109][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
-[2017.11.27-14.05.45:109][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.11.27-14.05.45:126][  0]LogContentBrowser: Native class hierarchy populated in 0.0161 seconds. Added 2329 classes and 491 folders.
-[2017.11.27-14.05.45:235][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
-[2017.11.27-14.05.45:346][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
-[2017.11.27-14.05.45:406][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2017.11.27-14.05.45:454][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.11.27-14.05.46:827][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2017.11.27-14.05.46:881][  0]LogSlate: Took 0.000529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.11.27-14.05.46:885][  0]LogSlate: Took 0.000357 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.11.27-14.05.46:888][  0]LogSlate: Took 0.000327 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.11.27-14.05.47:064][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGGame
-[2017.11.27-14.05.47:064][  0]LogTemp: CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2017.11.27-14.05.47:064][  0]LogTemp: Initial Dir: D:\Games\UE_4.16
-[2017.11.27-14.05.47:064][  0]LogTemp: Env CWD: D:\Games\UE_4.16\Engine\Binaries\DotNET\IOS
-[2017.11.27-14.05.47:064][  0]LogRenderer: Reallocating scene render targets to support 1536x624 NumSamples 1 (Frame:1).
-[2017.11.27-14.05.47:261][  0]LogTemp: BranchPath = SONOFMORT/D/Games/UE_4.16/Engine/Binaries --- GameBranchPath = SONOFMORT/D/Games/UE_4.16/Engine/Binaries
-[2017.11.27-14.05.47:261][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Jordan\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
-[2017.11.27-14.05.47:261][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.11.27-14.05.47:335][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.11.27-14.05.47:335][  0]LogLoad: (Engine Initialization) Total time: 30.89 seconds
-[2017.11.27-14.05.47:335][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.22 seconds
-[2017.11.27-14.05.47:335][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.11.27-14.05.47:335][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.11.27-14.05.47:348][  0]LogOcInput: OculusInput pre-init called
-[2017.11.27-14.05.47:348][  0]LogHMD: Starting GearVRController plugin
-[2017.11.27-14.05.47:368][  0]SourceControl: Info On branch master
-[2017.11.27-14.05.47:368][  0]SourceControl: Info Your branch is up-to-date with 'origin/master'.
-[2017.11.27-14.05.47:368][  0]SourceControl: Info Changes not staged for commit:
-[2017.11.27-14.05.47:368][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.11.27-14.05.47:368][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Config/DefaultEngine.ini
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/311563bb.bin
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Intermediate/Config/CoalescedSourceConfigs/Engine.ini
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.23-15.08.42.log
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
-[2017.11.27-14.05.47:369][  0]SourceControl: Info Untracked files:
-[2017.11.27-14.05.47:369][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-074354BB4A535CE71892C5AE2070D29F/
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-76C9909E47F48A9CD7B42A8894B1CF22/
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.27-14.03.20.log
-[2017.11.27-14.05.47:369][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2017.11.27-14.05.18.log
-[2017.11.27-14.05.47:369][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.11.27-14.05.47:369][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.11.27-14.05.47:434][  0]LogSlate: Took 0.000358 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.27-14.05.47:488][  2]LogAssetRegistry: Asset discovery search completed in 22.4903 seconds
-[2017.11.27-14.05.47:494][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.11.27-14.05.47:494][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
-[2017.11.27-14.05.52:847][541]LogTemp: Repeting last play command: Selected Viewport
-[2017.11.27-14.05.53:087][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.05.53:087][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.27-14.05.53:088][541]PIE: New page: PIE session: Tutorial (27 Nov 2017 14:05:53)
-[2017.11.27-14.05.53:089][541]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
-[2017.11.27-14.05.53:103][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014600s)
-[2017.11.27-14.05.53:104][541]LogAIModule: Creating AISystem for world Tutorial
-[2017.11.27-14.05.53:104][541]LogPlayLevel: PIE: World Init took: (0.000657s)
-[2017.11.27-14.05.53:104][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.015539s)
-[2017.11.27-14.05.53:121][541]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2017.11.27-14.05.53:134][541]LogInit: FAudioDevice initialized.
-[2017.11.27-14.05.53:187][541]LogLoad: Game class is 'RPGGM_C'
-[2017.11.27-14.05.53:192][541]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-14.05.53
-[2017.11.27-14.05.53:193][541]LogWorld: Bringing up level for play took: 0.003832
-[2017.11.27-14.05.53:240][541]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2017.11.27-14.05.53:245][541]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 1.046
-[2017.11.27-14.05.53:245][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.05.56:717][909]Cmd: LevelEditor.ToggleImmersive
-[2017.11.27-14.05.56:975][910]LogRenderer: Reallocating scene render targets to support 1820x932 NumSamples 1 (Frame:370).
-[2017.11.27-14.05.57:038][911]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:372).
-[2017.11.27-14.06.16:625][170]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.06.16:688][170]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.06.22:049][739]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP)
-[2017.11.27-14.06.25:350][ 21]LogSlate: Took 0.015958 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.11.27-14.06.34:825][990]LogTemp: Repeting last play command: Selected Viewport
-[2017.11.27-14.06.34:849][990]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.06.34:849][990]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.11.27-14.06.34:850][990]PIE: New page: PIE session: Tutorial (27 Nov 2017 14:06:34)
-[2017.11.27-14.06.34:850][990]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
-[2017.11.27-14.06.34:863][990]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013215s)
-[2017.11.27-14.06.34:863][990]LogAIModule: Creating AISystem for world Tutorial
-[2017.11.27-14.06.34:864][990]LogPlayLevel: PIE: World Init took: (0.000638s)
-[2017.11.27-14.06.34:864][990]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.014059s)
-[2017.11.27-14.06.34:880][990]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2017.11.27-14.06.34:895][990]LogInit: FAudioDevice initialized.
-[2017.11.27-14.06.34:926][990]LogLoad: Game class is 'RPGGM_C'
-[2017.11.27-14.06.34:930][990]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2017.11.27-14.06.34
-[2017.11.27-14.06.34:931][990]LogWorld: Bringing up level for play took: 0.003714
-[2017.11.27-14.06.34:934][990]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.735
-[2017.11.27-14.06.34:934][990]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.06.41:739][746]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.06.41:782][746]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
-[2017.11.27-14.07.05:617][212]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WellHut2)
-[2017.11.27-14.07.09:426][585]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
-[2017.11.27-14.07.21:250][714]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight6)
-[2017.11.27-14.07.27:082][261]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
-[2017.11.27-14.07.34:193][901]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
-[2017.11.27-14.07.45:958][ 24]LogSlate: Took 0.000441 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.11.27-14.07.45:972][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2017.11.27-14.07.46:638][ 24]LogSavePackage: Save=624.08ms
-[2017.11.27-14.07.46:638][ 24]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial312EE2694180EE54F012919ED8517418.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial.umap'
-[2017.11.27-14.07.46:645][ 24]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial.umap
-[2017.11.27-14.07.46:800][ 24]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial_BuiltData.uasset" SILENT=true
-[2017.11.27-14.07.47:044][ 24]LogSavePackage: Save=152.84ms
-[2017.11.27-14.07.47:044][ 24]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Tutorial_BuiltDataFC71A34C43DA5120435FA88797903367.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial_BuiltData.uasset'
-[2017.11.27-14.07.47:048][ 24]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial_BuiltData.uasset
-[2017.11.27-14.07.51:875][460]SourceControl: Info fatal: D:/Games/UE_4.16/Engine/Content/: 'D:/Games/UE_4.16/Engine/Content/' is outside repository
-[2017.11.27-14.08.04:675][460]LogSourceControl: FGitCheckInWorker: commit successful
-[2017.11.27-14.08.04:762][460]SourceControl: Info [master 9d4b579] Eskeit
-[2017.11.27-14.08.04:762][460]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
-[2017.11.27-14.08.04:770][460]SourceControl: Info Commited [master 9d4b579] Eskeit.
+[2018.01.11-14.55.34:207][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.11-14.55.34:207][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.11-14.55.34:223][  0]LogInit: Computer: SONOFMORT
+[2018.01.11-14.55.34:223][  0]LogInit: User: Jordan
+[2018.01.11-14.55.34:223][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.01.11-14.55.34:223][  0]LogInit: High frequency timer resolution =3.125000 MHz
+[2018.01.11-14.55.34:224][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.01.11-14.55.34:224][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.11-14.55.34:224][  0]LogMemory: Process Physical Memory: 277.13 MB used, 277.13 MB peak
+[2018.01.11-14.55.34:224][  0]LogMemory: Process Virtual Memory: 267.64 MB used, 267.64 MB peak
+[2018.01.11-14.55.34:224][  0]LogMemory: Physical Memory: 5096.11 MB used,  3051.11 MB free, 8147.22 MB total
+[2018.01.11-14.55.34:224][  0]LogMemory: Virtual Memory: 673.35 MB used,  3051.11 MB free, 134217728.00 MB total
+[2018.01.11-14.55.34:546][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.11-14.55.34:546][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.11-14.55.34:558][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.11-14.55.35:891][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.11-14.55.35:971][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.11-14.55.35:971][  0]LogD3D11RHI:       8088/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.11-14.55.35:974][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.11-14.55.35:974][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.11-14.55.35:974][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.11-14.55.35:985][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.11-14.55.35:985][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.11-14.55.35:985][  0]LogWindows: EnumDisplayDevices:
+[2018.01.11-14.55.35:985][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.11-14.55.35:986][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.11-14.55.35:986][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.11-14.55.35:986][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.11-14.55.35:986][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.11-14.55.35:986][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.11-14.55.35:986][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.11-14.55.35:986][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.11-14.55.35:986][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.11-14.55.36:031][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.11-14.55.36:080][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.11-14.55.36:178][  0]LogShaderCompilers: Guid format shader working directory is -19 characters bigger than the processId version (../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Intermediate/Shaders/WorkingDirectory/2120/).
+[2018.01.11-14.55.36:178][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/13225AC24B40BA05CDAAD5A9270CD2C1/'.
+[2018.01.11-14.55.36:179][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.11-14.55.37:817][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.11-14.55.37:911][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.11-14.55.38:006][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.11-14.55.38:104][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.11-14.55.38:200][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.11-14.55.38:295][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.11-14.55.38:394][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.11-14.55.38:491][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.11-14.55.38:580][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.11-14.55.38:675][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.11-14.55.38:769][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.11-14.55.38:865][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.11-14.55.38:959][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.11-14.55.39:052][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.11-14.55.39:145][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.11-14.55.39:336][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.11-14.55.39:336][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.11-14.55.39:417][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.11-14.55.39:583][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.11-14.55.39:631][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.11-14.55.39:724][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.11-14.55.39:817][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.11-14.55.39:910][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.11-14.55.40:004][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.11-14.55.40:004][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.11-14.55.41:049][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.11-14.55.41:419][  0]LogDerivedDataCache: Loaded boot cache 0.37s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.11-14.55.41:419][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.11-14.55.41:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.11-14.55.41:419][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.11-14.55.41:419][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.11-14.55.41:419][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.11-14.55.41:444][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.11-14.55.41:457][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.11-14.55.41:471][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.11-14.55.41:475][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.11-14.55.41:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.11-14.55.41:479][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.11-14.55.42:342][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.11-14.55.42:529][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.11-14.55.42:838][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.11-14.55.42:939][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.11-14.55.43:046][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.11-14.55.43:046][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.11-14.55.43:046][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.11-14.55.44:225][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.01.11-14.55.44:323][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2018.01.11-14.55.44:431][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.070232 seconds
+[2018.01.11-14.55.44:438][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.11-14.55.44:438][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.11-14.55.44:438][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.11-14.55.44:554][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.238s, but failed to resolve JW_FlameDungeon.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.238s, but failed to resolve JW_FlameDungeon.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.242s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.239s, but failed to resolve JW_Ice_Mountain.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.237s, but failed to resolve FX_Meshes.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.237s, but failed to resolve FX_Meshes.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.234s, but failed to resolve 'FX_Ambient.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:827][  0]LogPackageName: SearchForPackageOnDisk took   0.226s, but failed to resolve CastleEffects.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:827][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:828][  0]LogPackageName: SearchForPackageOnDisk took   0.222s, but failed to resolve StaticMesh'FX_Meshes.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:828][  0]LogPackageName: SearchForPackageOnDisk took   0.225s to resolve m_FogSheet_02.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:828][  0]LogPackageName: SearchForPackageOnDisk took   0.235s, but failed to resolve FX_Test_LAN.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.48:828][  0]LogPackageName: SearchForPackageOnDisk took   0.232s to resolve m_FogSheet_02.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.48:828][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.49:669][  0]LogPackageName: SearchForPackageOnDisk took   0.232s to resolve m_FogSheet_02.
+[2018.01.11-14.55.49:669][  0]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.49:669][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.49:669][  0]LogPackageName: SearchForPackageOnDisk took   0.232s to resolve m_FogSheet_02.
+[2018.01.11-14.55.49:669][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.49:669][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.49:853][  0]LogPackageName: SearchForPackageOnDisk took   0.239s, but failed to resolve JW_Ice_Mountain.
+[2018.01.11-14.55.49:853][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.11-14.55.49:853][  0]LogPackageName:Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.49:853][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.49:853][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.11-14.55.49:926][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.11-14.55.50:976][  0]LogPackageName: SearchForPackageOnDisk took   0.230s to resolve S_Survival_CA_Chicken_02.
+[2018.01.11-14.55.50:976][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.50:976][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.50:976][  0]LogPackageName: SearchForPackageOnDisk took   0.235s, but failed to resolve JW_Ice_Mountain.
+[2018.01.11-14.55.50:976][  0]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.11-14.55.50:976][  0]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.55.50:976][  0]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.55.50:976][  0]LogPackageName: SearchForPackageOnDisk took   0.234s, but failed to resolve Env_ALL_Artifacts.
+[2018.01.11-14.55.50:976][  0]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2018.01.11-14.55.51:010][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.11-14.55.51:762][  0]SourceControl: Info Source control is disabled
+[2018.01.11-14.55.54:713][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.11-14.55.55:919][  0]LogEngine: Initializing Engine...
+[2018.01.11-14.55.55:922][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.11-14.55.56:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.11-14.55.56:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.11-14.55.56:431][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.11-14.55.56:458][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.11-14.55.56:629][  0]LogInit: FAudioDevice initialized.
+[2018.01.11-14.55.56:690][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.11-14.55.56:702][  0]LogInit: Texture streaming: Enabled
+[2018.01.11-14.55.56:880][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.11-14.55.57:330][  0]LogInit: Transaction tracking system initialized
+[2018.01.11-14.55.57:959][  0]BlueprintLog: New page: Editor Load
+[2018.01.11-14.55.59:909][  0]LocalizationService: Info Localization service is disabled
+[2018.01.11-14.56.01:280][  0]LogConsoleResponse:Display: 
+[2018.01.11-14.56.01:495][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.11-14.56.01:496][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.11-14.56.02:061][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/' took 0.05s
+[2018.01.11-14.56.03:936][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.11-14.56.03:939][  0]LightingResults: New page: Lighting Build
+[2018.01.11-14.56.04:033][  0]MapCheck: New page: Map Check
+[2018.01.11-14.56.04:033][  0]LightingResults: New page: Lighting Build
+[2018.01.11-14.56.04:684][  0]LogStaticMesh: Building static mesh SM_SwipeTrail_Set_01...
+[2018.01.11-14.56.04:685][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.11-14.56.04:689][  0]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SwipeTrail_Set_01.SM_SwipeTrail_Set_01
+[2018.01.11-14.56.04:692][  0]LogStaticMesh: Building static mesh SM_SwipeCircle_01...
+[2018.01.11-14.56.04:692][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.11-14.56.04:694][  0]LogStaticMesh: Built static mesh [0.00s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_SwipeCircle_01.SM_SwipeCircle_01
+[2018.01.11-14.56.04:713][  0]LogStaticMesh: Building static mesh SM_AuraCircle_04_Twist...
+[2018.01.11-14.56.04:716][  0]LogMeshUtilities: Invalid vertex normals found for mesh. Forcing recomputation of vertex normals for MikkTSpace. Fix mesh or disable "Use MikkTSpace Tangent Space" to avoid forced recomputation of normals.
+[2018.01.11-14.56.04:736][  0]LogStaticMesh: Built static mesh [0.02s] /Game/InfinityBladeEffects/Effects/FX_Meshes/Skills/SM_AuraCircle_04_Twist.SM_AuraCircle_04_Twist
+[2018.01.11-14.56.04:745][  0]LogTexture:Display: Building textures: T_SwipeTrail (AutoDXT, 512X512)
+[2018.01.11-14.56.04:780][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_2Sided_Master, compiling. 
+[2018.01.11-14.56.04:831][  0]LogTexture:Display: Building textures: T_Sparks_04_SubUV_1_4 (AutoDXT, 512X512)
+[2018.01.11-14.56.04:863][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_SubUV_Master, compiling. 
+[2018.01.11-14.56.04:914][  0]LogTexture:Display: Building textures: T_SmokeBall_01_8_8 (AutoDXT, 1024X1024)
+[2018.01.11-14.56.05:255][  0]LogTexture:Display: Building textures: T_Tile_Noise_Tendril_01 (AutoDXT, 1024X1024)
+[2018.01.11-14.56.05:584][  0]LogMaterial: Missing cached shader map for material M_Trans_MeshEmit_2Sided_Pan_Mask_Master, compiling. 
+[2018.01.11-14.56.05:614][  0]LogTexture:Display: Building textures: T_BlastHalf (AutoDXT, 256X256)
+[2018.01.11-14.56.05:646][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master, compiling. 
+[2018.01.11-14.56.05:689][  0]LogTexture:Display: Building textures: T_SoftFallOff (AutoDXT, 256X256)
+[2018.01.11-14.56.05:705][  0]LogMaterial: Missing cached shader map for material M_Add_Sprite_Master_DepthFade, compiling. 
+[2018.01.11-14.56.05:771][  0]LogTexture:Display: Building textures: ThumbnailTexture (DXT1, 512X512)
+[2018.01.11-14.56.05:844][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave portal...
+[2018.01.11-14.56.06:218][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave birds_singing...
+[2018.01.11-14.56.06:949][  0]LogAudioDerivedData:Display: Building compressed audio format OGG wave Keytronic_-_Homesick__Keymix_...
+[2018.01.11-14.56.13:789][  0]LogMaterial: Missing cached shader map for material wood, compiling. 
+[2018.01.11-14.56.13:836][  0]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2018.01.11-14.56.13:859][  0]LogMaterial: Missing cached shader map for material roof, compiling. 
+[2018.01.11-14.56.13:884][  0]LogStaticMesh: Building static mesh WellHut...
+[2018.01.11-14.56.13:907][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Well/Hut/WellHut.WellHut
+[2018.01.11-14.56.13:912][  0]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2018.01.11-14.56.13:941][  0]LogStaticMesh: Building static mesh Wall...
+[2018.01.11-14.56.13:947][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Walls/Wall.Wall
+[2018.01.11-14.56.13:952][  0]LogMaterial: Missing cached shader map for material SpruceTreeTrunk, compiling. 
+[2018.01.11-14.56.13:988][  0]LogMaterial: Missing cached shader map for material SpruceTreeLeaf, compiling. 
+[2018.01.11-14.56.14:030][  0]LogStaticMesh: Building static mesh Spruce3...
+[2018.01.11-14.56.14:052][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Trees/Spruce3.Spruce3
+[2018.01.11-14.56.14:058][  0]LogMaterial: Missing cached shader map for material OakTreeTrunk, compiling. 
+[2018.01.11-14.56.14:106][  0]LogMaterial: Missing cached shader map for material OakTreeLeaf, compiling. 
+[2018.01.11-14.56.14:149][  0]LogStaticMesh: Building static mesh OakTree1_2...
+[2018.01.11-14.56.14:181][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Trees/OakTree1_2.OakTree1_2
+[2018.01.11-14.56.14:184][  0]LogStaticMesh: Building static mesh rock1...
+[2018.01.11-14.56.14:188][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/Rocks/rock1.rock1
+[2018.01.11-14.56.14:194][  0]LogMaterial: Missing cached shader map for material Rock, compiling. 
+[2018.01.11-14.56.14:234][  0]LogStaticMesh: Building static mesh BigRock1NotBroke...
+[2018.01.11-14.56.14:243][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/Rocks/BigRock1NotBroke.BigRock1NotBroke
+[2018.01.11-14.56.14:248][  0]LogMaterial: Missing cached shader map for material M_Yellow, compiling. 
+[2018.01.11-14.56.14:333][  0]LogMaterial: Missing cached shader map for material M_Rose, compiling. 
+[2018.01.11-14.56.14:415][  0]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2018.01.11-14.56.14:491][  0]LogMaterial: Missing cached shader map for material M_DarkLeaves, compiling. 
+[2018.01.11-14.56.14:570][  0]LogMaterial: Missing cached shader map for material M_Blue, compiling. 
+[2018.01.11-14.56.14:651][  0]LogStaticMesh: Building static mesh GrassFix...
+[2018.01.11-14.56.14:733][  0]LogStaticMesh: Built static mesh [0.08s] /Game/Assets/Grass/GrassFix.GrassFix
+[2018.01.11-14.56.14:741][  0]LogMaterial: Missing cached shader map for material stone, compiling. 
+[2018.01.11-14.56.14:783][  0]LogStaticMesh: Building static mesh pileofbricks...
+[2018.01.11-14.56.14:804][  0]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/Debris/pileofbricks.pileofbricks
+[2018.01.11-14.56.14:809][  0]LogTexture:Display: Building textures: Dirt (AutoDXT, 512X512)
+[2018.01.11-14.56.14:864][  0]LogTexture:Display: Building textures: GrassGreen (AutoDXT, 512X512)
+[2018.01.11-14.56.14:913][  0]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.01.11-14.56.14:968][  0]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.01.11-14.56.15:035][  0]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2018.01.11-14.56.15:044][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 64X64)
+[2018.01.11-14.56.15:055][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.01.11-14.56.15:106][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2018.01.11-14.56.15:110][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 64X64)
+[2018.01.11-14.56.15:120][  0]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.01.11-14.56.15:188][  0]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2018.01.11-14.56.15:194][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 64X32)
+[2018.01.11-14.56.15:197][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 512X64)
+[2018.01.11-14.56.15:199][  0]LogStaticMesh: Building static mesh M_Door...
+[2018.01.11-14.56.15:233][  0]LogStaticMesh: Built static mesh [0.03s] /Game/Interactables/Door01/Mesh/M_Door.M_Door
+[2018.01.11-14.56.15:256][  0]LogTexture:Display: Building textures: Diffuse_Door (AutoDXT, 1024X1024)
+[2018.01.11-14.56.15:447][  0]LogMaterial: Missing cached shader map for material MAT_Door, compiling. 
+[2018.01.11-14.56.15:478][  0]LogMaterial: Missing cached shader map for material White, compiling. 
+[2018.01.11-14.56.15:642][  0]LogTexture:Display: Building textures: Texture2D_13 (BGRA8, 8X8)
+[2018.01.11-14.56.15:643][  0]LogTexture:Display: Building textures: Texture2D_9 (BGRA8, 8X8)
+[2018.01.11-14.56.15:643][  0]LogTexture:Display: Building textures: Texture2D_7 (BGRA8, 8X8)
+[2018.01.11-14.56.15:644][  0]LogTexture:Display: Building textures: Texture2D_10 (BGRA8, 8X8)
+[2018.01.11-14.56.15:644][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 8X8)
+[2018.01.11-14.56.15:644][  0]LogTexture:Display: Building textures: Texture2D_12 (BGRA8, 8X8)
+[2018.01.11-14.56.15:644][  0]LogTexture:Display: Building textures: Texture2D_8 (BGRA8, 8X8)
+[2018.01.11-14.56.15:644][  0]LogTexture:Display: Building textures: Texture2D_11 (BGRA8, 8X8)
+[2018.01.11-14.56.15:645][  0]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 8X8)
+[2018.01.11-14.56.15:645][  0]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 8X8)
+[2018.01.11-14.56.15:645][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 8X8)
+[2018.01.11-14.56.15:645][  0]LogTexture:Display: Building textures: Texture2D_17 (BGRA8, 8X8)
+[2018.01.11-14.56.15:645][  0]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 8X8)
+[2018.01.11-14.56.15:646][  0]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 8X8)
+[2018.01.11-14.56.15:646][  0]LogTexture:Display: Building textures: Texture2D_15 (BGRA8, 8X8)
+[2018.01.11-14.56.15:646][  0]LogTexture:Display: Building textures: Texture2D_5 (BGRA8, 8X8)
+[2018.01.11-14.56.15:646][  0]LogTexture:Display: Building textures: Texture2D_16 (BGRA8, 8X8)
+[2018.01.11-14.56.15:647][  0]LogTexture:Display: Building textures: Texture2D_6 (BGRA8, 8X8)
+[2018.01.11-14.56.15:653][  0]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.01.11-14.56.15:747][  0]LogMaterial: Missing cached shader map for material Landscape, compiling. 
+[2018.01.11-14.56.15:828][  0]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 64X64)
+[2018.01.11-14.56.15:853][  0]LogAIModule: Creating AISystem for world Tutorial
+[2018.01.11-14.56.15:982][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.11-14.56.16:015][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.11-14.56.16:307][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 291.295ms to complete.
+[2018.01.11-14.56.16:308][  0]LogFileHelpers: Loading map 'Tutorial' took 12.373
+[2018.01.11-14.56.16:727][  0]LogCollectionManager: Loaded 0 collections in 0.004885 seconds
+[2018.01.11-14.56.16:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Collections/' took 0.01s
+[2018.01.11-14.56.16:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Developers/Jordan/Collections/' took 0.01s
+[2018.01.11-14.56.16:967][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Collections/' took 0.01s
+[2018.01.11-14.56.16:967][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.01.11-14.56.16:988][  0]LogContentBrowser: Native class hierarchy populated in 0.0204 seconds. Added 2329 classes and 491 folders.
+[2018.01.11-14.56.17:255][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0019 seconds. Added 0 classes and 0 folders.
+[2018.01.11-14.56.17:549][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2018.01.11-14.56.17:742][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0014 seconds. Added 1 classes and 2 folders.
+[2018.01.11-14.56.17:919][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.11-14.56.17:942][  0]LogSlate: Took 0.003062 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.11-14.56.17:948][  0]LogSlate: Took 0.002382 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.11-14.56.17:963][  0]LogSlate: Took 0.002233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.11-14.56.18:192][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.01.11-14.56.18:885][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.11-14.56.19:133][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0012 seconds. Added 1 classes and 2 folders.
+[2018.01.11-14.56.19:133][  0]LogLoad: (Engine Initialization) Total time: 48.77 seconds
+[2018.01.11-14.56.19:133][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.28 seconds
+[2018.01.11-14.56.19:133][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.11-14.56.19:149][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.11-14.56.19:149][  0]LogOcInput: OculusInput pre-init called
+[2018.01.11-14.56.19:150][  0]LogHMD: Starting GearVRController plugin
+[2018.01.11-14.56.19:184][  0]SourceControl: Info On branch master
+[2018.01.11-14.56.19:184][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.11-14.56.19:184][  0]SourceControl: Info Changes not staged for commit:
+[2018.01.11-14.56.19:184][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.11-14.56.19:184][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.11-14.56.19:184][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.11-14.56.19:184][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.27-13.35.24.log
+[2018.01.11-14.56.19:184][  0]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.11-14.56.19:184][  0]SourceControl: Info Untracked files:
+[2018.01.11-14.56.19:184][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.11-14.56.19:184][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-80B268D2458E101896F2BABE8916752A/
+[2018.01.11-14.56.19:184][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.01.11-14.55.33.log
+[2018.01.11-14.56.19:184][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.11-14.56.19:185][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.11-14.56.19:332][  0]LogSlate: Took 0.003311 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.11-14.56.19:495][  3]LogAssetRegistry: Asset discovery search completed in 35.1945 seconds
+[2018.01.11-14.56.19:507][  3]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.11-14.56.19:507][  3]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000081 seconds (updated 0 objects)
+[2018.01.11-14.56.44:252][627]SourceControl: Info On branch master
+[2018.01.11-14.56.44:252][627]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.11-14.56.44:252][627]SourceControl: Info Changes not staged for commit:
+[2018.01.11-14.56.44:252][627]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.11-14.56.44:252][627]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.11-14.56.44:252][627]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.11-14.56.44:252][627]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2017.11.27-13.35.24.log
+[2018.01.11-14.56.44:252][627]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.11-14.56.44:252][627]SourceControl: Info Untracked files:
+[2018.01.11-14.56.44:252][627]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.11-14.56.44:252][627]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-80B268D2458E101896F2BABE8916752A/
+[2018.01.11-14.56.44:252][627]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.01.11-14.55.33.log
+[2018.01.11-14.56.44:252][627]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.11-14.56.50:799][396]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.11-14.56.50:921][396]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.50:921][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.51:160][396]LogPackageName: SearchForPackageOnDisk took   0.239s, but failed to resolve JW_FlameDungeon.
+[2018.01.11-14.56.51:160][396]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FX_Embers" could not be resolved.
+[2018.01.11-14.56.51:161][396]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.51:161][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.51:393][396]LogPackageName: SearchForPackageOnDisk took   0.232s, but failed to resolve JW_FlameDungeon.
+[2018.01.11-14.56.51:393][396]LogPackageName:Warning: String asset reference "JW_FlameDungeon.FX.SM_FogPlane02" could not be resolved.
+[2018.01.11-14.56.51:488][396]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.51:488][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.51:720][396]LogPackageName: SearchForPackageOnDisk took   0.232s, but failed to resolve StaticMesh'FX_Meshes_IB.
+[2018.01.11-14.56.51:720][396]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes_IB.SM_Debris_Box_RadialFull'" could not be resolved.
+[2018.01.11-14.56.51:731][396]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.51:731][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.51:963][396]LogPackageName: SearchForPackageOnDisk took   0.232s, but failed to resolve JW_Ice_Mountain.
+[2018.01.11-14.56.51:963][396]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.11-14.56.51:972][396]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.51:972][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.52:203][396]LogPackageName: SearchForPackageOnDisk took   0.232s, but failed to resolve FX_Meshes.
+[2018.01.11-14.56.52:203][396]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.11-14.56.52:205][396]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.52:205][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.52:438][396]LogPackageName: SearchForPackageOnDisk took   0.233s, but failed to resolve FX_Meshes.
+[2018.01.11-14.56.52:438][396]LogPackageName:Warning: String asset reference "FX_Meshes.UI.SM_SelectionMesh_01" could not be resolved.
+[2018.01.11-14.56.52:443][396]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.52:443][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.52:672][396]LogPackageName: SearchForPackageOnDisk took   0.230s, but failed to resolve 'FX_Ambient.
+[2018.01.11-14.56.52:672][396]LogPackageName:Warning: String asset reference "'FX_Ambient.Meshes.SM_Bats'" could not be resolved.
+[2018.01.11-14.56.52:675][396]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.52:675][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.52:905][396]LogPackageName: SearchForPackageOnDisk took   0.230s, but failed to resolve CastleEffects.
+[2018.01.11-14.56.52:905][396]LogPackageName:Warning: String asset reference "CastleEffects.TouchToMoveArrow" could not be resolved.
+[2018.01.11-14.56.52:927][396]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.52:927][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.53:158][396]LogPackageName: SearchForPackageOnDisk took   0.231s, but failed to resolve StaticMesh'FX_Meshes.
+[2018.01.11-14.56.53:158][396]LogPackageName:Warning: String asset reference "StaticMesh'FX_Meshes.Fire.SM_Dungeon_Pipes_Lava01_Cool'" could not be resolved.
+[2018.01.11-14.56.53:158][396]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.53:158][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.53:386][396]LogPackageName: SearchForPackageOnDisk took   0.228s to resolve m_FogSheet_02.
+[2018.01.11-14.56.53:397][396]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.53:397][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.53:630][396]LogPackageName: SearchForPackageOnDisk took   0.233s, but failed to resolve FX_Test_LAN.
+[2018.01.11-14.56.53:630][396]LogPackageName:Warning: String asset reference "FX_Test_LAN.Meshes.SM_IceWall01" could not be resolved.
+[2018.01.11-14.56.53:661][396]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.53:661][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.53:890][396]LogPackageName: SearchForPackageOnDisk took   0.229s to resolve m_FogSheet_02.
+[2018.01.11-14.56.53:891][396]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.53:891][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.54:122][396]LogPackageName: SearchForPackageOnDisk took   0.231s to resolve m_FogSheet_02.
+[2018.01.11-14.56.54:122][396]LogPackageName:Warning: String asset reference "m_FogSheet_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.54:122][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.54:349][396]LogPackageName: SearchForPackageOnDisk took   0.227s to resolve m_FogSheet_02.
+[2018.01.11-14.56.54:748][396]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.54:748][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.54:978][396]LogPackageName: SearchForPackageOnDisk took   0.230s, but failed to resolve JW_Ice_Mountain.
+[2018.01.11-14.56.54:978][396]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.11-14.56.54:980][396]LogPackageName:Warning: String asset reference "S_Survival_CA_Chicken_02.SM.S_Survival_CA_Chicken_02" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.54:980][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.55:208][396]LogPackageName: SearchForPackageOnDisk took   0.227s to resolve S_Survival_CA_Chicken_02.
+[2018.01.11-14.56.55:222][396]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.55:222][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.55:451][396]LogPackageName: SearchForPackageOnDisk took   0.230s, but failed to resolve JW_Ice_Mountain.
+[2018.01.11-14.56.55:451][396]LogPackageName:Warning: String asset reference "JW_Ice_Mountain.Mesh.SM_SnowBoulder" could not be resolved.
+[2018.01.11-14.56.55:453][396]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" is in short form, which is unsupported and -- even if valid -- resolving it will be really slow.
+[2018.01.11-14.56.55:453][396]LogPackageName:Warning: Please consider resaving package in order to speed-up loading.
+[2018.01.11-14.56.55:683][396]LogPackageName: SearchForPackageOnDisk took   0.230s, but failed to resolve Env_ALL_Artifacts.
+[2018.01.11-14.56.55:683][396]LogPackageName:Warning: String asset reference "Env_ALL_Artifacts.Mesh.Env_ALL_Terminus001" could not be resolved.
+[2018.01.11-14.56.55:746][396]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2018.01.11-14.56.55:746][396]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.11-14.56.55:748][396]PIE: New page: PIE session: Tutorial (11 Jan 2018 14:56:55)
+[2018.01.11-14.56.55:749][396]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Tutorial
+[2018.01.11-14.56.55:763][396]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014417s)
+[2018.01.11-14.56.55:763][396]LogAIModule: Creating AISystem for world Tutorial
+[2018.01.11-14.56.55:763][396]LogPlayLevel: PIE: World Init took: (0.000688s)
+[2018.01.11-14.56.55:764][396]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Tutorial.Tutorial to /Game/Maps/UEDPIE_0_Tutorial.Tutorial (0.015683s)
+[2018.01.11-14.56.55:781][396]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.11-14.56.55:939][396]LogInit: FAudioDevice initialized.
+[2018.01.11-14.56.55:992][396]LogLoad: Game class is 'RPGGM_C'
+[2018.01.11-14.56.55:999][396]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial.Tutorial up for play (max tick rate 0) at 2018.01.11-14.56.55
+[2018.01.11-14.56.56:001][396]LogWorld: Bringing up level for play took: 0.003765
+[2018.01.11-14.56.56:092][396]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2018.01.11-14.56.56:110][396]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Tutorial 0.101
+[2018.01.11-14.56.56:111][396]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2018.01.11-14.57.09:244][966]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2018.01.11-14.57.09:283][966]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Tutorial.Tutorial:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial' with GeneratedClass '/Game/Maps/Tutorial.Tutorial_C' with ClassGeneratedBy '/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial'
+[2018.01.11-14.57.09:890][ 35]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP2)
+[2018.01.11-14.57.10:828][137]Cmd: DELETE
+[2018.01.11-14.57.10:828][137]Cmd: ACTOR DELETE
+[2018.01.11-14.57.10:839][137]LogEditorActor: Deleted Actor: DoorBP_C
+[2018.01.11-14.57.10:851][137]LogEditorActor: Deleted 1 Actors (0.020 secs)
+[2018.01.11-14.57.11:248][184]LogEditorViewport: Clicking on Actor (LMB): DoorBP_C (DoorBP)
+[2018.01.11-14.57.11:356][193]Cmd: DELETE
+[2018.01.11-14.57.11:356][193]Cmd: ACTOR DELETE
+[2018.01.11-14.57.11:356][193]LogEditorActor: Deleted Actor: DoorBP_C
+[2018.01.11-14.57.11:368][193]LogEditorActor: Deleted 1 Actors (0.012 secs)
+[2018.01.11-14.57.18:725][ 42]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.11-14.57.18:736][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.11-14.57.19:080][ 42]LogSavePackage: Save=288.36ms
+[2018.01.11-14.57.19:080][ 42]LogSavePackage: Moving '../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Tutorial9AF895264882F3C6AC35368D8D1074C8.tmp' to '../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap'
+[2018.01.11-14.57.19:088][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap
+[2018.01.11-14.57.19:222][ 42]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial_BuiltData" FILE="../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial_BuiltData.uasset" SILENT=true
+[2018.01.11-14.57.19:314][ 42]LogSavePackage: Save=51.52ms
+[2018.01.11-14.57.19:314][ 42]LogSavePackage: Moving '../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Tutorial_BuiltDataF5FED0AE41A8EB7C95016CB621F1783F.tmp' to '../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial_BuiltData.uasset'
+[2018.01.11-14.57.19:318][ 42]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Jordan/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial_BuiltData.uasset
+[2018.01.11-14.57.22:665][385]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.01.11-14.57.38:568][385]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.01.11-14.57.38:644][385]SourceControl: Info [master f6c3e1b] deleted doors in world
+[2018.01.11-14.57.38:644][385]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.01.11-14.57.38:655][385]SourceControl: Info Commited [master f6c3e1b] deleted doors in world.

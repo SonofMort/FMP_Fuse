@@ -397,24 +397,3 @@ LogInit: Object subsystem initialized
 [2018.01.13-13.43.17:268][593]LogOutputDevice:Error: ntdll.dll!0x000000001174EF91
 [2018.01.13-13.43.17:268][593]LogOutputDevice:Error: 
 [2018.01.13-13.43.17:274][593]LogStats:                SubmitErrorReport -  0.000 s
-[2018.01.13-13.43.18:365][593]LogStats:                    SendNewReport -  1.091 s
-[2018.01.13-13.43.18:365][593]LogStats:             FDebug::EnsureFailed -  1.301 s
-[2018.01.13-13.43.18:367][593]LogSlate: Took 0.000283 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.13-13.43.18:382][593]LogAssetTools:Warning: Failed to import 'C:\Users\Jordan\Documents\Unreal Projects\Charm\Content\Water/M_Water.uasset'. Unknown extension 'uasset'.
-[2018.01.13-13.43.18:391][593]LogAssetTools:Warning: Failed to import 'C:\Users\Jordan\Documents\Unreal Projects\Charm\Content\Water/WaterGrid.uasset'. Unknown extension 'uasset'.
-[2018.01.13-13.43.56:221][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.13-13.43.56:396][878]LogSavePackage: Save=141.12ms
-[2018.01.13-13.43.56:396][878]LogSavePackage: Moving 'F:/Year 2/FMP/RPG_Game/RPG_Game/Saved/HelloWorldD7D391E94A70FFB9EED039A0CD869871.tmp' to 'F:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
-[2018.01.13-13.43.56:401][878]LogSavePackage:Display: Finished SavePackage F:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
-[2018.01.13-13.43.56:523][878]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
-[2018.01.13-13.43.56:591][878]LogSavePackage: Save=47.19ms
-[2018.01.13-13.43.56:591][878]LogSavePackage: Moving 'F:/Year 2/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData77CD8BBE40C263DD451CA78115FFE56A.tmp' to 'F:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
-[2018.01.13-13.43.56:593][878]LogSavePackage:Display: Finished SavePackage F:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
-[2018.01.13-13.43.58:585][113]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
-[2018.01.13-13.44.06:084][113]LogSourceControl: FGitCheckInWorker: commit successful
-[2018.01.13-13.44.06:223][113]SourceControl: Info [master 411d781] Added Water
-[2018.01.13-13.44.06:223][113]SourceControl: Info  5 files changed, 0 insertions(+), 0 deletions(-)
-[2018.01.13-13.44.06:223][113]SourceControl: Info  create mode 100644 Content/Water/LowResBlurredNoise.uasset
-[2018.01.13-13.44.06:223][113]SourceControl: Info  create mode 100644 Content/Water/M_Water.uasset
-[2018.01.13-13.44.06:223][113]SourceControl: Info  create mode 100644 Content/Water/WaterGrid.uasset
-[2018.01.13-13.44.06:231][113]SourceControl: Info Commited [master 411d781] Added Water.

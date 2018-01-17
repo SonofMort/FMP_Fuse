@@ -1,0 +1,987 @@
+﻿Log file open, 01/17/18 17:09:10
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-148985009) SRandInit(-148985009).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.110738
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.17-17.09.10:956][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.17-17.09.10:956][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.17-17.09.10:974][  0]LogInit: Computer: C217-08
+[2018.01.17-17.09.10:974][  0]LogInit: User: jordanboast
+[2018.01.17-17.09.10:974][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.17-17.09.10:974][  0]LogInit: High frequency timer resolution =3.328130 MHz
+[2018.01.17-17.09.10:974][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.01.17-17.09.10:974][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.17-17.09.10:974][  0]LogMemory: Process Physical Memory: 273.45 MB used, 273.45 MB peak
+[2018.01.17-17.09.10:974][  0]LogMemory: Process Virtual Memory: 261.24 MB used, 261.24 MB peak
+[2018.01.17-17.09.10:974][  0]LogMemory: Physical Memory: 4672.51 MB used,  11632.04 MB free, 16304.54 MB total
+[2018.01.17-17.09.10:974][  0]LogMemory: Virtual Memory: 640.13 MB used,  11632.04 MB free, 134217728.00 MB total
+[2018.01.17-17.09.11:031][  0]LogInit: Using OS detected language (en-US).
+[2018.01.17-17.09.11:031][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.17-17.09.11:033][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.01.17-17.09.11:772][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.17-17.09.11:794][  0]LogD3D11RHI:    0. 'NVIDIA Quadro K2200' (Feature Level 11_0)
+[2018.01.17-17.09.11:794][  0]LogD3D11RHI:       4062/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.17-17.09.11:796][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.17-17.09.11:796][  0]LogD3D11RHI:       0/0/8152 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.17-17.09.11:796][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.17-17.09.11:801][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.17-17.09.11:801][  0]LogD3D11RHI:     GPU DeviceId: 0x13ba (for the marketing name, search the web for "GPU Device Id")
+[2018.01.17-17.09.11:801][  0]LogWindows: EnumDisplayDevices:
+[2018.01.17-17.09.11:802][  0]LogWindows:    0. 'NVIDIA Quadro K2200' (P:1 D:1)
+[2018.01.17-17.09.11:802][  0]LogWindows:    1. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.01.17-17.09.11:802][  0]LogWindows:    2. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.01.17-17.09.11:802][  0]LogWindows:    3. 'NVIDIA Quadro K2200' (P:0 D:0)
+[2018.01.17-17.09.11:802][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2018.01.17-17.09.11:802][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro K2200
+[2018.01.17-17.09.11:802][  0]LogD3D11RHI:   Driver Version: 377.11 (internal:21.21.13.7711, unified:377.11)
+[2018.01.17-17.09.11:802][  0]LogD3D11RHI:      Driver Date: 3-17-2017
+[2018.01.17-17.09.11:802][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.17-17.09.11:817][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.17-17.09.11:828][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.01.17-17.09.11:869][  0]LogShaderCompilers: Guid format shader working directory is 21 characters bigger than the processId version (E:/Year 2/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/52944/).
+[2018.01.17-17.09.11:869][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/jordan.boast/AppData/Local/Temp/UnrealShaderWorkingDir/6E30306245D58B8B7C4C9D8EF1796E1F/'.
+[2018.01.17-17.09.11:869][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.17-17.09.12:807][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.17-17.09.12:844][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.17-17.09.12:889][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.17-17.09.12:927][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.17-17.09.12:965][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.17-17.09.13:002][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.17-17.09.13:042][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.17-17.09.13:080][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.17-17.09.13:114][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.17-17.09.13:152][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.17-17.09.13:188][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.17-17.09.13:224][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.17-17.09.13:260][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.17-17.09.13:297][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.17-17.09.13:333][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.17-17.09.13:405][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.17-17.09.13:405][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.17-17.09.13:432][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.17-17.09.13:510][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.17-17.09.13:534][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.17-17.09.13:571][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.17-17.09.13:610][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.17-17.09.13:646][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.17-17.09.13:684][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.17-17.09.13:684][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.17-17.09.14:082][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.17-17.09.14:159][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/jordan.boast/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.17-17.09.14:159][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/jordan.boast/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.17-17.09.14:159][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.17-17.09.14:159][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.17-17.09.14:159][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/Year 2/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.17-17.09.14:159][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.17-17.09.14:173][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.17-17.09.14:185][  0]LogDerivedDataCache: Using Local data cache path C:/Users/jordan.boast/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.17-17.09.14:193][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.17-17.09.14:193][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.17-17.09.14:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.17-17.09.14:194][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.17-17.09.14:443][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.17-17.09.14:524][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.17-17.09.14:651][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.17-17.09.14:684][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.17-17.09.14:721][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.17-17.09.14:721][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.17-17.09.14:721][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.17-17.09.15:183][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.01.17-17.09.15:237][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2018.01.17-17.09.15:401][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.138278 seconds
+[2018.01.17-17.09.15:407][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.17-17.09.15:407][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.17-17.09.15:407][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.17-17.09.15:463][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.17-17.09.17:321][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.17-17.09.17:357][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.17-17.09.17:811][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.17-17.09.18:164][  0]SourceControl: Info Source control is disabled
+[2018.01.17-17.09.18:797][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.17-17.09.19:264][  0]LogEngine: Initializing Engine...
+[2018.01.17-17.09.19:265][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.17-17.09.19:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.17-17.09.19:436][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.17-17.09.19:537][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.17-17.09.19:542][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.17-17.09.19:566][  0]LogInit: FAudioDevice initialized.
+[2018.01.17-17.09.19:604][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/jordan.boast/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.17-17.09.19:616][  0]LogInit: Texture streaming: Enabled
+[2018.01.17-17.09.19:691][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.17-17.09.19:708][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={0A11EEA0-4F5A-999C-DB01-E391EFD8727A}
+[2018.01.17-17.09.19:872][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.17-17.09.19:896][  0]LogInit: Transaction tracking system initialized
+[2018.01.17-17.09.20:159][  0]BlueprintLog: New page: Editor Load
+[2018.01.17-17.09.20:977][  0]LocalizationService: Info Localization service is disabled
+[2018.01.17-17.09.21:579][  0]LogConsoleResponse:Display: 
+[2018.01.17-17.09.21:710][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.17-17.09.21:710][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.17-17.09.22:160][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/' took 0.02s
+[2018.01.17-17.09.22:160][  0]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/Sphere.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.01.17-17.09.22:160][  0]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/Sphere.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.01.17-17.09.22:160][  0]LogUObjectGlobals:Warning: Failed to find object 'StaticMesh /Engine/BasicShapes/Sphere.Sphere'
+[2018.01.17-17.09.22:589][  0]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.17-17.09.22:658][  0]LightingResults: New page: Lighting Build
+[2018.01.17-17.09.22:697][  0]MapCheck: New page: Map Check
+[2018.01.17-17.09.22:697][  0]LightingResults: New page: Lighting Build
+[2018.01.17-17.09.24:919][  0]LogAIModule: Creating AISystem for world Tutorial
+[2018.01.17-17.09.24:935][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.17-17.09.24:950][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.17-17.09.24:994][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.264ms to complete.
+[2018.01.17-17.09.24:994][  0]LogFileHelpers: Loading map 'Tutorial' took 2.405
+[2018.01.17-17.09.25:126][  0]LogCollectionManager: Loaded 0 collections in 0.001671 seconds
+[2018.01.17-17.09.25:195][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2018.01.17-17.09.25:195][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/jordanboast/Collections/' took 0.01s
+[2018.01.17-17.09.25:195][  0]LogFileCache: Scanning file cache for directory 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2018.01.17-17.09.25:195][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.17-17.09.25:203][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2018.01.17-17.09.25:252][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.17-17.09.25:283][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.17-17.09.25:318][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.17-17.09.25:353][  0]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/Sphere.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.01.17-17.09.25:353][  0]LogLinker:Warning: The file '../../../Engine/Content/BasicShapes/Sphere.uasset' contains unrecognizable data, check that it is of the expected type.
+[2018.01.17-17.09.25:382][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.17-17.09.25:386][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.17-17.09.25:388][  0]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.17-17.09.25:392][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.17-17.09.25:474][  0]LogRenderer: Reallocating scene render targets to support 1208x576 NumSamples 1 (Frame:1).
+[2018.01.17-17.09.25:579][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.17-17.09.25:644][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2018.01.17-17.09.25:644][  0]LogLoad: (Engine Initialization) Total time: 16.99 seconds
+[2018.01.17-17.09.25:644][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.01.17-17.09.25:644][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.17-17.09.25:655][  0]LogOcInput: OculusInput pre-init called
+[2018.01.17-17.09.25:655][  0]LogHMD: Starting GearVRController plugin
+[2018.01.17-17.09.25:674][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.17-17.09.25:734][  1]LogAssetRegistry: Asset discovery search completed in 10.5182 seconds
+[2018.01.17-17.09.25:737][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.17-17.09.25:737][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000023 seconds (updated 0 objects)
+[2018.01.17-17.09.26:675][ 96]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.17-17.09.29:724][454]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.17-17.10.09:303][142]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.17-17.10.09:399][142]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.17-17.10.09:416][142]Cmd: MAP LOAD FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.17-17.10.09:417][142]LightingResults: New page: Lighting Build
+[2018.01.17-17.10.09:417][142]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.17-17.10.09:418][142]MapCheck: New page: Map Check
+[2018.01.17-17.10.09:418][142]LightingResults: New page: Lighting Build
+[2018.01.17-17.10.09:465][142]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.17-17.10.09:502][142]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.17-17.10.09:544][142]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.556ms to complete.
+[2018.01.17-17.10.09:544][142]LogFileHelpers: Loading map 'HelloWorld' took 0.128
+[2018.01.17-17.10.25:029][989]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2018.01.17-17.10.28:497][384]LogRenderer: Reallocating scene render targets to support 1528x576 NumSamples 1 (Frame:2257).
+[2018.01.17-17.10.32:909][900]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.01.17-17.11.28:609][729]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape5)
+[2018.01.17-17.12.28:314][298]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape5)
+[2018.01.17-17.13.48:970][910]MapCheck: New page: Map Check
+[2018.01.17-17.13.48:981][910]LightingResults: New page: Lighting Build - 17 Jan 2018 17:13:48
+[2018.01.17-17.13.49:125][910]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.01.17-17.13.49:167][910]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.01.17-17.13.49:177][910]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.01.17-17.13.49:699][910]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.01.17-17.13.49:699][910]LogSwarmInterface: [TryOpenConnection] Local Process ID is 52944
+[2018.01.17-17.13.51:941][910]LightingResults:Warning: Performance Warning No importance volume found and the scene is so large that the automatically synthesized volume will not yield good results.  Please add a tightly bounding lightmass importance volume to optimize your scene's quality and lighting build times.
+[2018.01.17-17.13.51:941][910]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.01.17-17.13.51:941][910]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.01.17-17.13.51:941][910]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.01.17-17.13.51:941][910]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.01.17-17.13.51:941][910]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.01.17-17.13.52:183][910]LogEditorBuildUtils: Build time 0:03
+[2018.01.17-17.14.11:146][748]Job is a success!
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 512X256)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 512X512)
+[2018.01.17-17.14.12:119][750]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 256X256)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 128X64)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.01.17-17.14.12:120][750]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 64X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 64X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 512X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 512X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 128X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 512X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 1024X64)
+[2018.01.17-17.14.12:296][750]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8, 256X64)
+[2018.01.17-17.14.12:333][750]LogStaticLightingSystem: Illumination: 23.3 sec (820 ms encoding lightmaps, 171 ms encoding shadowmaps)
+[2018.01.17-17.14.12:333][750]LogStaticLightingSystem: Lightmap texture memory:  6.6 MB (6.6 MB streaming, 0.0 MB non-streaming), 42 textures
+[2018.01.17-17.14.12:333][750]LogStaticLightingSystem: Shadowmap texture memory: 0.8 MB (0.8 MB streaming, 0.0 MB non-streaming), 15 textures
+[2018.01.17-17.14.12:951][750]Lightmass on C217-08: 19.4 sec total, 1.17 sec importing, 839 ms setup, 2.73 sec photons, 14.6 sec processing, 0 ms extra exporting [172/172 mappings]. Threads: 1:42 min total, 1:18 min processing.
+[2018.01.17-17.14.12:951][750]DumpUnbuiltLightIteractions
+[2018.01.17-17.14.12:951][750]Lights with unbuilt interactions: 0
+[2018.01.17-17.14.12:951][750]
+[2018.01.17-17.14.12:951][750]Primitives with unbuilt interactions: 0
+[2018.01.17-17.14.12:962][751]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.01.17-17.14.12:962][751]MapCheck: New page: HelloWorld - 17 Jan 2018 17:14:12
+[2018.01.17-17.14.13:028][751]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 65.582ms to complete.
+[2018.01.17-17.14.27:800][520]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.17-17.14.28:121][520]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.14.28:121][520]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.17-17.14.28:121][520]PIE: New page: PIE session: HelloWorld (17 Jan 2018 17:14:28)
+[2018.01.17-17.14.28:121][520]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.17-17.14.28:139][520]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017622s)
+[2018.01.17-17.14.28:139][520]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.17-17.14.28:140][520]LogPlayLevel: PIE: World Init took: (0.000660s)
+[2018.01.17-17.14.28:140][520]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018473s)
+[2018.01.17-17.14.28:150][520]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.17-17.14.28:159][520]LogInit: FAudioDevice initialized.
+[2018.01.17-17.14.28:238][520]LogLoad: Game class is 'RPGGM_C'
+[2018.01.17-17.14.28:246][520]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.17-17.14.28
+[2018.01.17-17.14.28:247][520]LogWorld: Bringing up level for play took: 0.006118
+[2018.01.17-17.14.28:287][520]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2018.01.17-17.14.28:291][520]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.083
+[2018.01.17-17.14.28:291][520]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.14.38:106][693]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.14.38:140][693]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.14.48:701][942]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.14.48:710][942]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2018.01.17-17.15.13:127][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/LargeWater/LargeWater" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/LargeWater.uasset" SILENT=true
+[2018.01.17-17.15.13:145][483]LogSavePackage: Save=15.51ms
+[2018.01.17-17.15.13:145][483]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/LargeWater766B03E04CAF9CF80F070A87F5CCFBF2.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/LargeWater.uasset'
+[2018.01.17-17.15.13:151][483]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/LargeWater.uasset
+[2018.01.17-17.15.13:153][483]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/LargeWater" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater.uasset" SILENT=true
+[2018.01.17-17.15.13:240][483]LogSavePackage: Save=4.35ms
+[2018.01.17-17.15.13:240][483]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/LargeWaterDAAFB0124A2B0712F7AC789645E45F8F.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater.uasset'
+[2018.01.17-17.15.13:243][483]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater.uasset
+[2018.01.17-17.15.16:995][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/LargeWater/M_Water_Inst" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/M_Water_Inst.uasset" SILENT=true
+[2018.01.17-17.15.17:014][781]LogSavePackage: Save=16.40ms
+[2018.01.17-17.15.17:014][781]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/M_Water_InstC4C5AB2240B3BCA3C59B80BBD7BE5B4F.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/M_Water_Inst.uasset'
+[2018.01.17-17.15.17:016][781]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/M_Water_Inst.uasset
+[2018.01.17-17.15.17:088][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/LargeWater/LargeWater" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/LargeWater.uasset" SILENT=true
+[2018.01.17-17.15.17:102][781]LogSavePackage: Save=7.33ms
+[2018.01.17-17.15.17:102][781]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/LargeWater638411A84B286113207877B364E4FDFB.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/LargeWater.uasset'
+[2018.01.17-17.15.17:103][781]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/LargeWater.uasset
+[2018.01.17-17.15.21:009][140]LogActorFactory: Actor Factory created WaterGrid
+[2018.01.17-17.15.21:010][140]LogTexture:Display: Building textures: Texture2D_36 (BGRA8, 512X512)
+[2018.01.17-17.15.21:018][140]LogTexture:Display: Building textures: Texture2D_37 (BGRA8, 512X512)
+[2018.01.17-17.15.21:028][140]LogTexture:Display: Building textures: Texture2D_38 (BGRA8, 512X512)
+[2018.01.17-17.15.21:037][140]LogTexture:Display: Building textures: Texture2D_39 (BGRA8, 512X512)
+[2018.01.17-17.15.23:195][397]LogActorFactory: Actor Factory created WaterGrid
+[2018.01.17-17.15.24:474][546]LogSlate: Took 0.000128 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.17-17.15.42:734][443]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.01.17-17.15.55:457][912]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WaterGrid2)
+[2018.01.17-17.15.58:375][255]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (WaterGrid3)
+[2018.01.17-17.16.27:526][623]Cmd: EDIT COPY
+[2018.01.17-17.16.27:701][644]Cmd: EDIT PASTE
+[2018.01.17-17.17.14:999][203]Cmd: EDIT COPY
+[2018.01.17-17.17.15:220][229]Cmd: EDIT PASTE
+[2018.01.17-17.18.09:376][325]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2018.01.17-17.18.38:432][420]Cmd: EDIT COPY
+[2018.01.17-17.18.38:951][479]Cmd: EDIT PASTE
+[2018.01.17-17.18.57:288][532]Cmd: CAMERA ALIGN ACTIVEVIEWPORTONLY
+[2018.01.17-17.20.46:032][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:032][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:033][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:034][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:035][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:036][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:037][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:038][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:039][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:040][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:041][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:042][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:043][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:044][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:045][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:046][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:047][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:048][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:049][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:050][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:051][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:052][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:053][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:054][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:055][851]LogEditorActor: Deleted Actor: StaticMeshActor
+[2018.01.17-17.20.46:068][851]LogEditorActor: Deleted 384 Actors (0.037 secs)
+[2018.01.17-17.21.14:850][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.01.17-17.21.16:808][293]LogSavePackage: Save=1907.37ms
+[2018.01.17-17.21.16:808][293]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_Auto1D46CD814495AD6BD35CCEBA73DDB75D5.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap'
+[2018.01.17-17.21.16:810][293]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap
+[2018.01.17-17.21.16:812][293]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.17-17.21.16:813][293]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/HelloWorld' took 1.976
+[2018.01.17-17.21.16:813][293]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.976
+[2018.01.17-17.21.16:816][293]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/HelloWorld_BuiltData] ([1] browsable assets)...
+[2018.01.17-17.21.16:816][293]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/HelloWorld_BuiltData]
+[2018.01.17-17.21.16:816][293]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.01.17-17.21.17:588][293]LogSavePackage: Save=587.90ms
+[2018.01.17-17.21.17:588][293]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData_Auto1FF5CB30F43338278BD97A9BD3673A262.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset'
+[2018.01.17-17.21.17:589][293]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset
+[2018.01.17-17.21.17:589][293]LogFileHelpers: Auto-saving content packages took 0.774
+[2018.01.17-17.22.19:625][731]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.17-17.22.19:645][731]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.22.19:645][731]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.17-17.22.19:645][731]PIE: New page: PIE session: HelloWorld (17 Jan 2018 17:22:19)
+[2018.01.17-17.22.19:645][731]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.17-17.22.19:665][731]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019860s)
+[2018.01.17-17.22.19:666][731]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.17-17.22.19:666][731]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.01.17-17.22.19:666][731]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020877s)
+[2018.01.17-17.22.19:680][731]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.01.17-17.22.19:690][731]LogInit: FAudioDevice initialized.
+[2018.01.17-17.22.19:720][731]LogLoad: Game class is 'RPGGM_C'
+[2018.01.17-17.22.19:728][731]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.17-17.22.19
+[2018.01.17-17.22.19:728][731]LogWorld: Bringing up level for play took: 0.006202
+[2018.01.17-17.22.19:730][731]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.616
+[2018.01.17-17.22.19:731][731]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.22.59:462][492]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.22.59:493][492]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.17-17.23.19:741][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/Smallwater/LowResBlurredNoise" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/LowResBlurredNoise.uasset" SILENT=true
+[2018.01.17-17.23.19:750][ 30]LogSavePackage: Save=6.62ms
+[2018.01.17-17.23.19:750][ 30]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/LowResBlurredNoise70EDEE8F481BAA43853F9BAAC8CDB523.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/LowResBlurredNoise.uasset'
+[2018.01.17-17.23.19:752][ 30]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/LowResBlurredNoise.uasset
+[2018.01.17-17.23.19:768][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/Smallwater/M_Water" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/M_Water.uasset" SILENT=true
+[2018.01.17-17.23.19:795][ 30]LogSavePackage: Save=24.19ms
+[2018.01.17-17.23.19:795][ 30]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/M_Water248C635C449FC7E30E5E008F4AFC3067.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/M_Water.uasset'
+[2018.01.17-17.23.19:797][ 30]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/M_Water.uasset
+[2018.01.17-17.23.19:812][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/Smallwater/WaterGrid" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/WaterGrid.uasset" SILENT=true
+[2018.01.17-17.23.19:829][ 30]LogSavePackage: Save=14.31ms
+[2018.01.17-17.23.19:829][ 30]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/WaterGridD0796CBA493A521D0F00D2B257C1FD6F.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/WaterGrid.uasset'
+[2018.01.17-17.23.19:831][ 30]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/Smallwater/WaterGrid.uasset
+[2018.01.17-17.23.20:003][ 30]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Water/LargeWater/M_Water_Inst" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/M_Water_Inst.uasset" SILENT=true
+[2018.01.17-17.23.20:023][ 30]LogSavePackage: Save=7.17ms
+[2018.01.17-17.23.20:023][ 30]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/M_Water_Inst8F06DCFA4696ED082EA49B9E91D9259B.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/M_Water_Inst.uasset'
+[2018.01.17-17.23.20:024][ 30]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Water/LargeWater/M_Water_Inst.uasset
+[2018.01.17-17.23.28:946][ 90]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape5)
+[2018.01.17-17.23.29:872][196]Cmd: DELETE
+[2018.01.17-17.23.29:872][196]Cmd: ACTOR DELETE
+[2018.01.17-17.23.29:872][196]LogEditorActor: Deleted Actor: Landscape
+[2018.01.17-17.23.29:909][196]LogEditorActor: Deleted 1 Actors (0.037 secs)
+[2018.01.17-17.23.32:266][477]LogEditorActor: Deleted Actor: LandscapeGizmoActiveActor
+[2018.01.17-17.23.32:276][477]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2018.01.17-17.31.58:056][641]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.01.17-17.31.58:537][641]LogSavePackage: Save=166.08ms
+[2018.01.17-17.31.58:537][641]LogSavePackage: Moving 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_Auto2547527B64A43D8EF669413908DAE7F6F.tmp' to 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto2.umap'
+[2018.01.17-17.31.58:538][641]LogSavePackage:Display: Finished SavePackage E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto2.umap
+[2018.01.17-17.31.58:541][641]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/HelloWorld' took 0.501
+[2018.01.17-17.31.58:541][641]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.501
+[2018.01.17-17.49.44:054][ 71]Cmd: QUIT_EDITOR
+[2018.01.17-17.49.44:431][ 71]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.17-17.49.44:475][ 71]LogExit: Preparing to exit.
+[2018.01.17-17.49.45:274][ 71]LogExit: Editor shut down
+[2018.01.17-17.49.45:281][ 71]LogExit: Transaction tracking system shut down
+[2018.01.17-17.49.45:339][ 71]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.17-17.49.45:339][ 71]LogExit: Object subsystem successfully closed.
+[2018.01.17-17.49.45:359][ 71]LogD3D11RHI: Shutdown
+[2018.01.17-17.49.45:359][ 71]LogD3D11RHI: CleanupD3DDevice
+[2018.01.17-17.49.45:414][ 71]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.17-17.49.45:425][ 71]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.01.17-17.49.45:425][ 71]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.17-17.49.45:425][ 71]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.17-17.49.45:425][ 71]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.17-17.49.45:425][ 71]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.17-17.49.45:425][ 71]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.17-17.49.45:426][ 71]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Collections/' was aborted.
+[2018.01.17-17.49.45:426][ 71]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Content/Developers/jordanboast/Collections/' was aborted.
+[2018.01.17-17.49.45:426][ 71]LogDirectoryWatcher: A directory notification for 'E:/Year 2/FMP/RPG_Game/RPG_Game/Saved/Collections/' was aborted.
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.17-17.49.45:426][ 71]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.17-17.49.46:100][ 71]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.17-17.49.46:101][ 71]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.17-17.49.46:155][ 71]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.17-17.49.46:405][ 71]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.17-17.49.46:406][ 71]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)

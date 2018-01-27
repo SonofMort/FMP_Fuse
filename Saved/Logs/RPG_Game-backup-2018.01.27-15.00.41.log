@@ -1,0 +1,1204 @@
+﻿Log file open, 01/27/18 14:24:02
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-321239973) SRandInit(-321239973).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079918
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: D:/Program Files/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.27-14.24.03:285][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-14.24.03:285][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.27-14.24.03:291][  0]LogInit: Computer: DESKTOP-46CB9MQ
+[2018.01.27-14.24.03:291][  0]LogInit: User: JoshR
+[2018.01.27-14.24.03:291][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.01.27-14.24.03:291][  0]LogInit: High frequency timer resolution =3.421878 MHz
+[2018.01.27-14.24.03:291][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2018.01.27-14.24.03:291][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.27-14.24.03:291][  0]LogMemory: Process Physical Memory: 272.59 MB used, 272.59 MB peak
+[2018.01.27-14.24.03:291][  0]LogMemory: Process Virtual Memory: 258.71 MB used, 258.71 MB peak
+[2018.01.27-14.24.03:291][  0]LogMemory: Physical Memory: 4681.64 MB used,  11662.36 MB free, 16344.00 MB total
+[2018.01.27-14.24.03:291][  0]LogMemory: Virtual Memory: 654.43 MB used,  11662.36 MB free, 134217728.00 MB total
+[2018.01.27-14.24.03:336][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.27-14.24.03:336][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.27-14.24.03:339][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.27-14.24.04:033][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.27-14.24.04:066][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 970' (Feature Level 11_0)
+[2018.01.27-14.24.04:066][  0]LogD3D11RHI:       4043/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.01.27-14.24.04:068][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.27-14.24.04:068][  0]LogD3D11RHI:       0/0/8172 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.27-14.24.04:068][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.27-14.24.04:072][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.27-14.24.04:072][  0]LogD3D11RHI:     GPU DeviceId: 0x13c2 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.27-14.24.04:072][  0]LogWindows: EnumDisplayDevices:
+[2018.01.27-14.24.04:072][  0]LogWindows:    0. 'NVIDIA GeForce GTX 970' (P:1 D:1)
+[2018.01.27-14.24.04:072][  0]LogWindows:    1. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.27-14.24.04:072][  0]LogWindows:    2. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.27-14.24.04:073][  0]LogWindows:    3. 'NVIDIA GeForce GTX 970' (P:0 D:0)
+[2018.01.27-14.24.04:073][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.27-14.24.04:073][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 970
+[2018.01.27-14.24.04:073][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.27-14.24.04:073][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.27-14.24.04:073][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.27-14.24.04:093][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.27-14.24.04:112][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.27-14.24.04:113][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Intermediate/Shaders/WorkingDirectory/10880/).
+[2018.01.27-14.24.04:113][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/JoshR/AppData/Local/Temp/UnrealShaderWorkingDir/87DC76F14F6F7ACF50169D94ED35DB1D/'.
+[2018.01.27-14.24.04:113][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.27-14.24.04:874][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.27-14.24.04:910][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.27-14.24.04:943][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.27-14.24.04:976][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.27-14.24.05:009][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.27-14.24.05:041][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.27-14.24.05:075][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.27-14.24.05:107][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.27-14.24.05:135][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.27-14.24.05:168][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.27-14.24.05:200][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.27-14.24.05:231][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.27-14.24.05:265][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.27-14.24.05:298][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.27-14.24.05:329][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.27-14.24.05:393][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.27-14.24.05:393][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.27-14.24.05:417][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.27-14.24.05:485][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.27-14.24.05:503][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.27-14.24.05:535][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.27-14.24.05:565][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.27-14.24.05:596][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.27-14.24.05:626][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.27-14.24.05:626][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.27-14.24.05:923][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.27-14.24.05:988][  0]LogDerivedDataCache: Loaded boot cache 0.06s 90MB C:/Users/JoshR/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.27-14.24.05:988][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/JoshR/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.27-14.24.05:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.27-14.24.05:988][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.27-14.24.05:988][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.27-14.24.05:988][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.27-14.24.06:000][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.27-14.24.06:012][  0]LogDerivedDataCache: Using Local data cache path C:/Users/JoshR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.27-14.24.06:019][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.27-14.24.06:020][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.27-14.24.06:020][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-14.24.06:020][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-14.24.06:271][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-14.24.06:324][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.27-14.24.06:434][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.27-14.24.06:461][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.27-14.24.06:492][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.27-14.24.06:492][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.27-14.24.06:492][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.27-14.24.06:869][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.01.27-14.24.06:916][  0]LogAssetRegistry: FAssetRegistry took 0.0243 seconds to start up
+[2018.01.27-14.24.06:956][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.028103 seconds
+[2018.01.27-14.24.06:961][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.27-14.24.06:961][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.01.27-14.24.06:961][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.27-14.24.06:996][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.27-14.24.08:618][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.27-14.24.08:648][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.27-14.24.08:993][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.27-14.24.09:245][  0]SourceControl: Info Source control is disabled
+[2018.01.27-14.24.10:314][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.27-14.24.10:685][  0]LogEngine: Initializing Engine...
+[2018.01.27-14.24.10:686][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.27-14.24.10:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.27-14.24.10:824][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.27-14.24.10:903][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.27-14.24.10:910][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2018.01.27-14.24.10:930][  0]LogInit: FAudioDevice initialized.
+[2018.01.27-14.24.10:966][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/JoshR/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.27-14.24.10:974][  0]LogInit: Texture streaming: Enabled
+[2018.01.27-14.24.11:026][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.27-14.24.11:156][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.27-14.24.11:179][  0]LogInit: Transaction tracking system initialized
+[2018.01.27-14.24.11:363][  0]BlueprintLog: New page: Editor Load
+[2018.01.27-14.24.11:953][  0]LocalizationService: Info Localization service is disabled
+[2018.01.27-14.24.12:379][  0]LogConsoleResponse:Display: 
+[2018.01.27-14.24.12:508][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.27-14.24.12:508][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.27-14.24.12:936][  0]LogFileCache: Scanning file cache for directory 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/' took 0.03s
+[2018.01.27-14.24.13:345][  0]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.24.13:346][  0]LightingResults: New page: Lighting Build
+[2018.01.27-14.24.13:370][  0]MapCheck: New page: Map Check
+[2018.01.27-14.24.13:370][  0]LightingResults: New page: Lighting Build
+[2018.01.27-14.24.13:478][  0]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-14.24.13:526][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.24.13:532][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.24.13:567][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 34.404ms to complete.
+[2018.01.27-14.24.13:567][  0]LogFileHelpers: Loading map 'HelloWorld' took 0.221
+[2018.01.27-14.24.13:688][  0]LogCollectionManager: Loaded 0 collections in 0.001108 seconds
+[2018.01.27-14.24.13:750][  0]LogFileCache: Scanning file cache for directory 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Collections/' took 0.01s
+[2018.01.27-14.24.13:750][  0]LogFileCache: Scanning file cache for directory 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Developers/JoshR/Collections/' took 0.01s
+[2018.01.27-14.24.13:750][  0]LogFileCache: Scanning file cache for directory 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Collections/' took 0.01s
+[2018.01.27-14.24.13:750][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.01.27-14.24.13:757][  0]LogContentBrowser: Native class hierarchy populated in 0.0068 seconds. Added 2329 classes and 491 folders.
+[2018.01.27-14.24.13:794][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2018.01.27-14.24.13:830][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2018.01.27-14.24.13:855][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.27-14.24.13:880][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.27-14.24.13:884][  0]LogSlate: Took 0.000162 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-14.24.13:885][  0]LogSlate: Took 0.000172 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.27-14.24.13:889][  0]LogSlate: Took 0.000192 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.27-14.24.13:954][  0]LogRenderer: Reallocating scene render targets to support 1004x540 NumSamples 1 (Frame:1).
+[2018.01.27-14.24.14:019][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.27-14.24.14:066][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2018.01.27-14.24.14:066][  0]LogLoad: (Engine Initialization) Total time: 11.94 seconds
+[2018.01.27-14.24.14:066][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2018.01.27-14.24.14:066][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.27-14.24.14:075][  0]LogOcInput: OculusInput pre-init called
+[2018.01.27-14.24.14:075][  0]LogHMD: Starting GearVRController plugin
+[2018.01.27-14.24.14:093][  0]SourceControl: Info On branch master
+[2018.01.27-14.24.14:093][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.27-14.24.14:093][  0]SourceControl: Info Changes not staged for commit:
+[2018.01.27-14.24.14:093][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.27-14.24.14:093][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.15.55.log
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.17.38.log
+[2018.01.27-14.24.14:093][  0]SourceControl: Info Untracked files:
+[2018.01.27-14.24.14:093][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-51EE2D65433E8B2ACDB50BAD51575CF4/
+[2018.01.27-14.24.14:093][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.01.27-14.24.02.log
+[2018.01.27-14.24.14:093][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.27-14.24.14:094][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.27-14.24.14:126][  0]LogSlate: Took 0.000225 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-14.24.14:136][  1]LogAssetRegistry: Asset discovery search completed in 7.2405 seconds
+[2018.01.27-14.24.14:139][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.27-14.24.14:139][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000024 seconds (updated 0 objects)
+[2018.01.27-14.24.19:702][666]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.24.19:762][666]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-14.24.20:017][666]LogSavePackage: Save=240.17ms
+[2018.01.27-14.24.20:017][666]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCHelloWorldFB84A4B34015292A695931A1FB942D61.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCHelloWorld.umap'
+[2018.01.27-14.24.20:019][666]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCHelloWorld.umap
+[2018.01.27-14.24.20:087][666]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.01.27-14.24.20:401][666]LogSavePackage: Save=301.08ms
+[2018.01.27-14.24.20:401][666]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/HelloWorld_BuiltData41117BF7492C60F1B796B0903ADE5FCC.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.01.27-14.24.20:403][666]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.27-14.24.20:405][666]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.25.23:244][377]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2018.01.27-14.25.23:675][377]LogSlate: Took 0.000171 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-14.25.23:719][377]LogSlate: Took 0.000197 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.27-14.25.49:895][119]LightingResults: New page: Lighting Build
+[2018.01.27-14.25.49:920][119]MapCheck: New page: Map Check
+[2018.01.27-14.25.49:920][119]LightingResults: New page: Lighting Build
+[2018.01.27-14.25.49:953][119]LogAIModule: Creating AISystem for world Untitled
+[2018.01.27-14.25.49:955][119]LoadErrors: New page: New Map
+[2018.01.27-14.25.57:150][970]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-14.25.57:167][970]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.25.57:167][970]LightingResults: New page: Lighting Build
+[2018.01.27-14.25.57:167][970]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.27-14.25.57:168][970]MapCheck: New page: Map Check
+[2018.01.27-14.25.57:168][970]LightingResults: New page: Lighting Build
+[2018.01.27-14.25.57:217][970]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.25.57:244][970]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.25.57:286][970]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.418ms to complete.
+[2018.01.27-14.25.57:286][970]LogFileHelpers: Loading map 'HelloWorld' took 0.120
+[2018.01.27-14.26.11:493][454]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.26.11:508][454]LogSavePackage: Save=3.86ms
+[2018.01.27-14.26.11:508][454]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu2EAD461B44C0DA1CDAE11C8091270A7B.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.26.11:510][454]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.26.11:644][454]LogFileHelpers: Saving map 'Menu' took 0.194
+[2018.01.27-14.26.11:646][454]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.26.11:646][454]LightingResults: New page: Lighting Build
+[2018.01.27-14.26.11:646][454]LoadErrors: New page: Loading map: Menu.umap
+[2018.01.27-14.26.11:647][454]MapCheck: New page: Map Check
+[2018.01.27-14.26.11:647][454]LightingResults: New page: Lighting Build
+[2018.01.27-14.26.11:662][454]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.26.11:662][454]LogAIModule: Creating AISystem for world Menu
+[2018.01.27-14.26.11:696][454]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.26.11:739][454]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.577ms to complete.
+[2018.01.27-14.26.11:739][454]LogFileHelpers: Loading map 'Menu' took 0.094
+[2018.01.27-14.26.15:555][901]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-14.26.15:575][901]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.26.15:575][901]LightingResults: New page: Lighting Build
+[2018.01.27-14.26.15:575][901]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.27-14.26.15:576][901]MapCheck: New page: Map Check
+[2018.01.27-14.26.15:576][901]LightingResults: New page: Lighting Build
+[2018.01.27-14.26.15:623][901]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.26.15:650][901]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.26.15:691][901]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.526ms to complete.
+[2018.01.27-14.26.15:691][901]LogFileHelpers: Loading map 'HelloWorld' took 0.117
+[2018.01.27-14.26.39:934][773]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Menu'
+[2018.01.27-14.26.39:934][773]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Menu'
+[2018.01.27-14.26.41:443][932]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-14.29.32:564][519]SourceControl: Info On branch master
+[2018.01.27-14.29.32:564][519]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.27-14.29.32:564][519]SourceControl: Info Changes to be committed:
+[2018.01.27-14.29.32:564][519]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	new file:   Content/Maps/Menu.umap
+[2018.01.27-14.29.32:564][519]SourceControl: Info Changes not staged for commit:
+[2018.01.27-14.29.32:564][519]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.27-14.29.32:564][519]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/UEDPCHelloWorld.umap
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-01-17-17-31-58.umap
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-01-17-15-21-49.uasset
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.15.55.log
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.17.38.log
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.52.46.log
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	modified:   Saved/Logs/RPG_Game_2.log
+[2018.01.27-14.29.32:564][519]SourceControl: Info Untracked files:
+[2018.01.27-14.29.32:564][519]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	Saved/Backup/HelloWorld_2018-01-27-14-24-19.umap
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-01-27-14-24-20.uasset
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-51EE2D65433E8B2ACDB50BAD51575CF4/
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.01.27-14.24.02.log
+[2018.01.27-14.29.32:564][519]SourceControl: Info 	Saved/Logs/RPG_Game_2-backup-2018.01.27-14.24.21.log
+[2018.01.27-14.29.33:111][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Resume_Game" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Resume_Game.uasset" SILENT=true
+[2018.01.27-14.29.33:114][519]LogSavePackage: Save=2.09ms
+[2018.01.27-14.29.33:114][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Resume_GameB23DEC3F4E495EF9E39ED5AA1EDAC4A4.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Resume_Game.uasset'
+[2018.01.27-14.29.33:116][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Resume_Game.uasset
+[2018.01.27-14.29.33:265][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/PauseMenu/Resume_Game" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Resume_Game.uasset" SILENT=true
+[2018.01.27-14.29.33:271][519]LogSavePackage: Save=0.94ms
+[2018.01.27-14.29.33:271][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Resume_Game854E1A534020C1D78E2315BC983B1030.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Resume_Game.uasset'
+[2018.01.27-14.29.33:273][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Resume_Game.uasset
+[2018.01.27-14.29.33:278][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Resume_Game_Line" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Resume_Game_Line.uasset" SILENT=true
+[2018.01.27-14.29.33:281][519]LogSavePackage: Save=2.02ms
+[2018.01.27-14.29.33:281][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Resume_Game_LineBED63D7E49B14699174D10BC9747836F.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Resume_Game_Line.uasset'
+[2018.01.27-14.29.33:284][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Resume_Game_Line.uasset
+[2018.01.27-14.29.33:689][519]LogSavePackage: Save=1.05ms
+[2018.01.27-14.29.33:689][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Resume_Game_Line99D7CF2E49AFF610966DFB9277C93DF0.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Resume_Game_Line.uasset'
+[2018.01.27-14.29.33:692][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Resume_Game_Line.uasset
+[2018.01.27-14.29.33:699][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Return_To_Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Return_To_Menu.uasset" SILENT=true
+[2018.01.27-14.29.33:702][519]LogSavePackage: Save=2.15ms
+[2018.01.27-14.29.33:702][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Return_To_MenuD46CAB0E4509C89B257920851470C0B2.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Return_To_Menu.uasset'
+[2018.01.27-14.29.33:705][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Return_To_Menu.uasset
+[2018.01.27-14.29.33:879][519]LogSavePackage: Save=0.96ms
+[2018.01.27-14.29.33:879][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Return_To_Menu02D43B214AAEAFEF2E2E299F32ACB14E.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Return_To_Menu.uasset'
+[2018.01.27-14.29.33:882][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Return_To_Menu.uasset
+[2018.01.27-14.29.33:889][519]LogSavePackage: Save=2.10ms
+[2018.01.27-14.29.33:889][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Return_To_Menu_Line2C95EF41458CEF7021D420A5068D9DF7.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Return_To_Menu_Line.uasset'
+[2018.01.27-14.29.33:892][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Return_To_Menu_Line.uasset
+[2018.01.27-14.29.34:054][519]LogSavePackage: Save=1.00ms
+[2018.01.27-14.29.34:054][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Return_To_Menu_Line7E3A306D41014F56AD2DB1BA59218EEF.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Return_To_Menu_Line.uasset'
+[2018.01.27-14.29.34:057][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Return_To_Menu_Line.uasset
+[2018.01.27-14.29.34:061][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Settings" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Settings.uasset" SILENT=true
+[2018.01.27-14.29.34:064][519]LogSavePackage: Save=1.95ms
+[2018.01.27-14.29.34:064][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Settings6B06852B4DAEC5F58122438ED3527B82.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Settings.uasset'
+[2018.01.27-14.29.34:067][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Settings.uasset
+[2018.01.27-14.29.34:213][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/PauseMenu/Settings" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Settings.uasset" SILENT=true
+[2018.01.27-14.29.34:218][519]LogSavePackage: Save=0.98ms
+[2018.01.27-14.29.34:218][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Settings5B88EAA64AC803FCCB82C4BCCF3C3717.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Settings.uasset'
+[2018.01.27-14.29.34:221][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Settings.uasset
+[2018.01.27-14.29.34:224][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Settings_Line" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Settings_Line.uasset" SILENT=true
+[2018.01.27-14.29.34:228][519]LogSavePackage: Save=1.98ms
+[2018.01.27-14.29.34:228][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Settings_LineB4BEFC064A562FB8C012C1B9491AAB0F.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Settings_Line.uasset'
+[2018.01.27-14.29.34:231][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Settings_Line.uasset
+[2018.01.27-14.29.34:381][519]LogSavePackage: Save=0.98ms
+[2018.01.27-14.29.34:381][519]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Settings_LineEA431024462924A493FD379D82DEE5EC.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Settings_Line.uasset'
+[2018.01.27-14.29.34:384][519]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Settings_Line.uasset
+[2018.01.27-14.29.38:297][866]BlueprintLog: New page: Compile Pause
+[2018.01.27-14.29.38:380][866]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.29.39:009][933]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/PauseMenu/Pause" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Pause.uasset" SILENT=true
+[2018.01.27-14.29.39:034][933]LogSavePackage: Save=21.45ms
+[2018.01.27-14.29.39:034][933]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Pause73190AAD425C9DE488CC32923DBF8F93.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Pause.uasset'
+[2018.01.27-14.29.39:037][933]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Pause.uasset
+[2018.01.27-14.29.42:381][331]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.29.42:447][331]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.29.52:624][366]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Options.png)
+[2018.01.27-14.29.52:627][366]LogTexture:Display: Building textures: Options (AutoDXT, 420X100)
+[2018.01.27-14.29.55:558][543]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Options Line.png)
+[2018.01.27-14.29.55:560][543]LogTexture:Display: Building textures: Options_Line (AutoDXT, 420X100)
+[2018.01.27-14.30.50:623][632]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Background.png)
+[2018.01.27-14.30.50:696][632]LogTexture:Display: Building textures: Background (AutoDXT, 1920X1080)
+[2018.01.27-14.31.44:846][523]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.31.44:926][523]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.31.45:237][551]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.31.45:245][551]LogSavePackage: Save=6.48ms
+[2018.01.27-14.31.45:245][551]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuE81D02BA43DBDE5DF6766DBC5B36E670.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.31.45:248][551]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.31.47:651][814]LogEditorTransaction: Undo Move Widget
+[2018.01.27-14.31.51:806][306]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.31.51:886][306]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.31.52:134][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.31.52:145][326]LogSavePackage: Save=6.03ms
+[2018.01.27-14.31.52:145][326]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu010BA5ED410E6B5ABCBC1B8739B38F71.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.31.52:147][326]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.32.06:825][958]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.32.06:914][958]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.32.17:027][162]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.32.17:117][162]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.32.37:198][523]LogTexture:Display: Building textures: T_Env_Breakables_Box1_D (AutoDXT, 1024X1024)
+[2018.01.27-14.32.38:043][523]LogMaterial: Missing cached shader map for material Beakable_Master_MeshEmit, compiling. 
+[2018.01.27-14.33.44:344][171]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.33.44:436][171]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.33.50:631][493]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Start Line.png)
+[2018.01.27-14.33.50:634][493]LogTexture:Display: Building textures: Start_Line (AutoDXT, 420X100)
+[2018.01.27-14.33.50:718][493]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Start.png)
+[2018.01.27-14.33.50:721][493]LogTexture:Display: Building textures: Start (AutoDXT, 420X100)
+[2018.01.27-14.34.08:835][634]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.34.08:915][634]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.34.58:116][ 91]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.34.58:209][ 91]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.35.10:143][514]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.35.10:234][514]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.35.20:757][603]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.35.20:772][603]LogSavePackage: Save=11.14ms
+[2018.01.27-14.35.20:772][603]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu46F32A59469B56DDCEAEC8A64D4E8FB1.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.35.20:782][603]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.35.41:624][813]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.35.41:716][813]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.35.58:295][796]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.35.58:389][796]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.35.58:647][817]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.35.58:662][817]LogSavePackage: Save=11.96ms
+[2018.01.27-14.35.58:662][817]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu5BFD8DF74B0565B4A09C90AB1F6AE1F9.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.35.58:665][817]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.37.07:028][234]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/HelloWorld' took 0.012
+[2018.01.27-14.37.07:031][234]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Gameplay/HUD/MainMenu/Menu] ([1] browsable assets)...
+[2018.01.27-14.37.07:031][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/HUD/MainMenu/Menu]
+[2018.01.27-14.37.07:047][234]LogSavePackage: Save=11.54ms
+[2018.01.27-14.37.07:047][234]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu_Auto18618228C4E3A5632B414E1A644A9F112.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/MainMenu/Menu_Auto1.uasset'
+[2018.01.27-14.37.07:048][234]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/MainMenu/Menu_Auto1.uasset
+[2018.01.27-14.37.07:049][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gameplay/HUD/Text/Options] ([1] browsable assets)...
+[2018.01.27-14.37.07:051][234]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Gameplay/HUD/Text/Options.Options]
+[2018.01.27-14.37.07:051][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/HUD/Text/Options]
+[2018.01.27-14.37.07:055][234]LogSavePackage: Save=2.05ms
+[2018.01.27-14.37.07:055][234]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Options_Auto1164F317E4970A0B7DEA82F93EA72FA73.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Options_Auto1.uasset'
+[2018.01.27-14.37.07:056][234]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Options_Auto1.uasset
+[2018.01.27-14.37.07:057][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gameplay/HUD/Text/Options_Line] ([1] browsable assets)...
+[2018.01.27-14.37.07:060][234]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Gameplay/HUD/Text/Options_Line.Options_Line]
+[2018.01.27-14.37.07:060][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/HUD/Text/Options_Line]
+[2018.01.27-14.37.07:063][234]LogSavePackage: Save=2.11ms
+[2018.01.27-14.37.07:063][234]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Options_Line_Auto19BA6D2D042F5B24FD41289A148E2B5E8.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Options_Line_Auto1.uasset'
+[2018.01.27-14.37.07:065][234]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Options_Line_Auto1.uasset
+[2018.01.27-14.37.07:066][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gameplay/HUD/MainMenu/Background] ([1] browsable assets)...
+[2018.01.27-14.37.07:070][234]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Gameplay/HUD/MainMenu/Background.Background]
+[2018.01.27-14.37.07:070][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/HUD/MainMenu/Background]
+[2018.01.27-14.37.07:081][234]LogSavePackage: Save=9.88ms
+[2018.01.27-14.37.07:081][234]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Background_Auto17A4BDD5D4796D3EFEB30DD846333DED4.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/MainMenu/Background_Auto1.uasset'
+[2018.01.27-14.37.07:082][234]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/MainMenu/Background_Auto1.uasset
+[2018.01.27-14.37.07:083][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gameplay/HUD/Text/Start_Line] ([1] browsable assets)...
+[2018.01.27-14.37.07:085][234]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Gameplay/HUD/Text/Start_Line.Start_Line]
+[2018.01.27-14.37.07:085][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/HUD/Text/Start_Line]
+[2018.01.27-14.37.07:089][234]LogSavePackage: Save=2.27ms
+[2018.01.27-14.37.07:089][234]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Start_Line_Auto1594AC5284CAD26FCD976C884D0DB22F7.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Start_Line_Auto1.uasset'
+[2018.01.27-14.37.07:091][234]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Start_Line_Auto1.uasset
+[2018.01.27-14.37.07:092][234]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Gameplay/HUD/Text/Start] ([1] browsable assets)...
+[2018.01.27-14.37.07:093][234]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Gameplay/HUD/Text/Start.Start]
+[2018.01.27-14.37.07:093][234]OBJ SavePackage: Finished generating thumbnails for package [/Game/Gameplay/HUD/Text/Start]
+[2018.01.27-14.37.07:097][234]LogSavePackage: Save=2.02ms
+[2018.01.27-14.37.07:097][234]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Start_Auto131A874E14B66A1ED617802AC9A6FE7D6.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Start_Auto1.uasset'
+[2018.01.27-14.37.07:098][234]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Gameplay/HUD/Text/Start_Auto1.uasset
+[2018.01.27-14.37.07:098][234]LogFileHelpers: Auto-saving content packages took 0.069
+[2018.01.27-14.37.25:606][448]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Controls Line.png)
+[2018.01.27-14.37.25:609][448]LogTexture:Display: Building textures: Controls_Line (AutoDXT, 420X100)
+[2018.01.27-14.37.25:691][448]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Controls.png)
+[2018.01.27-14.37.25:693][448]LogTexture:Display: Building textures: Controls (AutoDXT, 420X100)
+[2018.01.27-14.37.43:720][603]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.37.43:723][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:724][603]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.37.43:724][603]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.37.43:803][603]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.39.09:959][ 24]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Quit Line.png)
+[2018.01.27-14.39.09:961][ 24]LogTexture:Display: Building textures: Quit_Line (AutoDXT, 420X100)
+[2018.01.27-14.39.10:033][ 24]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../Users/JoshR/Desktop/Quit.png)
+[2018.01.27-14.39.10:036][ 24]LogTexture:Display: Building textures: Quit (AutoDXT, 420X100)
+[2018.01.27-14.39.26:359][665]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.39.26:361][665]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.39.26:361][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:361][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.39.26:361][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.39.26:362][665]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.26:454][665]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.39.26:695][684]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.39.26:711][684]LogSavePackage: Save=11.63ms
+[2018.01.27-14.39.26:711][684]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuF5C6F01C46697B7FD057C990BCF33E3C.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.39.26:713][684]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.39.28:791][925]LogEditorTransaction: Undo Move Widget
+[2018.01.27-14.39.30:369][111]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.39.30:372][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.39.30:373][111]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.30:438][111]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.39.30:720][136]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.39.30:735][136]LogSavePackage: Save=11.02ms
+[2018.01.27-14.39.30:735][136]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu7E1939A24F1E7CA4F059648D7684A95A.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.39.30:738][136]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.39.40:396][279]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.39.40:398][279]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.39.40:398][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:398][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.39.40:398][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:398][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.39.40:398][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.39.40:399][279]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.39.40:465][279]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.40.01:287][750]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:290][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.40.01:291][750]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.01:357][750]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.40.01:704][783]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.40.01:719][783]LogSavePackage: Save=11.45ms
+[2018.01.27-14.40.01:719][783]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuD53106B442DE00F3DE75CD9B3EF73BA4.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.40.01:722][783]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.40.19:454][867]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.40.19:458][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file '/Game/Gameplay/HUD/MainMenu/Background'
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/MainMenu/Background' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options'
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Options_Line'
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Options_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start'
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file '/Game/Gameplay/HUD/Text/Start_Line'
+[2018.01.27-14.40.19:459][867]LogLinker: Can't find file for asset '/Game/Gameplay/HUD/Text/Start_Line' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset.
+[2018.01.27-14.40.19:526][867]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.40.19:988][914]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.27-14.40.20:005][914]LogSavePackage: Save=13.92ms
+[2018.01.27-14.40.20:005][914]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu612A282E4455618461A9FB8C7C4A16F7.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.27-14.40.20:008][914]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.40.40:176][275]BlueprintLog: New page: Compile Pause
+[2018.01.27-14.40.40:254][275]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.27-14.40.40:521][298]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/PauseMenu/Pause" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Pause.uasset" SILENT=true
+[2018.01.27-14.40.40:548][298]LogSavePackage: Save=21.75ms
+[2018.01.27-14.40.40:548][298]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/PauseF674248D4B507A25DF9F12BF7868F57F.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Pause.uasset'
+[2018.01.27-14.40.40:550][298]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/PauseMenu/Pause.uasset
+[2018.01.27-14.40.44:605][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Background" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Background.uasset" SILENT=true
+[2018.01.27-14.40.44:808][667]LogSavePackage: Save=201.77ms
+[2018.01.27-14.40.44:808][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Background3C21DE1240B7950CF8EEA4967F752B3E.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Background.uasset'
+[2018.01.27-14.40.44:811][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/MainMenu/Background.uasset
+[2018.01.27-14.40.45:508][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Controls" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Controls.uasset" SILENT=true
+[2018.01.27-14.40.45:513][667]LogSavePackage: Save=3.20ms
+[2018.01.27-14.40.45:513][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Controls02BFE9FF4DB8B54E07368DB18C5A61BD.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Controls.uasset'
+[2018.01.27-14.40.45:516][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Controls.uasset
+[2018.01.27-14.40.45:771][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Controls_Line" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Controls_Line.uasset" SILENT=true
+[2018.01.27-14.40.45:775][667]LogSavePackage: Save=3.41ms
+[2018.01.27-14.40.45:775][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Controls_LineF284644E498858E3F6116CA059857629.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Controls_Line.uasset'
+[2018.01.27-14.40.45:779][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Controls_Line.uasset
+[2018.01.27-14.40.46:012][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Options" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Options.uasset" SILENT=true
+[2018.01.27-14.40.46:016][667]LogSavePackage: Save=3.02ms
+[2018.01.27-14.40.46:016][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/OptionsA085F3854A234B3F6A4F0F9D7291697E.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Options.uasset'
+[2018.01.27-14.40.46:019][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Options.uasset
+[2018.01.27-14.40.46:231][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Options_Line" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Options_Line.uasset" SILENT=true
+[2018.01.27-14.40.46:235][667]LogSavePackage: Save=2.98ms
+[2018.01.27-14.40.46:235][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Options_Line2CDD2FD747CE60F1952B5DB21A364990.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Options_Line.uasset'
+[2018.01.27-14.40.46:238][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Options_Line.uasset
+[2018.01.27-14.40.46:417][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Quit" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Quit.uasset" SILENT=true
+[2018.01.27-14.40.46:421][667]LogSavePackage: Save=2.86ms
+[2018.01.27-14.40.46:421][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Quit7C3D7C19471F1AFE6BCCDAAA4CF0364A.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Quit.uasset'
+[2018.01.27-14.40.46:424][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Quit.uasset
+[2018.01.27-14.40.46:658][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Quit_Line" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Quit_Line.uasset" SILENT=true
+[2018.01.27-14.40.46:662][667]LogSavePackage: Save=3.00ms
+[2018.01.27-14.40.46:662][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Quit_Line8768799849C0D9022BF8B681EEC5BC67.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Quit_Line.uasset'
+[2018.01.27-14.40.46:665][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Quit_Line.uasset
+[2018.01.27-14.40.46:834][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Start" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Start.uasset" SILENT=true
+[2018.01.27-14.40.46:838][667]LogSavePackage: Save=2.96ms
+[2018.01.27-14.40.46:838][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Start46D82CBB4EE74ECA1A740093D5704351.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Start.uasset'
+[2018.01.27-14.40.46:841][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Start.uasset
+[2018.01.27-14.40.47:052][667]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/Text/Start_Line" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Start_Line.uasset" SILENT=true
+[2018.01.27-14.40.47:057][667]LogSavePackage: Save=3.06ms
+[2018.01.27-14.40.47:057][667]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Start_LineCE67F3724F9680D6A34F18B746110700.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Start_Line.uasset'
+[2018.01.27-14.40.47:060][667]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Gameplay/HUD/Text/Start_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info On branch master
+[2018.01.27-14.40.51:484][173]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.27-14.40.51:484][173]SourceControl: Info Changes to be committed:
+[2018.01.27-14.40.51:484][173]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/MainMenu/Background.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Resume_Game.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Resume_Game_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Return_To_Menu.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Return_To_Menu_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Settings.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Settings_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Controls.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Controls_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Options.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Options_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Quit.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Quit_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Resume_Game.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Resume_Game_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Return_To_Menu.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Return_To_Menu_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Settings.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Settings_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Start.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Gameplay/HUD/Text/Start_Line.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	new file:   Content/Maps/Menu.umap
+[2018.01.27-14.40.51:484][173]SourceControl: Info Changes not staged for commit:
+[2018.01.27-14.40.51:484][173]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.27-14.40.51:484][173]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Gameplay/HUD/PauseMenu/Pause.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/UEDPCHelloWorld.umap
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-01-17-17-31-58.umap
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-01-17-15-21-49.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.15.55.log
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.17.38.log
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.27-13.52.46.log
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	modified:   Saved/Logs/RPG_Game_2.log
+[2018.01.27-14.40.51:484][173]SourceControl: Info Untracked files:
+[2018.01.27-14.40.51:484][173]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Autosaves/Game/Gameplay/HUD/MainMenu/
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Autosaves/Game/Gameplay/HUD/Text/
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/HelloWorld_2018-01-27-14-24-19.umap
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-01-27-14-24-20.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Menu_2018-01-27-14-31-52.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Menu_2018-01-27-14-37-07.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Pause_2018-01-27-14-29-39.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Pause_2018-01-27-14-40-40.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Resume_Game_2018-01-27-14-29-33.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Resume_Game_Line_2018-01-27-14-29-33.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Return_To_Menu_2018-01-27-14-29-33.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Return_To_Menu_Line_2018-01-27-14-29-34.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Settings_2018-01-27-14-29-34.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Backup/Settings_Line_2018-01-27-14-29-34.uasset
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-51EE2D65433E8B2ACDB50BAD51575CF4/
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.01.27-14.24.02.log
+[2018.01.27-14.40.51:484][173]SourceControl: Info 	Saved/Logs/RPG_Game_2-backup-2018.01.27-14.24.21.log
+[2018.01.27-14.40.51:913][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.40.52:206][213]LogSavePackage: Save=276.42ms
+[2018.01.27-14.40.52:206][213]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/HelloWorld15EC9B174B2373F5CB2F8E9850AC4E79.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap'
+[2018.01.27-14.40.52:208][213]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap
+[2018.01.27-14.40.52:340][213]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.01.27-14.40.52:674][213]LogSavePackage: Save=302.14ms
+[2018.01.27-14.40.52:674][213]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/HelloWorld_BuiltDataB4BEF185488EAE7007456E96E350EA5C.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.01.27-14.40.52:676][213]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.27-14.40.57:631][803]LogAIModule: Creating AISystem for world Menu
+[2018.01.27-14.40.57:644][803]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.40.57:645][803]LightingResults: New page: Lighting Build
+[2018.01.27-14.40.57:645][803]LoadErrors: New page: Loading map: Menu.umap
+[2018.01.27-14.40.57:646][803]MapCheck: New page: Map Check
+[2018.01.27-14.40.57:646][803]LightingResults: New page: Lighting Build
+[2018.01.27-14.40.57:662][803]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.40.57:689][803]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.40.57:733][803]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.016ms to complete.
+[2018.01.27-14.40.57:733][803]LogFileHelpers: Loading map 'Menu' took 0.090
+[2018.01.27-14.40.58:493][893]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.40.58:576][893]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.27-14.40.58:588][893]LogSavePackage: Save=7.76ms
+[2018.01.27-14.40.58:588][893]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCMenu2773AE2048F6AA0ED49E948F75139CFD.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.27-14.40.58:589][893]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.27-14.40.58:593][893]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.41.34:455][235]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.41.34:852][261]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.41.34:931][261]LogSavePackage: Save=65.50ms
+[2018.01.27-14.41.34:931][261]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuB7924B7C451B1D3287658B954F3971F1.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.41.34:934][261]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.41.34:952][261]LogFileHelpers: Saving map 'Menu' took 0.143
+[2018.01.27-14.41.36:975][501]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.41.37:056][501]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.27-14.41.37:125][501]LogSavePackage: Save=65.65ms
+[2018.01.27-14.41.37:125][501]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCMenu4B318470474E2A9E6598A181E68C5421.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.27-14.41.37:127][501]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.27-14.41.37:131][501]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.41.56:404][970]LogEditorViewport: Clicking Background
+[2018.01.27-14.42.03:964][835]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.27-14.42.06:588][150]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.42.06:935][170]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.42.07:014][170]LogSavePackage: Save=65.86ms
+[2018.01.27-14.42.07:014][170]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu418C49344B3619B7092BA2AA4468364B.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.42.07:017][170]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.42.07:035][170]LogFileHelpers: Saving map 'Menu' took 0.143
+[2018.01.27-14.42.30:355][967]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.42.30:435][967]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.27-14.42.30:508][967]LogSavePackage: Save=69.75ms
+[2018.01.27-14.42.30:508][967]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCMenu3609A5254CE120E49503FFA3C52593F0.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.27-14.42.30:510][967]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.27-14.42.30:515][967]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.44.17:315][598]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.44.17:319][598]LogBlueprint:Error: [Compiler PersistentLevel.Menu] Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.01.27-14.44.17:471][598]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Widget, therefore ' Target ' must have a connection.
+[2018.01.27-14.44.17:472][598]LogBlueprint:Warning: [Compiler PersistentLevel.Menu] Warning [1215.34] Compile of PersistentLevel.Menu failed. 1 Fatal Issue(s) 0 Warning(s) [in 156 ms] (/Game/Maps/Menu.Menu:PersistentLevel.Menu)
+[2018.01.27-14.44.22:231][167]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.44.22:680][199]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.44.22:763][199]LogSavePackage: Save=68.16ms
+[2018.01.27-14.44.22:763][199]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu1F627A0F4D35C9A572AD0D92463692F1.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.44.22:766][199]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.44.22:783][199]LogFileHelpers: Saving map 'Menu' took 0.148
+[2018.01.27-14.44.36:056][718]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.01.27-14.44.36:125][723]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.RPGGame
+[2018.01.27-14.44.36:125][723]LogTemp: CWD: D:\Program Files\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.27-14.44.36:125][723]LogTemp: Initial Dir: D:\Program Files\UE_4.16
+[2018.01.27-14.44.36:125][723]LogTemp: Env CWD: D:\Program Files\UE_4.16\Engine\Binaries\DotNET\IOS
+[2018.01.27-14.44.36:125][723]LogTemp: BranchPath = DESKTOP-46CB9MQ/D/Program Files/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-46CB9MQ/D/Program Files/UE_4.16/Engine/Binaries
+[2018.01.27-14.44.36:133][724]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\JoshR\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.01.27-14.44.49:380][287]SourceControl:Error: Error fatal: Invalid path '/Script': No such file or directory
+[2018.01.27-14.44.52:107][613]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.44.52:191][613]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.27-14.44.52:261][613]LogSavePackage: Save=66.56ms
+[2018.01.27-14.44.52:261][613]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCMenuD75EB954420CD993471519A11D9CDCBF.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.27-14.44.52:262][613]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.27-14.44.52:266][613]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.46.03:105][934]LogEditorViewport: Clicking Background
+[2018.01.27-14.46.05:900][269]LogEditorViewport: Clicking Background
+[2018.01.27-14.48.25:462][922]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.48.32:807][781]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.48.32:893][781]LogSavePackage: Save=69.81ms
+[2018.01.27-14.48.32:893][781]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuDF22386D4D003618D96F7E8A98CD6E55.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.48.32:895][781]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.48.32:922][781]LogFileHelpers: Saving map 'Menu' took 0.161
+[2018.01.27-14.48.45:643][305]SourceControl: Info fatal: D:/Program Files/UE_4.16/Engine/Content/: 'D:/Program Files/UE_4.16/Engine/Content/' is outside repository
+[2018.01.27-14.48.54:554][305]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.01.27-14.48.54:796][305]SourceControl: Info [master 3d855e5] Main Menu 50%
+[2018.01.27-14.48.54:796][305]SourceControl: Info  27 files changed, 1 insertion(+), 2 deletions(-)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/MainMenu/Background.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Pause.uasset (73%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Resume_Game.uasset (100%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Resume_Game_Line.uasset (99%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Return_To_Menu.uasset (100%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Return_To_Menu_Line.uasset (100%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Settings.uasset (100%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  rewrite Content/Gameplay/HUD/PauseMenu/Settings_Line.uasset (100%)
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Controls.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Controls_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Options.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Options_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Quit.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Quit_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Resume_Game.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Resume_Game_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Return_To_Menu.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Return_To_Menu_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Settings.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Settings_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Start.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Gameplay/HUD/Text/Start_Line.uasset
+[2018.01.27-14.48.54:796][305]SourceControl: Info  create mode 100644 Content/Maps/Menu.umap
+[2018.01.27-14.48.54:800][305]SourceControl: Info Commited [master 3d855e5] Main Menu 50%.
+[2018.01.27-14.51.19:123][723]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.52.08:579][121]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.52.09:001][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.52.09:088][149]LogSavePackage: Save=72.84ms
+[2018.01.27-14.52.09:088][149]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuD858081F40776327E215449AB5EE504D.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.52.09:091][149]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.52.09:118][149]LogFileHelpers: Saving map 'Menu' took 0.163
+[2018.01.27-14.52.16:329][858]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.52.34:929][643]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.52.35:282][663]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.52.35:375][663]LogSavePackage: Save=76.04ms
+[2018.01.27-14.52.35:375][663]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/MenuEB7FF2AB4FC03B5E2D39688190BA91DF.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.52.35:377][663]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.52.35:395][663]LogFileHelpers: Saving map 'Menu' took 0.156
+[2018.01.27-14.52.58:261][626]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.52.58:743][661]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.52.58:833][661]LogSavePackage: Save=75.35ms
+[2018.01.27-14.52.58:833][661]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu9D90E09A4030C40D00953F9E6990C768.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.52.58:836][661]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.52.58:854][661]LogFileHelpers: Saving map 'Menu' took 0.155
+[2018.01.27-14.53.23:238][922]BlueprintLog: New page: Compile Menu
+[2018.01.27-14.53.23:700][955]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.53.23:793][955]LogSavePackage: Save=77.40ms
+[2018.01.27-14.53.23:793][955]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Menu7896134C4FDF1587AA0668B22769F5EB.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap'
+[2018.01.27-14.53.23:796][955]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap
+[2018.01.27-14.53.23:813][955]LogFileHelpers: Saving map 'Menu' took 0.157
+[2018.01.27-14.53.53:044][648]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.53.53:133][648]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.27-14.53.53:220][648]LogSavePackage: Save=81.86ms
+[2018.01.27-14.53.53:220][648]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCMenuB5B423854CEF08AA3AB1DEACE69EAF4E.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.27-14.53.53:222][648]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.27-14.53.53:226][648]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.54.56:622][111]LogLinker:Warning: Can't find file '/Game/Particles/P_Whirlwind_Default_Area_01'
+[2018.01.27-14.54.56:622][111]LogLinker:Warning: Can't find file for asset '/Game/Particles/P_Whirlwind_Default_Area_01' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap.
+[2018.01.27-14.54.56:622][111]LoadErrors:Error: Error /Game/Maps/Tutorial : Can't find file for asset. /Game/Particles/P_Whirlwind_Default_Area_01
+[2018.01.27-14.54.56:622][111]LogLinker:Warning: Can't find file '/Game/Particles/P_Whirlwind_Default_Area_01'
+[2018.01.27-14.54.56:622][111]LogLinker:Warning: Can't find file for asset '/Game/Particles/P_Whirlwind_Default_Area_01' while loading ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap.
+[2018.01.27-14.54.56:623][111]LogLinker:Warning: Can't find file '/Game/Particles/P_Whirlwind_Default_Area_01'
+[2018.01.27-14.54.56:623][111]LogLinker:Warning: Can't find file for asset '/Game/Particles/P_Whirlwind_Default_Area_01' while loading NULL.
+[2018.01.27-14.54.56:623][111]LogLinker:Warning: Can't find file '/Game/Particles/P_Whirlwind_Default_Area_01'
+[2018.01.27-14.54.56:623][111]LogLinker:Warning: Can't find file for asset '/Game/Particles/P_Whirlwind_Default_Area_01' while loading NULL.
+[2018.01.27-14.54.56:637][111]LogLinker:Warning: Can't find file '/Game/Particles/P_Whirlwind_Default_Area_01'
+[2018.01.27-14.54.56:637][111]LoadErrors: Info Failed to load /Game/Particles/P_Whirlwind_Default_Area_01.P_Whirlwind_Default_Area_01 Referenced by P_Whirlwind_Default_Area_01_8
+[2018.01.27-14.54.56:637][111]LogLinker:Warning: Can't find file for asset '/Game/Particles/P_Whirlwind_Default_Area_01' while loading NULL.
+[2018.01.27-14.54.56:638][111]LogLinker:Warning: Can't find file '/Game/Particles/P_Whirlwind_Default_Area_01'
+[2018.01.27-14.54.56:638][111]LoadErrors: Info Failed to load /Game/Particles/P_Whirlwind_Default_Area_01.P_Whirlwind_Default_Area_01 Referenced by P_Whirlwind_Default_Area_2
+[2018.01.27-14.54.56:638][111]LogLinker:Warning: Can't find file for asset '/Game/Particles/P_Whirlwind_Default_Area_01' while loading NULL.
+[2018.01.27-14.54.56:722][111]LogAIModule: Creating AISystem for world Tutorial
+[2018.01.27-14.54.56:748][111]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.54.56:748][111]LightingResults: New page: Lighting Build
+[2018.01.27-14.54.56:748][111]LoadErrors: New page: Loading map: Tutorial.umap
+[2018.01.27-14.54.56:775][111]MapCheck: New page: Map Check
+[2018.01.27-14.54.56:775][111]LightingResults: New page: Lighting Build
+[2018.01.27-14.54.56:800][111]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.54.56:830][111]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.54.56:877][111]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 47.359ms to complete.
+[2018.01.27-14.54.56:877][111]LogFileHelpers: Loading map 'Tutorial' took 0.130
+[2018.01.27-14.55.26:965][800]BlueprintLog: New page: Compile Tutorial
+[2018.01.27-14.55.26:968][800]LogBlueprint:Error: [Compiler PersistentLevel.Tutorial] Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2018.01.27-14.55.26:996][800]LogBlueprint:Error: [Compiler PersistentLevel.Tutorial] Error Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.27-14.55.27:119][800]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a PlayerController, therefore ' Target ' must have a connection.
+[2018.01.27-14.55.27:119][800]BlueprintEditorCompileResults:Error: Error Variable node  Set bShowMouseCursor  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.01.27-14.55.27:119][800]LogBlueprint:Warning: [Compiler PersistentLevel.Tutorial] Warning [1884.99] Compile of PersistentLevel.Tutorial failed. 2 Fatal Issue(s) 0 Warning(s) [in 154 ms] (/Game/Maps/Tutorial.Tutorial:PersistentLevel.Tutorial)
+[2018.01.27-14.55.56:646][964]BlueprintLog: New page: Compile Tutorial
+[2018.01.27-14.56.13:562][996]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Tutorial" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-14.56.13:797][996]LogSavePackage: Save=218.28ms
+[2018.01.27-14.56.13:797][996]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Tutorial159EBA0E45D055B67B8830BB04C41F8E.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap'
+[2018.01.27-14.56.13:799][996]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Tutorial.umap
+[2018.01.27-14.56.13:817][996]LogFileHelpers: Saving map 'Tutorial' took 0.302
+[2018.01.27-14.56.16:194][270]LogAIModule: Creating AISystem for world Menu
+[2018.01.27-14.56.16:208][270]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.56.16:208][270]LightingResults: New page: Lighting Build
+[2018.01.27-14.56.16:209][270]LoadErrors: New page: Loading map: Menu.umap
+[2018.01.27-14.56.16:209][270]MapCheck: New page: Map Check
+[2018.01.27-14.56.16:210][270]LightingResults: New page: Lighting Build
+[2018.01.27-14.56.16:222][270]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.56.16:249][270]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.56.16:295][270]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.731ms to complete.
+[2018.01.27-14.56.16:295][270]LogFileHelpers: Loading map 'Menu' took 0.087
+[2018.01.27-14.56.16:940][346]LogTemp: Repeting last play command: Standalone Game
+[2018.01.27-14.56.17:023][346]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.27-14.56.17:105][346]LogSavePackage: Save=78.25ms
+[2018.01.27-14.56.17:105][346]LogSavePackage: Moving '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/UEDPCMenu042010FD4CB8A46A309DBB88ADA7DADC.tmp' to '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.27-14.56.17:106][346]LogSavePackage:Display: Finished SavePackage ../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.27-14.56.17:110][346]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.27-14.56.37:400][821]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-14.56.37:418][821]Cmd: MAP LOAD FILE="../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-14.56.37:418][821]LightingResults: New page: Lighting Build
+[2018.01.27-14.56.37:418][821]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.27-14.56.37:419][821]MapCheck: New page: Map Check
+[2018.01.27-14.56.37:419][821]LightingResults: New page: Lighting Build
+[2018.01.27-14.56.37:468][821]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-14.56.37:496][821]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-14.56.37:542][821]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.94ms to complete.
+[2018.01.27-14.56.37:542][821]LogFileHelpers: Loading map 'HelloWorld' took 0.125
+[2018.01.27-14.56.41:870][332]SourceControl: Info fatal: D:/Program Files/UE_4.16/Engine/Content/: 'D:/Program Files/UE_4.16/Engine/Content/' is outside repository
+[2018.01.27-14.56.51:256][332]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.01.27-14.56.51:298][332]SourceControl: Info [master 6fa3a19] Main Menu Complete
+[2018.01.27-14.56.51:298][332]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.01.27-14.56.51:298][332]SourceControl: Info  rewrite Content/Maps/Menu.umap (77%)
+[2018.01.27-14.56.51:303][332]SourceControl: Info Commited [master 6fa3a19] Main Menu Complete.
+[2018.01.27-14.56.53:410][561]Cmd: QUIT_EDITOR
+[2018.01.27-14.56.53:424][561]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.27-14.56.53:433][561]LogExit: Preparing to exit.
+[2018.01.27-14.56.54:089][561]LogDirectoryWatcher: A directory notification for 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/' was aborted.
+[2018.01.27-14.56.54:115][561]LogExit: Editor shut down
+[2018.01.27-14.56.54:118][561]LogExit: Transaction tracking system shut down
+[2018.01.27-14.56.54:186][561]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.27-14.56.54:186][561]LogExit: Object subsystem successfully closed.
+[2018.01.27-14.56.54:208][561]LogD3D11RHI: Shutdown
+[2018.01.27-14.56.54:208][561]LogD3D11RHI: CleanupD3DDevice
+[2018.01.27-14.56.54:262][561]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module NewLevelDialog (530)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.27-14.56.54:268][561]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.27-14.56.54:268][561]LogDirectoryWatcher: A directory notification for 'D:/Program Files/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.27-14.56.54:269][561]LogDirectoryWatcher: A directory notification for 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Collections/' was aborted.
+[2018.01.27-14.56.54:269][561]LogDirectoryWatcher: A directory notification for 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/Developers/JoshR/Collections/' was aborted.
+[2018.01.27-14.56.54:269][561]LogDirectoryWatcher: A directory notification for 'D:/Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Saved/Collections/' was aborted.
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.27-14.56.54:269][561]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.27-14.56.54:270][561]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.27-14.56.54:496][561]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.27-14.56.54:547][561]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.27-14.56.54:552][561]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.27-14.56.54:553][561]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.27-14.56.54:792][561]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.27-14.56.54:793][561]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.27-14.56.54:794][561]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.27-14.56.54:794][561]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.27-14.56.54:794][561]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.27-14.56.54:794][561]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.27-14.56.54:794][561]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.27-14.56.54:794][561]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.27-14.56.54:894][561]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.27-14.56.54:994][561]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.27-14.56.54:994][561]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.27-14.56.54:994][561]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.27-14.56.54:994][561]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.27-14.56.54:994][561]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.27-14.56.54:994][561]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.27-14.56.54:995][561]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.27-14.56.54:995][561]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.27-14.56.54:995][561]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.27-14.56.54:995][561]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.27-14.56.54:997][561]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.27-14.56.54:999][561]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.27-14.56.54:999][561]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.27-14.56.54:999][561]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.27-14.56.54:999][561]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.27-14.56.54:999][561]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.27-14.56.54:999][561]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.27-14.56.55:223][561]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.27-14.56.55:223][561]LogDirectoryWatcher: A directory notification for '../../../../../Users/JoshR/Documents/GitHub/FMP_RPG_Game_Charm/Content/' was aborted.
+[2018.01.27-14.56.55:223][561]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.27-14.56.55:223][561]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.27-14.56.55:227][561]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.27-14.56.55:303][561]LogDerivedDataCache: Shutdown
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.27-14.56.55:303][561]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.27-14.56.55:304][561]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.27-14.56.55:304][561]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.27-14.56.55:304][561]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.27-14.56.55:304][561]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BEDC345BE-43E6-055C-6174-06ADA493D902%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f0737b824c736c28631198aee30172af%7C8019e3778a0b4ba78522874ce4acdb0a%7C8a4654aa-9b80-41bd-a943-1725ad37d445&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.27-14.56.55:323][561]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.27-14.56.55:323][561]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.27-14.56.55:324][561]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.27-14.56.55:325][561]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.27-14.56.55:326][561]LogExit: Exiting.
+[2018.01.27-14.56.55:336][561]Log file closed, 01/27/18 14:56:55

@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 ﻿Log file open, 01/27/18 12:22:56
 LogInit:Display: Running engine for game: RPG_Game
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(568955453) SRandInit(568955453).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 2.494879
+=======
+﻿Log file open, 01/27/18 12:43:50
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1924872070) SRandInit(-1924872070).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.176779
+>>>>>>> d9f22243032636bdba4404b2acd501f58f9e70a2
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,10 +55,11 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  
-LogInit: Base directory: D:/Program Files/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.01.27-12.22.57:256][  0]LogInit: Selected Device Profile: [Windows]
 [2018.01.27-12.22.57:256][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.01.27-12.22.57:329][  0]LogInit: Computer: DESKTOP-46CB9MQ
@@ -1114,3 +1124,694 @@ LogInit: Object subsystem initialized
 [2018.01.27-13.05.49:322][900]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.01.27-13.05.49:323][900]LogExit: Exiting.
 [2018.01.27-13.05.49:333][900]Log file closed, 01/27/18 13:05:49
+=======
+[2018.01.27-12.43.51:209][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-12.43.51:209][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.27-12.43.51:236][  0]LogInit: Computer: SONOFMORT
+[2018.01.27-12.43.51:236][  0]LogInit: User: Jordan
+[2018.01.27-12.43.51:236][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.01.27-12.43.51:236][  0]LogInit: High frequency timer resolution =3.124997 MHz
+[2018.01.27-12.43.51:236][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.01.27-12.43.51:236][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.27-12.43.51:236][  0]LogMemory: Process Physical Memory: 274.28 MB used, 274.28 MB peak
+[2018.01.27-12.43.51:236][  0]LogMemory: Process Virtual Memory: 267.73 MB used, 267.73 MB peak
+[2018.01.27-12.43.51:236][  0]LogMemory: Physical Memory: 3043.91 MB used,  5103.31 MB free, 8147.22 MB total
+[2018.01.27-12.43.51:236][  0]LogMemory: Virtual Memory: 673.40 MB used,  5103.31 MB free, 134217728.00 MB total
+[2018.01.27-12.43.51:371][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.27-12.43.51:371][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.27-12.43.51:378][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.27-12.43.52:783][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.27-12.43.52:863][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.27-12.43.52:863][  0]LogD3D11RHI:       8088/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.27-12.43.52:867][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.27-12.43.52:867][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.27-12.43.52:867][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.27-12.43.52:874][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.27-12.43.52:874][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.27-12.43.52:874][  0]LogWindows: EnumDisplayDevices:
+[2018.01.27-12.43.52:875][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.27-12.43.52:875][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.27-12.43.52:875][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.27-12.43.52:875][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.27-12.43.52:875][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.27-12.43.52:875][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.27-12.43.52:875][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.27-12.43.52:875][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.27-12.43.52:875][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.27-12.43.52:921][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.27-12.43.52:967][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.27-12.43.53:059][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (F:/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/7968/).
+[2018.01.27-12.43.53:059][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/285CA08C416725FDCA64E2941B9FFC96/'.
+[2018.01.27-12.43.53:059][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.27-12.43.54:576][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.27-12.43.54:663][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.27-12.43.54:751][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.27-12.43.54:838][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.27-12.43.54:927][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.27-12.43.55:017][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.27-12.43.55:104][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.27-12.43.55:194][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.27-12.43.55:276][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.27-12.43.55:359][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.27-12.43.55:439][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.27-12.43.55:524][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.27-12.43.55:612][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.27-12.43.55:703][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.27-12.43.55:792][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.27-12.43.55:971][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.27-12.43.55:971][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.27-12.43.56:044][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.27-12.43.56:193][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.27-12.43.56:244][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.27-12.43.56:331][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.27-12.43.56:417][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.27-12.43.56:502][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.27-12.43.56:592][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.27-12.43.56:592][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.27-12.43.57:513][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.27-12.43.57:901][  0]LogDerivedDataCache: Loaded boot cache 0.39s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.27-12.43.57:901][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.27-12.43.57:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.27-12.43.57:901][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.27-12.43.57:901][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.27-12.43.57:901][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.27-12.43.57:925][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.27-12.43.57:937][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.27-12.43.57:951][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.27-12.43.57:952][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.27-12.43.57:953][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-12.43.57:953][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.27-12.43.58:636][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.27-12.43.58:774][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.27-12.43.59:005][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.27-12.43.59:088][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.27-12.43.59:188][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.27-12.43.59:188][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.27-12.43.59:188][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.27-12.44.00:076][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.01.27-12.44.00:165][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2018.01.27-12.44.00:439][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.235490 seconds
+[2018.01.27-12.44.00:446][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.27-12.44.00:446][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.27-12.44.00:446][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.27-12.44.00:559][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.27-12.44.04:937][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.27-12.44.04:998][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.27-12.44.05:875][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.27-12.44.06:539][  0]SourceControl: Info Source control is disabled
+[2018.01.27-12.44.08:856][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.27-12.44.09:935][  0]LogEngine: Initializing Engine...
+[2018.01.27-12.44.09:936][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.27-12.44.10:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.27-12.44.10:273][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.27-12.44.10:515][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.27-12.44.10:527][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.27-12.49.34:212][  0]LogAudio:Error: CreateMasteringVoice error: Unhandled error code -2004287472
+[2018.01.27-12.49.34:212][  0]LogInit:Warning: Failed to create the mastering voice for XAudio2
+[2018.01.27-12.49.34:227][  0]LogDerivedDataCache:Error: Could not save memory cache C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.27-12.49.34:251][  0]LogInit: Texture streaming: Enabled
+[2018.01.27-12.49.34:448][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.27-12.49.34:879][  0]LogInit: Transaction tracking system initialized
+[2018.01.27-12.49.35:503][  0]BlueprintLog: New page: Editor Load
+[2018.01.27-12.49.37:394][  0]LocalizationService: Info Localization service is disabled
+[2018.01.27-12.49.38:853][  0]LogConsoleResponse:Display: 
+[2018.01.27-12.49.39:061][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.27-12.49.39:061][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.27-12.49.39:677][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/' took 0.04s
+[2018.01.27-12.49.41:636][  0]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.27-12.49.41:637][  0]LightingResults: New page: Lighting Build
+[2018.01.27-12.49.41:730][  0]MapCheck: New page: Map Check
+[2018.01.27-12.49.41:730][  0]LightingResults: New page: Lighting Build
+[2018.01.27-12.49.41:952][  0]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.49.42:043][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.27-12.49.42:054][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.27-12.49.42:172][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.031ms to complete.
+[2018.01.27-12.49.42:172][  0]LogFileHelpers: Loading map 'HelloWorld' took 0.536
+[2018.01.27-12.49.42:366][  0]LogCollectionManager: Loaded 0 collections in 0.002552 seconds
+[2018.01.27-12.49.42:501][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2018.01.27-12.49.42:501][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2018.01.27-12.49.42:501][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2018.01.27-12.49.42:501][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000004 seconds
+[2018.01.27-12.49.42:513][  0]LogContentBrowser: Native class hierarchy populated in 0.0124 seconds. Added 2329 classes and 491 folders.
+[2018.01.27-12.49.42:648][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.01.27-12.49.42:724][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.01.27-12.49.42:808][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.01.27-12.49.42:879][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.27-12.49.42:887][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-12.49.42:890][  0]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.27-12.49.42:893][  0]LogSlate: Took 0.000284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.27-12.49.42:975][  0]LogRenderer: Reallocating scene render targets to support 1528x624 NumSamples 1 (Frame:1).
+[2018.01.27-12.49.43:233][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.27-12.49.43:364][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2018.01.27-12.49.43:364][  0]LogLoad: (Engine Initialization) Total time: 355.10 seconds
+[2018.01.27-12.49.43:364][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.01.27-12.49.43:364][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.27-12.49.43:375][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.27-12.49.43:375][  0]LogOcInput: OculusInput pre-init called
+[2018.01.27-12.49.43:375][  0]LogHMD: Starting GearVRController plugin
+[2018.01.27-12.49.43:395][  0]SourceControl: Info On branch master
+[2018.01.27-12.49.43:395][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.27-12.49.43:395][  0]SourceControl: Info Untracked files:
+[2018.01.27-12.49.43:395][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.27-12.49.43:395][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-3E72AB374D70BFFBB91F0DAEB75D536F/
+[2018.01.27-12.49.43:395][  0]SourceControl: Info 	Saved/Logs/RPG_Game_3.log
+[2018.01.27-12.49.43:395][  0]SourceControl: Info nothing added to commit but untracked files present (use "git add" to track)
+[2018.01.27-12.49.43:396][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.27-12.49.43:479][  1]LogAssetRegistry: Asset discovery search completed in 343.3356 seconds
+[2018.01.27-12.49.43:483][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.27-12.49.43:484][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000076 seconds (updated 0 objects)
+[2018.01.27-12.49.43:507][  1]LogSlate: Took 0.000404 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-12.50.15:610][684]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.27-12.50.15:776][684]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.15:776][684]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-12.50.15:776][684]PIE: New page: PIE session: HelloWorld (27 Jan 2018 12:50:15)
+[2018.01.27-12.50.15:777][684]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.50.15:818][684]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041628s)
+[2018.01.27-12.50.15:819][684]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.50.15:819][684]LogPlayLevel: PIE: World Init took: (0.001002s)
+[2018.01.27-12.50.15:819][684]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.042902s)
+[2018.01.27-12.50.16:234][684]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.50.16:241][684]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.50.16
+[2018.01.27-12.50.16:241][684]LogWorld: Bringing up level for play took: 0.003803
+[2018.01.27-12.50.16:326][684]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.01.27-12.50.16:330][684]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.395
+[2018.01.27-12.50.16:330][684]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.25:059][725]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.25:111][725]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.26:068][830]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.01.27-12.50.38:143][187]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.27-12.50.38:166][187]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.38:166][187]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-12.50.38:167][187]PIE: New page: PIE session: HelloWorld (27 Jan 2018 12:50:38)
+[2018.01.27-12.50.38:167][187]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.50.38:186][187]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019783s)
+[2018.01.27-12.50.38:187][187]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.50.38:187][187]LogPlayLevel: PIE: World Init took: (0.000770s)
+[2018.01.27-12.50.38:187][187]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020747s)
+[2018.01.27-12.50.38:234][187]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.50.38:238][187]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.50.38
+[2018.01.27-12.50.38:239][187]LogWorld: Bringing up level for play took: 0.003839
+[2018.01.27-12.50.38:242][187]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.483
+[2018.01.27-12.50.38:242][187]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.43:849][856]LogBlueprintUserMessages: [HelloWorld_C_1] You Died
+[2018.01.27-12.50.45:826][ 92]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.50.45:882][ 92]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.13:417][203]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.27-12.51.13:442][203]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.13:442][203]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-12.51.13:442][203]PIE: New page: PIE session: HelloWorld (27 Jan 2018 12:51:13)
+[2018.01.27-12.51.13:442][203]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.51.13:464][203]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021761s)
+[2018.01.27-12.51.13:465][203]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.51.13:465][203]LogPlayLevel: PIE: World Init took: (0.001033s)
+[2018.01.27-12.51.13:465][203]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.023010s)
+[2018.01.27-12.51.13:510][203]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.51.13:514][203]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.51.13
+[2018.01.27-12.51.13:516][203]LogWorld: Bringing up level for play took: 0.004110
+[2018.01.27-12.51.13:518][203]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.794
+[2018.01.27-12.51.13:519][203]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.19:628][932]LogBlueprintUserMessages: [HelloWorld_C_1] You Died
+[2018.01.27-12.51.21:628][172]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.01.27-12.51.21:629][172]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.01.27-12.51.21:648][172]Cmd: MEM
+[2018.01.27-12.51.21:662][172]LogMemory: Platform Memory Stats for Windows
+[2018.01.27-12.51.21:662][172]LogMemory: Process Physical Memory: 1098.49 MB used, 1188.86 MB peak
+[2018.01.27-12.51.21:662][172]LogMemory: Process Virtual Memory: 1752.61 MB used, 1755.19 MB peak
+[2018.01.27-12.51.21:662][172]LogMemory: Physical Memory: 6197.54 MB used,  1949.69 MB free, 8147.22 MB total
+[2018.01.27-12.51.21:662][172]LogMemory: Virtual Memory: 2670.68 MB used,  1949.69 MB free, 134217728.00 MB total
+[2018.01.27-12.51.21:662][172]LogMemory: 
+[2018.01.27-12.51.21:662][172]Allocator Stats for TBB: (not implemented)
+[2018.01.27-12.51.21:663][172]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.51.21:681][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018207s)
+[2018.01.27-12.51.21:681][172]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.51.21:681][172]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.01.27-12.51.21:681][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.019169s)
+[2018.01.27-12.51.21:682][172]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.51.21:687][172]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.51.21
+[2018.01.27-12.51.21:688][172]LogWorld: Bringing up level for play took: 0.004102
+[2018.01.27-12.51.21:691][172]LogLoad: Took 0.062615 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.01.27-12.51.21:716][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.21:774][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.32:355][371]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.01.27-12.51.35:689][756]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.01.27-12.51.39:247][168]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.01.27-12.51.42:513][508]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.01.27-12.51.43:464][618]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.01.27-12.51.44:802][774]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.27-12.51.44:824][774]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.44:825][774]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-12.51.44:825][774]PIE: New page: PIE session: HelloWorld (27 Jan 2018 12:51:44)
+[2018.01.27-12.51.44:825][774]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.51.44:841][774]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016554s)
+[2018.01.27-12.51.44:842][774]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.51.44:842][774]LogPlayLevel: PIE: World Init took: (0.000728s)
+[2018.01.27-12.51.44:842][774]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017469s)
+[2018.01.27-12.51.44:886][774]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.51.44:890][774]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.51.44
+[2018.01.27-12.51.44:892][774]LogWorld: Bringing up level for play took: 0.004242
+[2018.01.27-12.51.44:895][774]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.17
+[2018.01.27-12.51.44:895][774]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.48:849][244]LogBlueprintUserMessages: [HelloWorld_C_1] You Died
+[2018.01.27-12.51.50:508][443]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.50:556][443]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.56:568][140]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.27-12.51.56:589][140]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.56:589][140]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-12.51.56:589][140]PIE: New page: PIE session: HelloWorld (27 Jan 2018 12:51:56)
+[2018.01.27-12.51.56:590][140]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.51.56:606][140]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016297s)
+[2018.01.27-12.51.56:606][140]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.51.56:607][140]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.01.27-12.51.56:607][140]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017189s)
+[2018.01.27-12.51.56:652][140]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.51.56:656][140]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.51.56
+[2018.01.27-12.51.56:658][140]LogWorld: Bringing up level for play took: 0.003846
+[2018.01.27-12.51.56:661][140]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.064
+[2018.01.27-12.51.56:661][140]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.58:191][320]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.51.58:234][320]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.52.10:597][746]LogSlate: Took 0.001477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-12.52.11:196][746]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2018.01.27-12.52.12:157][746]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.27-12.52.12:160][746]LogSlate: Took 0.002329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.27-12.52.24:232][  2]LogSlate: Took 0.001746 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.27-12.52.52:306][347]BlueprintLog: New page: Compile ThirdPersonPlayer
+[2018.01.27-12.52.54:793][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.52.54:952][438]LogSavePackage: Save=113.46ms
+[2018.01.27-12.52.54:952][438]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayer8C6B4A43435C1C7EE56651B78F3D472B.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.52.54:953][438]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.52.55:454][438]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.52.55:454][438]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.52.55:458][438]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.52.55:472][438]LogSlate: Took 0.001375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.27-12.53.03:184][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.53.03:291][438]LogSavePackage: Save=96.72ms
+[2018.01.27-12.53.03:291][438]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayer89EEABCC44BCCEC837027ABF15050B7A.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.03:292][438]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.53.03:792][438]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.53.03:792][438]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.03:794][438]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.53.05:997][438]EditorErrors: New page: Save Output
+[2018.01.27-12.53.05:998][438]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.05:998][438]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.13:783][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.53.13:891][784]LogSavePackage: Save=100.80ms
+[2018.01.27-12.53.13:891][784]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayerCBE4B5084508CC31645DBD9486BD2171.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.13:892][784]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.53.14:392][784]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.53.14:392][784]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.14:395][784]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.53.15:833][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.53.15:941][784]LogSavePackage: Save=98.42ms
+[2018.01.27-12.53.15:941][784]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayerDEF72E3048F8C71AF28FF69669C50302.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.15:941][784]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.53.16:442][784]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.53.16:442][784]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.16:445][784]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.53.17:015][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.53.17:177][784]LogSavePackage: Save=102.13ms
+[2018.01.27-12.53.17:177][784]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayer66203EBD4B6A7458A86270A0F7564146.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.17:178][784]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.53.17:679][784]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.53.17:679][784]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.17:681][784]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.53.18:151][784]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.53.18:275][784]LogSavePackage: Save=103.15ms
+[2018.01.27-12.53.18:275][784]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayer602D97F347CE460BE7FCBFAB10115BA6.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.18:275][784]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.53.18:776][784]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.53.18:776][784]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.18:779][784]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.53.19:424][784]EditorErrors: New page: Save Output
+[2018.01.27-12.53.19:424][784]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.19:424][784]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.19:424][784]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.19:424][784]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.24:487][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-12.53.25:163][ 56]LogSavePackage: Save=547.44ms
+[2018.01.27-12.53.25:164][ 56]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldE55176244EE1DEF936BED99D06EBF459.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.53.25:164][ 56]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap', retrying in .5s...
+[2018.01.27-12.53.25:665][ 56]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'.
+[2018.01.27-12.53.25:665][ 56]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.53.25:668][ 56]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.01.27-12.53.25:672][ 56]EditorErrors: New page: Save Output
+[2018.01.27-12.53.25:673][ 56]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.53.25:676][ 56]LogFileHelpers: Saving map 'HelloWorld' took 1.456
+[2018.01.27-12.53.33:927][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-12.53.34:457][ 56]LogSavePackage: Save=502.50ms
+[2018.01.27-12.53.34:457][ 56]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldCBF21EB9491AD45A50BA909CFF563E9A.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.53.34:457][ 56]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap', retrying in .5s...
+[2018.01.27-12.53.34:959][ 56]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'.
+[2018.01.27-12.53.34:959][ 56]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.53.34:962][ 56]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.01.27-12.53.34:964][ 56]EditorErrors: New page: Save Output
+[2018.01.27-12.53.34:964][ 56]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.53.34:968][ 56]LogFileHelpers: Saving map 'HelloWorld' took 1.162
+[2018.01.27-12.53.35:761][ 56]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.53.35:870][ 56]LogSavePackage: Save=101.50ms
+[2018.01.27-12.53.35:870][ 56]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayerEFB016FE4FA50CC122F5F1925299FEBF.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.35:870][ 56]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.53.36:371][ 56]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.53.36:371][ 56]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.36:379][ 56]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.53.38:035][ 56]EditorErrors: New page: Save Output
+[2018.01.27-12.53.38:035][ 56]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.53.43:442][512]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.27-12.53.43:473][512]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.53.43:473][512]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.27-12.53.43:473][512]PIE: New page: PIE session: HelloWorld (27 Jan 2018 12:53:43)
+[2018.01.27-12.53.43:473][512]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.27-12.53.43:492][512]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018919s)
+[2018.01.27-12.53.43:493][512]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.27-12.53.43:493][512]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2018.01.27-12.53.43:493][512]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020050s)
+[2018.01.27-12.53.43:548][512]LogLoad: Game class is 'RPGGM_C'
+[2018.01.27-12.53.43:552][512]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.27-12.53.43
+[2018.01.27-12.53.43:553][512]LogWorld: Bringing up level for play took: 0.003922
+[2018.01.27-12.53.43:556][512]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.832
+[2018.01.27-12.53.43:556][512]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.53.46:648][878]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.53.46:695][878]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.27-12.54.28:951][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.54.29:056][587]LogSavePackage: Save=99.25ms
+[2018.01.27-12.54.29:056][587]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayer32981FC5437E0C2AC1E642A83E794D2F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.29:057][587]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.54.29:558][587]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.54.29:558][587]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.29:571][587]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.54.30:904][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.54.31:085][587]LogSavePackage: Save=98.00ms
+[2018.01.27-12.54.31:085][587]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayerD2F0907241D04D9524C441B7502DC9A8.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.31:085][587]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.54.31:587][587]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.54.31:587][587]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.31:590][587]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.54.32:020][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
+[2018.01.27-12.54.32:124][587]LogSavePackage: Save=95.95ms
+[2018.01.27-12.54.32:124][587]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayerBE60DA6041259BCBACFB11B1D8BBFAAA.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.32:125][587]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset', retrying in .5s...
+[2018.01.27-12.54.32:626][587]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'.
+[2018.01.27-12.54.32:626][587]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.32:639][587]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
+[2018.01.27-12.54.33:306][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.27-12.54.33:838][587]LogSavePackage: Save=489.88ms
+[2018.01.27-12.54.33:838][587]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld34102E724849119A00613480EACDA7FB.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.54.33:839][587]LogFileManager:Warning: DeleteFile was unable to delete 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap', retrying in .5s...
+[2018.01.27-12.54.34:340][587]LogFileManager:Error: Error deleting file 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'.
+[2018.01.27-12.54.34:340][587]LogSavePackage:Error: Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.54.34:370][587]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.01.27-12.54.34:372][587]EditorErrors: New page: Save Output
+[2018.01.27-12.54.34:372][587]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.27-12.54.34:389][587]LogFileHelpers: Saving map 'HelloWorld' took 1.197
+[2018.01.27-12.54.35:209][587]EditorErrors: New page: Save Output
+[2018.01.27-12.54.35:209][587]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.35:210][587]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.35:210][587]EditorErrors:Warning: Warning Error saving 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
+[2018.01.27-12.54.36:447][587]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.27-12.54.36:636][588]Cmd: QUIT_EDITOR
+[2018.01.27-12.54.37:473][588]LogExit: Preparing to exit.
+[2018.01.27-12.54.38:493][588]LogExit: Editor shut down
+[2018.01.27-12.54.38:500][588]LogExit: Transaction tracking system shut down
+[2018.01.27-12.54.38:672][588]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.27-12.54.38:672][588]LogExit: Object subsystem successfully closed.
+[2018.01.27-12.54.38:714][588]LogD3D11RHI: Shutdown
+[2018.01.27-12.54.38:714][588]LogD3D11RHI: CleanupD3DDevice
+[2018.01.27-12.54.38:816][588]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.27-12.54.38:882][588]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2018.01.27-12.54.38:882][588]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2018.01.27-12.54.38:882][588]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2018.01.27-12.54.38:883][588]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2018.01.27-12.54.38:884][588]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2018.01.27-12.54.38:884][588]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2018.01.27-12.54.38:884][588]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2018.01.27-12.54.38:884][588]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2018.01.27-12.54.38:884][588]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.01.27-12.54.38:886][588]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2018.01.27-12.54.38:886][588]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2018.01.27-12.54.38:886][588]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2018.01.27-12.54.38:886][588]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' was aborted.
+[2018.01.27-12.54.38:886][588]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' was aborted.
+[2018.01.27-12.54.38:886][588]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' was aborted.
+[2018.01.27-12.54.38:886][588]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2018.01.27-12.54.38:886][588]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2018.01.27-12.54.38:886][588]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2018.01.27-12.54.38:887][588]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2018.01.27-12.54.38:888][588]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2018.01.27-12.54.38:888][588]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2018.01.27-12.54.38:888][588]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module Media (471)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2018.01.27-12.54.38:890][588]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2018.01.27-12.54.38:891][588]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2018.01.27-12.54.38:891][588]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2018.01.27-12.54.38:891][588]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2018.01.27-12.54.38:891][588]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2018.01.27-12.54.38:891][588]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2018.01.27-12.54.38:892][588]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2018.01.27-12.54.38:893][588]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2018.01.27-12.54.38:894][588]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2018.01.27-12.54.38:895][588]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2018.01.27-12.54.38:895][588]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2018.01.27-12.54.38:895][588]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2018.01.27-12.54.38:895][588]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2018.01.27-12.54.38:895][588]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2018.01.27-12.54.39:252][588]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2018.01.27-12.54.39:252][588]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2018.01.27-12.54.39:252][588]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2018.01.27-12.54.39:253][588]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2018.01.27-12.54.39:253][588]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2018.01.27-12.54.39:253][588]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2018.01.27-12.54.39:253][588]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2018.01.27-12.54.39:253][588]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2018.01.27-12.54.39:254][588]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2018.01.27-12.54.39:254][588]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2018.01.27-12.54.39:254][588]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2018.01.27-12.54.39:254][588]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2018.01.27-12.54.39:254][588]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2018.01.27-12.54.39:254][588]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2018.01.27-12.54.39:255][588]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2018.01.27-12.54.39:255][588]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2018.01.27-12.54.39:255][588]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2018.01.27-12.54.39:255][588]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2018.01.27-12.54.39:255][588]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2018.01.27-12.54.39:256][588]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2018.01.27-12.54.39:256][588]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2018.01.27-12.54.39:256][588]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2018.01.27-12.54.39:257][588]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2018.01.27-12.54.39:257][588]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2018.01.27-12.54.39:312][588]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2018.01.27-12.54.39:312][588]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2018.01.27-12.54.39:313][588]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2018.01.27-12.54.39:314][588]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2018.01.27-12.54.39:314][588]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2018.01.27-12.54.39:314][588]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2018.01.27-12.54.39:315][588]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2018.01.27-12.54.39:315][588]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2018.01.27-12.54.39:315][588]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2018.01.27-12.54.39:315][588]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2018.01.27-12.54.39:324][588]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2018.01.27-12.54.39:324][588]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2018.01.27-12.54.39:324][588]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2018.01.27-12.54.39:324][588]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2018.01.27-12.54.39:325][588]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2018.01.27-12.54.39:325][588]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2018.01.27-12.54.39:326][588]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2018.01.27-12.54.39:326][588]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2018.01.27-12.54.39:326][588]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2018.01.27-12.54.39:326][588]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2018.01.27-12.54.39:326][588]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2018.01.27-12.54.39:327][588]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2018.01.27-12.54.39:328][588]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2018.01.27-12.54.39:328][588]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2018.01.27-12.54.39:527][588]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2018.01.27-12.54.39:528][588]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2018.01.27-12.54.39:528][588]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2018.01.27-12.54.39:528][588]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2018.01.27-12.54.39:528][588]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2018.01.27-12.54.39:529][588]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2018.01.27-12.54.39:531][588]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2018.01.27-12.54.39:533][588]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2018.01.27-12.54.39:533][588]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2018.01.27-12.54.39:534][588]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2018.01.27-12.54.39:534][588]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2018.01.27-12.54.39:534][588]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2018.01.27-12.54.39:535][588]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2018.01.27-12.54.39:536][588]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2018.01.27-12.54.39:536][588]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2018.01.27-12.54.39:537][588]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2018.01.27-12.54.39:537][588]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2018.01.27-12.54.39:538][588]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2018.01.27-12.54.39:539][588]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2018.01.27-12.54.39:539][588]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2018.01.27-12.54.39:539][588]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2018.01.27-12.54.39:539][588]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2018.01.27-12.54.39:539][588]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2018.01.27-12.54.39:539][588]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2018.01.27-12.54.39:640][588]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2018.01.27-12.54.39:741][588]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.01.27-12.54.39:742][588]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.01.27-12.54.39:742][588]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.01.27-12.54.39:742][588]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.01.27-12.54.39:743][588]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.01.27-12.54.39:743][588]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.01.27-12.54.39:744][588]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.01.27-12.54.39:744][588]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.01.27-12.54.39:744][588]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.01.27-12.54.39:744][588]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.01.27-12.54.39:750][588]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.01.27-12.54.39:750][588]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.01.27-12.54.39:751][588]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.01.27-12.54.39:751][588]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.01.27-12.54.39:751][588]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.01.27-12.54.39:751][588]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.01.27-12.54.39:752][588]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.01.27-12.54.39:752][588]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.01.27-12.54.39:753][588]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.01.27-12.54.39:753][588]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.01.27-12.54.39:754][588]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.01.27-12.54.39:754][588]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.01.27-12.54.39:754][588]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.01.27-12.54.39:755][588]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.01.27-12.54.39:757][588]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.01.27-12.54.39:757][588]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.01.27-12.54.39:757][588]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.01.27-12.54.39:759][588]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.01.27-12.54.39:759][588]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.01.27-12.54.39:763][588]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.01.27-12.54.39:763][588]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.01.27-12.54.39:763][588]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.01.27-12.54.39:763][588]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.01.27-12.54.39:763][588]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.01.27-12.54.39:763][588]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.01.27-12.54.40:054][588]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.01.27-12.54.40:054][588]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/' was aborted.
+[2018.01.27-12.54.40:054][588]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.01.27-12.54.40:054][588]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.01.27-12.54.40:059][588]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.01.27-12.54.40:059][588]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.01.27-12.54.40:059][588]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.01.27-12.54.40:059][588]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.01.27-12.54.40:060][588]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.01.27-12.54.40:061][588]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.01.27-12.54.40:061][588]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.01.27-12.54.40:061][588]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.01.27-12.54.40:061][588]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.01.27-12.54.40:107][588]LogDerivedDataCache: Shutdown
+[2018.01.27-12.54.40:107][588]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.01.27-12.54.40:107][588]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.01.27-12.54.40:107][588]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.01.27-12.54.40:108][588]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.01.27-12.54.40:108][588]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.01.27-12.54.40:109][588]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.01.27-12.54.40:110][588]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.01.27-12.54.40:111][588]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.01.27-12.54.40:112][588]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.01.27-12.54.40:112][588]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.01.27-12.54.40:112][588]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.01.27-12.54.40:112][588]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.01.27-12.54.40:112][588]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.27-12.54.40:113][588]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.27-12.54.40:114][588]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.27-12.54.40:114][588]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.27-12.54.40:114][588]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.27-12.54.40:114][588]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.27-12.54.40:115][588]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.27-12.54.40:116][588]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.27-12.54.40:116][588]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.01.27-12.54.40:116][588]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B52DA3F30-4911-3B19-2670-DCAF0B2DB169%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f2ee2cd141fd990cd7bc44856aa9a1ea%7C3996f32fd2fe4f04a289bdcb1f9016df%7Cd35f91c7-4e6c-478a-b9f5-ce22f1949bcb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.01.27-12.54.40:150][588]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.27-12.54.40:151][588]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.27-12.54.40:152][588]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.27-12.54.40:153][588]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.27-12.54.40:153][588]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.27-12.54.40:154][588]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.27-12.54.40:154][588]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.27-12.54.40:154][588]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.27-12.54.40:154][588]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.27-12.54.40:155][588]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.27-12.54.40:156][588]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.27-12.54.40:156][588]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.27-12.54.40:156][588]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.27-12.54.40:156][588]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.27-12.54.40:156][588]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.27-12.54.40:156][588]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.27-12.54.40:157][588]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.27-12.54.40:157][588]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.27-12.54.40:157][588]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.27-12.54.40:161][588]LogExit: Exiting.
+[2018.01.27-12.54.40:180][588]Log file closed, 01/27/18 12:54:40
+>>>>>>> d9f22243032636bdba4404b2acd501f58f9e70a2

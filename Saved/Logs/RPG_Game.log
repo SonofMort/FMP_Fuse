@@ -1,9 +1,9 @@
-﻿Log file open, 01/29/18 14:22:01
+﻿Log file open, 01/29/18 17:01:32
 LogInit:Display: Running engine for game: RPG_Game
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(-1845258023) SRandInit(-1845258023).
+LogInit:Display: RandInit(-1999616154) SRandInit(-1999616154).
 LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.172678
+LogStats: Stats thread started at 0.175894
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,788 +50,760 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.01.29-14.22.02:408][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.29-14.22.02:408][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.01.29-14.22.02:488][  0]LogInit: Computer: SONOFMORT
-[2018.01.29-14.22.02:488][  0]LogInit: User: Jordan
-[2018.01.29-14.22.02:488][  0]LogInit: CPU Page size=4096, Cores=8
-[2018.01.29-14.22.02:488][  0]LogInit: High frequency timer resolution =3.124997 MHz
-[2018.01.29-14.22.02:488][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
-[2018.01.29-14.22.02:488][  0]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-14.22.02:488][  0]LogMemory: Process Physical Memory: 277.74 MB used, 277.74 MB peak
-[2018.01.29-14.22.02:488][  0]LogMemory: Process Virtual Memory: 267.73 MB used, 267.73 MB peak
-[2018.01.29-14.22.02:488][  0]LogMemory: Physical Memory: 4603.67 MB used,  3543.55 MB free, 8147.22 MB total
-[2018.01.29-14.22.02:488][  0]LogMemory: Virtual Memory: 673.93 MB used,  3543.55 MB free, 134217728.00 MB total
-[2018.01.29-14.22.02:625][  0]LogInit: Using OS detected language (en-GB).
-[2018.01.29-14.22.02:625][  0]LogInit: Using OS detected locale (en-GB).
-[2018.01.29-14.22.02:636][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2018.01.29-14.22.04:152][  0]LogD3D11RHI: D3D11 adapters:
-[2018.01.29-14.22.04:222][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2018.01.29-14.22.04:222][  0]LogD3D11RHI:       8088/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2018.01.29-14.22.04:229][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.01.29-14.22.04:229][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.01.29-14.22.04:229][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.01.29-14.22.04:240][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.01.29-14.22.04:240][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2018.01.29-14.22.04:240][  0]LogWindows: EnumDisplayDevices:
-[2018.01.29-14.22.04:241][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2018.01.29-14.22.04:241][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2018.01.29-14.22.04:241][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.29-14.22.04:242][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2018.01.29-14.22.04:242][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.01.29-14.22.04:242][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2018.01.29-14.22.04:242][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.01.29-14.22.04:242][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.01.29-14.22.04:242][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2018.01.29-14.22.04:285][  0]LogD3D11RHI: Async texture creation enabled
-[2018.01.29-14.22.04:310][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.01.29-14.22.04:405][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (F:/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/10172/).
-[2018.01.29-14.22.04:405][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/129626554275B3A4311DCDA46D7EDA6C/'.
-[2018.01.29-14.22.04:405][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2018.01.29-14.22.05:922][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2018.01.29-14.22.06:011][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2018.01.29-14.22.06:100][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2018.01.29-14.22.06:187][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2018.01.29-14.22.06:278][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2018.01.29-14.22.06:367][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2018.01.29-14.22.06:456][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.01.29-14.22.06:543][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2018.01.29-14.22.06:624][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2018.01.29-14.22.06:709][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2018.01.29-14.22.06:795][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2018.01.29-14.22.06:880][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2018.01.29-14.22.06:967][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2018.01.29-14.22.07:060][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2018.01.29-14.22.07:157][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2018.01.29-14.22.07:331][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2018.01.29-14.22.07:331][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.01.29-14.22.07:406][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2018.01.29-14.22.07:556][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2018.01.29-14.22.07:604][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2018.01.29-14.22.07:689][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2018.01.29-14.22.07:779][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.01.29-14.22.07:864][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2018.01.29-14.22.07:950][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2018.01.29-14.22.07:950][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2018.01.29-14.22.08:832][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2018.01.29-14.22.09:244][  0]LogDerivedDataCache: Loaded boot cache 0.41s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.29-14.22.09:244][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2018.01.29-14.22.09:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.01.29-14.22.09:244][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.01.29-14.22.09:244][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.01.29-14.22.09:244][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.01.29-14.22.09:266][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.01.29-14.22.09:279][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.01.29-14.22.09:291][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.01.29-14.22.09:292][  0]LogSlate: Using Freetype 2.6.0
-[2018.01.29-14.22.09:294][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.29-14.22.09:294][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.01.29-14.22.10:021][  0]LogInit: Selected Device Profile: [Windows]
-[2018.01.29-14.22.10:188][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2018.01.29-14.22.10:409][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.01.29-14.22.10:492][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.01.29-14.22.10:580][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.01.29-14.22.10:580][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2018.01.29-14.22.10:580][  0]LogMeshUtilities: No automatic mesh merging module available
-[2018.01.29-14.22.11:569][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
-[2018.01.29-14.22.11:658][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
-[2018.01.29-14.22.12:558][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.861992 seconds
-[2018.01.29-14.22.12:569][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2018.01.29-14.22.12:569][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2018.01.29-14.22.12:569][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.01.29-14.22.12:676][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.01.29-14.22.17:394][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.01.29-14.22.17:460][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.01.29-14.22.18:399][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.01.29-14.22.19:164][  0]SourceControl: Info Source control is disabled
-[2018.01.29-14.22.20:622][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.01.29-14.22.21:685][  0]LogEngine: Initializing Engine...
-[2018.01.29-14.22.21:687][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.01.29-14.22.21:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.01.29-14.22.21:923][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.01.29-14.22.22:158][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.01.29-14.22.22:170][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-14.22.22:342][  0]LogInit: FAudioDevice initialized.
-[2018.01.29-14.22.22:407][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2018.01.29-14.22.22:420][  0]LogInit: Texture streaming: Enabled
-[2018.01.29-14.22.22:586][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.01.29-14.22.22:985][  0]LogInit: Transaction tracking system initialized
-[2018.01.29-14.22.23:548][  0]BlueprintLog: New page: Editor Load
-[2018.01.29-14.22.25:278][  0]LocalizationService: Info Localization service is disabled
-[2018.01.29-14.22.26:543][  0]LogConsoleResponse:Display: 
-[2018.01.29-14.22.26:754][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.01.29-14.22.26:754][  0]LogCook:Display: Mobile HDR setting 1
-[2018.01.29-14.22.27:722][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/' took 0.02s
-[2018.01.29-14.22.28:669][  0]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-14.22.28:695][  0]LightingResults: New page: Lighting Build
-[2018.01.29-14.22.28:773][  0]MapCheck: New page: Map Check
-[2018.01.29-14.22.28:773][  0]LightingResults: New page: Lighting Build
-[2018.01.29-14.22.28:925][  0]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-14.22.28:926][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-14.22.28:938][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-14.22.29:033][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 95.799ms to complete.
-[2018.01.29-14.22.29:033][  0]LogFileHelpers: Loading map 'Menu' took 0.365
-[2018.01.29-14.22.29:275][  0]LogCollectionManager: Loaded 0 collections in 0.002454 seconds
-[2018.01.29-14.22.29:402][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
-[2018.01.29-14.22.29:402][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
-[2018.01.29-14.22.29:402][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
-[2018.01.29-14.22.29:402][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2018.01.29-14.22.29:417][  0]LogContentBrowser: Native class hierarchy populated in 0.0139 seconds. Added 2329 classes and 491 folders.
-[2018.01.29-14.22.29:531][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.01.29-14.22.29:698][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2018.01.29-14.22.29:776][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.01.29-14.22.29:845][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2018.01.29-14.22.29:856][  0]LogSlate: Took 0.001603 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.29-14.22.29:862][  0]LogSlate: Took 0.001741 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.01.29-14.22.29:868][  0]LogSlate: Took 0.001938 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.01.29-14.22.29:957][  0]LogRenderer: Reallocating scene render targets to support 1528x624 NumSamples 1 (Frame:1).
-[2018.01.29-14.22.30:142][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2018.01.29-14.22.30:244][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
-[2018.01.29-14.22.30:245][  0]LogLoad: (Engine Initialization) Total time: 32.57 seconds
-[2018.01.29-14.22.30:245][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.10 seconds
-[2018.01.29-14.22.30:245][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.01.29-14.22.30:255][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2018.01.29-14.22.30:255][  0]LogOcInput: OculusInput pre-init called
-[2018.01.29-14.22.30:255][  0]LogHMD: Starting GearVRController plugin
-[2018.01.29-14.22.30:275][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.01.29-14.22.30:314][  0]LogSlate: Took 0.001768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.29-14.22.30:326][  1]LogAssetRegistry: Asset discovery search completed in 18.6906 seconds
-[2018.01.29-14.22.30:329][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2018.01.29-14.22.30:329][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000029 seconds (updated 0 objects)
-[2018.01.29-14.22.40:236][128]LogSlate: Took 0.000242 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.29-14.22.40:506][128]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-14.22.40:533][128]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-14.22.40:533][128]LightingResults: New page: Lighting Build
-[2018.01.29-14.22.40:534][128]LoadErrors: New page: Loading map: HelloWorld.umap
-[2018.01.29-14.22.40:534][128]MapCheck: New page: Map Check
-[2018.01.29-14.22.40:534][128]LightingResults: New page: Lighting Build
-[2018.01.29-14.22.40:735][128]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-14.22.40:867][128]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-14.22.40:967][128]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 100.356ms to complete.
-[2018.01.29-14.22.40:968][128]LogFileHelpers: Loading map 'HelloWorld' took 0.435
-[2018.01.29-14.24.01:837][796]LogTemp: Repeting last play command: Selected Viewport
-[2018.01.29-14.24.02:462][796]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-14.24.02:462][796]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-14.24.02:463][796]PIE: New page: PIE session: HelloWorld (29 Jan 2018 14:24:02)
-[2018.01.29-14.24.02:463][796]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
-[2018.01.29-14.24.02:505][796]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042276s)
-[2018.01.29-14.24.02:505][796]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-14.24.02:506][796]LogPlayLevel: PIE: World Init took: (0.000765s)
-[2018.01.29-14.24.02:506][796]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.043631s)
-[2018.01.29-14.24.02:521][796]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-14.24.02:683][796]LogInit: FAudioDevice initialized.
-[2018.01.29-14.24.03:334][796]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.24.03:340][796]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-14.24.03
-[2018.01.29-14.24.03:342][796]LogWorld: Bringing up level for play took: 0.004257
-[2018.01.29-14.24.03:418][796]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2018.01.29-14.24.03:427][796]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 1.58
-[2018.01.29-14.24.03:427][796]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-14.24.08:062][342]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-14.24.08:096][342]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-14.24.49:509][  3]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
-[2018.01.29-14.24.50:332][  3]LogSlate: Took 0.000322 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.01.29-14.24.50:334][  3]LogSlate: Took 0.001652 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.01.29-14.24.53:126][154]LogSlate: Took 0.001640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.01.29-14.25.09:194][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ExitHUD_C_0' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:194][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_ExitHUD_C_1' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:194][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UpdateTimer' or package '/Game/Gameplay/HUD/ExitHUD'.
-[2018.01.29-14.25.09:194][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PreConstruct' or package '/Game/Gameplay/HUD/ExitHUD'.
-[2018.01.29-14.25.09:194][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Timer' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_ExitHUD' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UpdateTimer' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PreConstruct' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_ExitHUD_C_9' or package '/Engine/Transient'.
-[2018.01.29-14.25.09:195][333]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_ExitHUD_C_8' or package '/Engine/Transient'.
-[2018.01.29-14.25.27:148][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/HealthHUD" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/HealthHUD.uasset" SILENT=true
-[2018.01.29-14.25.27:293][880]LogSavePackage: Save=49.25ms
-[2018.01.29-14.25.27:293][880]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HealthHUD0B723D64484F9C834B695C82C454C682.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/HealthHUD.uasset'
-[2018.01.29-14.25.27:327][880]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/HealthHUD.uasset
-[2018.01.29-14.25.27:331][880]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MessageHUD" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MessageHUD.uasset" SILENT=true
-[2018.01.29-14.25.27:493][880]LogSavePackage: Save=84.05ms
-[2018.01.29-14.25.27:493][880]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/MessageHUDFEEEC30E46A4FFEB1B7A5EBB8B5715D3.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MessageHUD.uasset'
-[2018.01.29-14.25.27:527][880]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MessageHUD.uasset
-[2018.01.29-14.25.31:004][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MessageHUD_C_4' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:004][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_MessageHUD_C_5' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:004][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Construct' or package '/Game/Gameplay/HUD/MessageHUD'.
-[2018.01.29-14.25.31:004][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Display' or package '/Game/Gameplay/HUD/MessageHUD'.
-[2018.01.29-14.25.31:004][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DisplayText' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:004][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_MessageHUD' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Construct' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Display' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'WidgetTree' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HealthHUD_C_3' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_HealthHUD_C_2' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_MessageHUD_C_17' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_MessageHUD_C_16' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_HealthHUD_C_15' or package '/Engine/Transient'.
-[2018.01.29-14.25.31:005][ 65]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_HealthHUD_C_14' or package '/Engine/Transient'.
-[2018.01.29-14.27.48:188][304]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-14.27.54:394][304]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/ThirdPersonPlayer" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset" SILENT=true
-[2018.01.29-14.27.54:665][304]LogSavePackage: Save=198.51ms
-[2018.01.29-14.27.54:665][304]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/ThirdPersonPlayer3DB024CF477F93109091499530C8CE54.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset'
-[2018.01.29-14.27.54:749][304]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/ThirdPersonPlayer.uasset
-[2018.01.29-14.27.54:749][304]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-14.27.54:749][304]LightingResults: New page: Lighting Build
-[2018.01.29-14.27.54:750][304]LoadErrors: New page: Loading map: Menu.umap
-[2018.01.29-14.27.54:751][304]MapCheck: New page: Map Check
-[2018.01.29-14.27.54:751][304]LightingResults: New page: Lighting Build
-[2018.01.29-14.27.54:782][304]LogSlate: Took 0.000260 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.01.29-14.27.54:790][304]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-14.27.54:905][304]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-14.27.55:024][304]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 118.843ms to complete.
-[2018.01.29-14.27.55:026][304]LogFileHelpers: Loading map 'Menu' took 0.277
-[2018.01.29-14.27.57:781][628]LogTemp: Repeting last play command: Selected Viewport
-[2018.01.29-14.27.57:894][628]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.27.57:894][628]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-14.27.57:894][628]PIE: New page: PIE session: Menu (29 Jan 2018 14:27:57)
-[2018.01.29-14.27.57:895][628]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-14.27.57:896][628]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001002s)
-[2018.01.29-14.27.57:896][628]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-14.27.57:896][628]LogPlayLevel: PIE: World Init took: (0.000630s)
-[2018.01.29-14.27.57:896][628]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001788s)
-[2018.01.29-14.27.57:921][628]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-14.27.58:091][628]LogInit: FAudioDevice initialized.
-[2018.01.29-14.27.58:128][628]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.27.58:130][628]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-14.27.58
-[2018.01.29-14.27.58:130][628]LogWorld: Bringing up level for play took: 0.000712
-[2018.01.29-14.27.58:132][628]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.27.58:132][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.27.58:132][628]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.27.58:132][628]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.27.58:133][628]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.286
-[2018.01.29-14.27.58:134][628]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.27.59:081][720]LogPackageName: SearchForPackageOnDisk took   0.138s, but failed to resolve Tutorial.umap.
-[2018.01.29-14.27.59:214][720]LogPackageName: SearchForPackageOnDisk took   0.132s, but failed to resolve Tutorial.umap.
-[2018.01.29-14.27.59:214][720]LogNet: Browse: /Game/Maps/Menu
-[2018.01.29-14.27.59:214][720]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Maps/Menu
-[2018.01.29-14.27.59:215][720]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Menu'. Shutting down PIE.
-[2018.01.29-14.27.59:215][720]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Maps/Menu'. Shutting down PIE.
-[2018.01.29-14.27.59:215][720]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Maps/Menu
-[2018.01.29-14.27.59:215][720]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Menu'. Shutting down PIE.
-[2018.01.29-14.27.59:215][720]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Maps/Menu'. Shutting down PIE.
-[2018.01.29-14.27.59:216][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.27.59:250][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.17:296][684]BlueprintLog: New page: Compile Menu
-[2018.01.29-14.28.17:547][684]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2018.01.29-14.28.18:533][781]LogTemp: Repeting last play command: Selected Viewport
-[2018.01.29-14.28.18:617][781]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.18:617][781]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-14.28.18:617][781]PIE: New page: PIE session: Menu (29 Jan 2018 14:28:18)
-[2018.01.29-14.28.18:617][781]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-14.28.18:618][781]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001127s)
-[2018.01.29-14.28.18:619][781]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-14.28.18:619][781]LogPlayLevel: PIE: World Init took: (0.000776s)
-[2018.01.29-14.28.18:619][781]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.002103s)
-[2018.01.29-14.28.18:643][781]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-14.28.18:806][781]LogInit: FAudioDevice initialized.
-[2018.01.29-14.28.18:896][781]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.28.18:899][781]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-14.28.18
-[2018.01.29-14.28.18:899][781]LogWorld: Bringing up level for play took: 0.001324
-[2018.01.29-14.28.18:900][781]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
-[2018.01.29-14.28.18:901][781]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.28.18:901][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.28.18:901][781]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.28.18:902][781]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.28.18:905][781]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 1.058
-[2018.01.29-14.28.18:906][781]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.18:922][781]LogRenderer: Reallocating scene render targets to support 1528x756 NumSamples 1 (Frame:1).
-[2018.01.29-14.28.19:790][863]LogNet: Browse: /Game/Maps/Tutorial_Delete
-[2018.01.29-14.28.19:790][863]LogLoad: LoadMap: /Game/Maps/Tutorial_Delete
-[2018.01.29-14.28.19:814][863]Cmd: MEM
-[2018.01.29-14.28.19:834][863]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-14.28.19:835][863]LogMemory: Process Physical Memory: 1334.28 MB used, 1369.49 MB peak
-[2018.01.29-14.28.19:835][863]LogMemory: Process Virtual Memory: 2168.84 MB used, 2181.03 MB peak
-[2018.01.29-14.28.19:835][863]LogMemory: Physical Memory: 5612.53 MB used,  2534.69 MB free, 8147.22 MB total
-[2018.01.29-14.28.19:835][863]LogMemory: Virtual Memory: 3075.15 MB used,  2534.69 MB free, 134217728.00 MB total
-[2018.01.29-14.28.19:835][863]LogMemory: 
-[2018.01.29-14.28.19:835][863]Allocator Stats for TBB: (not implemented)
-[2018.01.29-14.28.20:516][863]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.211 s
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: === Handled ensure: ===
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: 
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: Ensure condition failed: IsObjectValidForDatabase(AssetObject) [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\BlueprintGraph\Private\BlueprintActionDatabase.cpp] [Line: 1305]
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: 
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: Stack: 
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DFA6E2B6
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF81B8C2
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DF831E86
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000DD71BCF7
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000DD6EC23D
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DF0A0377
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DF3A31A6
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DF3B9393
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-CoreUObject.dll!0x00000000DF3B891A
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DAA05ACF
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DA9BEEA8
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000DAA2460D
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C85A2F55
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000C8DC8D86
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor.exe!0x0000000012CFE2B2
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor.exe!0x0000000012CEF0B0
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor.exe!0x0000000012CEF12A
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor.exe!0x0000000012D00CF9
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: UE4Editor.exe!0x0000000012D025F7
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: KERNEL32.DLL!0x0000000013D41FE4
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: ntdll.dll!0x000000001658EF91
-[2018.01.29-14.28.20:516][863]LogOutputDevice:Error: 
-[2018.01.29-14.28.20:525][863]LogStats:                SubmitErrorReport -  0.000 s
-[2018.01.29-14.28.21:395][863]LogStats:                    SendNewReport -  0.871 s
-[2018.01.29-14.28.21:395][863]LogStats:             FDebug::EnsureFailed -  1.091 s
-[2018.01.29-14.28.22:102][863]LogAIModule: Creating AISystem for world Tutorial_Delete
-[2018.01.29-14.28.22:102][863]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.28.22:109][863]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete up for play (max tick rate 0) at 2018.01.29-14.28.22
-[2018.01.29-14.28.22:109][863]LogWorld: Bringing up level for play took: 0.005180
-[2018.01.29-14.28.22:112][863]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.28.22:112][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.28.22:112][863]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.28.22:112][863]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.28.22:112][863]LogLoad: Took 2.322384 seconds to LoadMap(/Game/Maps/Tutorial_Delete)
-[2018.01.29-14.28.31:041][758]LogNet: Browse: /Game/Maps/HelloWorld
-[2018.01.29-14.28.31:042][758]LogLoad: LoadMap: /Game/Maps/HelloWorld
-[2018.01.29-14.28.31:068][758]Cmd: MEM
-[2018.01.29-14.28.31:088][758]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-14.28.31:088][758]LogMemory: Process Physical Memory: 1425.16 MB used, 1465.54 MB peak
-[2018.01.29-14.28.31:088][758]LogMemory: Process Virtual Memory: 2059.82 MB used, 2295.52 MB peak
-[2018.01.29-14.28.31:088][758]LogMemory: Physical Memory: 5729.00 MB used,  2418.22 MB free, 8147.22 MB total
-[2018.01.29-14.28.31:088][758]LogMemory: Virtual Memory: 3018.56 MB used,  2418.22 MB free, 134217728.00 MB total
-[2018.01.29-14.28.31:088][758]LogMemory: 
-[2018.01.29-14.28.31:088][758]Allocator Stats for TBB: (not implemented)
-[2018.01.29-14.28.31:336][758]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-14.28.31:336][758]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.28.31:364][758]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-14.28.31
-[2018.01.29-14.28.31:365][758]LogWorld: Bringing up level for play took: 0.027771
-[2018.01.29-14.28.31:368][758]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.28.31:368][758]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.28.31:368][758]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.28.31:368][758]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.28.31:368][758]LogLoad: Took 0.326618 seconds to LoadMap(/Game/Maps/HelloWorld)
-[2018.01.29-14.28.34:728][ 86]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.34:824][ 86]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.38:321][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.29-14.28.38:673][441]LogSavePackage: Save=230.76ms
-[2018.01.29-14.28.38:673][441]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/MenuB4EB5D464B5FE5C1F8AEDA99600F909F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap'
-[2018.01.29-14.28.38:709][441]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap
-[2018.01.29-14.28.38:829][441]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset" SILENT=true
-[2018.01.29-14.28.38:924][441]LogSavePackage: Save=35.74ms
-[2018.01.29-14.28.38:924][441]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData746C364C4B717F1E75EDF98FF49E9A2D.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
-[2018.01.29-14.28.38:954][441]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
-[2018.01.29-14.28.44:125][  1]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
-[2018.01.29-14.28.44:325][  1]LogSavePackage: Save=98.31ms
-[2018.01.29-14.28.44:326][  1]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu996155E74F4820F7D6A0A9B7B1866E10.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset'
-[2018.01.29-14.28.44:401][  1]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset
-[2018.01.29-14.28.49:565][610]LogTemp: Repeting last play command: Selected Viewport
-[2018.01.29-14.28.49:638][610]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.49:638][610]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-14.28.49:638][610]PIE: New page: PIE session: Menu (29 Jan 2018 14:28:49)
-[2018.01.29-14.28.49:638][610]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-14.28.49:639][610]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001433s)
-[2018.01.29-14.28.49:640][610]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-14.28.49:641][610]LogPlayLevel: PIE: World Init took: (0.001190s)
-[2018.01.29-14.28.49:641][610]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.002945s)
-[2018.01.29-14.28.49:665][610]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-14.28.49:832][610]LogInit: FAudioDevice initialized.
-[2018.01.29-14.28.49:868][610]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.28.49:870][610]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-14.28.49
-[2018.01.29-14.28.49:870][610]LogWorld: Bringing up level for play took: 0.001073
-[2018.01.29-14.28.49:872][610]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.28.49:873][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.28.49:873][610]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.28.49:873][610]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.28.49:873][610]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.027
-[2018.01.29-14.28.49:874][610]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.50:772][709]LogNet: Browse: /Game/Maps/Tutorial_Delete
-[2018.01.29-14.28.50:772][709]LogLoad: LoadMap: /Game/Maps/Tutorial_Delete
-[2018.01.29-14.28.50:794][709]Cmd: MEM
-[2018.01.29-14.28.50:813][709]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-14.28.50:813][709]LogMemory: Process Physical Memory: 1458.35 MB used, 1465.54 MB peak
-[2018.01.29-14.28.50:813][709]LogMemory: Process Virtual Memory: 2040.36 MB used, 2295.52 MB peak
-[2018.01.29-14.28.50:813][709]LogMemory: Physical Memory: 5727.81 MB used,  2419.41 MB free, 8147.22 MB total
-[2018.01.29-14.28.50:813][709]LogMemory: Virtual Memory: 3017.11 MB used,  2419.41 MB free, 134217728.00 MB total
-[2018.01.29-14.28.50:813][709]LogMemory: 
-[2018.01.29-14.28.50:813][709]Allocator Stats for TBB: (not implemented)
-[2018.01.29-14.28.51:017][709]LogAIModule: Creating AISystem for world Tutorial_Delete
-[2018.01.29-14.28.51:017][709]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.28.51:023][709]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete up for play (max tick rate 0) at 2018.01.29-14.28.51
-[2018.01.29-14.28.51:023][709]LogWorld: Bringing up level for play took: 0.004552
-[2018.01.29-14.28.51:025][709]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.28.51:025][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.28.51:025][709]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.28.51:025][709]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.28.51:025][709]LogLoad: Took 0.252722 seconds to LoadMap(/Game/Maps/Tutorial_Delete)
-[2018.01.29-14.28.55:458][233]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.55:493][233]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.59:784][710]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.28.59:784][710]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-14.28.59:784][710]PIE: New page: PIE session: Menu (29 Jan 2018 14:28:59)
-[2018.01.29-14.28.59:784][710]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-14.28.59:786][710]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001195s)
-[2018.01.29-14.28.59:786][710]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-14.28.59:787][710]LogPlayLevel: PIE: World Init took: (0.000871s)
-[2018.01.29-14.28.59:787][710]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.002262s)
-[2018.01.29-14.28.59:808][710]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-14.28.59:970][710]LogInit: FAudioDevice initialized.
-[2018.01.29-14.29.00:044][710]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.29.00:047][710]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-14.29.00
-[2018.01.29-14.29.00:047][710]LogWorld: Bringing up level for play took: 0.001198
-[2018.01.29-14.29.00:049][710]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.29.00:049][710]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.29.00:049][710]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Menu.Menu:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.29.00:050][710]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.29.00:054][710]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.206
-[2018.01.29-14.29.00:054][710]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.29.02:412][972]LogNet: Browse: /Game/Maps/Tutorial_Delete
-[2018.01.29-14.29.02:412][972]LogLoad: LoadMap: /Game/Maps/Tutorial_Delete
-[2018.01.29-14.29.02:434][972]Cmd: MEM
-[2018.01.29-14.29.02:451][972]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-14.29.02:451][972]LogMemory: Process Physical Memory: 1457.80 MB used, 1473.46 MB peak
-[2018.01.29-14.29.02:451][972]LogMemory: Process Virtual Memory: 2075.09 MB used, 2295.52 MB peak
-[2018.01.29-14.29.02:451][972]LogMemory: Physical Memory: 5733.09 MB used,  2414.14 MB free, 8147.22 MB total
-[2018.01.29-14.29.02:451][972]LogMemory: Virtual Memory: 3035.11 MB used,  2414.14 MB free, 134217728.00 MB total
-[2018.01.29-14.29.02:451][972]LogMemory: 
-[2018.01.29-14.29.02:451][972]Allocator Stats for TBB: (not implemented)
-[2018.01.29-14.29.02:656][972]LogAIModule: Creating AISystem for world Tutorial_Delete
-[2018.01.29-14.29.02:657][972]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-14.29.02:663][972]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete up for play (max tick rate 0) at 2018.01.29-14.29.02
-[2018.01.29-14.29.02:663][972]LogWorld: Bringing up level for play took: 0.004870
-[2018.01.29-14.29.02:665][972]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-14.29.02:666][972]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-14.29.02:666][972]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue3
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_Tutorial_Delete.Tutorial_Delete:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:00C5
-[2018.01.29-14.29.02:666][972]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-14.29.02:666][972]LogLoad: Took 0.253915 seconds to LoadMap(/Game/Maps/Tutorial_Delete)
-[2018.01.29-14.29.03:830][ 94]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.29.03:943][ 94]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-14.31.21:030][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.29-14.31.21:337][149]LogSavePackage: Save=220.68ms
-[2018.01.29-14.31.21:337][149]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/MenuC85A9FDB45BC59D2CED42F945A419450.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap'
-[2018.01.29-14.31.21:368][149]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap
-[2018.01.29-14.31.21:489][149]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset" SILENT=true
-[2018.01.29-14.31.21:556][149]LogSavePackage: Save=28.38ms
-[2018.01.29-14.31.21:556][149]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData4161753B4385903D187CC4AE1D58D312.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
-[2018.01.29-14.31.21:579][149]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
-[2018.01.29-16.21.38:899][963]LogAIModule: Creating AISystem for world Tutorial_Delete
-[2018.01.29-16.21.38:949][963]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial_Delete.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-16.21.38:949][963]LightingResults: New page: Lighting Build
-[2018.01.29-16.21.38:950][963]LoadErrors: New page: Loading map: Tutorial_Delete.umap
-[2018.01.29-16.21.38:951][963]MapCheck: New page: Map Check
-[2018.01.29-16.21.38:951][963]LightingResults: New page: Lighting Build
-[2018.01.29-16.21.39:006][963]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-16.21.39:451][963]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-16.21.39:573][963]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.037ms to complete.
-[2018.01.29-16.21.39:573][963]LogFileHelpers: Loading map 'Tutorial_Delete' took 0.627
-[2018.01.29-16.22.04:404][700]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.22.04:437][700]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-16.22.04:437][700]LightingResults: New page: Lighting Build
-[2018.01.29-16.22.04:438][700]LoadErrors: New page: Loading map: HelloWorld.umap
-[2018.01.29-16.22.04:539][700]MapCheck: New page: Map Check
-[2018.01.29-16.22.04:539][700]LightingResults: New page: Lighting Build
-[2018.01.29-16.22.04:650][700]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-16.22.04:799][700]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-16.22.04:921][700]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.029ms to complete.
-[2018.01.29-16.22.04:922][700]LogFileHelpers: Loading map 'HelloWorld' took 0.486
-[2018.01.29-16.22.18:371][207]BlueprintLog: New page: Compile HelloWorld
-[2018.01.29-16.22.19:650][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.29-16.22.20:425][325]LogSavePackage: Save=602.58ms
-[2018.01.29-16.22.20:425][325]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld42AC8E5641FE8B91C86AABA9B4082A94.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
-[2018.01.29-16.22.20:515][325]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
-[2018.01.29-16.22.20:655][325]LogFileHelpers: Saving map 'HelloWorld' took 1.125
-[2018.01.29-16.22.28:834][266]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2018.01.29-16.22.28:903][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.22.28:903][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-16.22.28:903][266]PIE: New page: PIE session: HelloWorld (29 Jan 2018 16:22:28)
-[2018.01.29-16.22.28:903][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
-[2018.01.29-16.22.28:925][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021919s)
-[2018.01.29-16.22.28:927][266]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.22.28:927][266]LogPlayLevel: PIE: World Init took: (0.001475s)
-[2018.01.29-16.22.28:927][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.023582s)
-[2018.01.29-16.22.28:951][266]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-16.22.29:111][266]LogInit: FAudioDevice initialized.
-[2018.01.29-16.22.29:190][266]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.22.29:195][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.22.29
-[2018.01.29-16.22.29:196][266]LogWorld: Bringing up level for play took: 0.004442
-[2018.01.29-16.22.29:199][266]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
-	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld:PersistentLevel.ThirdPersonPlayer_C_0
-	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
-[2018.01.29-16.22.29:199][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.22.29:199][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.22.29:202][266]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.645
-[2018.01.29-16.22.29:203][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.22.33:379][758]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
-[2018.01.29-16.22.34:854][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.22.34:947][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.23.08:166][661]BlueprintLog: New page: Compile Menu
-[2018.01.29-16.23.08:324][661]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2018.01.29-16.23.08:752][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
-[2018.01.29-16.23.08:946][705]LogSavePackage: Save=94.31ms
-[2018.01.29-16.23.08:946][705]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu4C305D9643F218969753FAACBD29059F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset'
-[2018.01.29-16.23.09:005][705]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset
-[2018.01.29-16.23.10:060][827]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2018.01.29-16.23.10:118][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.23.10:118][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-16.23.10:118][827]PIE: New page: PIE session: HelloWorld (29 Jan 2018 16:23:10)
-[2018.01.29-16.23.10:118][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
-[2018.01.29-16.23.10:135][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016999s)
-[2018.01.29-16.23.10:136][827]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.23.10:136][827]LogPlayLevel: PIE: World Init took: (0.000823s)
-[2018.01.29-16.23.10:136][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018027s)
-[2018.01.29-16.23.10:161][827]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-16.23.10:320][827]LogInit: FAudioDevice initialized.
-[2018.01.29-16.23.10:385][827]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.23.10:390][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.23.10
-[2018.01.29-16.23.10:392][827]LogWorld: Bringing up level for play took: 0.004766
-[2018.01.29-16.23.10:395][827]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.23.10:395][827]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.23.10:398][827]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.55
-[2018.01.29-16.23.10:398][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.23.11:376][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.23.11:488][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
-[2018.01.29-16.23.16:402][461]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-16.23.16:424][461]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-16.23.16:424][461]LightingResults: New page: Lighting Build
-[2018.01.29-16.23.16:424][461]LoadErrors: New page: Loading map: Menu.umap
-[2018.01.29-16.23.16:426][461]MapCheck: New page: Map Check
-[2018.01.29-16.23.16:426][461]LightingResults: New page: Lighting Build
-[2018.01.29-16.23.16:486][461]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-16.23.16:617][461]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-16.23.16:739][461]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.122ms to complete.
-[2018.01.29-16.23.16:739][461]LogFileHelpers: Loading map 'Menu' took 0.316
-[2018.01.29-16.23.18:376][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.18:376][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-16.23.18:376][642]PIE: New page: PIE session: Menu (29 Jan 2018 16:23:18)
-[2018.01.29-16.23.18:376][642]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-16.23.18:378][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001056s)
-[2018.01.29-16.23.18:378][642]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-16.23.18:378][642]LogPlayLevel: PIE: World Init took: (0.000626s)
-[2018.01.29-16.23.18:378][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001856s)
-[2018.01.29-16.23.18:402][642]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-16.23.18:558][642]LogInit: FAudioDevice initialized.
-[2018.01.29-16.23.18:591][642]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.23.18:593][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.23.18
-[2018.01.29-16.23.18:593][642]LogWorld: Bringing up level for play took: 0.000709
-[2018.01.29-16.23.18:595][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.23.18:596][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.23.18:596][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.749
-[2018.01.29-16.23.18:597][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.24:500][348]LogNet: Browse: /Game/Maps/HelloWorld
-[2018.01.29-16.23.24:500][348]LogLoad: LoadMap: /Game/Maps/HelloWorld
-[2018.01.29-16.23.24:522][348]Cmd: MEM
-[2018.01.29-16.23.24:541][348]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-16.23.24:541][348]LogMemory: Process Physical Memory: 742.81 MB used, 1473.46 MB peak
-[2018.01.29-16.23.24:541][348]LogMemory: Process Virtual Memory: 2266.33 MB used, 2295.52 MB peak
-[2018.01.29-16.23.24:541][348]LogMemory: Physical Memory: 5368.90 MB used,  2778.32 MB free, 8147.22 MB total
-[2018.01.29-16.23.24:541][348]LogMemory: Virtual Memory: 3235.75 MB used,  2778.32 MB free, 134217728.00 MB total
-[2018.01.29-16.23.24:541][348]LogMemory: 
-[2018.01.29-16.23.24:541][348]Allocator Stats for TBB: (not implemented)
-[2018.01.29-16.23.24:773][348]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.23.24:773][348]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.23.24:798][348]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.23.24
-[2018.01.29-16.23.24:800][348]LogWorld: Bringing up level for play took: 0.024910
-[2018.01.29-16.23.24:802][348]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.23.24:802][348]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.23.24:802][348]LogLoad: Took 0.302299 seconds to LoadMap(/Game/Maps/HelloWorld)
-[2018.01.29-16.23.27:404][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.27:442][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.29:672][898]LogTemp: Repeting last play command: Selected Viewport
-[2018.01.29-16.23.29:742][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.29:742][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-16.23.29:742][898]PIE: New page: PIE session: Menu (29 Jan 2018 16:23:29)
-[2018.01.29-16.23.29:742][898]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-16.23.29:743][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001066s)
-[2018.01.29-16.23.29:744][898]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-16.23.29:744][898]LogPlayLevel: PIE: World Init took: (0.000668s)
-[2018.01.29-16.23.29:744][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001910s)
-[2018.01.29-16.23.29:768][898]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-16.23.29:921][898]LogInit: FAudioDevice initialized.
-[2018.01.29-16.23.29:956][898]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.23.29:958][898]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.23.29
-[2018.01.29-16.23.29:958][898]LogWorld: Bringing up level for play took: 0.000823
-[2018.01.29-16.23.29:960][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.23.29:961][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.23.29:961][898]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.114
-[2018.01.29-16.23.29:961][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.31:947][131]LogNet: Browse: /Game/Maps/HelloWorld
-[2018.01.29-16.23.31:947][131]LogLoad: LoadMap: /Game/Maps/HelloWorld
-[2018.01.29-16.23.31:970][131]Cmd: MEM
-[2018.01.29-16.23.31:990][131]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-16.23.31:990][131]LogMemory: Process Physical Memory: 764.02 MB used, 1473.46 MB peak
-[2018.01.29-16.23.31:990][131]LogMemory: Process Virtual Memory: 2301.63 MB used, 2333.02 MB peak
-[2018.01.29-16.23.31:990][131]LogMemory: Physical Memory: 5415.94 MB used,  2731.29 MB free, 8147.22 MB total
-[2018.01.29-16.23.31:990][131]LogMemory: Virtual Memory: 3271.81 MB used,  2731.29 MB free, 134217728.00 MB total
-[2018.01.29-16.23.31:990][131]LogMemory: 
-[2018.01.29-16.23.31:990][131]Allocator Stats for TBB: (not implemented)
-[2018.01.29-16.23.32:120][131]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.23.32:120][131]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.23.32:144][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.23.32
-[2018.01.29-16.23.32:146][131]LogWorld: Bringing up level for play took: 0.023998
-[2018.01.29-16.23.32:148][131]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.23.32:148][131]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.23.32:148][131]LogLoad: Took 0.200837 seconds to LoadMap(/Game/Maps/HelloWorld)
-[2018.01.29-16.23.32:663][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.32:697][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.35:451][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.35:451][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-16.23.35:451][485]PIE: New page: PIE session: Menu (29 Jan 2018 16:23:35)
-[2018.01.29-16.23.35:451][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-16.23.35:452][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001059s)
-[2018.01.29-16.23.35:452][485]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-16.23.35:453][485]LogPlayLevel: PIE: World Init took: (0.000638s)
-[2018.01.29-16.23.35:453][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001870s)
-[2018.01.29-16.23.35:476][485]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-16.23.35:630][485]LogInit: FAudioDevice initialized.
-[2018.01.29-16.23.35:703][485]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.23.35:706][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.23.35
-[2018.01.29-16.23.35:706][485]LogWorld: Bringing up level for play took: 0.000852
-[2018.01.29-16.23.35:708][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.23.35:708][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.23.35:712][485]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu -0.135
-[2018.01.29-16.23.35:713][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.38:022][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.38:139][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.23.43:248][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2018.01.29-16.23.43:531][263]LogSavePackage: Save=178.01ms
-[2018.01.29-16.23.43:531][263]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/UEDPCMenu97B1FDC34145247857F9D2ACF4815C95.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
-[2018.01.29-16.23.43:557][263]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
-[2018.01.29-16.23.43:577][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset" SILENT=true
-[2018.01.29-16.23.43:683][263]LogSavePackage: Save=33.22ms
-[2018.01.29-16.23.43:683][263]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData7AE7711C4DB238E5AED83E8B72CEBEF4.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
-[2018.01.29-16.23.43:713][263]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
-[2018.01.29-16.23.43:719][263]LogEditorTransaction: Undo Spawn Play From Here Start
-[2018.01.29-16.24.16:305][769]LogTemp: Repeting last play command: Standalone Game
-[2018.01.29-16.24.16:558][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
-[2018.01.29-16.24.16:761][769]LogSavePackage: Save=164.04ms
-[2018.01.29-16.24.16:762][769]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/UEDPCMenuAFA9C1C84B5FBE8423268B9558F1C92C.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
-[2018.01.29-16.24.16:792][769]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
-[2018.01.29-16.24.16:810][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset" SILENT=true
-[2018.01.29-16.24.16:879][769]LogSavePackage: Save=28.33ms
-[2018.01.29-16.24.16:879][769]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData27911CCA407CD7F4B32FB1B43F0A1685.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
-[2018.01.29-16.24.16:903][769]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
-[2018.01.29-16.24.16:911][769]LogEditorTransaction: Undo Spawn Play From Here Start
-[2018.01.29-16.24.59:813][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.24.59:813][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.01.29-16.24.59:813][ 14]PIE: New page: PIE session: Menu (29 Jan 2018 16:24:59)
-[2018.01.29-16.24.59:814][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
-[2018.01.29-16.24.59:815][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001066s)
-[2018.01.29-16.24.59:815][ 14]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-16.24.59:815][ 14]LogPlayLevel: PIE: World Init took: (0.000695s)
-[2018.01.29-16.24.59:815][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001928s)
-[2018.01.29-16.24.59:839][ 14]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
-[2018.01.29-16.25.00:000][ 14]LogInit: FAudioDevice initialized.
-[2018.01.29-16.25.00:102][ 14]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.25.00:105][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.25.00
-[2018.01.29-16.25.00:105][ 14]LogWorld: Bringing up level for play took: 0.001220
-[2018.01.29-16.25.00:107][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.25.00:108][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.25.00:112][ 14]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.265
-[2018.01.29-16.25.00:112][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.25.01:362][139]LogNet: Browse: /Game/Maps/HelloWorld
-[2018.01.29-16.25.01:362][139]LogLoad: LoadMap: /Game/Maps/HelloWorld
-[2018.01.29-16.25.01:384][139]Cmd: MEM
-[2018.01.29-16.25.01:405][139]LogMemory: Platform Memory Stats for Windows
-[2018.01.29-16.25.01:405][139]LogMemory: Process Physical Memory: 747.58 MB used, 1473.46 MB peak
-[2018.01.29-16.25.01:405][139]LogMemory: Process Virtual Memory: 2292.38 MB used, 2359.34 MB peak
-[2018.01.29-16.25.01:405][139]LogMemory: Physical Memory: 5444.16 MB used,  2703.07 MB free, 8147.22 MB total
-[2018.01.29-16.25.01:405][139]LogMemory: Virtual Memory: 3255.81 MB used,  2703.07 MB free, 134217728.00 MB total
-[2018.01.29-16.25.01:405][139]LogMemory: 
-[2018.01.29-16.25.01:405][139]Allocator Stats for TBB: (not implemented)
-[2018.01.29-16.25.01:542][139]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.25.01:542][139]LogLoad: Game class is 'RPGGM_C'
-[2018.01.29-16.25.01:566][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.25.01
-[2018.01.29-16.25.01:568][139]LogWorld: Bringing up level for play took: 0.024003
-[2018.01.29-16.25.01:571][139]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
-[2018.01.29-16.25.01:571][139]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
-[2018.01.29-16.25.01:571][139]LogLoad: Took 0.209798 seconds to LoadMap(/Game/Maps/HelloWorld)
-[2018.01.29-16.25.07:984][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.25.08:091][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
-[2018.01.29-16.27.10:026][835]LogAIModule: Creating AISystem for world Tutorial_Delete
-[2018.01.29-16.27.57:411][496]SourceControl: Info On branch master
-[2018.01.29-16.27.57:411][496]SourceControl: Info Your branch is up to date with 'origin/master'.
-[2018.01.29-16.27.57:411][496]SourceControl: Info Changes not staged for commit:
-[2018.01.29-16.27.57:411][496]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2018.01.29-16.27.57:411][496]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Content/Gameplay/HUD/MainMenu/Menu.uasset
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Content/Maps/HelloWorld.umap
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Content/Maps/Menu_BuiltData.uasset
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Content/Maps/Tutorial_BuiltData.uasset
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Content/Maps/Tutorial_Delete.umap
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/UEDPCMenu.umap
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.29-08.55.56.log
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.29-08.57.34.log
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Logs/RPG_Game_2.log
-[2018.01.29-16.27.57:411][496]SourceControl: Info Untracked files:
-[2018.01.29-16.27.57:411][496]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/HelloWorld_2018-01-29-16-22-19.umap
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/Menu_2018-01-29-16-23-08.uasset
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/Menu_2018-01-29-16-23-43.umap
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/Menu_BuiltData_2018-01-29-16-23-43.uasset
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Logs/RPG_Game_2-backup-2018.01.29-16.23.45.log
-[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Logs/RPG_Game_2-backup-2018.01.29-16.24.18.log
-[2018.01.29-16.27.57:411][496]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2018.01.29-16.28.04:640][317]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-16.28.04:640][317]LightingResults: New page: Lighting Build
-[2018.01.29-16.28.04:641][317]LoadErrors: New page: Loading map: Menu.umap
-[2018.01.29-16.28.04:642][317]MapCheck: New page: Map Check
-[2018.01.29-16.28.04:642][317]LightingResults: New page: Lighting Build
-[2018.01.29-16.28.04:696][317]LogAIModule: Creating AISystem for world Menu
-[2018.01.29-16.28.04:699][317]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-16.28.04:833][317]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-16.28.04:958][317]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.672ms to complete.
-[2018.01.29-16.28.04:958][317]LogFileHelpers: Loading map 'Menu' took 0.318
-[2018.01.29-16.28.06:581][489]LogAIModule: Creating AISystem for world HelloWorld
-[2018.01.29-16.28.06:609][489]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.01.29-16.28.06:609][489]LightingResults: New page: Lighting Build
-[2018.01.29-16.28.06:609][489]LoadErrors: New page: Loading map: HelloWorld.umap
-[2018.01.29-16.28.06:610][489]MapCheck: New page: Map Check
-[2018.01.29-16.28.06:610][489]LightingResults: New page: Lighting Build
-[2018.01.29-16.28.06:693][489]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.01.29-16.28.06:842][489]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.01.29-16.28.06:972][489]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.586ms to complete.
-[2018.01.29-16.28.06:972][489]LogFileHelpers: Loading map 'HelloWorld' took 0.364
-[2018.01.29-16.28.46:881][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2018.01.29-16.28.47:764][184]LogSavePackage: Save=721.72ms
-[2018.01.29-16.28.47:765][184]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld2A6AC8D745A68D415003F7BCF22A538F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
-[2018.01.29-16.28.47:797][184]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
-[2018.01.29-16.28.48:083][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
-[2018.01.29-16.28.49:213][184]LogSavePackage: Save=727.04ms
-[2018.01.29-16.28.49:220][184]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData7B99B8DC49ECF975E7564DB44A2E07A8.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
-[2018.01.29-16.28.49:264][184]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
-[2018.01.29-16.28.57:329][104]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
-[2018.01.29-16.29.08:233][104]LogSourceControl: FGitCheckInWorker: commit successful
-[2018.01.29-16.29.08:346][104]SourceControl: Info [master 029c1e4] Clean Up
-[2018.01.29-16.29.08:346][104]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
-[2018.01.29-16.29.08:367][104]SourceControl: Info Commited [master 029c1e4] Clean Up.
+[2018.01.29-17.01.33:159][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-17.01.33:159][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.29-17.01.33:237][  0]LogInit: Computer: SONOFMORT
+[2018.01.29-17.01.33:237][  0]LogInit: User: Jordan
+[2018.01.29-17.01.33:237][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.01.29-17.01.33:237][  0]LogInit: High frequency timer resolution =3.124997 MHz
+[2018.01.29-17.01.33:237][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.01.29-17.01.33:237][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-17.01.33:237][  0]LogMemory: Process Physical Memory: 277.16 MB used, 277.16 MB peak
+[2018.01.29-17.01.33:237][  0]LogMemory: Process Virtual Memory: 267.73 MB used, 267.73 MB peak
+[2018.01.29-17.01.33:237][  0]LogMemory: Physical Memory: 4811.22 MB used,  3336.00 MB free, 8147.22 MB total
+[2018.01.29-17.01.33:237][  0]LogMemory: Virtual Memory: 673.93 MB used,  3336.00 MB free, 134217728.00 MB total
+[2018.01.29-17.01.33:360][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.29-17.01.33:360][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.29-17.01.33:364][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.29-17.01.34:791][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.29-17.01.34:865][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.29-17.01.34:865][  0]LogD3D11RHI:       8088/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.29-17.01.34:868][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.29-17.01.34:868][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.29-17.01.34:868][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.29-17.01.34:876][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.29-17.01.34:876][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.29-17.01.34:876][  0]LogWindows: EnumDisplayDevices:
+[2018.01.29-17.01.34:877][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.29-17.01.34:877][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.29-17.01.34:877][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.29-17.01.34:878][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.29-17.01.34:878][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.29-17.01.34:878][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.29-17.01.34:878][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.29-17.01.34:878][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.29-17.01.34:878][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.29-17.01.34:922][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.29-17.01.34:966][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.29-17.01.35:060][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (F:/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/7980/).
+[2018.01.29-17.01.35:060][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/248047B74533CA69699A0A969BEAFDA1/'.
+[2018.01.29-17.01.35:060][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.29-17.01.36:300][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.01.29-17.01.36:383][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.01.29-17.01.36:468][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.01.29-17.01.36:552][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.01.29-17.01.36:639][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.01.29-17.01.36:724][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.29-17.01.36:807][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.29-17.01.36:894][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.29-17.01.36:968][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.29-17.01.37:051][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.01.29-17.01.37:132][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.01.29-17.01.37:213][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.01.29-17.01.37:295][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.01.29-17.01.37:376][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.01.29-17.01.37:458][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.01.29-17.01.37:624][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.01.29-17.01.37:624][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.01.29-17.01.37:692][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.01.29-17.01.37:834][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.01.29-17.01.37:881][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.01.29-17.01.37:962][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.01.29-17.01.38:045][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.01.29-17.01.38:127][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.01.29-17.01.38:210][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.01.29-17.01.38:210][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.29-17.01.39:055][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.29-17.01.39:166][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-17.01.39:166][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.29-17.01.39:166][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.29-17.01.39:166][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.29-17.01.39:166][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.29-17.01.39:166][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.29-17.01.39:187][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.29-17.01.39:200][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.29-17.01.39:212][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.29-17.01.39:212][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.29-17.01.39:213][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-17.01.39:213][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-17.01.39:718][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-17.01.39:887][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.01.29-17.01.40:098][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.29-17.01.40:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.29-17.01.40:261][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.29-17.01.40:261][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.29-17.01.40:261][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.29-17.01.41:169][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.01.29-17.01.41:251][  0]LogAssetRegistry: FAssetRegistry took 0.0275 seconds to start up
+[2018.01.29-17.01.42:309][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 1.019390 seconds
+[2018.01.29-17.01.42:317][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.01.29-17.01.42:317][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2018.01.29-17.01.42:317][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.29-17.01.42:424][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.29-17.01.46:884][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.29-17.01.46:944][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.29-17.01.47:871][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.29-17.01.48:603][  0]SourceControl: Info Source control is disabled
+[2018.01.29-17.01.51:112][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.29-17.01.52:133][  0]LogEngine: Initializing Engine...
+[2018.01.29-17.01.52:134][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.29-17.01.52:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.29-17.01.52:359][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.29-17.01.52:584][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.01.29-17.01.52:598][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-17.01.52:764][  0]LogInit: FAudioDevice initialized.
+[2018.01.29-17.01.52:830][  0]LogDerivedDataCache: Saved boot cache 0.07s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-17.01.52:841][  0]LogInit: Texture streaming: Enabled
+[2018.01.29-17.01.53:001][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.01.29-17.01.53:376][  0]LogInit: Transaction tracking system initialized
+[2018.01.29-17.01.53:914][  0]BlueprintLog: New page: Editor Load
+[2018.01.29-17.01.55:583][  0]LocalizationService: Info Localization service is disabled
+[2018.01.29-17.01.56:815][  0]LogConsoleResponse:Display: 
+[2018.01.29-17.01.57:019][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.01.29-17.01.57:019][  0]LogCook:Display: Mobile HDR setting 1
+[2018.01.29-17.01.58:229][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/' took 0.02s
+[2018.01.29-17.01.59:211][  0]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-17.01.59:212][  0]LightingResults: New page: Lighting Build
+[2018.01.29-17.01.59:283][  0]MapCheck: New page: Map Check
+[2018.01.29-17.01.59:283][  0]LightingResults: New page: Lighting Build
+[2018.01.29-17.01.59:363][  0]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-17.01.59:364][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-17.01.59:375][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-17.01.59:475][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 99.002ms to complete.
+[2018.01.29-17.01.59:475][  0]LogFileHelpers: Loading map 'Menu' took 0.264
+[2018.01.29-17.01.59:691][  0]LogCollectionManager: Loaded 0 collections in 0.002707 seconds
+[2018.01.29-17.01.59:818][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2018.01.29-17.01.59:818][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2018.01.29-17.01.59:818][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2018.01.29-17.01.59:818][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.01.29-17.01.59:831][  0]LogContentBrowser: Native class hierarchy populated in 0.0131 seconds. Added 2329 classes and 491 folders.
+[2018.01.29-17.01.59:947][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.29-17.02.00:102][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.01.29-17.02.00:180][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2018.01.29-17.02.00:244][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.01.29-17.02.00:254][  0]LogSlate: Took 0.002145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.29-17.02.00:263][  0]LogSlate: Took 0.001886 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.01.29-17.02.00:267][  0]LogSlate: Took 0.001593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.01.29-17.02.00:353][  0]LogRenderer: Reallocating scene render targets to support 1528x624 NumSamples 1 (Frame:1).
+[2018.01.29-17.02.00:554][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.01.29-17.02.00:655][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 1 classes and 2 folders.
+[2018.01.29-17.02.00:655][  0]LogLoad: (Engine Initialization) Total time: 31.64 seconds
+[2018.01.29-17.02.00:655][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
+[2018.01.29-17.02.00:655][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.29-17.02.00:995][  0]LogOcInput: OculusInput pre-init called
+[2018.01.29-17.02.00:995][  0]LogHMD: Starting GearVRController plugin
+[2018.01.29-17.02.01:014][  0]SourceControl: Info On branch master
+[2018.01.29-17.02.01:014][  0]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.29-17.02.01:014][  0]SourceControl: Info Changes not staged for commit:
+[2018.01.29-17.02.01:014][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.29-17.02.01:014][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Content/Maps/HelloWorld.umap
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.29-08.51.42.log
+[2018.01.29-17.02.01:014][  0]SourceControl: Info Untracked files:
+[2018.01.29-17.02.01:014][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-703977804A2354D30E4A29B567047362/
+[2018.01.29-17.02.01:014][  0]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.01.29-17.01.32.log
+[2018.01.29-17.02.01:014][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.29-17.02.01:015][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.01.29-17.02.01:060][  0]LogSlate: Took 0.001712 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-17.02.01:332][  1]LogAssetRegistry: Asset discovery search completed in 20.1031 seconds
+[2018.01.29-17.02.01:334][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.01.29-17.02.01:334][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2018.01.29-17.05.32:190][254]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-17.05.32:383][254]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 F:/FMP/Assets/LightHouseLP.model.fbx)
+[2018.01.29-17.05.32:425][254]LogFbx: ItemName: GlobalSettings, ItemCount : 1
+[2018.01.29-17.05.32:426][254]LogFbx: ItemName: Model, ItemCount : 1
+[2018.01.29-17.05.32:426][254]LogFbx: ItemName: Geometry, ItemCount : 1
+[2018.01.29-17.05.32:426][254]LogFbx: ItemName: Material, ItemCount : 1
+[2018.01.29-17.05.32:426][254]LogFbx: ItemName: Texture, ItemCount : 2
+[2018.01.29-17.05.32:436][254]LogFbx: Loading FBX Scene from F:/FMP/Assets/LightHouseLP.model.fbx
+[2018.01.29-17.05.32:458][254]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_defaultMat' was rename '_defaultMat_ncl1_1' 
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'customMaterial1' was rename 'customMaterial1_ncl1_1' 
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_defaultMat' was rename '_defaultMat_ncl1_2' 
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_defaultMat' was rename '_defaultMat_ncl1_3' 
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'customMaterial1' was rename 'customMaterial1_ncl1_2' 
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'border' was rename 'border_ncl1_1' 
+[2018.01.29-17.05.32:464][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'bricks' was rename 'bricks_ncl1_1' 
+[2018.01.29-17.05.37:846][254]LogFbx: Loading FBX Scene from F:/FMP/Assets/LightHouseLP.model.fbx
+[2018.01.29-17.05.37:865][254]LogFbx: FBX Scene Loaded Succesfully
+[2018.01.29-17.05.37:870][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat'
+[2018.01.29-17.05.37:870][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat'
+[2018.01.29-17.05.37:937][254]LogMaterial: Missing cached shader map for material _defaultMat, compiling. 
+[2018.01.29-17.05.37:978][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_vertex_74...
+[2018.01.29-17.05.37:986][254]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_74.LightHouseLP_model_cylinder_vertex_74
+[2018.01.29-17.05.37:990][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial1'
+[2018.01.29-17.05.37:990][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial1'
+[2018.01.29-17.05.38:038][254]LogMaterial: Missing cached shader map for material customMaterial1, compiling. 
+[2018.01.29-17.05.38:065][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_vertex_75...
+[2018.01.29-17.05.38:068][254]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_75.LightHouseLP_model_cylinder_vertex_75
+[2018.01.29-17.05.38:070][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat_ncl1_1'
+[2018.01.29-17.05.38:070][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat_ncl1_1'
+[2018.01.29-17.05.38:112][254]LogMaterial: Missing cached shader map for material _defaultMat_ncl1_1, compiling. 
+[2018.01.29-17.05.38:131][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_vertex_76...
+[2018.01.29-17.05.38:135][254]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_76.LightHouseLP_model_cylinder_vertex_76
+[2018.01.29-17.05.38:136][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial1_ncl1_1'
+[2018.01.29-17.05.38:136][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial1_ncl1_1'
+[2018.01.29-17.05.38:180][254]LogMaterial: Missing cached shader map for material customMaterial1_ncl1_1, compiling. 
+[2018.01.29-17.05.38:198][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_vertex_77...
+[2018.01.29-17.05.38:201][254]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_77.LightHouseLP_model_cylinder_vertex_77
+[2018.01.29-17.05.38:202][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat_ncl1_2'
+[2018.01.29-17.05.38:202][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat_ncl1_2'
+[2018.01.29-17.05.38:258][254]LogMaterial: Missing cached shader map for material _defaultMat_ncl1_2, compiling. 
+[2018.01.29-17.05.38:276][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_vertex_78...
+[2018.01.29-17.05.38:279][254]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_78.LightHouseLP_model_cylinder_vertex_78
+[2018.01.29-17.05.38:282][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat_ncl1_3'
+[2018.01.29-17.05.38:283][254]LogLinker: Can't find file '/Game/Assets/LightHouse/_defaultMat_ncl1_3'
+[2018.01.29-17.05.38:324][254]LogMaterial: Missing cached shader map for material _defaultMat_ncl1_3, compiling. 
+[2018.01.29-17.05.38:343][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_vertex_0...
+[2018.01.29-17.05.38:346][254]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_0.LightHouseLP_model_cylinder_vertex_0
+[2018.01.29-17.05.38:348][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial2'
+[2018.01.29-17.05.38:348][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial2'
+[2018.01.29-17.05.38:391][254]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.05.38:413][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_full_1...
+[2018.01.29-17.05.38:418][254]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_full_1.LightHouseLP_model_cylinder_full_1
+[2018.01.29-17.05.38:420][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial1_ncl1_2'
+[2018.01.29-17.05.38:420][254]LogLinker: Can't find file '/Game/Assets/LightHouse/customMaterial1_ncl1_2'
+[2018.01.29-17.05.38:469][254]LogMaterial: Missing cached shader map for material customMaterial1_ncl1_2, compiling. 
+[2018.01.29-17.05.38:496][254]LogStaticMesh: Building static mesh LightHouseLP_model_cylinder_cone_3...
+[2018.01.29-17.05.38:501][254]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LightHouse/LightHouseLP_model_cylinder_cone_3.LightHouseLP_model_cylinder_cone_3
+[2018.01.29-17.05.38:503][254]LogLinker: Can't find file '/Game/Assets/LightHouse/border'
+[2018.01.29-17.05.38:503][254]LogLinker: Can't find file '/Game/Assets/LightHouse/border'
+[2018.01.29-17.05.38:548][254]LogMaterial: Missing cached shader map for material border, compiling. 
+[2018.01.29-17.05.38:571][254]LogLinker: Can't find file '/Game/Assets/LightHouse/bricks'
+[2018.01.29-17.05.38:571][254]LogLinker: Can't find file '/Game/Assets/LightHouse/bricks'
+[2018.01.29-17.05.38:615][254]LogMaterial: Missing cached shader map for material bricks, compiling. 
+[2018.01.29-17.05.38:642][254]LogStaticMesh: Building static mesh LightHouseLP_model_columns_thin_4...
+[2018.01.29-17.05.38:654][254]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LightHouse/LightHouseLP_model_columns_thin_4.LightHouseLP_model_columns_thin_4
+[2018.01.29-17.05.38:656][254]LogLinker: Can't find file '/Game/Assets/LightHouse/border_ncl1_1'
+[2018.01.29-17.05.38:656][254]LogLinker: Can't find file '/Game/Assets/LightHouse/border_ncl1_1'
+[2018.01.29-17.05.38:715][254]LogMaterial: Missing cached shader map for material border_ncl1_1, compiling. 
+[2018.01.29-17.05.38:743][254]LogSlate: Took 0.000416 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.01.29-17.05.38:754][254]LogLinker: Can't find file '/Game/Assets/LightHouse/bricks_ncl1_1'
+[2018.01.29-17.05.38:754][254]LogLinker: Can't find file '/Game/Assets/LightHouse/bricks_ncl1_1'
+[2018.01.29-17.05.38:805][254]LogMaterial: Missing cached shader map for material bricks_ncl1_1, compiling. 
+[2018.01.29-17.05.38:833][254]LogStaticMesh: Building static mesh LightHouseLP_model_columns_thin_6...
+[2018.01.29-17.05.38:845][254]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/LightHouse/LightHouseLP_model_columns_thin_6.LightHouseLP_model_columns_thin_6
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_defaultMat' was rename '_defaultMat_ncl1_1' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'customMaterial1' was rename 'customMaterial1_ncl1_1' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_defaultMat' was rename '_defaultMat_ncl1_2' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material '_defaultMat' was rename '_defaultMat_ncl1_3' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'customMaterial1' was rename 'customMaterial1_ncl1_2' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'border' was rename 'border_ncl1_1' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning FBX Scene Loading: Found material name clash, name clash can be wrongly reassign at reimport , material 'bricks' was rename 'bricks_ncl1_1' 
+[2018.01.29-17.05.39:283][254]FBXImport:Warning: Warning No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2018.01.29-17.06.00:841][311]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-17.06.02:553][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat.uasset" SILENT=true
+[2018.01.29-17.06.02:668][311]LogSavePackage: Save=67.89ms
+[2018.01.29-17.06.02:668][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat54A3BCE94033191BB05D31BD48A16B33.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat.uasset'
+[2018.01.29-17.06.02:748][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat.uasset
+[2018.01.29-17.06.03:226][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.06.03:340][311]LogSavePackage: Save=73.58ms
+[2018.01.29-17.06.03:340][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat_ncl1_19E4108094C573609ADABB1853996BB15.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset'
+[2018.01.29-17.06.03:415][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset
+[2018.01.29-17.06.03:931][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat_ncl1_2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset" SILENT=true
+[2018.01.29-17.06.04:014][311]LogSavePackage: Save=47.45ms
+[2018.01.29-17.06.04:014][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat_ncl1_2FF4CE197474F96855309E8B74B5AAC39.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset'
+[2018.01.29-17.06.04:091][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset
+[2018.01.29-17.06.04:526][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat_ncl1_3" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset" SILENT=true
+[2018.01.29-17.06.04:616][311]LogSavePackage: Save=49.16ms
+[2018.01.29-17.06.04:616][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat_ncl1_3833D05FC4D865D9B20D81F84C54DC948.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset'
+[2018.01.29-17.06.04:686][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset
+[2018.01.29-17.06.05:132][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/border" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border.uasset" SILENT=true
+[2018.01.29-17.06.05:218][311]LogSavePackage: Save=50.98ms
+[2018.01.29-17.06.05:218][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/border201CAAFA47D64BD962A1CEAB88F1C45A.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border.uasset'
+[2018.01.29-17.06.05:295][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border.uasset
+[2018.01.29-17.06.05:708][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/border_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.06.05:800][311]LogSavePackage: Save=44.37ms
+[2018.01.29-17.06.05:800][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/border_ncl1_1B237C015485FD06BF3D38DAB5E76E1D8.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border_ncl1_1.uasset'
+[2018.01.29-17.06.05:853][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border_ncl1_1.uasset
+[2018.01.29-17.06.06:225][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/bricks" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks.uasset" SILENT=true
+[2018.01.29-17.06.06:328][311]LogSavePackage: Save=60.36ms
+[2018.01.29-17.06.06:328][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/bricks0E8794B846B6573EDC26C5BA828CA122.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks.uasset'
+[2018.01.29-17.06.06:374][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks.uasset
+[2018.01.29-17.06.06:786][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/bricks_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.06.06:868][311]LogSavePackage: Save=45.95ms
+[2018.01.29-17.06.06:868][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/bricks_ncl1_1A6C30BCD4DC5CAF4C5917AAB8A03F88E.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks_ncl1_1.uasset'
+[2018.01.29-17.06.06:925][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks_ncl1_1.uasset
+[2018.01.29-17.06.07:275][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1.uasset" SILENT=true
+[2018.01.29-17.06.07:350][311]LogSavePackage: Save=38.69ms
+[2018.01.29-17.06.07:350][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial18C28FB004A8F35B8F66CAB800F8C4674.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1.uasset'
+[2018.01.29-17.06.07:406][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1.uasset
+[2018.01.29-17.06.07:806][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial1_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.06.07:883][311]LogSavePackage: Save=38.36ms
+[2018.01.29-17.06.07:883][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial1_ncl1_1EFE9D47F4DB0C29300C8ABB9FB4BBF6E.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset'
+[2018.01.29-17.06.07:940][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset
+[2018.01.29-17.06.08:311][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial1_ncl1_2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset" SILENT=true
+[2018.01.29-17.06.08:387][311]LogSavePackage: Save=42.35ms
+[2018.01.29-17.06.08:387][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial1_ncl1_22D991B6041C508E307F69DBFF38BCE22.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset'
+[2018.01.29-17.06.08:432][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset
+[2018.01.29-17.06.08:834][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial2.uasset" SILENT=true
+[2018.01.29-17.06.08:923][311]LogSavePackage: Save=45.61ms
+[2018.01.29-17.06.08:924][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial2F0F15FFA4F9493F90106E8872D87EC05.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial2.uasset'
+[2018.01.29-17.06.09:013][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial2.uasset
+[2018.01.29-17.06.09:424][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/LightHouseLP_model_columns_thin_4" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_columns_thin_4.uasset" SILENT=true
+[2018.01.29-17.06.09:516][311]LogSavePackage: Save=48.97ms
+[2018.01.29-17.06.09:516][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_columns_thin_4E0E801534CEFFC26419B13A3EB0F4400.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_columns_thin_4.uasset'
+[2018.01.29-17.06.09:617][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_columns_thin_4.uasset
+[2018.01.29-17.06.10:072][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/LightHouseLP_model_columns_thin_6" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_columns_thin_6.uasset" SILENT=true
+[2018.01.29-17.06.10:183][311]LogSavePackage: Save=49.14ms
+[2018.01.29-17.06.10:183][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_columns_thin_6A3FB0323415A1ECFFE19D9A45AA3389F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_columns_thin_6.uasset'
+[2018.01.29-17.06.10:274][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_columns_thin_6.uasset
+[2018.01.29-17.06.10:712][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/LightHouseLP_model_cylinder_cone_3" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_cone_3.uasset" SILENT=true
+[2018.01.29-17.06.10:841][311]LogSavePackage: Save=85.21ms
+[2018.01.29-17.06.10:841][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_cone_3FBD7BB4944B4E4495AE4A8A489EF8F6B.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_cone_3.uasset'
+[2018.01.29-17.06.10:927][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_cone_3.uasset
+[2018.01.29-17.06.11:353][311]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/LightHouseLP_model_cylinder_full_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_full_1.uasset" SILENT=true
+[2018.01.29-17.06.11:485][311]LogSavePackage: Save=85.20ms
+[2018.01.29-17.06.11:485][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_full_153A155C443D66E151D9E07AB8362CB81.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_full_1.uasset'
+[2018.01.29-17.06.11:557][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_full_1.uasset
+[2018.01.29-17.06.12:256][311]LogSavePackage: Save=77.62ms
+[2018.01.29-17.06.12:257][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_vertex_062FA24444C356D1BE22938B22645BBF9.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_0.uasset'
+[2018.01.29-17.06.12:322][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_0.uasset
+[2018.01.29-17.06.12:868][311]LogSavePackage: Save=57.02ms
+[2018.01.29-17.06.12:868][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_vertex_74714B897E4220A887102AE2B97E04535E.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_74.uasset'
+[2018.01.29-17.06.12:950][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_74.uasset
+[2018.01.29-17.06.13:584][311]LogSavePackage: Save=72.30ms
+[2018.01.29-17.06.13:584][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_vertex_75ABAA8B194D0BB1FB33EB5E9EBB929D7F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_75.uasset'
+[2018.01.29-17.06.13:668][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_75.uasset
+[2018.01.29-17.06.14:186][311]LogSavePackage: Save=41.71ms
+[2018.01.29-17.06.14:186][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_vertex_76EE65C40C4960A4ADFBC8AE852A87C8F3.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_76.uasset'
+[2018.01.29-17.06.14:354][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_76.uasset
+[2018.01.29-17.06.14:858][311]LogSavePackage: Save=35.03ms
+[2018.01.29-17.06.14:858][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_vertex_77B5ED34264D5B5F4FC1E3AC957819C944.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_77.uasset'
+[2018.01.29-17.06.14:936][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_77.uasset
+[2018.01.29-17.06.15:528][311]LogSavePackage: Save=49.80ms
+[2018.01.29-17.06.15:529][311]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/LightHouseLP_model_cylinder_vertex_7892A080B84C4CD7991162138F3D344703.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_78.uasset'
+[2018.01.29-17.06.15:629][311]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_78.uasset
+[2018.01.29-17.06.16:075][311]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-17.06.16:075][311]LightingResults: New page: Lighting Build
+[2018.01.29-17.06.16:076][311]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.29-17.06.16:077][311]MapCheck: New page: Map Check
+[2018.01.29-17.06.16:077][311]LightingResults: New page: Lighting Build
+[2018.01.29-17.06.16:151][311]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-17.06.16:255][311]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-17.06.16:360][311]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 105.515ms to complete.
+[2018.01.29-17.06.16:361][311]LogFileHelpers: Loading map 'HelloWorld' took 0.286
+[2018.01.29-17.06.30:331][718]LogActorFactory: Actor Factory created LightHouseLP_model_columns_thin_4
+[2018.01.29-17.06.30:355][718]LogActorFactory: Actor Factory created LightHouseLP_model_columns_thin_6
+[2018.01.29-17.06.30:355][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_cone_3
+[2018.01.29-17.06.30:356][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_full_1
+[2018.01.29-17.06.30:356][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_0
+[2018.01.29-17.06.30:357][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_74
+[2018.01.29-17.06.30:357][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_75
+[2018.01.29-17.06.30:358][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_76
+[2018.01.29-17.06.30:358][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_77
+[2018.01.29-17.06.30:359][718]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_78
+[2018.01.29-17.06.32:091][876]LogActorFactory: Actor Factory created LightHouseLP_model_columns_thin_4
+[2018.01.29-17.06.32:303][876]LogActorFactory: Actor Factory created LightHouseLP_model_columns_thin_6
+[2018.01.29-17.06.32:329][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_cone_3
+[2018.01.29-17.06.32:354][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_full_1
+[2018.01.29-17.06.32:378][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_0
+[2018.01.29-17.06.32:401][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_74
+[2018.01.29-17.06.32:424][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_75
+[2018.01.29-17.06.32:445][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_76
+[2018.01.29-17.06.32:470][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_77
+[2018.01.29-17.06.32:493][876]LogActorFactory: Actor Factory created LightHouseLP_model_cylinder_vertex_78
+[2018.01.29-17.07.36:433][461]Cmd: TRANSACTION UNDO
+[2018.01.29-17.07.36:433][461]LogEditorTransaction: Undo Snap Actors To Floor
+[2018.01.29-17.07.36:438][461]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.LightHouseLP_model_columns_thin_13.StaticMeshComponent0) Component already registered.
+[2018.01.29-17.07.36:439][461]LogActorComponent: ~FComponentReregisterContext: (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.LightHouseLP_model_cylinder_vertex_19.StaticMeshComponent0) Component already registered.
+[2018.01.29-17.07.36:463][461]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.01.29-17.07.42:419][ 46]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeWater)
+[2018.01.29-17.07.42:966][ 98]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LightHouseLP_model_cylinder_vertex_76)
+[2018.01.29-17.07.53:294][160]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LargeWater)
+[2018.01.29-17.07.55:044][320]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LightHouseLP_model_cylinder_full_1)
+[2018.01.29-17.07.57:913][587]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.07.58:117][587]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.07.58:133][587]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.07.58:177][587]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.29-17.07.58:193][587]LogSlate: Took 0.001760 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.01.29-17.07.58:397][588]LogSlate: Took 0.001713 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.01.29-17.07.59:783][637]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.01.29-17.07.59:783][637]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.29-17.07.59:783][637]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.29-17.08.06:246][112]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.06:802][133]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.01.29-17.08.06:802][133]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.29-17.08.06:802][133]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.29-17.08.11:625][462]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.11:646][462]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2018.01.29-17.08.12:206][479]MaterialEditorStats: Info Base pass shader: 80 instructions
+[2018.01.29-17.08.12:206][479]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.29-17.08.12:206][479]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.29-17.08.17:251][832]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.17:820][848]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.01.29-17.08.17:820][848]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.29-17.08.17:820][848]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.29-17.08.19:945][993]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.19:946][993]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.19:946][993]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.19:948][993]MaterialEditorStats:Error: Error [SM5] (Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.23:496][233]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.23:496][233]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.23:496][233]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.25:793][394]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.25:793][394]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.25:793][394]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.29:013][608]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.29:014][608]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.29:014][608]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.34:362][960]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.34:362][960]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.34:362][960]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.35:860][ 63]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.35:860][ 63]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.35:860][ 63]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.37:689][193]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.37:689][193]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.37:689][193]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.40:202][363]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.40:202][363]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.40:202][363]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.44:904][696]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.44:904][696]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.44:904][696]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.48:231][935]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.08.48:232][935]LogMaterial:Warning: Failed to compile Material /Engine/Transient.customMaterial2 for platform PCD3D_SM5, Default Material will be used in game.
+[2018.01.29-17.08.48:232][935]LogMaterial:Warning: 	(Node Panner) Arithmetic between types float2 and float3 are undefined
+[2018.01.29-17.08.58:285][639]LogMaterialEditor: Applying material customMaterial2
+[2018.01.29-17.09.31:912][705]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.09.33:061][758]MaterialEditorStats: Info Base pass shader: 78 instructions
+[2018.01.29-17.09.33:061][758]MaterialEditorStats: Info Vertex shader: 29 instructions
+[2018.01.29-17.09.33:061][758]MaterialEditorStats: Info Texture samplers: 1/16
+[2018.01.29-17.09.47:456][524]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (T_SkyBox2)
+[2018.01.29-17.10.06:998][587]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LightHouseLP_model_cylinder_vertex_76)
+[2018.01.29-17.10.11:801][  7]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (LightHouseLP_model_cylinder_vertex_78)
+[2018.01.29-17.10.19:205][721]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.01.29-17.10.20:359][817]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.29-17.10.20:718][817]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.20:718][817]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-17.10.20:719][817]PIE: New page: PIE session: HelloWorld (29 Jan 2018 17:10:20)
+[2018.01.29-17.10.20:719][817]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.29-17.10.20:738][817]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018376s)
+[2018.01.29-17.10.20:738][817]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-17.10.20:738][817]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2018.01.29-17.10.20:738][817]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.019414s)
+[2018.01.29-17.10.20:755][817]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-17.10.20:920][817]LogInit: FAudioDevice initialized.
+[2018.01.29-17.10.21:281][817]LogBlueprint:Error: [Compiler ThirdPersonPlayer] Error Spawn node  Create Widget  must have a class specified.
+[2018.01.29-17.10.21:281][817]LogBlueprint:Error: [Compiler ThirdPersonPlayer] Error Spawn node  Create Widget  must have a class specified.
+[2018.01.29-17.10.21:294][817]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0532.28] Compile of ThirdPersonPlayer failed. 2 Fatal Issue(s) 0 Warning(s) [in 17 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2018.01.29-17.10.21:294][817]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0532.28] Compile of ThirdPersonPlayer failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2018.01.29-17.10.21:294][817]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0532.28] Compile of ThirdPersonPlayer failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2018.01.29-17.10.21:306][817]LogBlueprint:Error: [Compiler ThirdPersonPlayer] Error Spawn node  Create Widget  must have a class specified.
+[2018.01.29-17.10.21:306][817]LogBlueprint:Error: [Compiler ThirdPersonPlayer] Error Spawn node  Create Widget  must have a class specified.
+[2018.01.29-17.10.21:319][817]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0532.30] Compile of ThirdPersonPlayer failed. 2 Fatal Issue(s) 0 Warning(s) [in 17 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2018.01.29-17.10.21:320][817]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0532.30] Compile of ThirdPersonPlayer failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2018.01.29-17.10.21:320][817]LogBlueprint:Warning: [Compiler ThirdPersonPlayer] Warning [0532.31] Compile of ThirdPersonPlayer failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer)
+[2018.01.29-17.10.21:506][817]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-17.10.21:512][817]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-17.10.21
+[2018.01.29-17.10.21:514][817]LogWorld: Bringing up level for play took: 0.004340
+[2018.01.29-17.10.21:588][817]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2018.01.29-17.10.21:595][817]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 1.748
+[2018.01.29-17.10.21:596][817]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.21:635][817]LogRenderer: Reallocating scene render targets to support 1528x756 NumSamples 1 (Frame:1).
+[2018.01.29-17.10.26:848][367]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.26:962][367]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.33:766][ 58]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.33:766][ 58]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-17.10.35:440][ 58]PIE: New page: PIE session: HelloWorld (29 Jan 2018 17:10:35)
+[2018.01.29-17.10.35:440][ 58]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.29-17.10.35:459][ 58]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018664s)
+[2018.01.29-17.10.35:459][ 58]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-17.10.35:459][ 58]LogPlayLevel: PIE: World Init took: (0.000691s)
+[2018.01.29-17.10.35:460][ 58]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.019554s)
+[2018.01.29-17.10.35:475][ 58]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-17.10.35:635][ 58]LogInit: FAudioDevice initialized.
+[2018.01.29-17.10.35:665][ 58]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-17.10.35:670][ 58]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-17.10.35
+[2018.01.29-17.10.35:671][ 58]LogWorld: Bringing up level for play took: 0.004105
+[2018.01.29-17.10.35:673][ 58]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 1.826
+[2018.01.29-17.10.35:673][ 58]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.37:499][262]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.37:548][262]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-17.10.41:187][575]MapCheck: New page: Map Check
+[2018.01.29-17.10.41:213][575]LightingResults: New page: Lighting Build - 29 Jan 2018 17:10:41
+[2018.01.29-17.10.41:429][575]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.01.29-17.10.41:511][575]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.01.29-17.10.41:539][575]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.01.29-17.10.42:582][575]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.01.29-17.10.42:582][575]LogSwarmInterface: [TryOpenConnection] Local Process ID is 7980
+[2018.01.29-17.10.45:160][575]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.01.29-17.10.45:160][575]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.01.29-17.10.45:160][575]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.01.29-17.10.45:160][575]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.01.29-17.10.45:160][575]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.01.29-17.10.45:463][575]LogEditorBuildUtils: Build time 0:04
+[2018.01.29-17.10.45:481][575]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.01.29-17.10.45:489][575]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.01.29-17.10.45:496][575]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer LandscapeMaterialInstanceConstant_1, compiling. 
+[2018.01.29-17.10.46:404][608]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer border, compiling. 
+[2018.01.29-17.10.46:410][608]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer border, compiling. 
+[2018.01.29-17.10.46:415][608]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer border, compiling. 
+[2018.01.29-17.10.46:435][609]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bricks, compiling. 
+[2018.01.29-17.10.46:443][609]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bricks, compiling. 
+[2018.01.29-17.10.46:450][609]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bricks, compiling. 
+[2018.01.29-17.10.46:479][610]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer border_ncl1_1, compiling. 
+[2018.01.29-17.10.46:485][610]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer border_ncl1_1, compiling. 
+[2018.01.29-17.10.46:495][610]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer border_ncl1_1, compiling. 
+[2018.01.29-17.10.46:525][611]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bricks_ncl1_1, compiling. 
+[2018.01.29-17.10.46:536][611]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bricks_ncl1_1, compiling. 
+[2018.01.29-17.10.46:544][611]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer bricks_ncl1_1, compiling. 
+[2018.01.29-17.10.46:569][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1_ncl1_2, compiling. 
+[2018.01.29-17.10.46:578][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1_ncl1_2, compiling. 
+[2018.01.29-17.10.46:584][612]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1_ncl1_2, compiling. 
+[2018.01.29-17.10.46:729][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial2, compiling. 
+[2018.01.29-17.10.46:736][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial2, compiling. 
+[2018.01.29-17.10.46:743][613]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial2, compiling. 
+[2018.01.29-17.10.46:775][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_3, compiling. 
+[2018.01.29-17.10.46:782][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_3, compiling. 
+[2018.01.29-17.10.46:790][614]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_3, compiling. 
+[2018.01.29-17.10.46:814][615]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat, compiling. 
+[2018.01.29-17.10.46:824][615]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat, compiling. 
+[2018.01.29-17.10.46:834][615]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat, compiling. 
+[2018.01.29-17.10.46:859][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1, compiling. 
+[2018.01.29-17.10.46:868][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1, compiling. 
+[2018.01.29-17.10.46:878][616]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1, compiling. 
+[2018.01.29-17.10.46:903][617]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_1, compiling. 
+[2018.01.29-17.10.46:913][617]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_1, compiling. 
+[2018.01.29-17.10.46:922][617]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_1, compiling. 
+[2018.01.29-17.10.46:948][618]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1_ncl1_1, compiling. 
+[2018.01.29-17.10.46:958][618]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1_ncl1_1, compiling. 
+[2018.01.29-17.10.46:970][618]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer customMaterial1_ncl1_1, compiling. 
+[2018.01.29-17.10.47:007][619]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_2, compiling. 
+[2018.01.29-17.10.47:015][619]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_2, compiling. 
+[2018.01.29-17.10.47:023][619]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer _defaultMat_ncl1_2, compiling. 
+[2018.01.29-17.10.59:979][162]Job is a success!
+[2018.01.29-17.11.00:292][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/border_ncl1_1.border_ncl1_1 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:294][163]LogMaterial: Missing cached shader map for material border_ncl1_1, compiling. 
+[2018.01.29-17.11.00:326][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/bricks_ncl1_1.bricks_ncl1_1 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:328][163]LogMaterial: Missing cached shader map for material bricks_ncl1_1, compiling. 
+[2018.01.29-17.11.00:351][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/border.border needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:354][163]LogMaterial: Missing cached shader map for material border, compiling. 
+[2018.01.29-17.11.00:380][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/bricks.bricks needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:383][163]LogMaterial: Missing cached shader map for material bricks, compiling. 
+[2018.01.29-17.11.00:414][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/customMaterial1_ncl1_2.customMaterial1_ncl1_2 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:417][163]LogMaterial: Missing cached shader map for material customMaterial1_ncl1_2, compiling. 
+[2018.01.29-17.11.00:454][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/customMaterial2.customMaterial2 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:457][163]LogMaterial: Missing cached shader map for material customMaterial2, compiling. 
+[2018.01.29-17.11.00:491][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/_defaultMat_ncl1_3._defaultMat_ncl1_3 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:494][163]LogMaterial: Missing cached shader map for material _defaultMat_ncl1_3, compiling. 
+[2018.01.29-17.11.00:530][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/_defaultMat._defaultMat needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:535][163]LogMaterial: Missing cached shader map for material _defaultMat, compiling. 
+[2018.01.29-17.11.00:574][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/customMaterial1.customMaterial1 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:579][163]LogMaterial: Missing cached shader map for material customMaterial1, compiling. 
+[2018.01.29-17.11.00:624][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/_defaultMat_ncl1_1._defaultMat_ncl1_1 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:629][163]LogMaterial: Missing cached shader map for material _defaultMat_ncl1_1, compiling. 
+[2018.01.29-17.11.00:669][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/customMaterial1_ncl1_1.customMaterial1_ncl1_1 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:673][163]LogMaterial: Missing cached shader map for material customMaterial1_ncl1_1, compiling. 
+[2018.01.29-17.11.00:716][163]LogMaterial:Warning: Material /Game/Assets/LightHouse/_defaultMat_ncl1_2._defaultMat_ncl1_2 needed to have new flag set bUsedWithStaticLighting !
+[2018.01.29-17.11.00:720][163]LogMaterial: Missing cached shader map for material _defaultMat_ncl1_2, compiling. 
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.01.29-17.11.01:219][163]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 256X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2018.01.29-17.11.01:220][163]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 256X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 128X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 128X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 64X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 64X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 256X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 64X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 128X64)
+[2018.01.29-17.11.01:420][163]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 128X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 128X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 64X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 256X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 128X64)
+[2018.01.29-17.11.01:421][163]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8, 128X64)
+[2018.01.29-17.11.01:423][163]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 256X64)
+[2018.01.29-17.11.01:423][163]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 256X64)
+[2018.01.29-17.11.01:439][163]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 1024X64)
+[2018.01.29-17.11.01:525][163]Lightmass on SONOFMORT: 8.01 sec total, 614 ms importing, 342 ms setup, 1.89 sec photons, 5.07 sec processing, 0 ms extra exporting [76/76 mappings]. Threads: 1:14 min total, 42.0 sec processing.
+[2018.01.29-17.11.01:538][163]LogStaticLightingSystem: Illumination: 20.2 sec (436 ms encoding lightmaps, 216 ms encoding shadowmaps)
+[2018.01.29-17.11.01:538][163]LogStaticLightingSystem: Lightmap texture memory:  3.1 MB (3.1 MB streaming, 0.0 MB non-streaming), 52 textures
+[2018.01.29-17.11.01:538][163]LogStaticLightingSystem: Shadowmap texture memory: 0.5 MB (0.5 MB streaming, 0.0 MB non-streaming), 27 textures
+[2018.01.29-17.11.02:174][163]DumpUnbuiltLightIteractions
+[2018.01.29-17.11.02:175][163]Lights with unbuilt interactions: 0
+[2018.01.29-17.11.02:175][163]
+[2018.01.29-17.11.02:175][163]Primitives with unbuilt interactions: 0
+[2018.01.29-17.11.02:191][164]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.01.29-17.11.02:191][164]MapCheck: New page: HelloWorld - 29 Jan 2018 17:11:02
+[2018.01.29-17.11.02:383][164]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 192.263ms to complete.
+[2018.01.29-17.11.19:813][411]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.01.29-17.11.22:866][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat.uasset" SILENT=true
+[2018.01.29-17.11.23:007][411]LogSavePackage: Save=50.99ms
+[2018.01.29-17.11.23:007][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat7812795246C193F0F29B26A09B6DD948.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat.uasset'
+[2018.01.29-17.11.23:100][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat.uasset
+[2018.01.29-17.11.23:104][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.11.23:251][411]LogSavePackage: Save=60.40ms
+[2018.01.29-17.11.23:251][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat_ncl1_110FEA463449D0D338BBE68A6CAF30CBA.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset'
+[2018.01.29-17.11.23:345][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset
+[2018.01.29-17.11.23:348][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat_ncl1_2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset" SILENT=true
+[2018.01.29-17.11.23:496][411]LogSavePackage: Save=64.18ms
+[2018.01.29-17.11.23:496][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat_ncl1_28A58B35F4DEAA63E6E129F903E2ABF51.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset'
+[2018.01.29-17.11.23:575][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset
+[2018.01.29-17.11.23:578][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/_defaultMat_ncl1_3" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset" SILENT=true
+[2018.01.29-17.11.23:735][411]LogSavePackage: Save=59.25ms
+[2018.01.29-17.11.23:736][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/_defaultMat_ncl1_3A88B60264F0CD81E18ECF992557C7250.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset'
+[2018.01.29-17.11.23:830][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset
+[2018.01.29-17.11.23:834][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/border" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border.uasset" SILENT=true
+[2018.01.29-17.11.23:978][411]LogSavePackage: Save=64.53ms
+[2018.01.29-17.11.23:978][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/border2857C53F41675DDE7B6EF8AB05AC8B9D.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border.uasset'
+[2018.01.29-17.11.24:081][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border.uasset
+[2018.01.29-17.11.24:083][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/border_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.11.24:229][411]LogSavePackage: Save=58.24ms
+[2018.01.29-17.11.24:229][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/border_ncl1_1E2B8F89C4A8988125852B1BB6A4B538B.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border_ncl1_1.uasset'
+[2018.01.29-17.11.24:305][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/border_ncl1_1.uasset
+[2018.01.29-17.11.24:308][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/bricks" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks.uasset" SILENT=true
+[2018.01.29-17.11.24:463][411]LogSavePackage: Save=61.07ms
+[2018.01.29-17.11.24:463][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/bricks2B2BB31842B9D5E1F3F53BBDA20E13C6.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks.uasset'
+[2018.01.29-17.11.24:555][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks.uasset
+[2018.01.29-17.11.24:560][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/bricks_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.11.24:698][411]LogSavePackage: Save=57.83ms
+[2018.01.29-17.11.24:698][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/bricks_ncl1_1D5B2036F4F7730BF9CAD3EB9C1D0DAD7.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks_ncl1_1.uasset'
+[2018.01.29-17.11.24:789][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/bricks_ncl1_1.uasset
+[2018.01.29-17.11.24:791][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1.uasset" SILENT=true
+[2018.01.29-17.11.24:932][411]LogSavePackage: Save=53.81ms
+[2018.01.29-17.11.24:932][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial18FE469624E229D20A113EF8D759E5AD6.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1.uasset'
+[2018.01.29-17.11.25:026][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1.uasset
+[2018.01.29-17.11.25:030][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial1_ncl1_1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset" SILENT=true
+[2018.01.29-17.11.25:163][411]LogSavePackage: Save=43.10ms
+[2018.01.29-17.11.25:163][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial1_ncl1_11157576B45895BBBE67646A5190D649A.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset'
+[2018.01.29-17.11.25:251][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset
+[2018.01.29-17.11.25:255][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial1_ncl1_2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset" SILENT=true
+[2018.01.29-17.11.25:430][411]LogSavePackage: Save=62.99ms
+[2018.01.29-17.11.25:430][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial1_ncl1_212263CC04BAD2F4590E094BD2AF96499.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset'
+[2018.01.29-17.11.25:520][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset
+[2018.01.29-17.11.25:523][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/LightHouse/customMaterial2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial2.uasset" SILENT=true
+[2018.01.29-17.11.25:664][411]LogSavePackage: Save=56.35ms
+[2018.01.29-17.11.25:664][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/customMaterial20138A5C34369ABDFB6D9B9A3F7A87BE5.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial2.uasset'
+[2018.01.29-17.11.25:759][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/LightHouse/customMaterial2.uasset
+[2018.01.29-17.11.25:882][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.29-17.11.26:640][411]LogSavePackage: Save=624.83ms
+[2018.01.29-17.11.26:640][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldE8BC2D7845FAA5BE6CAC8BBEE7115569.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.29-17.11.26:730][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.01.29-17.11.26:861][411]LogFileHelpers: Saving map 'HelloWorld' took 1.099
+[2018.01.29-17.11.26:870][411]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.01.29-17.11.28:021][411]LogSavePackage: Save=722.61ms
+[2018.01.29-17.11.28:023][411]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData201C0925454213EF66641A8D35D2EF47.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.01.29-17.11.28:098][411]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.29-17.11.39:245][411]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.01.29-17.11.39:508][411]SourceControl: Info [master 1ede753] LightHouse
+[2018.01.29-17.11.39:508][411]SourceControl: Info  24 files changed, 0 insertions(+), 0 deletions(-)
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_columns_thin_4.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_columns_thin_6.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_cone_3.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_full_1.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_0.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_74.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_75.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_76.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_77.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/LightHouseLP_model_cylinder_vertex_78.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/_defaultMat.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/_defaultMat_ncl1_1.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/_defaultMat_ncl1_2.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/_defaultMat_ncl1_3.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/border.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/border_ncl1_1.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/bricks.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/bricks_ncl1_1.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/customMaterial1.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/customMaterial1_ncl1_1.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/customMaterial1_ncl1_2.uasset
+[2018.01.29-17.11.39:508][411]SourceControl: Info  create mode 100644 Content/Assets/LightHouse/customMaterial2.uasset
+[2018.01.29-17.11.39:530][411]SourceControl: Info Commited [master 1ede753] LightHouse.

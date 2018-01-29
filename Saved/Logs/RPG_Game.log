@@ -543,3 +543,295 @@ LogInit: Object subsystem initialized
 [2018.01.29-14.31.21:556][149]LogSavePackage: Save=28.38ms
 [2018.01.29-14.31.21:556][149]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData4161753B4385903D187CC4AE1D58D312.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
 [2018.01.29-14.31.21:579][149]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
+[2018.01.29-16.21.38:899][963]LogAIModule: Creating AISystem for world Tutorial_Delete
+[2018.01.29-16.21.38:949][963]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Tutorial_Delete.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-16.21.38:949][963]LightingResults: New page: Lighting Build
+[2018.01.29-16.21.38:950][963]LoadErrors: New page: Loading map: Tutorial_Delete.umap
+[2018.01.29-16.21.38:951][963]MapCheck: New page: Map Check
+[2018.01.29-16.21.38:951][963]LightingResults: New page: Lighting Build
+[2018.01.29-16.21.39:006][963]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-16.21.39:451][963]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-16.21.39:573][963]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.037ms to complete.
+[2018.01.29-16.21.39:573][963]LogFileHelpers: Loading map 'Tutorial_Delete' took 0.627
+[2018.01.29-16.22.04:404][700]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.22.04:437][700]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-16.22.04:437][700]LightingResults: New page: Lighting Build
+[2018.01.29-16.22.04:438][700]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.29-16.22.04:539][700]MapCheck: New page: Map Check
+[2018.01.29-16.22.04:539][700]LightingResults: New page: Lighting Build
+[2018.01.29-16.22.04:650][700]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-16.22.04:799][700]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-16.22.04:921][700]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 121.029ms to complete.
+[2018.01.29-16.22.04:922][700]LogFileHelpers: Loading map 'HelloWorld' took 0.486
+[2018.01.29-16.22.18:371][207]BlueprintLog: New page: Compile HelloWorld
+[2018.01.29-16.22.19:650][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.29-16.22.20:425][325]LogSavePackage: Save=602.58ms
+[2018.01.29-16.22.20:425][325]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld42AC8E5641FE8B91C86AABA9B4082A94.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.29-16.22.20:515][325]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.01.29-16.22.20:655][325]LogFileHelpers: Saving map 'HelloWorld' took 1.125
+[2018.01.29-16.22.28:834][266]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.29-16.22.28:903][266]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.22.28:903][266]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-16.22.28:903][266]PIE: New page: PIE session: HelloWorld (29 Jan 2018 16:22:28)
+[2018.01.29-16.22.28:903][266]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.29-16.22.28:925][266]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021919s)
+[2018.01.29-16.22.28:927][266]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.22.28:927][266]LogPlayLevel: PIE: World Init took: (0.001475s)
+[2018.01.29-16.22.28:927][266]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.023582s)
+[2018.01.29-16.22.28:951][266]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-16.22.29:111][266]LogInit: FAudioDevice initialized.
+[2018.01.29-16.22.29:190][266]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.22.29:195][266]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.22.29
+[2018.01.29-16.22.29:196][266]LogWorld: Bringing up level for play took: 0.004442
+[2018.01.29-16.22.29:199][266]LogScript:Warning: Accessed None trying to read property CallFunc_Create_ReturnValue
+	ThirdPersonPlayer_C /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld:PersistentLevel.ThirdPersonPlayer_C_0
+	Function /Game/Gameplay/ThirdPersonPlayer.ThirdPersonPlayer_C:ExecuteUbergraph_ThirdPersonPlayer:004C
+[2018.01.29-16.22.29:199][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.22.29:199][266]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.22.29:202][266]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.645
+[2018.01.29-16.22.29:203][266]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.22.33:379][758]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.01.29-16.22.34:854][933]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.22.34:947][933]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.23.08:166][661]BlueprintLog: New page: Compile Menu
+[2018.01.29-16.23.08:324][661]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2018.01.29-16.23.08:752][705]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Gameplay/HUD/MainMenu/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset" SILENT=true
+[2018.01.29-16.23.08:946][705]LogSavePackage: Save=94.31ms
+[2018.01.29-16.23.08:946][705]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu4C305D9643F218969753FAACBD29059F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset'
+[2018.01.29-16.23.09:005][705]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.29-16.23.10:060][827]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2018.01.29-16.23.10:118][827]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.23.10:118][827]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-16.23.10:118][827]PIE: New page: PIE session: HelloWorld (29 Jan 2018 16:23:10)
+[2018.01.29-16.23.10:118][827]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.01.29-16.23.10:135][827]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016999s)
+[2018.01.29-16.23.10:136][827]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.23.10:136][827]LogPlayLevel: PIE: World Init took: (0.000823s)
+[2018.01.29-16.23.10:136][827]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018027s)
+[2018.01.29-16.23.10:161][827]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-16.23.10:320][827]LogInit: FAudioDevice initialized.
+[2018.01.29-16.23.10:385][827]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.23.10:390][827]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.23.10
+[2018.01.29-16.23.10:392][827]LogWorld: Bringing up level for play took: 0.004766
+[2018.01.29-16.23.10:395][827]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.23.10:395][827]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.23.10:398][827]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.55
+[2018.01.29-16.23.10:398][827]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.23.11:376][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.23.11:488][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.01.29-16.23.16:402][461]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-16.23.16:424][461]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-16.23.16:424][461]LightingResults: New page: Lighting Build
+[2018.01.29-16.23.16:424][461]LoadErrors: New page: Loading map: Menu.umap
+[2018.01.29-16.23.16:426][461]MapCheck: New page: Map Check
+[2018.01.29-16.23.16:426][461]LightingResults: New page: Lighting Build
+[2018.01.29-16.23.16:486][461]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-16.23.16:617][461]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-16.23.16:739][461]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 122.122ms to complete.
+[2018.01.29-16.23.16:739][461]LogFileHelpers: Loading map 'Menu' took 0.316
+[2018.01.29-16.23.18:376][642]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.18:376][642]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-16.23.18:376][642]PIE: New page: PIE session: Menu (29 Jan 2018 16:23:18)
+[2018.01.29-16.23.18:376][642]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2018.01.29-16.23.18:378][642]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001056s)
+[2018.01.29-16.23.18:378][642]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-16.23.18:378][642]LogPlayLevel: PIE: World Init took: (0.000626s)
+[2018.01.29-16.23.18:378][642]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001856s)
+[2018.01.29-16.23.18:402][642]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-16.23.18:558][642]LogInit: FAudioDevice initialized.
+[2018.01.29-16.23.18:591][642]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.23.18:593][642]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.23.18
+[2018.01.29-16.23.18:593][642]LogWorld: Bringing up level for play took: 0.000709
+[2018.01.29-16.23.18:595][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.23.18:596][642]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.23.18:596][642]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.749
+[2018.01.29-16.23.18:597][642]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.24:500][348]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.01.29-16.23.24:500][348]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.01.29-16.23.24:522][348]Cmd: MEM
+[2018.01.29-16.23.24:541][348]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-16.23.24:541][348]LogMemory: Process Physical Memory: 742.81 MB used, 1473.46 MB peak
+[2018.01.29-16.23.24:541][348]LogMemory: Process Virtual Memory: 2266.33 MB used, 2295.52 MB peak
+[2018.01.29-16.23.24:541][348]LogMemory: Physical Memory: 5368.90 MB used,  2778.32 MB free, 8147.22 MB total
+[2018.01.29-16.23.24:541][348]LogMemory: Virtual Memory: 3235.75 MB used,  2778.32 MB free, 134217728.00 MB total
+[2018.01.29-16.23.24:541][348]LogMemory: 
+[2018.01.29-16.23.24:541][348]Allocator Stats for TBB: (not implemented)
+[2018.01.29-16.23.24:773][348]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.23.24:773][348]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.23.24:798][348]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.23.24
+[2018.01.29-16.23.24:800][348]LogWorld: Bringing up level for play took: 0.024910
+[2018.01.29-16.23.24:802][348]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.23.24:802][348]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.23.24:802][348]LogLoad: Took 0.302299 seconds to LoadMap(/Game/Maps/HelloWorld)
+[2018.01.29-16.23.27:404][654]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.27:442][654]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.29:672][898]LogTemp: Repeting last play command: Selected Viewport
+[2018.01.29-16.23.29:742][898]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.29:742][898]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-16.23.29:742][898]PIE: New page: PIE session: Menu (29 Jan 2018 16:23:29)
+[2018.01.29-16.23.29:742][898]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2018.01.29-16.23.29:743][898]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001066s)
+[2018.01.29-16.23.29:744][898]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-16.23.29:744][898]LogPlayLevel: PIE: World Init took: (0.000668s)
+[2018.01.29-16.23.29:744][898]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001910s)
+[2018.01.29-16.23.29:768][898]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-16.23.29:921][898]LogInit: FAudioDevice initialized.
+[2018.01.29-16.23.29:956][898]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.23.29:958][898]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.23.29
+[2018.01.29-16.23.29:958][898]LogWorld: Bringing up level for play took: 0.000823
+[2018.01.29-16.23.29:960][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.23.29:961][898]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.23.29:961][898]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.114
+[2018.01.29-16.23.29:961][898]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.31:947][131]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.01.29-16.23.31:947][131]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.01.29-16.23.31:970][131]Cmd: MEM
+[2018.01.29-16.23.31:990][131]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-16.23.31:990][131]LogMemory: Process Physical Memory: 764.02 MB used, 1473.46 MB peak
+[2018.01.29-16.23.31:990][131]LogMemory: Process Virtual Memory: 2301.63 MB used, 2333.02 MB peak
+[2018.01.29-16.23.31:990][131]LogMemory: Physical Memory: 5415.94 MB used,  2731.29 MB free, 8147.22 MB total
+[2018.01.29-16.23.31:990][131]LogMemory: Virtual Memory: 3271.81 MB used,  2731.29 MB free, 134217728.00 MB total
+[2018.01.29-16.23.31:990][131]LogMemory: 
+[2018.01.29-16.23.31:990][131]Allocator Stats for TBB: (not implemented)
+[2018.01.29-16.23.32:120][131]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.23.32:120][131]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.23.32:144][131]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.23.32
+[2018.01.29-16.23.32:146][131]LogWorld: Bringing up level for play took: 0.023998
+[2018.01.29-16.23.32:148][131]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.23.32:148][131]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.23.32:148][131]LogLoad: Took 0.200837 seconds to LoadMap(/Game/Maps/HelloWorld)
+[2018.01.29-16.23.32:663][190]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.32:697][190]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.35:451][485]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.35:451][485]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-16.23.35:451][485]PIE: New page: PIE session: Menu (29 Jan 2018 16:23:35)
+[2018.01.29-16.23.35:451][485]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2018.01.29-16.23.35:452][485]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001059s)
+[2018.01.29-16.23.35:452][485]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-16.23.35:453][485]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2018.01.29-16.23.35:453][485]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001870s)
+[2018.01.29-16.23.35:476][485]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-16.23.35:630][485]LogInit: FAudioDevice initialized.
+[2018.01.29-16.23.35:703][485]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.23.35:706][485]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.23.35
+[2018.01.29-16.23.35:706][485]LogWorld: Bringing up level for play took: 0.000852
+[2018.01.29-16.23.35:708][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.23.35:708][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.23.35:712][485]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu -0.135
+[2018.01.29-16.23.35:713][485]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.38:022][749]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.38:139][749]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.23.43:248][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.29-16.23.43:531][263]LogSavePackage: Save=178.01ms
+[2018.01.29-16.23.43:531][263]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/UEDPCMenu97B1FDC34145247857F9D2ACF4815C95.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.29-16.23.43:557][263]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.29-16.23.43:577][263]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset" SILENT=true
+[2018.01.29-16.23.43:683][263]LogSavePackage: Save=33.22ms
+[2018.01.29-16.23.43:683][263]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData7AE7711C4DB238E5AED83E8B72CEBEF4.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
+[2018.01.29-16.23.43:713][263]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
+[2018.01.29-16.23.43:719][263]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.29-16.24.16:305][769]LogTemp: Repeting last play command: Standalone Game
+[2018.01.29-16.24.16:558][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=true
+[2018.01.29-16.24.16:761][769]LogSavePackage: Save=164.04ms
+[2018.01.29-16.24.16:762][769]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/UEDPCMenuAFA9C1C84B5FBE8423268B9558F1C92C.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap'
+[2018.01.29-16.24.16:792][769]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.29-16.24.16:810][769]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/Menu_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset" SILENT=true
+[2018.01.29-16.24.16:879][769]LogSavePackage: Save=28.33ms
+[2018.01.29-16.24.16:879][769]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/Menu_BuiltData27911CCA407CD7F4B32FB1B43F0A1685.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset'
+[2018.01.29-16.24.16:903][769]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu_BuiltData.uasset
+[2018.01.29-16.24.16:911][769]LogEditorTransaction: Undo Spawn Play From Here Start
+[2018.01.29-16.24.59:813][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.24.59:813][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.01.29-16.24.59:813][ 14]PIE: New page: PIE session: Menu (29 Jan 2018 16:24:59)
+[2018.01.29-16.24.59:814][ 14]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_Menu
+[2018.01.29-16.24.59:815][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001066s)
+[2018.01.29-16.24.59:815][ 14]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-16.24.59:815][ 14]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.01.29-16.24.59:815][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/Menu.Menu to /Game/Maps/UEDPIE_0_Menu.Menu (0.001928s)
+[2018.01.29-16.24.59:839][ 14]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-16.25.00:000][ 14]LogInit: FAudioDevice initialized.
+[2018.01.29-16.25.00:102][ 14]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.25.00:105][ 14]LogWorld: Bringing World /Game/Maps/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2018.01.29-16.25.00
+[2018.01.29-16.25.00:105][ 14]LogWorld: Bringing up level for play took: 0.001220
+[2018.01.29-16.25.00:107][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.25.00:108][ 14]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.25.00:112][ 14]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_Menu 0.265
+[2018.01.29-16.25.00:112][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.25.01:362][139]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.01.29-16.25.01:362][139]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.01.29-16.25.01:384][139]Cmd: MEM
+[2018.01.29-16.25.01:405][139]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-16.25.01:405][139]LogMemory: Process Physical Memory: 747.58 MB used, 1473.46 MB peak
+[2018.01.29-16.25.01:405][139]LogMemory: Process Virtual Memory: 2292.38 MB used, 2359.34 MB peak
+[2018.01.29-16.25.01:405][139]LogMemory: Physical Memory: 5444.16 MB used,  2703.07 MB free, 8147.22 MB total
+[2018.01.29-16.25.01:405][139]LogMemory: Virtual Memory: 3255.81 MB used,  2703.07 MB free, 134217728.00 MB total
+[2018.01.29-16.25.01:405][139]LogMemory: 
+[2018.01.29-16.25.01:405][139]Allocator Stats for TBB: (not implemented)
+[2018.01.29-16.25.01:542][139]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.25.01:542][139]LogLoad: Game class is 'RPGGM_C'
+[2018.01.29-16.25.01:566][139]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-16.25.01
+[2018.01.29-16.25.01:568][139]LogWorld: Bringing up level for play took: 0.024003
+[2018.01.29-16.25.01:571][139]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue
+[2018.01.29-16.25.01:571][139]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_Create_ReturnValue3 from function: 'ExecuteUbergraph_ThirdPersonPlayer' from node: Add to Viewport in graph: EventGraph in object: ThirdPersonPlayer with description: Accessed None trying to read property CallFunc_Create_ReturnValue3
+[2018.01.29-16.25.01:571][139]LogLoad: Took 0.209798 seconds to LoadMap(/Game/Maps/HelloWorld)
+[2018.01.29-16.25.07:984][825]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.25.08:091][825]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Maps/Menu.Menu_C' with ClassGeneratedBy '/Game/Maps/Menu.Menu:PersistentLevel.Menu'
+[2018.01.29-16.27.10:026][835]LogAIModule: Creating AISystem for world Tutorial_Delete
+[2018.01.29-16.27.57:411][496]SourceControl: Info On branch master
+[2018.01.29-16.27.57:411][496]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.01.29-16.27.57:411][496]SourceControl: Info Changes not staged for commit:
+[2018.01.29-16.27.57:411][496]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.01.29-16.27.57:411][496]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Content/Gameplay/HUD/MainMenu/Menu.uasset
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Content/Maps/HelloWorld.umap
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Content/Maps/Menu_BuiltData.uasset
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Content/Maps/Tutorial_BuiltData.uasset
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Content/Maps/Tutorial_Delete.umap
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/UEDPCMenu.umap
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.29-08.55.56.log
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.01.29-08.57.34.log
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	modified:   Saved/Logs/RPG_Game_2.log
+[2018.01.29-16.27.57:411][496]SourceControl: Info Untracked files:
+[2018.01.29-16.27.57:411][496]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/HelloWorld_2018-01-29-16-22-19.umap
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/Menu_2018-01-29-16-23-08.uasset
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/Menu_2018-01-29-16-23-43.umap
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Backup/Menu_BuiltData_2018-01-29-16-23-43.uasset
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Logs/RPG_Game_2-backup-2018.01.29-16.23.45.log
+[2018.01.29-16.27.57:411][496]SourceControl: Info 	Saved/Logs/RPG_Game_2-backup-2018.01.29-16.24.18.log
+[2018.01.29-16.27.57:411][496]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.01.29-16.28.04:640][317]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-16.28.04:640][317]LightingResults: New page: Lighting Build
+[2018.01.29-16.28.04:641][317]LoadErrors: New page: Loading map: Menu.umap
+[2018.01.29-16.28.04:642][317]MapCheck: New page: Map Check
+[2018.01.29-16.28.04:642][317]LightingResults: New page: Lighting Build
+[2018.01.29-16.28.04:696][317]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-16.28.04:699][317]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-16.28.04:833][317]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-16.28.04:958][317]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 124.672ms to complete.
+[2018.01.29-16.28.04:958][317]LogFileHelpers: Loading map 'Menu' took 0.318
+[2018.01.29-16.28.06:581][489]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-16.28.06:609][489]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.01.29-16.28.06:609][489]LightingResults: New page: Lighting Build
+[2018.01.29-16.28.06:609][489]LoadErrors: New page: Loading map: HelloWorld.umap
+[2018.01.29-16.28.06:610][489]MapCheck: New page: Map Check
+[2018.01.29-16.28.06:610][489]LightingResults: New page: Lighting Build
+[2018.01.29-16.28.06:693][489]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.01.29-16.28.06:842][489]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.01.29-16.28.06:972][489]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 130.586ms to complete.
+[2018.01.29-16.28.06:972][489]LogFileHelpers: Loading map 'HelloWorld' took 0.364
+[2018.01.29-16.28.46:881][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.01.29-16.28.47:764][184]LogSavePackage: Save=721.72ms
+[2018.01.29-16.28.47:765][184]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld2A6AC8D745A68D415003F7BCF22A538F.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.01.29-16.28.47:797][184]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.01.29-16.28.48:083][184]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.01.29-16.28.49:213][184]LogSavePackage: Save=727.04ms
+[2018.01.29-16.28.49:220][184]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData7B99B8DC49ECF975E7564DB44A2E07A8.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.01.29-16.28.49:264][184]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.01.29-16.28.57:329][104]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.01.29-16.29.08:233][104]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.01.29-16.29.08:346][104]SourceControl: Info [master 029c1e4] Clean Up
+[2018.01.29-16.29.08:346][104]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2018.01.29-16.29.08:367][104]SourceControl: Info Commited [master 029c1e4] Clean Up.

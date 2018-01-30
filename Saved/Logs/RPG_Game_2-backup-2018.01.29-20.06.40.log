@@ -1,0 +1,660 @@
+﻿Log file open, 01/29/18 20:01:25
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1670361112) SRandInit(1670361113).
+LogTaskGraph: Started task graph with 5 named threads and 9 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.154655
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  /Temp/Autosaves/Game/Maps/UEDPCHelloWorld -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2018.01.29-20.01.26:762][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-20.01.26:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.01.29-20.01.26:769][  0]LogInit: Computer: SONOFMORT
+[2018.01.29-20.01.26:769][  0]LogInit: User: Jordan
+[2018.01.29-20.01.26:769][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.01.29-20.01.26:769][  0]LogInit: High frequency timer resolution =3.124997 MHz
+[2018.01.29-20.01.26:769][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.01.29-20.01.26:769][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-20.01.26:769][  0]LogMemory: Process Physical Memory: 277.89 MB used, 277.89 MB peak
+[2018.01.29-20.01.26:769][  0]LogMemory: Process Virtual Memory: 269.49 MB used, 269.49 MB peak
+[2018.01.29-20.01.26:769][  0]LogMemory: Physical Memory: 6129.33 MB used,  2017.89 MB free, 8147.22 MB total
+[2018.01.29-20.01.26:769][  0]LogMemory: Virtual Memory: 674.12 MB used,  2017.89 MB free, 134217728.00 MB total
+[2018.01.29-20.01.26:891][  0]LogInit: Using OS detected language (en-GB).
+[2018.01.29-20.01.26:891][  0]LogInit: Using OS detected locale (en-GB).
+[2018.01.29-20.01.26:896][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.01.29-20.01.27:908][  0]LogD3D11RHI: D3D11 adapters:
+[2018.01.29-20.01.27:983][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.01.29-20.01.27:984][  0]LogD3D11RHI:       8088/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.01.29-20.01.27:987][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.01.29-20.01.27:987][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.01.29-20.01.27:987][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.01.29-20.01.27:997][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.01.29-20.01.27:997][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.01.29-20.01.27:997][  0]LogWindows: EnumDisplayDevices:
+[2018.01.29-20.01.27:997][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.01.29-20.01.27:997][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.01.29-20.01.27:997][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.29-20.01.27:998][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.01.29-20.01.27:998][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.01.29-20.01.27:998][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.01.29-20.01.27:998][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.01.29-20.01.27:998][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.01.29-20.01.27:998][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.01.29-20.01.28:043][  0]LogD3D11RHI: Async texture creation enabled
+[2018.01.29-20.01.28:089][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.01.29-20.01.28:185][  0]LogShaderCompilers: Guid format shader working directory is 22 characters bigger than the processId version (F:/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/12892/).
+[2018.01.29-20.01.28:185][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/8EBCBA39459265A6B96F92BC4C7FB888/'.
+[2018.01.29-20.01.28:185][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.01.29-20.01.29:467][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.01.29-20.01.29:553][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.01.29-20.01.29:636][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.01.29-20.01.29:713][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.01.29-20.01.29:713][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.01.29-20.01.30:543][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.01.29-20.01.30:649][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.01.29-20.01.30:649][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.01.29-20.01.30:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.01.29-20.01.30:650][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.01.29-20.01.30:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.01.29-20.01.30:650][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.01.29-20.01.30:671][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.01.29-20.01.30:684][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.01.29-20.01.30:696][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.01.29-20.01.30:696][  0]LogSlate: Using Freetype 2.6.0
+[2018.01.29-20.01.30:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-20.01.30:697][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.01.29-20.01.31:103][  0]LogAssetRegistry: FAssetRegistry took 0.0057 seconds to start up
+[2018.01.29-20.01.31:112][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.008873 seconds
+[2018.01.29-20.01.31:224][  0]LogInit: Selected Device Profile: [Windows]
+[2018.01.29-20.01.31:334][  0]LogContentStreaming: Texture pool size is 1000.00 MB
+[2018.01.29-20.01.31:546][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.01.29-20.01.31:624][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.01.29-20.01.31:709][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.01.29-20.01.31:709][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.01.29-20.01.31:709][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.01.29-20.01.32:461][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.01.29-20.01.32:582][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.01.29-20.01.34:342][  0]LogMoviePlayer: Initializing movie player
+[2018.01.29-20.01.34:913][  0]LogCollectionManager: Loaded 0 collections in 0.002373 seconds
+[2018.01.29-20.01.34:985][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2018.01.29-20.01.34:985][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2018.01.29-20.01.34:985][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2018.01.29-20.01.34:985][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2018.01.29-20.01.34:985][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000039 seconds (updated 0 objects)
+[2018.01.29-20.01.35:282][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.01.29-20.01.35:343][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.01.29-20.01.36:009][  0]SourceControl: Info Source control is disabled
+[2018.01.29-20.01.36:009][  0]SourceControl: Info Source control is disabled
+[2018.01.29-20.01.36:096][  0]SourceControl: Info Source control is disabled
+[2018.01.29-20.01.36:565][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.01.29-20.01.37:362][  0]LogUObjectArray: 37220 objects as part of root set at end of initial load.
+[2018.01.29-20.01.37:362][  0]LogUObjectAllocator: 8398840 out of 0 bytes used by permanent object pool.
+[2018.01.29-20.01.37:362][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.01.29-20.01.37:519][  0]LogEngine: Initializing Engine...
+[2018.01.29-20.01.37:520][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.01.29-20.01.37:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.01.29-20.01.37:731][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.01.29-20.01.37:745][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.01.29-20.01.37:920][  0]LogInit: FAudioDevice initialized.
+[2018.01.29-20.01.37:952][  0]LogInit: Texture streaming: Enabled
+[2018.01.29-20.01.37:973][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.01.29-20.01.38:371][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'NormalText'. Using FTextBlockStyle defaults instead.
+[2018.01.29-20.01.38:371][  0]LogSlateStyle:Warning: Unable to find Slate Widget Style 'SpinBox'. Using FSpinBoxStyle defaults instead.
+[2018.01.29-20.01.38:739][  0]LogInit:Display: Game Engine Initialized.
+[2018.01.29-20.01.39:004][  0]LogInit:Display: Starting Game.
+[2018.01.29-20.01.39:004][  0]LogNet: Browse: /Temp/Autosaves/Game/Maps/UEDPCHelloWorld?Name=Player
+[2018.01.29-20.01.39:004][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/Maps/UEDPCHelloWorld?Name=Player
+[2018.01.29-20.01.39:024][  0]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-20.01.39:024][  0]LogMemory: Process Physical Memory: 814.14 MB used, 914.27 MB peak
+[2018.01.29-20.01.39:024][  0]LogMemory: Process Virtual Memory: 915.11 MB used, 965.59 MB peak
+[2018.01.29-20.01.39:024][  0]LogMemory: Physical Memory: 6560.63 MB used,  1586.59 MB free, 8147.22 MB total
+[2018.01.29-20.01.39:024][  0]LogMemory: Virtual Memory: 1596.83 MB used,  1586.59 MB free, 134217728.00 MB total
+[2018.01.29-20.01.39:024][  0]LogMemory: 
+[2018.01.29-20.01.39:024][  0]Allocator Stats for TBB: (not implemented)
+[2018.01.29-20.01.39:421][  0]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-20.01.39:502][  0]LogLoad: Game class is 'FuseGM_C'
+[2018.01.29-20.01.39:530][  0]PIE:Warning: Warning Trying to simulate physics on ''/Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld:PersistentLevel.Remote_71.StaticMesh'' but it has ComplexAsSimple collision.
+[2018.01.29-20.01.39:530][  0]LogWorld: Bringing World /Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-20.01.39
+[2018.01.29-20.01.39:532][  0]LogWorld: Bringing up level for play took: 0.028217
+[2018.01.29-20.01.39:533][  0]LogLoad: Took 0.529153 seconds to LoadMap(/Temp/Autosaves/Game/Maps/UEDPCHelloWorld)
+[2018.01.29-20.01.39:870][  0]LogRenderer: Reallocating scene render targets to support 1280x720 NumSamples 1 (Frame:1).
+[2018.01.29-20.01.39:870][  0]LogLoad: (Engine Initialization) Total time: 15.74 seconds
+[2018.01.29-20.01.39:870][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
+[2018.01.29-20.01.39:870][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.01.29-20.01.39:887][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.29-20.01.39:888][  0]LogOcInput: OculusInput pre-init called
+[2018.01.29-20.01.39:888][  0]LogHMD: Starting GearVRController plugin
+[2018.01.29-20.01.43:125][200]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:000A
+[2018.01.29-20.01.43:125][200]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.01.43:125][200]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0031
+[2018.01.29-20.01.43:125][200]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.01.43:125][200]LogScript:Warning: Accessed None
+	PlayerCharacter_C /Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0046
+[2018.01.29-20.01.43:125][200]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.01.43:126][200]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:006D
+[2018.01.29-20.01.43:126][200]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.01.43:126][200]LogScript:Warning: Accessed None
+	PlayerCharacter_C /Temp/Autosaves/Game/Maps/UEDPCHelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0082
+[2018.01.29-20.01.43:126][200]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.01.43:127][200]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.01.46:287][396]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.48:835][554]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.49:093][570]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.49:303][583]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.49:513][596]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.49:707][608]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.49:900][620]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.50:125][634]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.50:303][645]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.50:498][657]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.50:690][669]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.50:916][683]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.51:142][697]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.51:384][712]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.51:545][722]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.51:771][736]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.51:952][747]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.53:061][816]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.53:222][826]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.53:416][838]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.53:593][849]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.53:771][860]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.53:953][871]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.54:125][882]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.54:303][893]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.54:464][903]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.54:626][913]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.54:803][924]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.54:967][934]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.55:126][944]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.55:287][954]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.55:448][964]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.55:626][975]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.55:900][992]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.56:109][  5]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.56:303][ 17]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.56:481][ 28]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.56:658][ 39]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.56:835][ 50]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.57:013][ 61]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.57:192][ 72]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.57:529][ 93]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.57:787][109]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.57:999][122]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.58:206][135]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.58:400][147]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.01.58:593][159]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.02.07:724][716]LogPackageName: SearchForPackageOnDisk took   0.131s to resolve Menu.umap.
+[2018.01.29-20.02.07:855][716]LogPackageName: SearchForPackageOnDisk took   0.130s to resolve Menu.umap.
+[2018.01.29-20.02.07:855][716]LogNet: Browse: /Game/Maps/Menu
+[2018.01.29-20.02.07:855][716]LogLoad: LoadMap: /Game/Maps/Menu
+[2018.01.29-20.02.07:880][716]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-20.02.07:880][716]LogMemory: Process Physical Memory: 786.41 MB used, 914.27 MB peak
+[2018.01.29-20.02.07:880][716]LogMemory: Process Virtual Memory: 1051.99 MB used, 1176.91 MB peak
+[2018.01.29-20.02.07:880][716]LogMemory: Physical Memory: 6450.02 MB used,  1697.21 MB free, 8147.22 MB total
+[2018.01.29-20.02.07:880][716]LogMemory: Virtual Memory: 1827.02 MB used,  1697.21 MB free, 134217728.00 MB total
+[2018.01.29-20.02.07:880][716]LogMemory: 
+[2018.01.29-20.02.07:880][716]Allocator Stats for TBB: (not implemented)
+[2018.01.29-20.02.07:924][716]LogAIModule: Creating AISystem for world Menu
+[2018.01.29-20.02.08:000][716]LogLoad: Game class is 'FuseGM_C'
+[2018.01.29-20.02.08:004][716]LogWorld: Bringing World /Game/Maps/Menu.Menu up for play (max tick rate 0) at 2018.01.29-20.02.08
+[2018.01.29-20.02.08:004][716]LogWorld: Bringing up level for play took: 0.000743
+[2018.01.29-20.02.08:004][716]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2018.01.29-20.02.08:006][716]LogLoad: Took 0.150757 seconds to LoadMap(/Game/Maps/Menu)
+[2018.01.29-20.02.15:581][178]LogPackageName: SearchForPackageOnDisk took   0.128s to resolve HelloWorld.umap.
+[2018.01.29-20.02.15:709][178]LogPackageName: SearchForPackageOnDisk took   0.127s to resolve HelloWorld.umap.
+[2018.01.29-20.02.15:709][178]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.01.29-20.02.15:710][178]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.01.29-20.02.15:729][178]LogMemory: Platform Memory Stats for Windows
+[2018.01.29-20.02.15:729][178]LogMemory: Process Physical Memory: 796.95 MB used, 914.27 MB peak
+[2018.01.29-20.02.15:729][178]LogMemory: Process Virtual Memory: 1045.93 MB used, 1176.91 MB peak
+[2018.01.29-20.02.15:729][178]LogMemory: Physical Memory: 6467.51 MB used,  1679.71 MB free, 8147.22 MB total
+[2018.01.29-20.02.15:729][178]LogMemory: Virtual Memory: 1853.08 MB used,  1679.71 MB free, 134217728.00 MB total
+[2018.01.29-20.02.15:729][178]LogMemory: 
+[2018.01.29-20.02.15:729][178]Allocator Stats for TBB: (not implemented)
+[2018.01.29-20.02.15:905][178]LogAIModule: Creating AISystem for world HelloWorld
+[2018.01.29-20.02.15:974][178]LogLoad: Game class is 'FuseGM_C'
+[2018.01.29-20.02.15:999][178]PIE:Warning: Warning Trying to simulate physics on ''/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.Remote_71.StaticMesh'' but it has ComplexAsSimple collision.
+[2018.01.29-20.02.15:999][178]LogWorld: Bringing World /Game/Maps/HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.01.29-20.02.15
+[2018.01.29-20.02.16:001][178]LogWorld: Bringing up level for play took: 0.025045
+[2018.01.29-20.02.16:002][178]LogLoad: Took 0.292525 seconds to LoadMap(/Game/Maps/HelloWorld)
+[2018.01.29-20.02.18:096][306]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter:022B
+[2018.01.29-20.02.18:096][306]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_5
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+
+[2018.01.29-20.02.19:613][400]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:000A
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0031
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Accessed None
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0046
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:006D
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Accessed None
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0082
+[2018.01.29-20.02.19:613][400]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:000A
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0031
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Accessed None
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0046
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:006D
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Accessed None
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:0082
+[2018.01.29-20.02.20:247][438]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.02.20:247][438]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.02.34:697][330]LogScript:Warning: Attempted to access Cube_5 via property Mesh, but Cube_5 is pending kill
+	Remote_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.Remote_71
+	Function /Game/Remote.Remote_C:ExecuteUbergraph_Remote:0014
+[2018.01.29-20.02.34:697][330]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_LeftMouseButton_K2Node_InputKeyEvent_5
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/Remote.Remote_C:ActionLMB
+	Function /Game/Remote.Remote_C:ExecuteUbergraph_Remote
+
+[2018.01.29-20.03.15:170][830]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.15:379][843]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.15:573][855]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.15:784][868]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.15:960][879]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.16:170][892]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.16:396][906]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.16:557][916]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.16:799][931]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.17:009][944]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.17:203][956]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.17:380][967]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.17:589][980]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.17:831][995]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.18:032][  7]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.18:207][ 18]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.18:417][ 31]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.18:628][ 44]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.18:820][ 56]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.18:999][ 67]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.19:192][ 79]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.19:385][ 91]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.19:579][103]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.19:982][128]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.21:901][247]LogScript:Warning: Accessed None trying to read property HeldItem
+	PlayerCharacter_C /Game/Maps/HelloWorld.HelloWorld:PersistentLevel.PlayerCharacter_C_0
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem:000A
+[2018.01.29-20.03.21:901][247]LogScript:Warning: Script call stack:
+	Function /Game/PlayerCharacter.PlayerCharacter_C:InpActEvt_Use_K2Node_InputActionEvent_2
+	Function /Game/PlayerCharacter.PlayerCharacter_C:ExecuteUbergraph_PlayerCharacter
+	Function /Game/PlayerCharacter.PlayerCharacter_C:DropItem
+
+[2018.01.29-20.03.21:902][247]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.22:531][286]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.22:708][297]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.22:903][309]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.23:078][319]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.23:255][330]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.23:432][341]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.23:593][351]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.23:771][362]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.23:951][373]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.24:109][383]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.24:288][394]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.24:449][404]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.24:626][415]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.24:804][426]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.24:980][437]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.25:144][447]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.25:320][458]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.25:499][469]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.25:691][481]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.25:884][493]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.25:954][497]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.26:081][505]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.26:258][516]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.26:451][528]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.26:660][541]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.26:853][553]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.27:038][564]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.27:233][576]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.27:426][588]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.27:618][600]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.27:845][614]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.28:055][627]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.28:280][641]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.28:296][642]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.28:490][654]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.28:700][667]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.28:927][681]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.29:143][693]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.29:368][707]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.29:554][718]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.29:772][732]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.29:989][744]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.30:081][750]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.30:208][758]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.30:435][772]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.30:660][786]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.30:871][799]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.31:078][810]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.31:303][824]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.31:611][843]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.31:676][847]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.31:824][856]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.32:028][869]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.32:222][881]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.32:433][894]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.32:612][905]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.32:803][917]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.33:008][929]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.33:242][943]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.33:508][960]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.33:556][963]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.33:799][978]LogBlueprintUserMessages: [Remote_71] Jeff
+[2018.01.29-20.03.33:814][979]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.34:011][990]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.34:222][  3]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.34:446][ 17]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.34:672][ 31]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.34:882][ 44]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.35:104][ 57]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.35:314][ 70]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.35:525][ 83]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.35:722][ 95]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.03.36:831][163]LogBlueprintUserMessages: [PlayerCharacter_C_0] Good
+[2018.01.29-20.03.38:993][292]LogBlueprintUserMessages: [PlayerCharacter_C_0] Bad
+[2018.01.29-20.04.05:436][923]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.29-20.04.05:451][923]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.01.29-20.04.05:453][923]LogEngine: All Windows Closed
+[2018.01.29-20.04.05:453][923]LogWindows: FPlatformMisc::RequestExit(0)
+[2018.01.29-20.04.05:583][924]LogExit: Preparing to exit.
+[2018.01.29-20.04.05:583][924]LogMoviePlayer: Shutting down movie player
+[2018.01.29-20.04.06:541][924]LogExit: Game engine shut down
+[2018.01.29-20.04.06:608][924]LogObj: Freed 0b from 0 cluster array pools.
+[2018.01.29-20.04.06:608][924]LogExit: Object subsystem successfully closed.
+[2018.01.29-20.04.06:631][924]LogD3D11RHI: Shutdown
+[2018.01.29-20.04.06:631][924]LogD3D11RHI: CleanupD3DDevice
+[2018.01.29-20.04.06:704][924]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (296)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module SequenceRecorder (294)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module AutomationController (292)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module AutomationWorker (290)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module AIModule (288)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module GameplayDebugger (287)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module AITestSuite (285)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (282)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (280)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (278)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module Media (277)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module CharacterAI (274)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module SessionServices (272)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (270)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (268)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module MovieScene (266)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module GeometryCache (264)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (263)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module Niagara (260)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module NiagaraEditor (259)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (256)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module PortalServices (254)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module PortalRpc (252)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module MessagingRpc (250)
+[2018.01.29-20.04.06:724][924]LogModuleManager: Shutting down and abandoning module ProfilerService (248)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module TaskGraph (246)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module SteamVRController (244)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module SteamVR (242)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (240)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module OculusLibrary (238)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module OculusInput (236)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (234)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (232)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module CableComponent (230)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (228)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module AndroidPermission (226)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module HTML5Networking (222)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (220)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module DesktopPlatform (219)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module HotReload (217)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module UObjectPlugin (214)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (212)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (210)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module SourceControl (209)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (206)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module PhysXVehicles (204)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (202)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (200)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (198)
+[2018.01.29-20.04.06:942][924]LogModuleManager: Shutting down and abandoning module UdpMessaging (196)
+[2018.01.29-20.04.07:043][924]LogModuleManager: Shutting down and abandoning module TcpMessaging (194)
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (192)
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module FacialAnimation (190)
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (188)
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module GraphEditor (187)
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module ContentBrowser (185)
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module CollectionManager (184)
+[2018.01.29-20.04.07:345][924]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' was aborted.
+[2018.01.29-20.04.07:345][924]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' was aborted.
+[2018.01.29-20.04.07:345][924]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' was aborted.
+[2018.01.29-20.04.07:345][924]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (183)
+[2018.01.29-20.04.07:346][924]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (178)
+[2018.01.29-20.04.07:346][924]LogModuleManager: Shutting down and abandoning module Paper2D (176)
+[2018.01.29-20.04.07:346][924]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (174)
+[2018.01.29-20.04.07:346][924]LogModuleManager: Shutting down and abandoning module WmfMedia (172)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (170)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (168)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module MediaAssets (166)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (164)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module VREditor (162)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module StringTableEditor (160)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (158)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (156)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module FunctionalTesting (154)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (152)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module UMG (150)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module UMGEditor (149)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module Sequencer (148)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module AssetTools (146)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module MessageLog (145)
+[2018.01.29-20.04.07:348][924]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (144)
+[2018.01.29-20.04.07:349][924]LogModuleManager: Shutting down and abandoning module SlateReflector (138)
+[2018.01.29-20.04.07:349][924]LogModuleManager: Shutting down and abandoning module Slate (136)
+[2018.01.29-20.04.07:349][924]LogModuleManager: Shutting down and abandoning module EditorStyle (134)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module Messaging (132)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (130)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (128)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module XAudio2 (126)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module Networking (124)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module Core (120)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module KismetCompiler (118)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module LevelSequence (116)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module PhysXFormats (114)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module MeshUtilities (112)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (111)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (109)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (107)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module AssetRegistry (104)
+[2018.01.29-20.04.07:352][924]LogModuleManager: Shutting down and abandoning module DerivedDataCache (102)
+[2018.01.29-20.04.07:358][924]LogDerivedDataCache: Shutdown
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TargetPlatform (100)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (99)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (97)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (95)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (93)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (91)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (89)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (87)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (85)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (83)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (81)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module ImageWrapper (80)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (77)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (75)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (73)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (71)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (69)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (67)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (65)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (63)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.01.29-20.04.07:358][924]LogOnline:Display: Unloading online subsystem: NULL
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.01.29-20.04.07:358][924]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.01.29-20.04.07:359][924]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.01.29-20.04.07:360][924]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.01.29-20.04.07:360][924]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.01.29-20.04.07:360][924]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.01.29-20.04.07:361][924]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.01.29-20.04.07:364][924]LogExit: Exiting.
+[2018.01.29-20.04.07:366][924]Log file closed, 01/29/18 20:04:07

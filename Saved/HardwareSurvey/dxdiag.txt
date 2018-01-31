@@ -1,7 +1,7 @@
 ------------------
 System Information
 ------------------
-      Time of this report: 1/24/2018, 15:22:12
+      Time of this report: 1/31/2018, 16:00:07
              Machine name: C217-08
                Machine Id: {86E35747-D7A2-4756-BE90-84C5995CFB35}
          Operating System: Windows 10 Enterprise 64-bit (10.0, Build 15063) (15063.rs2_release.170317-1834)
@@ -12,7 +12,7 @@ System Information
                 Processor: Intel(R) Core(TM) i7-6700 CPU @ 3.40GHz (8 CPUs), ~3.4GHz
                    Memory: 16384MB RAM
       Available OS Memory: 16304MB RAM
-                Page File: 7196MB used, 11540MB available
+                Page File: 7149MB used, 11586MB available
               Windows Dir: C:\Windows
           DirectX Version: DirectX 12
       DX Setup Parameters: Not found
@@ -22,7 +22,7 @@ System Information
                  Miracast: Available, with HDCP
 Microsoft Graphics Hybrid: Not Supported
            DxDiag Version: 10.00.15063.0000 64bit Unicode
-  DxDiag Previously: Crashed in Diagnostics (stage 1). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
+  DxDiag Previously: Crashed in system information (stage 4). Re-running DxDiag with "dontskip" command line parameter or choosing not to bypass information gathering when prompted might result in DxDiag successfully obtaining this information
 
 ------------
 DxDiag Notes
@@ -223,29 +223,6 @@ USB Devices
 | Driver: USBHUB3.SYS, 7/28/2017 05:15:43, 554400 bytes
 | 
 +-+ USB Composite Device
-| | Vendor/Product ID: 0x03F0, 0x304A
-| | Location: Port_#0007.Hub_#0001
-| | Matching Device ID: USB\COMPOSITE
-| | Service: usbccgp
-| | Driver: usbccgp.sys, 3/18/2017 20:56:35, 173984 bytes
-| | 
-| +-+ USB Input Device
-| | | Vendor/Product ID: 0x03F0, 0x304A
-| | | Location: 0000.0014.0000.007.000.000.000.000.000
-| | | Matching Device ID: USB\Class_03&SubClass_01
-| | | Service: HidUsb
-| | | Driver: hidusb.sys, 3/18/2017 20:56:35, 40960 bytes
-| | | Driver: hidclass.sys, 3/18/2017 20:56:35, 180736 bytes
-| | | Driver: hidparse.sys, 3/18/2017 20:56:35, 40960 bytes
-| | | 
-| | +-+ HID Keyboard Device
-| | | | Vendor/Product ID: 0x03F0, 0x304A
-| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
-| | | | Service: kbdhid
-| | | | Driver: kbdhid.sys, 3/18/2017 20:56:35, 40448 bytes
-| | | | Driver: kbdclass.sys, 3/18/2017 20:56:35, 64416 bytes
-| | 
-+-+ USB Composite Device
 | | Vendor/Product ID: 0x03F0, 0x1198
 | | Location: Port_#0006.Hub_#0001
 | | Matching Device ID: USB\COMPOSITE
@@ -267,6 +244,29 @@ USB Devices
 | | | | Service: mouhid
 | | | | Driver: mouhid.sys, 3/18/2017 20:56:35, 33280 bytes
 | | | | Driver: mouclass.sys, 3/18/2017 20:56:35, 60320 bytes
+| | 
++-+ USB Composite Device
+| | Vendor/Product ID: 0x03F0, 0x304A
+| | Location: Port_#0007.Hub_#0001
+| | Matching Device ID: USB\COMPOSITE
+| | Service: usbccgp
+| | Driver: usbccgp.sys, 3/18/2017 20:56:35, 173984 bytes
+| | 
+| +-+ USB Input Device
+| | | Vendor/Product ID: 0x03F0, 0x304A
+| | | Location: 0000.0014.0000.007.000.000.000.000.000
+| | | Matching Device ID: USB\Class_03&SubClass_01
+| | | Service: HidUsb
+| | | Driver: hidusb.sys, 3/18/2017 20:56:35, 40960 bytes
+| | | Driver: hidclass.sys, 3/18/2017 20:56:35, 180736 bytes
+| | | Driver: hidparse.sys, 3/18/2017 20:56:35, 40960 bytes
+| | | 
+| | +-+ HID Keyboard Device
+| | | | Vendor/Product ID: 0x03F0, 0x304A
+| | | | Matching Device ID: HID_DEVICE_SYSTEM_KEYBOARD
+| | | | Service: kbdhid
+| | | | Driver: kbdhid.sys, 3/18/2017 20:56:35, 40448 bytes
+| | | | Driver: kbdclass.sys, 3/18/2017 20:56:35, 64416 bytes
 
 ----------------
 Gameport Devices
@@ -275,31 +275,6 @@ Gameport Devices
 ------------
 PS/2 Devices
 ------------
-
-------------------------
-Disk & DVD/CD-ROM Drives
-------------------------
-      Drive: C:
- Free Space: 203.5 GB
-Total Space: 429.1 GB
-File System: NTFS
-      Model: WDC WD10EZEX-60WN4A0
-
-      Drive: D:
- Free Space: 484.4 GB
-Total Space: 519.2 GB
-File System: NTFS
-      Model: WDC WD10EZEX-60WN4A0
-
-      Drive: E:
- Free Space: 901.3 GB
-Total Space: 953.9 GB
-File System: NTFS
-      Model: TOSHIBA External USB 3.0 USB Device
-
-      Drive: F:
-      Model: hp HLDS DVDRW  GUD1N
-     Driver: c:\windows\system32\drivers\cdrom.sys, 10.00.15063.0000 (English), 3/18/2017 20:56:25, 160256 bytes
 
 --------------
 System Devices
@@ -962,3 +937,29 @@ Current Setting: {5C67A112-A4C9-483F-B4A7-1D473BECAFDC} (Quality)
     Force half deinterlace
     Force scaling
     Decode Power Usage: 0
+
+---------------
+Diagnostics
+---------------
+
+Windows Error Reporting:
++++ WER0 +++:
+No Data
++++ WER1 +++:
+No Data
++++ WER2 +++:
+No Data
++++ WER3 +++:
+No Data
++++ WER4 +++:
+No Data
++++ WER5 +++:
+No Data
++++ WER6 +++:
+No Data
++++ WER7 +++:
+No Data
++++ WER8 +++:
+No Data
++++ WER9 +++:
+No Data

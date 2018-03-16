@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 ﻿Log file open, 03/04/18 15:43:44
 LogInit:Display: Running engine for game: RPG_Game
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(-455890882) SRandInit(-455890882).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 2.621609
+=======
+﻿Log file open, 03/14/18 18:35:20
+LogInit:Display: Running engine for game: RPG_Game
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1774334542) SRandInit(-1774334542).
+LogTaskGraph: Started task graph with 5 named threads and 12 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.756937
+>>>>>>> 49b1ac49e4529cdb157454fb6bd00c58f0f46b1d
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -46,10 +55,11 @@ LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.16
 LogInit: Command line:  
-LogInit: Base directory: D:/Program Files/UE_4.16/Engine/Binaries/Win64/
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2018.03.04-15.43.46:077][  0]LogInit: Selected Device Profile: [Windows]
 [2018.03.04-15.43.46:077][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2018.03.04-15.43.46:195][  0]LogInit: Computer: DESKTOP-46CB9MQ
@@ -523,3 +533,1469 @@ LogInit: Object subsystem initialized
 [2018.03.04-15.45.53:021][ 95]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2018.03.04-15.45.53:036][ 95]LogExit: Exiting.
 [2018.03.04-15.45.53:048][ 95]Log file closed, 03/04/18 15:45:53
+=======
+[2018.03.14-18.35.21:378][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-18.35.21:378][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.03.14-18.35.21:406][  0]LogInit: Computer: SONOFMORT
+[2018.03.14-18.35.21:406][  0]LogInit: User: Jordan
+[2018.03.14-18.35.21:406][  0]LogInit: CPU Page size=4096, Cores=8
+[2018.03.14-18.35.21:406][  0]LogInit: High frequency timer resolution =3.125004 MHz
+[2018.03.14-18.35.21:407][  0]LogMemory: Memory total: Physical=8.0GB (8GB approx)
+[2018.03.14-18.35.21:407][  0]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.35.21:407][  0]LogMemory: Process Physical Memory: 285.62 MB used, 285.62 MB peak
+[2018.03.14-18.35.21:407][  0]LogMemory: Process Virtual Memory: 267.48 MB used, 267.48 MB peak
+[2018.03.14-18.35.21:407][  0]LogMemory: Physical Memory: 3439.29 MB used,  4707.93 MB free, 8147.22 MB total
+[2018.03.14-18.35.21:407][  0]LogMemory: Virtual Memory: 673.94 MB used,  4707.93 MB free, 134217728.00 MB total
+[2018.03.14-18.35.21:721][  0]LogInit: Using OS detected language (en-GB).
+[2018.03.14-18.35.21:721][  0]LogInit: Using OS detected locale (en-GB).
+[2018.03.14-18.35.21:734][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2018.03.14-18.35.23:177][  0]LogD3D11RHI: D3D11 adapters:
+[2018.03.14-18.35.23:277][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2018.03.14-18.35.23:277][  0]LogD3D11RHI:       8088/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2018.03.14-18.35.23:292][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.03.14-18.35.23:292][  0]LogD3D11RHI:       0/0/4073 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.03.14-18.35.23:292][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.03.14-18.35.23:301][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.03.14-18.35.23:302][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2018.03.14-18.35.23:302][  0]LogWindows: EnumDisplayDevices:
+[2018.03.14-18.35.23:302][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2018.03.14-18.35.23:302][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2018.03.14-18.35.23:302][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.35.23:302][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2018.03.14-18.35.23:303][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.03.14-18.35.23:303][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2018.03.14-18.35.23:303][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.03.14-18.35.23:303][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.03.14-18.35.23:303][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2018.03.14-18.35.23:358][  0]LogD3D11RHI: Async texture creation enabled
+[2018.03.14-18.35.23:405][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.03.14-18.35.23:505][  0]LogShaderCompilers: Guid format shader working directory is 23 characters bigger than the processId version (F:/FMP/RPG_Game/RPG_Game/Intermediate/Shaders/WorkingDirectory/3604/).
+[2018.03.14-18.35.23:505][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Jordan/AppData/Local/Temp/UnrealShaderWorkingDir/09EB287C40996BA409E8B4AB102C576D/'.
+[2018.03.14-18.35.23:505][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2018.03.14-18.35.25:275][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2018.03.14-18.35.25:366][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2018.03.14-18.35.25:456][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2018.03.14-18.35.25:548][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2018.03.14-18.35.25:645][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2018.03.14-18.35.25:737][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2018.03.14-18.35.25:828][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.03.14-18.35.25:919][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2018.03.14-18.35.26:002][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2018.03.14-18.35.26:093][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2018.03.14-18.35.26:182][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2018.03.14-18.35.26:272][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2018.03.14-18.35.26:362][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2018.03.14-18.35.26:452][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2018.03.14-18.35.26:542][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2018.03.14-18.35.26:722][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2018.03.14-18.35.26:722][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.03.14-18.35.26:798][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2018.03.14-18.35.26:958][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2018.03.14-18.35.27:009][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2018.03.14-18.35.27:097][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2018.03.14-18.35.27:187][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.03.14-18.35.27:276][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2018.03.14-18.35.27:367][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2018.03.14-18.35.27:367][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2018.03.14-18.35.28:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2018.03.14-18.35.28:809][  0]LogDerivedDataCache: Loaded boot cache 0.40s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.14-18.35.28:809][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2018.03.14-18.35.28:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.03.14-18.35.28:809][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.03.14-18.35.28:809][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/FMP/RPG_Game/RPG_Game/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.03.14-18.35.28:809][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.03.14-18.35.28:835][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.03.14-18.35.28:850][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Jordan/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.03.14-18.35.28:865][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.03.14-18.35.28:870][  0]LogSlate: Using Freetype 2.6.0
+[2018.03.14-18.35.28:872][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-18.35.28:873][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.03.14-18.35.29:722][  0]LogInit: Selected Device Profile: [Windows]
+[2018.03.14-18.35.29:875][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2018.03.14-18.35.30:183][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.03.14-18.35.30:279][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.03.14-18.35.30:377][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.03.14-18.35.30:377][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2018.03.14-18.35.30:377][  0]LogMeshUtilities: No automatic mesh merging module available
+[2018.03.14-18.35.31:451][  0]LogNetVersion: RPG_Game , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2586067795)
+[2018.03.14-18.35.31:554][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2018.03.14-18.35.31:827][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.233955 seconds
+[2018.03.14-18.35.31:834][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2018.03.14-18.35.31:835][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2018.03.14-18.35.31:835][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.03.14-18.35.31:950][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.03.14-18.35.37:127][  0]LogSubstanceCoreModule: Substance [CPU] Engine Loaded, Max Texture Size = 2048
+[2018.03.14-18.35.37:192][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.03.14-18.35.37:262][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.03.14-18.35.38:283][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.03.14-18.35.39:034][  0]SourceControl: Info Source control is disabled
+[2018.03.14-18.35.40:621][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.03.14-18.35.41:878][  0]LogEngine: Initializing Engine...
+[2018.03.14-18.35.41:881][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.03.14-18.35.42:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.03.14-18.35.42:109][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.03.14-18.35.42:365][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.03.14-18.35.42:386][  0]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.14-18.35.42:566][  0]LogInit: FAudioDevice initialized.
+[2018.03.14-18.35.42:630][  0]LogDerivedDataCache: Saved boot cache 0.06s 90MB C:/Users/Jordan/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2018.03.14-18.35.42:642][  0]LogInit: Texture streaming: Enabled
+[2018.03.14-18.35.42:819][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.03.14-18.35.43:250][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.14-18.35.43:346][  0]LogInit: Transaction tracking system initialized
+[2018.03.14-18.35.44:021][  0]BlueprintLog: New page: Editor Load
+[2018.03.14-18.35.45:962][  0]LocalizationService: Info Localization service is disabled
+[2018.03.14-18.35.47:335][  0]LogConsoleResponse:Display: 
+[2018.03.14-18.35.47:616][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.03.14-18.35.47:616][  0]LogCook:Display: Mobile HDR setting 1
+[2018.03.14-18.35.48:164][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/' took 0.02s
+[2018.03.14-18.35.49:700][  0]Cmd: MAP LOAD FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.03.14-18.35.49:702][  0]LightingResults: New page: Lighting Build
+[2018.03.14-18.35.49:783][  0]MapCheck: New page: Map Check
+[2018.03.14-18.35.49:784][  0]LightingResults: New page: Lighting Build
+[2018.03.14-18.35.49:946][  0]LogLinker:Warning: Can't find file '/Game/Materials/alphabox'
+[2018.03.14-18.35.49:946][  0]LoadErrors: Info Failed to load /Game/Assets/PowerBlock/AlphaBox.AlphaBox Referenced by AlphaCube_GEN_VARIABLE
+[2018.03.14-18.35.49:947][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/alphabox' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/AlphaBox.uasset.
+[2018.03.14-18.35.49:947][  0]LoadErrors: Info Failed to load /Game/Assets/PowerBlock/AlphaBox.AlphaBox Referenced by AlphaCube_GEN_VARIABLE
+[2018.03.14-18.35.49:947][  0]LoadErrors:Error: Error /Game/Assets/PowerBlock/AlphaBox : Can't find file for asset. /Game/Materials/alphabox
+[2018.03.14-18.35.49:947][  0]LogLinker:Warning: Can't find file '/Game/Materials/alphabox'
+[2018.03.14-18.35.49:947][  0]LoadErrors: Info Failed to load /Game/Assets/PowerBlock/AlphaBox.AlphaBox Referenced by AlphaCube_GEN_VARIABLE
+[2018.03.14-18.35.49:947][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/alphabox' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/AlphaBox.uasset.
+[2018.03.14-18.35.49:947][  0]LoadErrors: Info Failed to load /Game/Assets/PowerBlock/AlphaBox.AlphaBox Referenced by AlphaCube_GEN_VARIABLE
+[2018.03.14-18.35.49:947][  0]LoadErrors:Error: Error /Game/Assets/PowerBlock/AlphaBox : Can't find file for asset. /Game/Materials/alphabox
+[2018.03.14-18.35.49:990][  0]LogLinker:Warning: Can't find file '/Game/Materials/BaseDoor'
+[2018.03.14-18.35.49:990][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/BaseDoor' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerDoor/Geo_Door_Base.uasset.
+[2018.03.14-18.35.49:990][  0]LoadErrors:Error: Error /Game/Assets/PowerDoor/Geo_Door_Base : Can't find file for asset. /Game/Materials/BaseDoor
+[2018.03.14-18.35.49:990][  0]LogLinker:Warning: Can't find file '/Game/Materials/BaseDoor'
+[2018.03.14-18.35.49:990][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/BaseDoor' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerDoor/Geo_Door_Base.uasset.
+[2018.03.14-18.35.49:991][  0]LoadErrors:Error: Error /Game/Assets/PowerDoor/Geo_Door_Base : Can't find file for asset. /Game/Materials/BaseDoor
+[2018.03.14-18.35.50:035][  0]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.03.14-18.35.50:035][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Base.Button_Base Referenced by Button_Base_GEN_VARIABLE
+[2018.03.14-18.35.50:035][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Base.uasset.
+[2018.03.14-18.35.50:035][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Base.Button_Base Referenced by Button_Base_GEN_VARIABLE
+[2018.03.14-18.35.50:035][  0]LoadErrors:Error: Error /Game/Assets/PressurePad/Button_Base : Can't find file for asset. /Game/Materials/ButtonMaterial
+[2018.03.14-18.35.50:035][  0]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.03.14-18.35.50:035][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Base.Button_Base Referenced by Button_Base_GEN_VARIABLE
+[2018.03.14-18.35.50:035][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Base.uasset.
+[2018.03.14-18.35.50:035][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Base.Button_Base Referenced by Button_Base_GEN_VARIABLE
+[2018.03.14-18.35.50:035][  0]LoadErrors:Error: Error /Game/Assets/PressurePad/Button_Base : Can't find file for asset. /Game/Materials/ButtonMaterial
+[2018.03.14-18.35.50:046][  0]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.03.14-18.35.50:046][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Push.Button_Push Referenced by Push_GEN_VARIABLE
+[2018.03.14-18.35.50:046][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Push.uasset.
+[2018.03.14-18.35.50:046][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Push.Button_Push Referenced by Push_GEN_VARIABLE
+[2018.03.14-18.35.50:046][  0]LoadErrors:Error: Error /Game/Assets/PressurePad/Button_Push : Can't find file for asset. /Game/Materials/ButtonMaterial
+[2018.03.14-18.35.50:046][  0]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.03.14-18.35.50:046][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Push.Button_Push Referenced by Push_GEN_VARIABLE
+[2018.03.14-18.35.50:046][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Push.uasset.
+[2018.03.14-18.35.50:046][  0]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Push.Button_Push Referenced by Push_GEN_VARIABLE
+[2018.03.14-18.35.50:046][  0]LoadErrors:Error: Error /Game/Assets/PressurePad/Button_Push : Can't find file for asset. /Game/Materials/ButtonMaterial
+[2018.03.14-18.35.50:594][  0]LogLinker:Warning: Can't find file '/Game/Materials/alphabox'
+[2018.03.14-18.35.50:594][  0]LoadErrors: Info Failed to load /Game/Materials/alphabox.alphabox Referenced by AlphaBox
+[2018.03.14-18.35.50:594][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/alphabox' while loading NULL.
+[2018.03.14-18.35.50:594][  0]LoadErrors: Info Failed to load /Game/Materials/alphabox.alphabox Referenced by AlphaBox
+[2018.03.14-18.35.50:594][  0]LogLinker:Warning: Can't find file '/Game/Materials/BaseDoor'
+[2018.03.14-18.35.50:594][  0]LoadErrors: Info Failed to load /Game/Materials/BaseDoor.BaseDoor Referenced by Geo_Door_Base
+[2018.03.14-18.35.50:594][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/BaseDoor' while loading NULL.
+[2018.03.14-18.35.50:594][  0]LoadErrors: Info Failed to load /Game/Materials/BaseDoor.BaseDoor Referenced by Geo_Door_Base
+[2018.03.14-18.35.50:595][  0]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.03.14-18.35.50:595][  0]LoadErrors: Info Failed to load /Game/Materials/ButtonMaterial.ButtonMaterial Referenced by Button_Push
+[2018.03.14-18.35.50:595][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading NULL.
+[2018.03.14-18.35.50:595][  0]LoadErrors: Info Failed to load /Game/Materials/ButtonMaterial.ButtonMaterial Referenced by Button_Push
+[2018.03.14-18.35.50:595][  0]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.03.14-18.35.50:595][  0]LoadErrors: Info Failed to load /Game/Materials/ButtonMaterial.ButtonMaterial Referenced by Button_Base
+[2018.03.14-18.35.50:595][  0]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading NULL.
+[2018.03.14-18.35.50:595][  0]LoadErrors: Info Failed to load /Game/Materials/ButtonMaterial.ButtonMaterial Referenced by Button_Base
+[2018.03.14-18.35.50:863][  0]LogStaticMesh: Building static mesh Button_Base...
+[2018.03.14-18.35.50:867][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/PressurePad/Button_Base.Button_Base
+[2018.03.14-18.35.50:873][  0]LogStaticMesh: Building static mesh Button_Push...
+[2018.03.14-18.35.50:874][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/PressurePad/Button_Push.Button_Push
+[2018.03.14-18.35.50:876][  0]LogStaticMesh: Building static mesh AlphaBox...
+[2018.03.14-18.35.50:886][  0]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/PowerBlock/AlphaBox.AlphaBox
+[2018.03.14-18.35.50:889][  0]LogStaticMesh: Building static mesh Geo_Door_Door...
+[2018.03.14-18.35.50:892][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/PowerDoor/Geo_Door_Door.Geo_Door_Door
+[2018.03.14-18.35.50:895][  0]LogStaticMesh: Building static mesh Geo_Door_Base...
+[2018.03.14-18.35.50:897][  0]LogStaticMesh: Built static mesh [0.00s] /Game/Assets/PowerDoor/Geo_Door_Base.Geo_Door_Base
+[2018.03.14-18.35.50:905][  0]LogMaterial: Missing cached shader map for material M_Leaves, compiling. 
+[2018.03.14-18.35.50:982][  0]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:008][  0]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:013][  0]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:042][  0]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:064][  0]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:076][  0]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:089][  0]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:111][  0]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:133][  0]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:153][  0]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:177][  0]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:189][  0]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:211][  0]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:236][  0]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:262][  0]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:288][  0]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:308][  0]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:330][  0]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:351][  0]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:373][  0]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:399][  0]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:421][  0]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:442][  0]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:467][  0]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.03.14-18.35.51:492][  0]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:514][  0]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:526][  0]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 128X128)
+[2018.03.14-18.35.51:549][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.03.14-18.35.51:578][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2018.03.14-18.35.51:589][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2018.03.14-18.35.51:614][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128)
+[2018.03.14-18.35.51:633][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128)
+[2018.03.14-18.35.51:643][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2018.03.14-18.35.51:655][  0]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1, 128X128)
+[2018.03.14-18.35.51:676][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 128X128)
+[2018.03.14-18.35.51:700][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 256X256)
+[2018.03.14-18.35.51:719][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2018.03.14-18.35.51:740][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 128X128)
+[2018.03.14-18.35.51:755][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 128X128)
+[2018.03.14-18.35.51:774][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 256X256)
+[2018.03.14-18.35.51:802][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.03.14-18.35.51:827][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2018.03.14-18.35.51:850][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 256X256)
+[2018.03.14-18.35.51:870][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 128X128)
+[2018.03.14-18.35.51:893][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2018.03.14-18.35.51:914][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 256X256)
+[2018.03.14-18.35.51:939][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1, 256X256)
+[2018.03.14-18.35.51:963][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2018.03.14-18.35.51:989][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2018.03.14-18.35.52:013][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 128X128)
+[2018.03.14-18.35.52:036][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.03.14-18.35.52:058][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 128X128)
+[2018.03.14-18.35.52:079][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 128X128)
+[2018.03.14-18.35.52:091][  0]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 128X128)
+[2018.03.14-18.35.52:114][  0]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:141][  0]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:150][  0]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:174][  0]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:187][  0]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:196][  0]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:205][  0]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:219][  0]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:234][  0]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:251][  0]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:265][  0]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:274][  0]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:288][  0]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:312][  0]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:338][  0]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:363][  0]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:382][  0]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:397][  0]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:417][  0]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:437][  0]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:463][  0]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:478][  0]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:493][  0]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:508][  0]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.03.14-18.35.52:533][  0]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:547][  0]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:557][  0]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 128X64)
+[2018.03.14-18.35.52:572][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_29 (G8, 512X64)
+[2018.03.14-18.35.52:574][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_30 (G8, 64X64)
+[2018.03.14-18.35.52:575][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_31 (G8, 128X64)
+[2018.03.14-18.35.52:575][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_32 (G8, 128X64)
+[2018.03.14-18.35.52:576][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_33 (G8, 128X64)
+[2018.03.14-18.35.52:576][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_34 (G8, 256X64)
+[2018.03.14-18.35.52:577][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_35 (G8, 128X64)
+[2018.03.14-18.35.52:578][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_36 (G8, 64X64)
+[2018.03.14-18.35.52:578][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_37 (G8, 128X64)
+[2018.03.14-18.35.52:579][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_38 (G8, 128X64)
+[2018.03.14-18.35.52:579][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_39 (G8, 256X64)
+[2018.03.14-18.35.52:580][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_40 (G8, 128X64)
+[2018.03.14-18.35.52:581][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_41 (G8, 64X64)
+[2018.03.14-18.35.52:581][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_42 (G8, 128X64)
+[2018.03.14-18.35.52:582][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_43 (G8, 256X64)
+[2018.03.14-18.35.52:583][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_44 (G8, 256X64)
+[2018.03.14-18.35.52:584][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_45 (G8, 256X64)
+[2018.03.14-18.35.52:585][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_46 (G8, 256X64)
+[2018.03.14-18.35.52:586][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_47 (G8, 128X64)
+[2018.03.14-18.35.52:587][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_48 (G8, 256X64)
+[2018.03.14-18.35.52:588][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_49 (G8, 256X64)
+[2018.03.14-18.35.52:589][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_50 (G8, 256X64)
+[2018.03.14-18.35.52:590][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_51 (G8, 256X64)
+[2018.03.14-18.35.52:591][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_52 (G8, 128X64)
+[2018.03.14-18.35.52:591][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_53 (G8, 64X64)
+[2018.03.14-18.35.52:592][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_54 (G8, 64X64)
+[2018.03.14-18.35.52:592][  0]LogTexture:Display: Building textures: ShadowMapTexture2D_55 (G8, 128X64)
+[2018.03.14-18.35.52:731][  0]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.03.14-18.35.52:752][  0]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.03.14-18.35.52:753][  0]LogTexture:Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2018.03.14-18.35.52:754][  0]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2018.03.14-18.35.52:754][  0]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.03.14-18.35.52:755][  0]LogTexture:Display: Building textures: Texture2D_20 (BGRA8, 64X64)
+[2018.03.14-18.35.52:756][  0]LogTexture:Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2018.03.14-18.35.52:757][  0]LogTexture:Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2018.03.14-18.35.52:759][  0]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.35.53:992][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.03.14-18.35.54:006][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.03.14-18.35.54:120][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 113.03ms to complete.
+[2018.03.14-18.35.54:120][  0]LogFileHelpers: Loading map 'HelloWorld' took 4.420
+[2018.03.14-18.35.54:434][  0]LogCollectionManager: Loaded 0 collections in 0.002758 seconds
+[2018.03.14-18.35.54:586][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' took 0.01s
+[2018.03.14-18.35.54:586][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' took 0.01s
+[2018.03.14-18.35.54:586][  0]LogFileCache: Scanning file cache for directory 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' took 0.01s
+[2018.03.14-18.35.54:586][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2018.03.14-18.35.54:602][  0]LogContentBrowser: Native class hierarchy populated in 0.0136 seconds. Added 2343 classes and 497 folders.
+[2018.03.14-18.35.54:733][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2018.03.14-18.35.54:916][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2018.03.14-18.35.55:013][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.14-18.35.55:120][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2018.03.14-18.35.55:135][  0]LogSlate: Took 0.001817 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-18.35.55:141][  0]LogSlate: Took 0.001511 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.03.14-18.35.55:145][  0]LogSlate: Took 0.001509 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.03.14-18.35.55:243][  0]LogRenderer: Reallocating scene render targets to support 1528x624 NumSamples 1 (Frame:1).
+[2018.03.14-18.35.55:456][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2018.03.14-18.35.55:576][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2018.03.14-18.35.55:577][  0]LogLoad: (Engine Initialization) Total time: 38.73 seconds
+[2018.03.14-18.35.55:577][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.14 seconds
+[2018.03.14-18.35.55:577][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.03.14-18.35.55:589][  0]LogOcInput: OculusInput pre-init called
+[2018.03.14-18.35.55:589][  0]LogHMD: Starting GearVRController plugin
+[2018.03.14-18.35.55:612][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.03.14-18.35.55:701][  0]LogSlate: Took 0.001848 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.35.55:874][  1]LogAssetRegistry: Asset discovery search completed in 24.3428 seconds
+[2018.03.14-18.35.55:877][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.03.14-18.35.55:877][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2018.03.14-18.35.57:490][ 67]LogSlate: Took 0.000320 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.35.58:154][ 67]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0013 seconds. Added 112 classes and 0 folders.
+[2018.03.14-18.35.58:996][ 67]LogSlate: Took 0.001745 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.03.14-18.35.59:221][ 68]LogSlate: Took 0.001780 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.03.14-18.36.03:953][570]LogStreaming:Warning: Failed to open ANSI TEXT file F:/FMP/RPG_Game/RPG_Game/Saved/HardwareSurvey/dxdiag.txt
+[2018.03.14-18.36.03:961][571]LogStreaming:Warning: Failed to open ANSI TEXT file F:/FMP/RPG_Game/RPG_Game/Saved/HardwareSurvey/dxdiag.txt
+[2018.03.14-18.36.03:970][572]LogStreaming:Warning: Failed to open ANSI TEXT file F:/FMP/RPG_Game/RPG_Game/Saved/HardwareSurvey/dxdiag.txt
+[2018.03.14-18.36.04:023][573]LogSynthBenchmark:Display: FSynthBenchmark (V0.95):  requested WorkScale=5.00
+[2018.03.14-18.36.04:023][573]LogSynthBenchmark:Display: ===============
+[2018.03.14-18.36.04:023][573]LogSynthBenchmark:Display: Main Processor:
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:          ... 0.023897 s/Run 'RayIntersect'
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:          ... 0.018079 s/Run 'Fractal'
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display: 
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   CompiledTarget_x_Bits: 64
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   UE_BUILD_SHIPPING: 0
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   UE_BUILD_TEST: 0
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   UE_BUILD_DEBUG: 0
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   TotalPhysicalGBRam: 8
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   NumberOfCores (physical): 8
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   NumberOfCores (logical): 16
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   CPU Perf Index 0: 107.2 (weight 1.00)
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   CPU Perf Index 1: 158.2 (weight 1.50)
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:  
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display: Graphics:
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   Adapter Name: 'NVIDIA GeForce GTX 1070'
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   (On Optimus the name might be wrong, memory should be ok)
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   Vendor Id: 0x10DE
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   Device Id: 0x1B81
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   Device Revision: 0xA1
+[2018.03.14-18.36.04:233][573]LogSynthBenchmark:Display:   GPU Memory: 8088/0/4074 MB
+[2018.03.14-18.36.04:297][573]LogSynthBenchmark:Display:   GPU first test: 0.01s
+[2018.03.14-18.36.04:297][573]LogSynthBenchmark:Display:          ... 6.022 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be very inaccurate)
+[2018.03.14-18.36.04:297][573]LogSynthBenchmark:Display:          ... 5.342 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be very inaccurate)
+[2018.03.14-18.36.04:298][573]LogSynthBenchmark:Display:          ... 4.223 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be very inaccurate)
+[2018.03.14-18.36.04:298][573]LogSynthBenchmark:Display:          ... 19.213 s/GigaPix, Confidence=89% 'FillOnly' (likely to be very inaccurate)
+[2018.03.14-18.36.04:298][573]LogSynthBenchmark:Display:          ... 0.812 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be very inaccurate)
+[2018.03.14-18.36.04:298][573]LogSynthBenchmark:Display:          ... 50.553 s/GigaVert, Confidence=19% 'VertThroughPut1' (likely to be very inaccurate)
+[2018.03.14-18.36.04:298][573]LogSynthBenchmark:Display:          ... 4.418 s/GigaVert, Confidence=100% 'VertThroughPut2' (likely to be very inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU second test: 0.10s
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 9.251 s/GigaPix, Confidence=100% 'ALUHeavyNoise' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 7.512 s/GigaPix, Confidence=100% 'TexHeavy' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 6.844 s/GigaPix, Confidence=100% 'DepTexHeavy' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 42.147 s/GigaPix, Confidence=100% 'FillOnly' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 0.966 s/GigaPix, Confidence=100% 'Bandwidth' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 6.222 s/GigaVert, Confidence=89% 'VertThroughPut1' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 3.896 s/GigaVert, Confidence=89% 'VertThroughPut2' (likely to be inaccurate)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Final Results:
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 9.251 s/GigaPix, Confidence=100% 'ALUHeavyNoise'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 7.512 s/GigaPix, Confidence=100% 'TexHeavy'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 6.844 s/GigaPix, Confidence=100% 'DepTexHeavy'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 42.147 s/GigaPix, Confidence=100% 'FillOnly'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 0.966 s/GigaPix, Confidence=100% 'Bandwidth'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 6.222 s/GigaVert, Confidence=89% 'VertThroughPut1'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... 3.896 s/GigaVert, Confidence=89% 'VertThroughPut2'
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display: 
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 0: 201.1 (weight 1.00)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 1: 100.9 (weight 0.10)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 2: 177.9 (weight 0.10)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 3: 165.5 (weight 3.00)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 4: 90.1 (weight 1.00)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 5: 404.8 (weight 0.00)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPU Perf Index 6: 220.5 (weight 0.00)
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   CPUIndex: 137.8
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:   GPUIndex: 156.8
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display: 
+[2018.03.14-18.36.04:452][573]LogSynthBenchmark:Display:          ... Total Time: 0.429038 sec
+[2018.03.14-18.37.17:045][537]LogHttp:Warning: 00000251FB4FAB00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.37.17:045][537]LogHttp:Warning: 00000251FB4FAB00: libcurl info message cache 0 (  Trying 192.168.123.123...)
+[2018.03.14-18.37.17:045][537]LogHttp:Warning: 00000251FB4FAB00: libcurl info message cache 1 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.37.17:045][537]LogHttp:Warning: 00000251FB4FAB00: libcurl info message cache 2 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.37.17:045][537]LogHttp:Warning: 00000251FB4FAB00: libcurl info message cache 3 (Closing connection 0)
+[2018.03.14-18.38.00:441][570]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.14-18.38.00:918][570]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.38.00:918][570]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-18.38.00:919][570]PIE: New page: PIE session: HelloWorld (14 Mar 2018 18:38:00)
+[2018.03.14-18.38.00:919][570]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.38.00:940][570]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020604s)
+[2018.03.14-18.38.00:940][570]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.38.00:940][570]LogPlayLevel: PIE: World Init took: (0.000845s)
+[2018.03.14-18.38.00:941][570]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021681s)
+[2018.03.14-18.38.00:974][570]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.14-18.38.01:148][570]LogInit: FAudioDevice initialized.
+[2018.03.14-18.38.01:203][570]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.38.01:213][570]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.38.01
+[2018.03.14-18.38.01:215][570]LogWorld: Bringing up level for play took: 0.006725
+[2018.03.14-18.38.01:293][570]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2018.03.14-18.38.01:297][570]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.202
+[2018.03.14-18.38.01:297][570]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.38.34:403][517]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.38.34:444][517]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.39.07:157][292]Cmd: EDCALLBACK SURFPROPS
+[2018.03.14-18.39.16:327][360]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.39.16:629][389]LogHttp:Warning: 00000251CD126C80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.39.16:629][389]LogHttp:Warning: 00000251CD126C80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.39.16:629][389]LogHttp:Warning: 00000251CD126C80: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.39.16:629][389]LogHttp:Warning: 00000251CD126C80: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.39.16:629][389]LogHttp:Warning: 00000251CD126C80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.39.16:629][389]LogHttp:Warning: 00000251CD126C80: libcurl info message cache 4 (Closing connection 1)
+[2018.03.14-18.39.18:257][572]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2018.03.14-18.39.18:398][584]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2018.03.14-18.39.45:585][698]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.39.55:513][789]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.40.01:846][507]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2018.03.14-18.40.01:962][516]LogEditorViewport: Clicking on Actor (double click): Brush (Box Brush7)
+[2018.03.14-18.40.13:970][922]LogEditorViewport: Clicking on Actor (LMB): Brush (Box Brush7)
+[2018.03.14-18.40.15:105][ 50]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.41.11:505][111]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.41.14:316][435]LogEditorViewport: Clicking on Actor (LMB): AlphaDoor_C (AlphaDoor)
+[2018.03.14-18.41.14:731][480]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.41.16:607][693]LogHttp:Warning: 00000251C7F72F80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.41.16:607][693]LogHttp:Warning: 00000251C7F72F80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.41.16:607][693]LogHttp:Warning: 00000251C7F72F80: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.41.16:607][693]LogHttp:Warning: 00000251C7F72F80: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.41.16:607][693]LogHttp:Warning: 00000251C7F72F80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.41.16:607][693]LogHttp:Warning: 00000251C7F72F80: libcurl info message cache 4 (Closing connection 2)
+[2018.03.14-18.41.16:924][730]LogEditorViewport: Clicking on Actor (LMB): AlphaDoor_C (AlphaDoor)
+[2018.03.14-18.41.17:528][798]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.41.20:511][143]LogEditorViewport: Clicking on Actor (LMB): AlphaDoor_C (AlphaDoor)
+[2018.03.14-18.41.21:214][223]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.41.29:687][189]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.41.38:846][243]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.42.16:639][289]LogHttp:Warning: 00000251C735FA00: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.42.16:639][289]LogHttp:Warning: 00000251C735FA00: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.42.16:639][289]LogHttp:Warning: 00000251C735FA00: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.42.16:639][289]LogHttp:Warning: 00000251C735FA00: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.42.16:639][289]LogHttp:Warning: 00000251C735FA00: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.42.16:639][289]LogHttp:Warning: 00000251C735FA00: libcurl info message cache 4 (Closing connection 3)
+[2018.03.14-18.42.35:101][181]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.42.46:872][540]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.43.16:629][ 62]LogHttp:Warning: 00000251C8110880: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.43.16:630][ 62]LogHttp:Warning: 00000251C8110880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.43.16:630][ 62]LogHttp:Warning: 00000251C8110880: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.43.16:630][ 62]LogHttp:Warning: 00000251C8110880: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.43.16:630][ 62]LogHttp:Warning: 00000251C8110880: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.43.16:630][ 62]LogHttp:Warning: 00000251C8110880: libcurl info message cache 4 (Closing connection 4)
+[2018.03.14-18.43.20:213][455]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.14-18.43.23:677][800]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.43.24:194][847]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.43.25:156][929]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.14-18.43.29:048][334]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.43.29:570][393]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.43.30:853][540]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2018.03.14-18.43.41:981][840]LogEditorViewport: Clicking on Actor (LMB): PressurePad_C (PressurePad)
+[2018.03.14-18.43.50:786][861]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2018.03.14-18.43.59:751][887]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.44.16:635][900]LogHttp:Warning: 00000251C748FB80: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.44.16:635][900]LogHttp:Warning: 00000251C748FB80: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.44.16:635][900]LogHttp:Warning: 00000251C748FB80: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.44.16:635][900]LogHttp:Warning: 00000251C748FB80: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.44.16:635][900]LogHttp:Warning: 00000251C748FB80: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.44.16:635][900]LogHttp:Warning: 00000251C748FB80: libcurl info message cache 4 (Closing connection 5)
+[2018.03.14-18.44.23:809][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.14-18.44.24:535][726]LogSavePackage: Save=555.04ms
+[2018.03.14-18.44.24:536][726]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld4C71BDA8475830C190F20BAF2A6AE355.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.03.14-18.44.24:542][726]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.03.14-18.44.24:581][726]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.03.14-18.44.25:452][726]LogSavePackage: Save=679.90ms
+[2018.03.14-18.44.25:453][726]LogSlate: Took 0.000245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.03.14-18.44.25:458][726]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltDataA682A23F47678907DBBCC29FE52AEADA.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.03.14-18.44.25:463][726]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.03.14-18.44.35:768][920]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.14-18.44.35:792][920]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.35:793][920]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-18.44.35:793][920]PIE: New page: PIE session: HelloWorld (14 Mar 2018 18:44:35)
+[2018.03.14-18.44.35:793][920]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.35:813][920]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020372s)
+[2018.03.14-18.44.35:814][920]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.35:814][920]LogPlayLevel: PIE: World Init took: (0.000842s)
+[2018.03.14-18.44.35:814][920]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021409s)
+[2018.03.14-18.44.35:840][920]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.14-18.44.36:014][920]LogInit: FAudioDevice initialized.
+[2018.03.14-18.44.36:045][920]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.36:051][920]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.36
+[2018.03.14-18.44.36:053][920]LogWorld: Bringing up level for play took: 0.004296
+[2018.03.14-18.44.36:054][920]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.959
+[2018.03.14-18.44.36:054][920]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.36:374][956]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.38:275][184]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.38:321][184]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.40:663][423]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.14-18.44.41:472][512]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.44.42:820][671]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.14-18.44.42:845][671]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.42:845][671]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-18.44.42:845][671]PIE: New page: PIE session: HelloWorld (14 Mar 2018 18:44:42)
+[2018.03.14-18.44.42:845][671]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.42:865][671]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020316s)
+[2018.03.14-18.44.42:866][671]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.42:866][671]LogPlayLevel: PIE: World Init took: (0.000759s)
+[2018.03.14-18.44.42:866][671]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021275s)
+[2018.03.14-18.44.42:892][671]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.14-18.44.43:062][671]LogInit: FAudioDevice initialized.
+[2018.03.14-18.44.43:092][671]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.43:099][671]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.43
+[2018.03.14-18.44.43:101][671]LogWorld: Bringing up level for play took: 0.004447
+[2018.03.14-18.44.43:102][671]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.43:102][671]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.007
+[2018.03.14-18.44.43:103][671]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.44:822][875]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.44:822][875]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.44:846][875]Cmd: MEM
+[2018.03.14-18.44.44:865][875]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.44:866][875]LogMemory: Process Physical Memory: 1287.41 MB used, 1437.99 MB peak
+[2018.03.14-18.44.44:866][875]LogMemory: Process Virtual Memory: 1942.98 MB used, 1949.05 MB peak
+[2018.03.14-18.44.44:866][875]LogMemory: Physical Memory: 4949.50 MB used,  3197.72 MB free, 8147.22 MB total
+[2018.03.14-18.44.44:866][875]LogMemory: Virtual Memory: 2906.86 MB used,  3197.72 MB free, 134217728.00 MB total
+[2018.03.14-18.44.44:866][875]LogMemory: 
+[2018.03.14-18.44.44:866][875]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.44:866][875]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.44:885][875]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019807s)
+[2018.03.14-18.44.44:886][875]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.44:886][875]LogPlayLevel: PIE: World Init took: (0.000777s)
+[2018.03.14-18.44.44:886][875]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020796s)
+[2018.03.14-18.44.44:886][875]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.44:894][875]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.44
+[2018.03.14-18.44.44:895][875]LogWorld: Bringing up level for play took: 0.004540
+[2018.03.14-18.44.44:896][875]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.44:897][875]LogLoad: Took 0.075490 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.46:829][106]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.46:829][106]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.46:854][106]Cmd: MEM
+[2018.03.14-18.44.46:875][106]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.46:875][106]LogMemory: Process Physical Memory: 1287.15 MB used, 1437.99 MB peak
+[2018.03.14-18.44.46:875][106]LogMemory: Process Virtual Memory: 2007.22 MB used, 2007.54 MB peak
+[2018.03.14-18.44.46:875][106]LogMemory: Physical Memory: 4948.70 MB used,  3198.52 MB free, 8147.22 MB total
+[2018.03.14-18.44.46:876][106]LogMemory: Virtual Memory: 2970.86 MB used,  3198.52 MB free, 134217728.00 MB total
+[2018.03.14-18.44.46:876][106]LogMemory: 
+[2018.03.14-18.44.46:876][106]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.46:876][106]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.46:896][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020218s)
+[2018.03.14-18.44.46:896][106]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.46:897][106]LogPlayLevel: PIE: World Init took: (0.000891s)
+[2018.03.14-18.44.46:897][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021329s)
+[2018.03.14-18.44.46:897][106]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.46:903][106]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.46
+[2018.03.14-18.44.46:905][106]LogWorld: Bringing up level for play took: 0.004253
+[2018.03.14-18.44.46:906][106]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.46:906][106]LogLoad: Took 0.077774 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.48:830][336]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.48:830][336]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.48:851][336]Cmd: MEM
+[2018.03.14-18.44.48:870][336]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.48:870][336]LogMemory: Process Physical Memory: 1286.53 MB used, 1437.99 MB peak
+[2018.03.14-18.44.48:870][336]LogMemory: Process Virtual Memory: 2020.14 MB used, 2040.86 MB peak
+[2018.03.14-18.44.48:870][336]LogMemory: Physical Memory: 4947.89 MB used,  3199.33 MB free, 8147.22 MB total
+[2018.03.14-18.44.48:870][336]LogMemory: Virtual Memory: 2970.86 MB used,  3199.33 MB free, 134217728.00 MB total
+[2018.03.14-18.44.48:870][336]LogMemory: 
+[2018.03.14-18.44.48:870][336]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.48:870][336]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.48:890][336]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019658s)
+[2018.03.14-18.44.48:891][336]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.48:891][336]LogPlayLevel: PIE: World Init took: (0.000734s)
+[2018.03.14-18.44.48:891][336]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020611s)
+[2018.03.14-18.44.48:891][336]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.48:898][336]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.48
+[2018.03.14-18.44.48:899][336]LogWorld: Bringing up level for play took: 0.004283
+[2018.03.14-18.44.48:900][336]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.48:900][336]LogLoad: Took 0.070992 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.50:835][567]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.50:836][567]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.50:859][567]Cmd: MEM
+[2018.03.14-18.44.50:880][567]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.50:880][567]LogMemory: Process Physical Memory: 1286.34 MB used, 1437.99 MB peak
+[2018.03.14-18.44.50:880][567]LogMemory: Process Virtual Memory: 2023.27 MB used, 2040.86 MB peak
+[2018.03.14-18.44.50:880][567]LogMemory: Physical Memory: 4948.05 MB used,  3199.17 MB free, 8147.22 MB total
+[2018.03.14-18.44.50:880][567]LogMemory: Virtual Memory: 2974.86 MB used,  3199.17 MB free, 134217728.00 MB total
+[2018.03.14-18.44.50:880][567]LogMemory: 
+[2018.03.14-18.44.50:880][567]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.50:880][567]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.50:900][567]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019877s)
+[2018.03.14-18.44.50:900][567]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.50:900][567]LogPlayLevel: PIE: World Init took: (0.000720s)
+[2018.03.14-18.44.50:900][567]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020815s)
+[2018.03.14-18.44.50:900][567]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.50:907][567]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.50
+[2018.03.14-18.44.50:908][567]LogWorld: Bringing up level for play took: 0.004181
+[2018.03.14-18.44.50:910][567]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.50:910][567]LogLoad: Took 0.074784 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.52:841][798]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.52:841][798]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.52:865][798]Cmd: MEM
+[2018.03.14-18.44.52:884][798]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.52:884][798]LogMemory: Process Physical Memory: 1286.10 MB used, 1437.99 MB peak
+[2018.03.14-18.44.52:884][798]LogMemory: Process Virtual Memory: 2019.02 MB used, 2040.86 MB peak
+[2018.03.14-18.44.52:884][798]LogMemory: Physical Memory: 4946.68 MB used,  3200.54 MB free, 8147.22 MB total
+[2018.03.14-18.44.52:884][798]LogMemory: Virtual Memory: 2970.86 MB used,  3200.54 MB free, 134217728.00 MB total
+[2018.03.14-18.44.52:884][798]LogMemory: 
+[2018.03.14-18.44.52:884][798]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.52:884][798]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.52:904][798]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020514s)
+[2018.03.14-18.44.52:905][798]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.52:905][798]LogPlayLevel: PIE: World Init took: (0.000858s)
+[2018.03.14-18.44.52:905][798]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021610s)
+[2018.03.14-18.44.52:905][798]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.52:912][798]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.52
+[2018.03.14-18.44.52:914][798]LogWorld: Bringing up level for play took: 0.004673
+[2018.03.14-18.44.52:915][798]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.52:915][798]LogLoad: Took 0.074937 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.54:848][ 29]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.54:848][ 29]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.54:873][ 29]Cmd: MEM
+[2018.03.14-18.44.54:892][ 29]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.54:892][ 29]LogMemory: Process Physical Memory: 1286.23 MB used, 1437.99 MB peak
+[2018.03.14-18.44.54:892][ 29]LogMemory: Process Virtual Memory: 2017.14 MB used, 2040.86 MB peak
+[2018.03.14-18.44.54:892][ 29]LogMemory: Physical Memory: 4914.30 MB used,  3232.93 MB free, 8147.22 MB total
+[2018.03.14-18.44.54:892][ 29]LogMemory: Virtual Memory: 2970.86 MB used,  3232.93 MB free, 134217728.00 MB total
+[2018.03.14-18.44.54:892][ 29]LogMemory: 
+[2018.03.14-18.44.54:893][ 29]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.54:893][ 29]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.54:913][ 29]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020179s)
+[2018.03.14-18.44.54:913][ 29]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.54:914][ 29]LogPlayLevel: PIE: World Init took: (0.000779s)
+[2018.03.14-18.44.54:914][ 29]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021184s)
+[2018.03.14-18.44.54:914][ 29]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.54:920][ 29]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.54
+[2018.03.14-18.44.54:922][ 29]LogWorld: Bringing up level for play took: 0.004244
+[2018.03.14-18.44.54:923][ 29]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.54:923][ 29]LogLoad: Took 0.075433 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.56:071][166]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.56:855][260]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.03.14-18.44.56:855][260]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.03.14-18.44.56:878][260]Cmd: MEM
+[2018.03.14-18.44.56:898][260]LogMemory: Platform Memory Stats for Windows
+[2018.03.14-18.44.56:898][260]LogMemory: Process Physical Memory: 1286.24 MB used, 1437.99 MB peak
+[2018.03.14-18.44.56:898][260]LogMemory: Process Virtual Memory: 2031.18 MB used, 2040.86 MB peak
+[2018.03.14-18.44.56:898][260]LogMemory: Physical Memory: 4913.56 MB used,  3233.66 MB free, 8147.22 MB total
+[2018.03.14-18.44.56:898][260]LogMemory: Virtual Memory: 2986.86 MB used,  3233.66 MB free, 134217728.00 MB total
+[2018.03.14-18.44.56:898][260]LogMemory: 
+[2018.03.14-18.44.56:898][260]Allocator Stats for TBB: (not implemented)
+[2018.03.14-18.44.56:898][260]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.44.56:918][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019787s)
+[2018.03.14-18.44.56:918][260]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.44.56:919][260]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2018.03.14-18.44.56:919][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.020785s)
+[2018.03.14-18.44.56:919][260]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.44.56:925][260]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.44.56
+[2018.03.14-18.44.56:927][260]LogWorld: Bringing up level for play took: 0.004367
+[2018.03.14-18.44.56:928][260]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.03.14-18.44.56:929][260]LogLoad: Took 0.073610 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.03.14-18.44.57:722][354]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.44.57:767][354]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.45.00:343][631]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.45.01:489][756]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.45.02:003][815]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.14-18.45.04:028][ 52]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.45.05:368][210]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.45.05:537][228]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.03.14-18.45.06:308][315]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2018.03.14-18.45.07:712][479]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.45.09:078][640]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.45.10:349][790]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.45.11:204][890]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TShadowDepthVSForGSVertexShadowDepth_OnePassPointLightPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TLightMapDensityPSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TLightMapDensityVSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TLightMapDensityPSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TLightMapDensityVSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyHQSkylight unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassVSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyLQSkylight unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:215][462]LogLandscape:Warning: Shader TBasePassVSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TShadowDepthVSForGSVertexShadowDepth_OnePassPointLightPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TLightMapDensityPSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TLightMapDensityVSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TLightMapDensityPSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TLightMapDensityVSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassVSTDistanceFieldShadowsAndLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyHQSkylight unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassVSTLightMapPolicyHQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassPSTLightMapPolicyLQSkylight unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:219][462]LogLandscape:Warning: Shader TBasePassVSTLightMapPolicyLQ unknown by landscape thumbnail material, please add to either AllowedShaderTypes or ExcludedShaderTypes
+[2018.03.14-18.45.16:230][462]LogTexture:Display: Building textures: Texture2D_2 (G8, 128X128)
+[2018.03.14-18.45.16:644][507]LogHttp:Warning: 00000251C7416980: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.45.16:644][507]LogHttp:Warning: 00000251C7416980: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.45.16:644][507]LogHttp:Warning: 00000251C7416980: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.45.16:644][507]LogHttp:Warning: 00000251C7416980: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.45.16:644][507]LogHttp:Warning: 00000251C7416980: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.45.16:644][507]LogHttp:Warning: 00000251C7416980: libcurl info message cache 4 (Closing connection 6)
+[2018.03.14-18.46.03:116][433]LogTemp: Repeting last play command: Selected Viewport
+[2018.03.14-18.46.03:140][433]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.46.03:140][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.03.14-18.46.03:141][433]PIE: New page: PIE session: HelloWorld (14 Mar 2018 18:46:03)
+[2018.03.14-18.46.03:141][433]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.03.14-18.46.03:161][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020755s)
+[2018.03.14-18.46.03:162][433]LogAIModule: Creating AISystem for world HelloWorld
+[2018.03.14-18.46.03:162][433]LogPlayLevel: PIE: World Init took: (0.000788s)
+[2018.03.14-18.46.03:162][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.021751s)
+[2018.03.14-18.46.03:197][433]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.03.14-18.46.03:362][433]LogInit: FAudioDevice initialized.
+[2018.03.14-18.46.03:394][433]LogLoad: Game class is 'FuseGM_C'
+[2018.03.14-18.46.03:401][433]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.03.14-18.46.03
+[2018.03.14-18.46.03:403][433]LogWorld: Bringing up level for play took: 0.004333
+[2018.03.14-18.46.03:404][433]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.309
+[2018.03.14-18.46.03:405][433]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.46.16:610][ 13]LogHttp:Warning: 00000251CD0FF400: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.46.16:610][ 13]LogHttp:Warning: 00000251CD0FF400: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.46.16:610][ 13]LogHttp:Warning: 00000251CD0FF400: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.46.16:610][ 13]LogHttp:Warning: 00000251CD0FF400: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.46.16:610][ 13]LogHttp:Warning: 00000251CD0FF400: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.46.16:610][ 13]LogHttp:Warning: 00000251CD0FF400: libcurl info message cache 4 (Closing connection 7)
+[2018.03.14-18.46.20:826][518]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.46.20:864][518]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.03.14-18.46.22:520][711]MapCheck: New page: Map Check
+[2018.03.14-18.46.22:546][711]Cmd: MAP REBUILD ALLVISIBLE
+[2018.03.14-18.46.22:548][711]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2018.03.14-18.46.22:685][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy WorldGridMaterial, compiling. Is special engine material.
+[2018.03.14-18.46.22:693][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy LandscapeGizmo_Mat, compiling. 
+[2018.03.14-18.46.22:699][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.03.14-18.46.22:705][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2018.03.14-18.46.22:712][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert2, compiling. 
+[2018.03.14-18.46.22:718][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Glass, compiling. 
+[2018.03.14-18.46.22:724][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy lambert3, compiling. 
+[2018.03.14-18.46.22:731][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_VolcanoMain, compiling. 
+[2018.03.14-18.46.22:737][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_VolcanoTop, compiling. 
+[2018.03.14-18.46.22:744][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy White, compiling. 
+[2018.03.14-18.46.22:751][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Leaves, compiling. 
+[2018.03.14-18.46.22:760][711]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy M_Rose, compiling. 
+[2018.03.14-18.46.23:447][711]TextureStreamingBuild:Display: Compiling optional shaders took 0.769 seconds.
+[2018.03.14-18.46.23:461][711]LogLevel:Display: Export Material TexCoord Scales took 0.014 seconds.
+[2018.03.14-18.46.23:467][711]TextureStreamingBuild:Display: Build Texture Streaming took 0.007 seconds.
+[2018.03.14-18.46.23:488][711]LightingResults: New page: Lighting Build - 14 Mar 2018 18:46:23
+[2018.03.14-18.46.23:601][711]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.03.14-18.46.23:719][711]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.03.14-18.46.23:740][711]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.03.14-18.46.25:259][711]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.03.14-18.46.25:259][711]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3604
+[2018.03.14-18.46.27:846][711]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.03.14-18.46.27:846][711]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.03.14-18.46.27:846][711]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.03.14-18.46.27:846][711]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.03.14-18.46.27:846][711]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.03.14-18.46.28:061][711]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2018.03.14-18.46.28:061][711]MapCheck: New page: HelloWorld - 14 Mar 2018 18:46:28
+[2018.03.14-18.46.28:069][711]MapCheck:Warning: Warning GlassWall_2 Static mesh actor has NULL StaticMesh property 
+[2018.03.14-18.46.28:069][711]MapCheck:Warning: Warning GlassWall_2 Static mesh actor has NULL StaticMesh property 
+[2018.03.14-18.46.28:069][711]MapCheck:Error: Error WorldSettings Maps need lighting rebuilt 
+[2018.03.14-18.46.28:193][711]MapCheck: Info Map check complete: 1 Error(s), 2 Warning(s), took 131.555ms to complete.
+[2018.03.14-18.46.28:216][711]LogEditorBuildUtils: Build time 0:05
+[2018.03.14-18.46.39:917][506]Job is a success!
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 512X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 512X512)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 512X512)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 256X256)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.03.14-18.46.40:535][507]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 256X256)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_28 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_28 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_28 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_29 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_29 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_29 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_30 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_30 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_30 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_31 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_31 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_31 (DXT1, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: SkyOcclusion0_32 (AutoDXT, 128X64)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: HQ_Lightmap0_32 (AutoDXT, 128X128)
+[2018.03.14-18.46.40:536][507]LogTexture:Display: Building textures: LQ_Lightmap_0_32 (DXT1, 128X128)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 128X256)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_5 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_4 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_6 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_7 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_8 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_13 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_11 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_10 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_9 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_14 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_17 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_15 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_12 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_18 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_21 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_16 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_22 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_24 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_20 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_25 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_23 (G8, 128X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_27 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_56 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_28 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_58 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_57 (G8, 64X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_19 (G8, 256X64)
+[2018.03.14-18.46.40:999][507]LogTexture:Display: Building textures: ShadowMapTexture2D_26 (G8, 128X64)
+[2018.03.14-18.46.41:051][507]Lightmass on SONOFMORT: 7.78 sec total, 623 ms importing, 329 ms setup, 2.05 sec photons, 4.69 sec processing, 0 ms extra exporting [100/100 mappings]. Threads: 1:09 min total, 43.8 sec processing.
+[2018.03.14-18.46.41:101][507]LogStaticLightingSystem: Illumination: 17.5 sec (349 ms encoding lightmaps, 455 ms encoding shadowmaps)
+[2018.03.14-18.46.41:101][507]LogStaticLightingSystem: Lightmap texture memory:  3.2 MB (2.5 MB streaming, 0.7 MB non-streaming), 64 textures
+[2018.03.14-18.46.41:101][507]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 32 textures
+[2018.03.14-18.46.41:857][507]DumpUnbuiltLightIteractions
+[2018.03.14-18.46.41:857][507]Lights with unbuilt interactions: 0
+[2018.03.14-18.46.41:857][507]
+[2018.03.14-18.46.41:857][507]Primitives with unbuilt interactions: 0
+[2018.03.14-18.46.41:864][508]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.03.14-18.46.41:865][508]MapCheck: New page: HelloWorld - 14 Mar 2018 18:46:41
+[2018.03.14-18.46.41:865][508]MapCheck:Warning: Warning GlassWall_2 Static mesh actor has NULL StaticMesh property 
+[2018.03.14-18.46.41:865][508]MapCheck:Warning: Warning GlassWall_2 Static mesh actor has NULL StaticMesh property 
+[2018.03.14-18.46.41:993][508]MapCheck: Info Map check complete: 0 Error(s), 2 Warning(s), took 128.861ms to complete.
+[2018.03.14-18.47.17:103][621]LogHttp:Warning: 00000251C749E200: request failed, libcurl error: 7 (Couldn't connect to server)
+[2018.03.14-18.47.17:103][621]LogHttp:Warning: 00000251C749E200: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.47.17:103][621]LogHttp:Warning: 00000251C749E200: libcurl info message cache 1 (  Trying 192.168.123.123...)
+[2018.03.14-18.47.17:103][621]LogHttp:Warning: 00000251C749E200: libcurl info message cache 2 (connect to 192.168.123.123 port 443 failed: Timed out)
+[2018.03.14-18.47.17:103][621]LogHttp:Warning: 00000251C749E200: libcurl info message cache 3 (Failed to connect to datarouter.ol.epicgames.com port 443: Timed out)
+[2018.03.14-18.47.17:103][621]LogHttp:Warning: 00000251C749E200: libcurl info message cache 4 (Closing connection 8)
+[2018.03.14-18.48.55:771][917]LogHttp:Warning: 00000251C749C880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.48.55:771][917]LogHttp:Warning: 00000251C749C880: libcurl info message cache 0 (Hostname in DNS cache was stale, zapped)
+[2018.03.14-18.48.55:771][917]LogHttp:Warning: 00000251C749C880: libcurl info message cache 1 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.48.55:771][917]LogHttp:Warning: 00000251C749C880: libcurl info message cache 2 (Closing connection 9)
+[2018.03.14-18.49.56:104][ 98]LogHttp:Warning: 00000251C749C400: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.49.56:104][ 98]LogHttp:Warning: 00000251C749C400: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.49.56:104][ 98]LogHttp:Warning: 00000251C749C400: libcurl info message cache 1 (Closing connection 10)
+[2018.03.14-18.51.56:104][458]LogHttp:Warning: 00000251C749EB00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.51.56:104][458]LogHttp:Warning: 00000251C749EB00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.51.56:104][458]LogHttp:Warning: 00000251C749EB00: libcurl info message cache 1 (Closing connection 11)
+[2018.03.14-18.53.56:104][818]LogHttp:Warning: 00000251C749C280: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.53.56:104][818]LogHttp:Warning: 00000251C749C280: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.53.56:104][818]LogHttp:Warning: 00000251C749C280: libcurl info message cache 1 (Closing connection 12)
+[2018.03.14-18.54.52:450][986]LogSlate: Took 0.000306 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.03.14-18.55.01:503][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2018.03.14-18.55.01:656][ 13]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.03.14-18.55.01:667][ 13]LogTexture:Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2018.03.14-18.55.01:669][ 13]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.03.14-18.55.02:053][ 13]LogSavePackage: Save=527.75ms
+[2018.03.14-18.55.02:053][ 13]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_Auto18C77231D410E3359D233FA887C752263.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap'
+[2018.03.14-18.55.02:056][ 13]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap
+[2018.03.14-18.55.02:058][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/HelloWorld' took 0.576
+[2018.03.14-18.55.02:058][ 13]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.576
+[2018.03.14-18.55.02:064][ 13]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Maps/HelloWorld_BuiltData] ([1] browsable assets)...
+[2018.03.14-18.55.02:064][ 13]OBJ SavePackage: Finished generating thumbnails for package [/Game/Maps/HelloWorld_BuiltData]
+[2018.03.14-18.55.02:064][ 13]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2018.03.14-18.55.02:770][ 13]LogSavePackage: Save=455.00ms
+[2018.03.14-18.55.02:771][ 13]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData_Auto1845509CB49D672CC00170DA2469BFBBB.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset'
+[2018.03.14-18.55.02:774][ 13]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset
+[2018.03.14-18.55.02:774][ 13]LogFileHelpers: Auto-saving content packages took 0.711
+[2018.03.14-18.55.55:799][174]LogHttp:Warning: 00000251C7495000: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.55.55:799][174]LogHttp:Warning: 00000251C7495000: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.55.55:799][174]LogHttp:Warning: 00000251C7495000: libcurl info message cache 1 (Closing connection 13)
+[2018.03.14-18.56.56:132][355]LogHttp:Warning: 00000251C7497D00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.56.56:132][355]LogHttp:Warning: 00000251C7497D00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.56.56:132][355]LogHttp:Warning: 00000251C7497D00: libcurl info message cache 1 (Closing connection 14)
+[2018.03.14-18.58.56:132][715]LogHttp:Warning: 00000251C7497880: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-18.58.56:132][715]LogHttp:Warning: 00000251C7497880: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-18.58.56:132][715]LogHttp:Warning: 00000251C7497880: libcurl info message cache 1 (Closing connection 15)
+[2018.03.14-19.00.56:133][ 75]LogHttp:Warning: 00000251C7497700: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-19.00.56:133][ 75]LogHttp:Warning: 00000251C7497700: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-19.00.56:133][ 75]LogHttp:Warning: 00000251C7497700: libcurl info message cache 1 (Closing connection 16)
+[2018.03.14-19.02.56:132][435]LogHttp:Warning: 00000251C7495C00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-19.02.56:133][435]LogHttp:Warning: 00000251C7495C00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-19.02.56:133][435]LogHttp:Warning: 00000251C7495C00: libcurl info message cache 1 (Closing connection 17)
+[2018.03.14-19.04.56:133][795]LogHttp:Warning: 00000251C7495D80: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-19.04.56:133][795]LogHttp:Warning: 00000251C7495D80: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-19.04.56:133][795]LogHttp:Warning: 00000251C7495D80: libcurl info message cache 1 (Closing connection 18)
+[2018.03.14-19.06.56:133][155]LogHttp:Warning: 00000251C7497A00: request failed, libcurl error: 6 (Couldn't resolve host name)
+[2018.03.14-19.06.56:133][155]LogHttp:Warning: 00000251C7497A00: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
+[2018.03.14-19.06.56:133][155]LogHttp:Warning: 00000251C7497A00: libcurl info message cache 1 (Closing connection 19)
+[2018.03.14-19.10.08:454][824]SourceControl:Error: Error Failed to enable Git source control. You need to install Git and specify a valid path to git executable.
+[2018.03.14-19.10.17:463][826]SourceControl: Info On branch master
+[2018.03.14-19.10.17:463][826]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.03.14-19.10.17:463][826]SourceControl: Info Changes not staged for commit:
+[2018.03.14-19.10.17:463][826]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.03.14-19.10.17:463][826]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	deleted:    Content/InteractionBlueprint.uasset
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	deleted:    Content/ItemTemplate.uasset
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	modified:   Content/Maps/HelloWorld.umap
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	modified:   Content/Maps/HelloWorld_BuiltData.uasset
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	modified:   Content/PlayerCharacter.uasset
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/311563bb.bin
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2018.03.14-19.10.17:463][826]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/HelloWorld_Auto1.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/HelloWorld_Auto2.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/HelloWorld_Auto4.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto1.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/Game/Maps/HelloWorld_BuiltData_Auto2.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/Game/PlayerCharacter_Auto6.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-16-14-19.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-16-31-14.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-16-34-12.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-16-41-29.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-16-52-24.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-17-09-35.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-17-16-51.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-13-17-27-18.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-14-09-11-09.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-14-09-41-22.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-14-09-51-26.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-14-15-28-00.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-14-15-40-39.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_2018-02-14-15-53-14.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-02-13-16-06-53.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-02-13-17-16-52.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-02-13-17-27-19.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-02-14-09-11-09.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-02-14-15-40-39.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-0E16803C4CE5B4E8BDDED89B7DD5DABC/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-11E32DDD4D2BCF40C49E85BCE608F1FC/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2293B0904A6EC717D09E6F856597527B/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2437E2894DF249E2D3D0738D778A5686/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-24C95FFA4867CC0F04CFBAA52812327F/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-30D5FE6948D6AA568302FE806920CA5F/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-31C0A53C4240472001D81AAAF74A2E52/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4207697D417EB74152178CBF72FD3F6D/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4824065A41402E3BDD5056B11D364661/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-720E1F7B4785E28F1F3F4D94EA7D86D7/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-8468993245ACD13EEEB6DDAC2B6CC0D3/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-972C5463423449D1FE099EBB18C1C6A0/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-AF6B8B54404883B638FA448767672807/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-BAC500D24DD2829922F5C3A348EB7B4B/CrashReportClient.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/HardwareSurvey/dxdiag.txt
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2018.02.14-17.27.15.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2018.02.14-21.24.29.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2018.02.15-12.58.26.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2018.02.15-13.06.09.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2018.02.15-13.10.30.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game-backup-2018.02.15-18.55.54.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	modified:   Saved/Logs/RPG_Game.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.02.14-09.11.12.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	deleted:    Saved/Logs/RPG_Game_2-backup-2018.02.15-18.58.34.log
+[2018.03.14-19.10.17:464][826]SourceControl: Info Untracked files:
+[2018.03.14-19.10.17:464][826]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Content/Assets/PowerBlock/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Content/Assets/PowerDoor/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Content/Assets/PressurePad/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Content/Maps/Level_2.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Content/Maps/Level_2_BuiltData.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Content/UserInteraction.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Engine/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Assets/PowerDoor/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Assets/PressurePad/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Blueprints/
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Maps/Level_2_Auto1.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Maps/Level_2_Auto2.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Maps/Level_2_Auto3.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Maps/Level_2_BuiltData_Auto2.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Autosaves/Game/Maps/Level_2_BuiltData_Auto3.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/AlphaDoor_2018-03-14-16-13-46.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/BasicShapeMaterial_2018-02-28-15-49-14.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/BasicShapeMaterial_2018-02-28-17-18-40.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/Button_2018-03-14-16-13-45.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/Cube_2018-03-14-16-16-55.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/Floor_400x400_2018-02-28-17-19-57.uasset
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-02-16-15-21-27.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-02-16-15-40-53.umap
+[2018.03.14-19.10.17:464][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-02-28-17-20-47.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-15-19-07.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-15-38-39.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-15-49-40.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-16-00-24.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-16-22-01.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-17-07-36.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-17-21-39.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-17-42-13.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-18-44-23.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_2018-03-14-18-55-01.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-02-16-15-21-28.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-02-16-15-40-54.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-03-14-15-38-39.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-03-14-15-49-40.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-03-14-16-22-02.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-03-14-18-44-24.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-03-14-18-55-02.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/Level_2_2018-02-28-15-26-21.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/Level_2_2018-02-28-15-49-14.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/Level_2_2018-02-28-15-59-30.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/Level_2_2018-02-28-17-18-21.umap
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/PlayerCharacter_2018-03-14-16-32-55.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/PlayerCharacter_2018-03-14-16-52-09.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/PlayerCharacter_2018-03-14-16-57-26.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Backup/PlayerCharacter_2018-03-14-17-06-07.uasset
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-9B3C2B8842BF378898B2988012F81308/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B716DDE64351164B7061A39ABEE14307/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-C033989644C5719161F28998763E2456/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Config/WorldState/1596317949.json
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-3CF3F66E4775F4BE2FC36381FA6514D9_0000/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-3CF3F66E4775F4BE2FC36381FA6514D9_0001/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-9B3C2B8842BF378898B2988012F81308_0000/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-9B3C2B8842BF378898B2988012F81308_0001/
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.03.14-15.08.41.log
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.03.14-16.45.42.log
+[2018.03.14-19.10.17:465][826]SourceControl: Info 	Saved/Logs/RPG_Game-backup-2018.03.14-18.35.20.log
+[2018.03.14-19.10.17:465][826]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2018.03.14-19.10.22:170][352]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.03.14-19.10.22:333][352]EditorErrors:Warning: Warning No assets to check in!
+[2018.03.14-19.10.24:645][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.03.14-19.10.25:228][596]LogSavePackage: Save=513.93ms
+[2018.03.14-19.10.25:228][596]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld9727B19540D6DC55AF462381D81AA954.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.03.14-19.10.25:234][596]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.03.14-19.10.25:384][596]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.03.14-19.10.26:182][596]LogSavePackage: Save=628.83ms
+[2018.03.14-19.10.26:183][596]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData91A9575C493DE0C08BBDB69CD15928CA.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.03.14-19.10.26:189][596]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.03.14-19.10.27:977][782]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.03.14-19.10.41:421][782]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.03.14-19.10.41:521][782]SourceControl: Info [master 7c8c5b1] Update
+[2018.03.14-19.10.41:521][782]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2018.03.14-19.10.41:539][782]SourceControl: Info Commited [master 7c8c5b1] Update.
+[2018.03.14-19.12.54:775][608]LogHttp:Warning: 00000251C7412500: request failed, libcurl error: 52 (Server returned nothing (no headers, no data))
+[2018.03.14-19.12.54:775][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 0 (Connection 21 seems to be dead!)
+[2018.03.14-19.12.54:775][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 1 (Closing connection 21)
+[2018.03.14-19.12.54:775][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 2 (TLSv1.2 (OUT), TLS alert, Client hello (1):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 3 (  Trying 52.1.96.157...)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 4 (Connected to datarouter.ol.epicgames.com (52.1.96.157) port 443 (#22))
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 5 (ALPN, offering http/1.1)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 6 (Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 7 (SSL re-using session ID)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 8 (TLSv1.2 (OUT), TLS handshake, Client hello (1):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 9 (TLSv1.2 (IN), TLS handshake, Server hello (2):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 10 (TLSv1.2 (IN), TLS handshake, Certificate (11):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 11 (TLSv1.2 (IN), TLS handshake, Server key exchange (12):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 12 (TLSv1.2 (IN), TLS handshake, Server finished (14):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 13 (TLSv1.2 (OUT), TLS handshake, Client key exchange (16):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 14 (TLSv1.2 (OUT), TLS change cipher, Client hello (1):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 15 (TLSv1.2 (OUT), TLS handshake, Finished (20):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 16 (TLSv1.2 (IN), TLS change cipher, Client hello (1):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 17 (TLSv1.2 (IN), TLS handshake, Finished (20):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 18 (SSL connection using TLSv1.2 / ECDHE-RSA-AES128-GCM-SHA256)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 19 (ALPN, server did not agree to a protocol)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 20 (old SSL session ID is stale, removing)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 21 (Server certificate:)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 22 (	 subject: CN=*.ol.epicgames.com)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 23 (	 start date: Mar 12 00:00:00 2018 GMT)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 24 (	 expire date: Apr 12 12:00:00 2019 GMT)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 25 (	 subjectAltName: datarouter.ol.epicgames.com matched)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 26 (	 issuer: C=US; O=Amazon; OU=Server CA 1B; CN=Amazon)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 27 (	 SSL certificate verify ok.)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 28 (upload completely sent off: 505 out of 505 bytes)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 29 (TLSv1.2 (IN), TLS alert, Client hello (1):)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 30 (Empty reply from server)
+[2018.03.14-19.12.54:776][608]LogHttp:Warning: 00000251C7412500: libcurl info message cache 31 (Connection #22 to host datarouter.ol.epicgames.com left intact)
+[2018.03.14-19.16.33:955][359]Cmd: QUIT_EDITOR
+[2018.03.14-19.16.34:499][359]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.03.14-19.16.34:522][359]LogExit: Preparing to exit.
+[2018.03.14-19.16.35:262][359]LogExit: Editor shut down
+[2018.03.14-19.16.35:295][359]LogExit: Transaction tracking system shut down
+[2018.03.14-19.16.35:510][359]LogObj: Freed 0b from 0 cluster array pools.
+[2018.03.14-19.16.35:510][359]LogExit: Object subsystem successfully closed.
+[2018.03.14-19.16.35:578][359]LogD3D11RHI: Shutdown
+[2018.03.14-19.16.35:578][359]LogD3D11RHI: CleanupD3DDevice
+[2018.03.14-19.16.35:718][359]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.03.14-19.16.35:792][359]LogModuleManager: Shutting down and abandoning module SequencerWidgets (540)
+[2018.03.14-19.16.35:792][359]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (538)
+[2018.03.14-19.16.35:792][359]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (536)
+[2018.03.14-19.16.35:792][359]LogModuleManager: Shutting down and abandoning module SynthBenchmark (534)
+[2018.03.14-19.16.35:793][359]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2018.03.14-19.16.35:793][359]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2018.03.14-19.16.35:794][359]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.03.14-19.16.35:794][359]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.03.14-19.16.35:794][359]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2018.03.14-19.16.35:795][359]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2018.03.14-19.16.35:795][359]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.03.14-19.16.35:799][359]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2018.03.14-19.16.35:799][359]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2018.03.14-19.16.35:799][359]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2018.03.14-19.16.35:799][359]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' was aborted.
+[2018.03.14-19.16.35:799][359]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' was aborted.
+[2018.03.14-19.16.35:799][359]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' was aborted.
+[2018.03.14-19.16.35:799][359]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2018.03.14-19.16.35:799][359]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2018.03.14-19.16.35:799][359]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2018.03.14-19.16.35:800][359]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2018.03.14-19.16.35:801][359]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2018.03.14-19.16.35:801][359]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2018.03.14-19.16.35:801][359]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module Media (475)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2018.03.14-19.16.35:804][359]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2018.03.14-19.16.35:805][359]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2018.03.14-19.16.35:805][359]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2018.03.14-19.16.35:806][359]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2018.03.14-19.16.35:806][359]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2018.03.14-19.16.35:806][359]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2018.03.14-19.16.35:806][359]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2018.03.14-19.16.35:807][359]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2018.03.14-19.16.35:808][359]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2018.03.14-19.16.35:809][359]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2018.03.14-19.16.35:811][359]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2018.03.14-19.16.35:811][359]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2018.03.14-19.16.35:811][359]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2018.03.14-19.16.35:811][359]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2018.03.14-19.16.35:811][359]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2018.03.14-19.16.36:552][359]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2018.03.14-19.16.36:552][359]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.03.14-19.16.36:552][359]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.03.14-19.16.36:553][359]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.03.14-19.16.36:553][359]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2018.03.14-19.16.36:553][359]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2018.03.14-19.16.36:554][359]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2018.03.14-19.16.36:554][359]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2018.03.14-19.16.36:555][359]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2018.03.14-19.16.36:555][359]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2018.03.14-19.16.36:555][359]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2018.03.14-19.16.36:555][359]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2018.03.14-19.16.36:556][359]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2018.03.14-19.16.36:556][359]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2018.03.14-19.16.36:556][359]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2018.03.14-19.16.36:557][359]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2018.03.14-19.16.36:557][359]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2018.03.14-19.16.36:557][359]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2018.03.14-19.16.36:557][359]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2018.03.14-19.16.36:558][359]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2018.03.14-19.16.36:559][359]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2018.03.14-19.16.36:559][359]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2018.03.14-19.16.36:560][359]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2018.03.14-19.16.36:561][359]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2018.03.14-19.16.36:613][359]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2018.03.14-19.16.36:614][359]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2018.03.14-19.16.36:615][359]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2018.03.14-19.16.36:617][359]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2018.03.14-19.16.36:617][359]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2018.03.14-19.16.36:617][359]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2018.03.14-19.16.36:617][359]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2018.03.14-19.16.36:619][359]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2018.03.14-19.16.36:619][359]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2018.03.14-19.16.36:619][359]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2018.03.14-19.16.36:626][359]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2018.03.14-19.16.36:626][359]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2018.03.14-19.16.36:627][359]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2018.03.14-19.16.36:628][359]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2018.03.14-19.16.36:628][359]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2018.03.14-19.16.36:629][359]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2018.03.14-19.16.36:629][359]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2018.03.14-19.16.36:629][359]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2018.03.14-19.16.36:629][359]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2018.03.14-19.16.36:629][359]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2018.03.14-19.16.36:629][359]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2018.03.14-19.16.36:632][359]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2018.03.14-19.16.36:693][359]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2018.03.14-19.16.36:694][359]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2018.03.14-19.16.36:696][359]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.03.14-19.16.36:696][359]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.03.14-19.16.36:696][359]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.03.14-19.16.36:696][359]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.03.14-19.16.36:697][359]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.03.14-19.16.36:699][359]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.03.14-19.16.36:700][359]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.03.14-19.16.36:702][359]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.03.14-19.16.36:702][359]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.03.14-19.16.36:702][359]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.03.14-19.16.36:702][359]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.03.14-19.16.36:703][359]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.03.14-19.16.36:704][359]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.03.14-19.16.36:704][359]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.03.14-19.16.36:705][359]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.03.14-19.16.36:706][359]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.03.14-19.16.36:706][359]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.03.14-19.16.36:707][359]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.03.14-19.16.36:708][359]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.03.14-19.16.36:708][359]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.03.14-19.16.36:708][359]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.03.14-19.16.36:708][359]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.03.14-19.16.36:708][359]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.03.14-19.16.36:808][359]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.03.14-19.16.36:909][359]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2018.03.14-19.16.36:911][359]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.03.14-19.16.36:912][359]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.03.14-19.16.36:912][359]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.03.14-19.16.36:912][359]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.03.14-19.16.36:913][359]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.03.14-19.16.36:913][359]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.03.14-19.16.36:914][359]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.03.14-19.16.36:914][359]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.03.14-19.16.36:915][359]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.03.14-19.16.36:915][359]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.03.14-19.16.36:919][359]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.03.14-19.16.36:919][359]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.03.14-19.16.36:920][359]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.03.14-19.16.36:920][359]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.03.14-19.16.36:920][359]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.03.14-19.16.36:921][359]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.03.14-19.16.36:922][359]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.03.14-19.16.36:922][359]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.03.14-19.16.36:924][359]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.03.14-19.16.36:924][359]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.03.14-19.16.36:925][359]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.03.14-19.16.36:925][359]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.03.14-19.16.36:925][359]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.03.14-19.16.36:926][359]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.03.14-19.16.36:929][359]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.03.14-19.16.36:929][359]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.03.14-19.16.36:929][359]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.03.14-19.16.36:931][359]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.03.14-19.16.36:931][359]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.03.14-19.16.36:936][359]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.03.14-19.16.36:937][359]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.03.14-19.16.36:937][359]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.03.14-19.16.36:937][359]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.03.14-19.16.36:937][359]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.03.14-19.16.36:937][359]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.03.14-19.16.37:147][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.03.14-19.16.37:147][359]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/' was aborted.
+[2018.03.14-19.16.37:147][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.03.14-19.16.37:147][359]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.03.14-19.16.37:152][359]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.03.14-19.16.37:157][359]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.03.14-19.16.37:157][359]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.03.14-19.16.37:157][359]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.03.14-19.16.37:157][359]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.03.14-19.16.37:157][359]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.03.14-19.16.37:158][359]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.03.14-19.16.37:158][359]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.03.14-19.16.37:159][359]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.03.14-19.16.37:219][359]LogDerivedDataCache: Shutdown
+[2018.03.14-19.16.37:219][359]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.03.14-19.16.37:219][359]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.03.14-19.16.37:220][359]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.03.14-19.16.37:221][359]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.03.14-19.16.37:221][359]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.03.14-19.16.37:222][359]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.03.14-19.16.37:222][359]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.03.14-19.16.37:222][359]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.03.14-19.16.37:222][359]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.03.14-19.16.37:222][359]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.03.14-19.16.37:223][359]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.03.14-19.16.37:224][359]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.03.14-19.16.37:225][359]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.03.14-19.16.37:225][359]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.03.14-19.16.37:225][359]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.03.14-19.16.37:225][359]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.03.14-19.16.37:226][359]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.03.14-19.16.37:227][359]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.03.14-19.16.37:227][359]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.03.14-19.16.37:227][359]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.03.14-19.16.37:227][359]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.03.14-19.16.37:228][359]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.03.14-19.16.37:228][359]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.03.14-19.16.37:228][359]LogOnline:Display: Unloading online subsystem: NULL
+[2018.03.14-19.16.37:230][359]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.03.14-19.16.37:231][359]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.03.14-19.16.37:231][359]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.03.14-19.16.37:231][359]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B1AAD9560-42DF-F5DD-4804-BDA84D09166F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f2ee2cd141fd990cd7bc44856aa9a1ea%7C3996f32fd2fe4f04a289bdcb1f9016df%7Cd35f91c7-4e6c-478a-b9f5-ce22f1949bcb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.03.14-19.16.37:231][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.37:731][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.38:232][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.38:732][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.39:232][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.39:733][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.40:233][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.40:734][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.41:234][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.41:735][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.42:235][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.42:736][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.43:236][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.43:736][359]LogHttp:Display: Sleeping 0.5s to wait for 1 outstanding Http requests.
+[2018.03.14-19.16.44:260][359]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.03.14-19.16.44:262][359]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.03.14-19.16.44:264][359]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.03.14-19.16.44:264][359]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.03.14-19.16.44:264][359]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.03.14-19.16.44:265][359]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.03.14-19.16.44:265][359]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.03.14-19.16.44:265][359]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.03.14-19.16.44:265][359]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.03.14-19.16.44:267][359]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.03.14-19.16.44:268][359]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.03.14-19.16.44:268][359]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.03.14-19.16.44:269][359]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.03.14-19.16.44:269][359]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.03.14-19.16.44:269][359]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.03.14-19.16.44:269][359]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.03.14-19.16.44:269][359]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.03.14-19.16.44:269][359]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.03.14-19.16.44:270][359]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.03.14-19.16.44:275][359]LogExit: Exiting.
+[2018.03.14-19.16.44:297][359]Log file closed, 03/14/18 19:16:44
+>>>>>>> 49b1ac49e4529cdb157454fb6bd00c58f0f46b1d

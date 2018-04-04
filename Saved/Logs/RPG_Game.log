@@ -1335,3 +1335,1220 @@ LogInit: Object subsystem initialized
 [2018.04.04-10.59.17:227][150]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
 [2018.04.04-10.59.17:227][150]SourceControl: Info  rewrite Content/Assets/Facility/lambert1.uasset (97%)
 [2018.04.04-10.59.17:236][150]SourceControl: Info Commited [master 88d4c76] facility in place.
+[2018.04.04-11.00.14:654][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:654][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ExecuteUbergraph_LaunchPad' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:654][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Arrow' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:654][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Box' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:654][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:654][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Power' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'BndEvt__Box_K2Node_ComponentBoundEvent_0_ComponentBeginOverlapSignature__DelegateSignature' or package '/Game/Assets/LaunchPad'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_LaunchPad_C_38' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_LaunchPad_C_1' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'ComponentDelegateBinding_2' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UberGraphFrame' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Arrow_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Box_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_LaunchPad_C_0' or package '/Engine/Transient'.
+[2018.04.04-11.00.14:655][390]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_LaunchPad_C_37' or package '/Engine/Transient'.
+[2018.04.04-11.00.15:325][390]SourceControl: Info rm 'Content/Assets/LaunchPad.uasset'
+[2018.04.04-11.00.17:810][604]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0012 seconds. Added 112 classes and 0 folders.
+[2018.04.04-11.00.18:510][604]LogSlate: Took 0.000248 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.04.04-11.00.18:574][604]LogSlate: Took 0.000324 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.04.04-11.00.18:645][605]LogSlate: Took 0.000337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.04.04-11.01.12:113][580]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.04.04-11.01.12:130][580]LogStaticMesh: Building static mesh Lab_Coats...
+[2018.04.04-11.01.12:192][580]LogStaticMesh: Built static mesh [0.06s] /Game/Assets/Misc_Objects/LabCoats/Lab_Coats.Lab_Coats
+[2018.04.04-11.01.12:201][580]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.04.04-11.01.12:218][580]LogMaterial: Missing cached shader map for material M_White, compiling. 
+[2018.04.04-11.01.12:550][615]LogActorFactory: Actor Factory created Lab_Coats
+[2018.04.04-11.01.14:309][778]LogActorFactory: Actor Factory created Lab_Coats
+[2018.04.04-11.01.43:397][ 63]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Facility_)
+[2018.04.04-11.05.04:949][588]LogRenderer: Reallocating scene render targets to support 1600x700 NumSamples 1 (Frame:126082).
+[2018.04.04-11.05.04:997][589]LogRenderer: Reallocating scene render targets to support 1920x1040 NumSamples 1 (Frame:126084).
+[2018.04.04-11.05.25:636][793]MapCheck: New page: Map Check
+[2018.04.04-11.05.25:647][793]LightingResults: New page: Lighting Build - 4 Apr 2018 13:05:25
+[2018.04.04-11.05.25:699][793]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.04-11.05.25:703][793]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.04-11.05.25:703][793]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.04-11.05.25:704][793]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.04-11.05.25:704][793]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4408
+[2018.04.04-11.05.30:211][793]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.04-11.05.30:211][793]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.04-11.05.30:211][793]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.04-11.05.30:211][793]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.04-11.05.30:211][793]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.04-11.05.30:404][793]LogEditorBuildUtils: Build time 0:04
+[2018.04.04-11.05.30:414][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_White, compiling. 
+[2018.04.04-11.05.30:420][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_White, compiling. 
+[2018.04.04-11.05.30:425][793]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_White, compiling. 
+[2018.04.04-11.05.30:444][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.04-11.05.30:450][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.04-11.05.30:456][794]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.04-11.05.30:486][795]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.04.04-11.05.30:492][795]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.04.04-11.05.30:499][795]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.04.04-11.05.38:238][336]Job is a success!
+[2018.04.04-11.05.38:407][337]LogMaterial:Warning: Material /Game/Assets/Misc_Objects/LabCoats/M_White.M_White needed to have new flag set bUsedWithStaticLighting !
+[2018.04.04-11.05.38:409][337]LogMaterial: Missing cached shader map for material M_White, compiling. 
+[2018.04.04-11.05.38:456][337]LogMaterial:Warning: Material /Game/Assets/Misc_Objects/LabCoats/lambert1.lambert1 needed to have new flag set bUsedWithStaticLighting !
+[2018.04.04-11.05.38:458][337]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.04.04-11.05.38:485][337]LogMaterial:Warning: Material /Game/Assets/Misc_Objects/LabCoats/lambert2.lambert2 needed to have new flag set bUsedWithStaticLighting !
+[2018.04.04-11.05.38:487][337]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion0_1 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion0_2 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_3 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_3 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_3 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_4 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_4 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_4 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_5 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_5 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_5 (DXT1, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_6 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_6 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_6 (DXT1, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_7 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_7 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_7 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_8 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_8 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_8 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_9 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_9 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_9 (DXT1, 256X256)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_10 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_10 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_10 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_11 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_11 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_11 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: HQ_Lightmap1_12 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_12 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: LQ_Lightmap_1_12 (DXT1, 128X128)
+[2018.04.04-11.05.38:924][337]LogTexture:Display: Building textures: SkyOcclusion1_13 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_13 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_13 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_14 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_14 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_14 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_15 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_15 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_15 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_16 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_16 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_16 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_17 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_17 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_17 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_18 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_18 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_18 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_19 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_19 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_19 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_20 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_20 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_20 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_21 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_21 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_21 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion1_22 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap1_22 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_1_22 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion0_23 (AutoDXT, 256X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap0_23 (AutoDXT, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_0_23 (DXT1, 256X256)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion0_24 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap0_24 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_0_24 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion0_25 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap0_25 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_0_25 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion0_26 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap0_26 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_0_26 (DXT1, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: SkyOcclusion0_27 (AutoDXT, 128X64)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: HQ_Lightmap0_27 (AutoDXT, 128X128)
+[2018.04.04-11.05.38:925][337]LogTexture:Display: Building textures: LQ_Lightmap_0_27 (DXT1, 128X128)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_163 (G8, 64X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_165 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_164 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_169 (G8, 64X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_166 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_168 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_173 (G8, 64X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_167 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_172 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_171 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_170 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_174 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_176 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_179 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_162 (G8, 512X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_175 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_178 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_177 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_186 (G8, 64X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_185 (G8, 64X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_180 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_182 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_181 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_187 (G8, 128X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_183 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_184 (G8, 256X64)
+[2018.04.04-11.05.38:949][337]LogTexture:Display: Building textures: ShadowMapTexture2D_188 (G8, 128X64)
+[2018.04.04-11.05.38:990][337]Lightmass on SONOFMORT: 6.83 sec total, 576 ms importing, 310 ms setup, 1.90 sec photons, 3.99 sec processing, 0 ms extra exporting [70/70 mappings]. Threads: 59.0 sec total, 39.3 sec processing.
+[2018.04.04-11.05.39:005][337]LogStaticLightingSystem: Illumination: 13.3 sec (361 ms encoding lightmaps, 17 ms encoding shadowmaps)
+[2018.04.04-11.05.39:005][337]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.5 MB streaming, 0.0 MB non-streaming), 54 textures
+[2018.04.04-11.05.39:005][337]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 27 textures
+[2018.04.04-11.05.39:236][337]DumpUnbuiltLightIteractions
+[2018.04.04-11.05.39:236][337]Lights with unbuilt interactions: 0
+[2018.04.04-11.05.39:236][337]
+[2018.04.04-11.05.39:236][337]Primitives with unbuilt interactions: 0
+[2018.04.04-11.05.39:250][338]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.04-11.05.39:250][338]MapCheck: New page: HelloWorld - 4 Apr 2018 13:05:39
+[2018.04.04-11.05.39:426][338]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 175.754ms to complete.
+[2018.04.04-11.05.44:810][872]LogStaticMesh: Building static mesh Beached_Small_Boat...
+[2018.04.04-11.05.44:840][872]LogStaticMesh: Built static mesh [0.03s] /Game/Assets/Misc_Objects/Boats/Beached_Small_Boat.Beached_Small_Boat
+[2018.04.04-11.05.44:846][872]LogMaterial: Missing cached shader map for material M_Oars, compiling. 
+[2018.04.04-11.05.44:864][872]LogMaterial: Missing cached shader map for material M_Boat, compiling. 
+[2018.04.04-11.05.45:006][882]LogActorFactory: Actor Factory created Beached_Small_Boat
+[2018.04.04-11.05.46:440][  1]LogActorFactory: Actor Factory created Beached_Small_Boat
+[2018.04.04-11.06.38:843][939]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2018.04.04-11.06.47:029][865]MapCheck: New page: Map Check
+[2018.04.04-11.06.47:044][865]LightingResults: New page: Lighting Build - 4 Apr 2018 13:06:47
+[2018.04.04-11.06.47:094][865]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2018.04.04-11.06.47:098][865]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2018.04.04-11.06.47:098][865]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2018.04.04-11.06.47:099][865]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2018.04.04-11.06.47:099][865]LogSwarmInterface: [TryOpenConnection] Local Process ID is 4408
+[2018.04.04-11.06.51:629][865]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2018.04.04-11.06.51:629][865]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2018.04.04-11.06.51:629][865]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2018.04.04-11.06.51:629][865]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2018.04.04-11.06.51:629][865]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2018.04.04-11.06.51:774][865]LogEditorBuildUtils: Build time 0:04
+[2018.04.04-11.06.51:785][865]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_White, compiling. 
+[2018.04.04-11.06.51:791][865]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_White, compiling. 
+[2018.04.04-11.06.51:797][865]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_White, compiling. 
+[2018.04.04-11.06.51:812][866]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.04-11.06.51:818][866]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.04-11.06.51:824][866]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert1, compiling. 
+[2018.04.04-11.06.51:854][867]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.04.04-11.06.51:861][867]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.04.04-11.06.51:868][867]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer lambert2, compiling. 
+[2018.04.04-11.06.51:888][868]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Oars, compiling. 
+[2018.04.04-11.06.51:894][868]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Oars, compiling. 
+[2018.04.04-11.06.51:901][868]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Oars, compiling. 
+[2018.04.04-11.06.51:920][869]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Boat, compiling. 
+[2018.04.04-11.06.51:927][869]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Boat, compiling. 
+[2018.04.04-11.06.51:933][869]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer M_Boat, compiling. 
+[2018.04.04-11.07.00:106][403]Job is a success!
+[2018.04.04-11.07.00:274][404]LogMaterial:Warning: Material /Game/Assets/Misc_Objects/Boats/M_Oars.M_Oars needed to have new flag set bUsedWithStaticLighting !
+[2018.04.04-11.07.00:276][404]LogMaterial: Missing cached shader map for material M_Oars, compiling. 
+[2018.04.04-11.07.00:303][404]LogMaterial:Warning: Material /Game/Assets/Misc_Objects/Boats/M_Boat.M_Boat needed to have new flag set bUsedWithStaticLighting !
+[2018.04.04-11.07.00:305][404]LogMaterial: Missing cached shader map for material M_Boat, compiling. 
+[2018.04.04-11.07.00:706][404]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_2 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_1 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_3 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_3 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_3 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_4 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_4 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_4 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_5 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_5 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_5 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_6 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_6 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_6 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_7 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_7 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_7 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_8 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_8 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_8 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_9 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_9 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_9 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_10 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_10 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_10 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_11 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_11 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_11 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_12 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_12 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_12 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_13 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_13 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_13 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_14 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_14 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_14 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_15 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_15 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_15 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_16 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_16 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_16 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_17 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_17 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_18 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_17 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_18 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_18 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_19 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_19 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_19 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_20 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_20 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_20 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_21 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_21 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_21 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion0_22 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap0_22 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_0_22 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_23 (AutoDXT, 256X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap1_23 (AutoDXT, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_23 (DXT1, 256X256)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_24 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap1_24 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_24 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_25 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap1_25 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_25 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_26 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap1_26 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_26 (DXT1, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: SkyOcclusion1_27 (AutoDXT, 128X64)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: HQ_Lightmap1_27 (AutoDXT, 128X128)
+[2018.04.04-11.07.00:707][404]LogTexture:Display: Building textures: LQ_Lightmap_1_27 (DXT1, 128X128)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_190 (G8, 64X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_192 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_191 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_196 (G8, 64X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_195 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_193 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_198 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_200 (G8, 64X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_199 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_189 (G8, 512X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_201 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_203 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_197 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_194 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_206 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_202 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_209 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_204 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_205 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_212 (G8, 64X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_207 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_208 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_213 (G8, 64X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_214 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_210 (G8, 256X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_215 (G8, 128X64)
+[2018.04.04-11.07.00:761][404]LogTexture:Display: Building textures: ShadowMapTexture2D_211 (G8, 256X64)
+[2018.04.04-11.07.00:796][404]Lightmass on SONOFMORT: 6.84 sec total, 585 ms importing, 303 ms setup, 1.92 sec photons, 3.99 sec processing, 0 ms extra exporting [71/71 mappings]. Threads: 58.9 sec total, 40.3 sec processing.
+[2018.04.04-11.07.00:809][404]LogStaticLightingSystem: Illumination: 13.7 sec (367 ms encoding lightmaps, 47 ms encoding shadowmaps)
+[2018.04.04-11.07.00:809][404]LogStaticLightingSystem: Lightmap texture memory:  2.5 MB (2.5 MB streaming, 0.0 MB non-streaming), 54 textures
+[2018.04.04-11.07.00:809][404]LogStaticLightingSystem: Shadowmap texture memory: 0.4 MB (0.4 MB streaming, 0.0 MB non-streaming), 27 textures
+[2018.04.04-11.07.01:640][404]DumpUnbuiltLightIteractions
+[2018.04.04-11.07.01:640][404]Lights with unbuilt interactions: 0
+[2018.04.04-11.07.01:640][404]
+[2018.04.04-11.07.01:640][404]Primitives with unbuilt interactions: 0
+[2018.04.04-11.07.01:649][405]Cmd: MAP CHECK NOTIFYRESULTS
+[2018.04.04-11.07.01:649][405]MapCheck: New page: HelloWorld - 4 Apr 2018 13:07:01
+[2018.04.04-11.07.01:810][405]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 161.146ms to complete.
+[2018.04.04-11.07.09:460][262]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.07.09:491][262]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.07.09:491][262]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.07.09:491][262]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:07:09)
+[2018.04.04-11.07.09:491][262]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.07.09:508][262]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017117s)
+[2018.04.04-11.07.09:509][262]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.07.09:509][262]LogPlayLevel: PIE: World Init took: (0.000744s)
+[2018.04.04-11.07.09:509][262]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018053s)
+[2018.04.04-11.07.09:532][262]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.07.09:688][262]LogInit: FAudioDevice initialized.
+[2018.04.04-11.07.09:722][262]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.07.09:727][262]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.07.09
+[2018.04.04-11.07.09:728][262]LogWorld: Bringing up level for play took: 0.004387
+[2018.04.04-11.07.09:730][262]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.46
+[2018.04.04-11.07.09:730][262]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.07.13:108][644]LogBlueprintUserMessages: [HelloWorld_C_0] You Died
+[2018.04.04-11.07.15:109][876]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.04.04-11.07.15:109][876]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.04.04-11.07.15:132][876]Cmd: MEM
+[2018.04.04-11.07.15:151][876]LogMemory: Platform Memory Stats for Windows
+[2018.04.04-11.07.15:151][876]LogMemory: Process Physical Memory: 1620.37 MB used, 1676.46 MB peak
+[2018.04.04-11.07.15:151][876]LogMemory: Process Virtual Memory: 2542.04 MB used, 2757.14 MB peak
+[2018.04.04-11.07.15:151][876]LogMemory: Physical Memory: 5373.13 MB used,  2774.10 MB free, 8147.22 MB total
+[2018.04.04-11.07.15:151][876]LogMemory: Virtual Memory: 3803.09 MB used,  2774.10 MB free, 134217728.00 MB total
+[2018.04.04-11.07.15:151][876]LogMemory: 
+[2018.04.04-11.07.15:151][876]Allocator Stats for TBB: (not implemented)
+[2018.04.04-11.07.15:151][876]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.07.15:168][876]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017003s)
+[2018.04.04-11.07.15:169][876]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.07.15:169][876]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2018.04.04-11.07.15:169][876]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017902s)
+[2018.04.04-11.07.15:169][876]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.07.15:173][876]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.07.15
+[2018.04.04-11.07.15:175][876]LogWorld: Bringing up level for play took: 0.003915
+[2018.04.04-11.07.15:176][876]LogLoad: Took 0.067165 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.04.04-11.07.18:512][258]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.07.18:559][258]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.07.36:634][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Beached_Small_Boat)
+[2018.04.04-11.08.12:663][490]Cmd: DELETE
+[2018.04.04-11.08.12:663][490]Cmd: ACTOR DELETE
+[2018.04.04-11.08.16:060][490]LogEditorActor: Deleted Actor: KillZVolume
+[2018.04.04-11.08.16:080][490]LogEditorActor: Deleted 1 Actors (3.417 secs)
+[2018.04.04-11.12.24:136][972]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2018.04.04-11.12.24:142][972]LogBlueprint:Error: [Compiler TriggerBox_Blueprint] Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2018.04.04-11.12.24:142][972]LogBlueprint:Error: [Compiler TriggerBox_Blueprint] Error Variable node  Get CharacterMovement  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.04.04-11.12.24:572][972]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a Character, therefore ' Target ' must have a connection.
+[2018.04.04-11.12.24:572][972]BlueprintEditorCompileResults:Error: Error Variable node  Get CharacterMovement  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2018.04.04-11.12.24:573][972]LogBlueprint:Warning: [Compiler TriggerBox_Blueprint] Warning [1785.27] Compile of TriggerBox_Blueprint failed. 2 Fatal Issue(s) 0 Warning(s) [in 437 ms] (/Game/Blueprints/TriggerBox_Blueprint.TriggerBox_Blueprint)
+[2018.04.04-11.12.31:299][777]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2018.04.04-11.12.32:281][878]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.12.32:324][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.12.32:324][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.12.32:324][878]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:12:32)
+[2018.04.04-11.12.32:324][878]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.12.32:341][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017418s)
+[2018.04.04-11.12.32:342][878]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.12.32:342][878]LogPlayLevel: PIE: World Init took: (0.000783s)
+[2018.04.04-11.12.32:342][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018391s)
+[2018.04.04-11.12.32:367][878]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.12.32:526][878]LogInit: FAudioDevice initialized.
+[2018.04.04-11.12.32:574][878]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.12.32:578][878]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.12.32
+[2018.04.04-11.12.32:579][878]LogWorld: Bringing up level for play took: 0.003566
+[2018.04.04-11.12.32:582][878]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.392
+[2018.04.04-11.12.32:582][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.12.36:747][369]LogBlueprintUserMessages: [TriggerBox_Blueprint] You Died!
+[2018.04.04-11.12.38:747][609]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.04.04-11.12.38:747][609]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.04.04-11.12.38:771][609]Cmd: MEM
+[2018.04.04-11.12.38:790][609]LogMemory: Platform Memory Stats for Windows
+[2018.04.04-11.12.38:790][609]LogMemory: Process Physical Memory: 1567.57 MB used, 1740.65 MB peak
+[2018.04.04-11.12.38:790][609]LogMemory: Process Virtual Memory: 2860.10 MB used, 2875.23 MB peak
+[2018.04.04-11.12.38:790][609]LogMemory: Physical Memory: 5003.21 MB used,  3144.01 MB free, 8147.22 MB total
+[2018.04.04-11.12.38:790][609]LogMemory: Virtual Memory: 4092.54 MB used,  3144.01 MB free, 134217728.00 MB total
+[2018.04.04-11.12.38:790][609]LogMemory: 
+[2018.04.04-11.12.38:790][609]Allocator Stats for TBB: (not implemented)
+[2018.04.04-11.12.38:790][609]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.12.38:807][609]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016813s)
+[2018.04.04-11.12.38:807][609]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.12.38:808][609]LogPlayLevel: PIE: World Init took: (0.000700s)
+[2018.04.04-11.12.38:808][609]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017723s)
+[2018.04.04-11.12.38:808][609]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.12.38:812][609]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.12.38
+[2018.04.04-11.12.38:812][609]LogWorld: Bringing up level for play took: 0.002981
+[2018.04.04-11.12.38:813][609]LogLoad: Took 0.066283 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.04.04-11.12.43:599][183]LogBlueprintUserMessages: [TriggerBox_Blueprint] You Died!
+[2018.04.04-11.12.45:599][423]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.04.04-11.12.45:599][423]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.04.04-11.12.45:623][423]Cmd: MEM
+[2018.04.04-11.12.45:643][423]LogMemory: Platform Memory Stats for Windows
+[2018.04.04-11.12.45:643][423]LogMemory: Process Physical Memory: 1569.14 MB used, 1740.65 MB peak
+[2018.04.04-11.12.45:643][423]LogMemory: Process Virtual Memory: 2859.61 MB used, 2926.06 MB peak
+[2018.04.04-11.12.45:643][423]LogMemory: Physical Memory: 5004.19 MB used,  3143.03 MB free, 8147.22 MB total
+[2018.04.04-11.12.45:643][423]LogMemory: Virtual Memory: 4103.35 MB used,  3143.03 MB free, 134217728.00 MB total
+[2018.04.04-11.12.45:643][423]LogMemory: 
+[2018.04.04-11.12.45:643][423]Allocator Stats for TBB: (not implemented)
+[2018.04.04-11.12.45:643][423]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.12.45:659][423]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016335s)
+[2018.04.04-11.12.45:660][423]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.12.45:660][423]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2018.04.04-11.12.45:660][423]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017255s)
+[2018.04.04-11.12.45:660][423]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.12.45:664][423]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.12.45
+[2018.04.04-11.12.45:664][423]LogWorld: Bringing up level for play took: 0.003005
+[2018.04.04-11.12.45:666][423]LogLoad: Took 0.066080 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.04.04-11.12.50:876][ 48]LogBlueprintUserMessages: [TriggerBox_Blueprint] You Died!
+[2018.04.04-11.12.52:377][228]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.12.52:447][228]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.12.54:966][524]LogEditorViewport: Clicking on Actor (LMB): TriggerBox_Blueprint_C (TriggerBox_Blueprint)
+[2018.04.04-11.14.03:005][644]BlueprintLog: New page: Compile TriggerBox_Blueprint
+[2018.04.04-11.14.04:027][748]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.14.04:053][748]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.14.04:053][748]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.14.04:053][748]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:14:04)
+[2018.04.04-11.14.04:053][748]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.14.04:070][748]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017401s)
+[2018.04.04-11.14.04:071][748]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.14.04:071][748]LogPlayLevel: PIE: World Init took: (0.000749s)
+[2018.04.04-11.14.04:071][748]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018357s)
+[2018.04.04-11.14.04:097][748]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.14.04:252][748]LogInit: FAudioDevice initialized.
+[2018.04.04-11.14.04:302][748]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.14.04:306][748]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.14.04
+[2018.04.04-11.14.04:306][748]LogWorld: Bringing up level for play took: 0.003189
+[2018.04.04-11.14.04:309][748]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.119
+[2018.04.04-11.14.04:309][748]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.14.08:129][192]LogBlueprintUserMessages: [TriggerBox_Blueprint] You Died!
+[2018.04.04-11.14.10:130][432]LogNet: Browse: /Game/Maps/HelloWorld
+[2018.04.04-11.14.10:130][432]LogLoad: LoadMap: /Game/Maps/HelloWorld
+[2018.04.04-11.14.10:153][432]Cmd: MEM
+[2018.04.04-11.14.10:173][432]LogMemory: Platform Memory Stats for Windows
+[2018.04.04-11.14.10:173][432]LogMemory: Process Physical Memory: 1590.15 MB used, 1740.65 MB peak
+[2018.04.04-11.14.10:173][432]LogMemory: Process Virtual Memory: 2898.26 MB used, 2930.13 MB peak
+[2018.04.04-11.14.10:173][432]LogMemory: Physical Memory: 5131.43 MB used,  3015.80 MB free, 8147.22 MB total
+[2018.04.04-11.14.10:173][432]LogMemory: Virtual Memory: 4135.04 MB used,  3015.80 MB free, 134217728.00 MB total
+[2018.04.04-11.14.10:173][432]LogMemory: 
+[2018.04.04-11.14.10:173][432]Allocator Stats for TBB: (not implemented)
+[2018.04.04-11.14.10:173][432]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.14.10:190][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016906s)
+[2018.04.04-11.14.10:190][432]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.14.10:191][432]LogPlayLevel: PIE: World Init took: (0.000699s)
+[2018.04.04-11.14.10:191][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017807s)
+[2018.04.04-11.14.10:191][432]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.14.10:195][432]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.14.10
+[2018.04.04-11.14.10:196][432]LogWorld: Bringing up level for play took: 0.003100
+[2018.04.04-11.14.10:197][432]LogLoad: Took 0.067166 seconds to LoadMap(/Game/Maps/UEDPIE_0_HelloWorld)
+[2018.04.04-11.14.17:722][335]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.14.17:795][335]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.14.20:011][584]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox_Blueprint" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/TriggerBox_Blueprint.uasset" SILENT=true
+[2018.04.04-11.14.20:034][584]LogSavePackage: Save=20.25ms
+[2018.04.04-11.14.20:034][584]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/TriggerBox_Blueprint5D9EA2384CEBBF3E3F006E95D5BC1242.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/TriggerBox_Blueprint.uasset'
+[2018.04.04-11.14.20:038][584]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/TriggerBox_Blueprint.uasset
+[2018.04.04-11.14.22:906][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.14.22:952][886]LogBlueprint:Error: [Compiler PersistentLevel.HelloWorld] Error Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.04.04-11.14.23:126][886]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1903.83] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 0 Warning(s) [in 176 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.23:129][886]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1903.83] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.23:129][886]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1903.83] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.23:129][886]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1903.83] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.23:130][886]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1903.83] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.23:130][886]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1903.83] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.23:160][886]LogTexture:Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2018.04.04-11.14.23:170][886]LogTexture:Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2018.04.04-11.14.23:170][886]LogTexture:Display: Building textures: Texture2D_19 (BGRA8, 64X64)
+[2018.04.04-11.14.23:522][886]LogSavePackage: Save=575.05ms
+[2018.04.04-11.14.23:522][886]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldDCBA52F741D562089C0000ADC0A208E2.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.14.23:526][886]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.14.23:662][886]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.14.24:303][886]LogSavePackage: Save=512.43ms
+[2018.04.04-11.14.24:303][886]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltDataF1A34DCF4D4747EA6596638DB40CD962.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.14.24:308][886]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.14.37:316][412]SourceControl: Info On branch master
+[2018.04.04-11.14.37:316][412]SourceControl: Info Your branch is up to date with 'origin/master'.
+[2018.04.04-11.14.37:316][412]SourceControl: Info Changes to be committed:
+[2018.04.04-11.14.37:316][412]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	deleted:    Content/Assets/LaunchPad.uasset
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	new file:   Content/Blueprints/TriggerBox_Blueprint.uasset
+[2018.04.04-11.14.37:316][412]SourceControl: Info Changes not staged for commit:
+[2018.04.04-11.14.37:316][412]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2018.04.04-11.14.37:316][412]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	modified:   Content/Maps/HelloWorld.umap
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	modified:   Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	deleted:    Saved/Backup/HelloWorld_BuiltData_2018-03-16-16-57-00.uasset
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	modified:   Saved/Config/Windows/SourceControlSettings.ini
+[2018.04.04-11.14.37:316][412]SourceControl: Info Untracked files:
+[2018.04.04-11.14.37:316][412]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	Saved/Backup/HelloWorld_2018-04-04-12-14-22.umap
+[2018.04.04-11.14.37:316][412]SourceControl: Info 	Saved/Backup/HelloWorld_BuiltData_2018-04-04-12-14-23.uasset
+[2018.04.04-11.14.37:959][412]LogMetaData: Removing '/Game/Blueprints/DeathCollision.DeathCollision:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/Blueprints/TriggerBox_Blueprint.PackageMetaData'
+[2018.04.04-11.14.37:959][412]LogMetaData: Removing '/Game/Blueprints/DeathCollision.SKEL_DeathCollision_C' ref from Metadata '/Game/Blueprints/TriggerBox_Blueprint.PackageMetaData'
+[2018.04.04-11.14.37:959][412]LogMetaData: Removing '/Game/Blueprints/DeathCollision.DeathCollision_C' ref from Metadata '/Game/Blueprints/TriggerBox_Blueprint.PackageMetaData'
+[2018.04.04-11.14.37:959][412]LogMetaData: Removing '/Game/Blueprints/DeathCollision.DeathCollision:EventGraph.K2Node_Event_1' ref from Metadata '/Game/Blueprints/TriggerBox_Blueprint.PackageMetaData'
+[2018.04.04-11.14.37:979][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/DeathCollision" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/DeathCollision.uasset" SILENT=true
+[2018.04.04-11.14.38:019][412]LogSavePackage: Save=19.13ms
+[2018.04.04-11.14.38:019][412]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/DeathCollision53530A3848BC576012A8738D2EDE4CED.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/DeathCollision.uasset'
+[2018.04.04-11.14.38:023][412]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/DeathCollision.uasset
+[2018.04.04-11.14.38:210][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/TriggerBox_Blueprint" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/TriggerBox_Blueprint.uasset" SILENT=true
+[2018.04.04-11.14.38:218][412]LogSavePackage: Save=1.66ms
+[2018.04.04-11.14.38:218][412]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/TriggerBox_Blueprint0FE60F8E42A77D17144925B7179A2086.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/TriggerBox_Blueprint.uasset'
+[2018.04.04-11.14.38:222][412]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Blueprints/TriggerBox_Blueprint.uasset
+[2018.04.04-11.14.41:395][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.14.41:424][750]LogBlueprint:Error: [Compiler PersistentLevel.HelloWorld] Error Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.04.04-11.14.41:597][750]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1922.30] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 0 Warning(s) [in 175 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.41:597][750]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1922.30] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.41:597][750]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1922.30] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.41:597][750]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1922.30] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.41:598][750]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1922.30] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.41:598][750]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1922.30] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.41:970][750]LogSavePackage: Save=551.46ms
+[2018.04.04-11.14.41:970][750]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld071D7B33439F4657A2CA6A9BC5CEEBE6.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.14.41:974][750]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.14.42:111][750]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.14.42:696][750]LogSavePackage: Save=581.97ms
+[2018.04.04-11.14.42:697][750]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData8271784D4326C1268825CB969CD4FC71.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.14.42:700][750]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.14.54:633][150]LogLinker:Warning: Can't find file '/Game/Materials/alphabox'
+[2018.04.04-11.14.54:633][150]LoadErrors: Info Failed to load /Game/Assets/PowerBlock/AlphaBox.AlphaBox Referenced by AlphaCube_GEN_VARIABLE
+[2018.04.04-11.14.54:633][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/alphabox' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/AlphaBox.uasset.
+[2018.04.04-11.14.54:633][150]LoadErrors:Error: Error /Game/Assets/PowerBlock/AlphaBox : Can't find file for asset. /Game/Materials/alphabox
+[2018.04.04-11.14.54:633][150]LogLinker:Warning: Can't find file '/Game/Materials/alphabox'
+[2018.04.04-11.14.54:633][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/alphabox' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/AlphaBox.uasset.
+[2018.04.04-11.14.54:649][150]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.04.04-11.14.54:649][150]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Base.Button_Base Referenced by Button_Base_GEN_VARIABLE
+[2018.04.04-11.14.54:650][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Base.uasset.
+[2018.04.04-11.14.54:650][150]LoadErrors:Error: Error /Game/Assets/PressurePad/Button_Base : Can't find file for asset. /Game/Materials/ButtonMaterial
+[2018.04.04-11.14.54:650][150]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.04.04-11.14.54:650][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Base.uasset.
+[2018.04.04-11.14.54:651][150]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.04.04-11.14.54:651][150]LoadErrors: Info Failed to load /Game/Assets/PressurePad/Button_Push.Button_Push Referenced by Push_GEN_VARIABLE
+[2018.04.04-11.14.54:651][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Push.uasset.
+[2018.04.04-11.14.54:651][150]LoadErrors:Error: Error /Game/Assets/PressurePad/Button_Push : Can't find file for asset. /Game/Materials/ButtonMaterial
+[2018.04.04-11.14.54:651][150]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.04.04-11.14.54:651][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading F:/FMP/RPG_Game/RPG_Game/Content/Assets/PressurePad/Button_Push.uasset.
+[2018.04.04-11.14.54:656][150]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.14.54:657][150]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.14.54:660][150]LogBlueprint:Warning: [Compiler PressurePad] Warning [1935.36] Compile of PressurePad failed. 2 Fatal Issue(s) 0 Warning(s) [in 4 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.14.54:660][150]LogBlueprint:Warning: [Compiler PressurePad] Warning [1935.36] Compile of PressurePad failed. 2 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.14.54:660][150]LogBlueprint:Warning: [Compiler PressurePad] Warning [1935.36] Compile of PressurePad failed. 2 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.14.54:678][150]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.04.04-11.14.54:678][150]LoadErrors: Info Failed to load /Game/Materials/ButtonMaterial.ButtonMaterial Referenced by Button_Push
+[2018.04.04-11.14.54:678][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading NULL.
+[2018.04.04-11.14.54:679][150]LogLinker:Warning: Can't find file '/Game/Materials/ButtonMaterial'
+[2018.04.04-11.14.54:679][150]LoadErrors: Info Failed to load /Game/Materials/ButtonMaterial.ButtonMaterial Referenced by Button_Base
+[2018.04.04-11.14.54:679][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/ButtonMaterial' while loading NULL.
+[2018.04.04-11.14.54:679][150]LogLinker:Warning: Can't find file '/Game/Materials/alphabox'
+[2018.04.04-11.14.54:679][150]LoadErrors: Info Failed to load /Game/Materials/alphabox.alphabox Referenced by AlphaBox
+[2018.04.04-11.14.54:679][150]LogLinker:Warning: Can't find file for asset '/Game/Materials/alphabox' while loading NULL.
+[2018.04.04-11.14.54:686][150]LogStaticMesh: Building static mesh Geo_Door_Base...
+[2018.04.04-11.14.54:701][150]LogStaticMesh: Built static mesh [0.02s] /Game/Assets/PowerDoor/Geo_Door_Base.Geo_Door_Base
+[2018.04.04-11.14.54:704][150]LogStaticMesh: Building static mesh Geo_Door_Door...
+[2018.04.04-11.14.54:717][150]LogStaticMesh: Built static mesh [0.01s] /Game/Assets/PowerDoor/Geo_Door_Door.Geo_Door_Door
+[2018.04.04-11.14.57:839][487]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.14.57:867][487]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.14.57:867][487]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.04-11.14.57:867][487]LogPlayLevel: [PlayLevel] Compiling HelloWorld before play...
+[2018.04.04-11.14.57:872][487]LogBlueprint:Error: [Compiler PersistentLevel.HelloWorld] Error Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.04.04-11.14.58:053][487]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1938.75] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 0 Warning(s) [in 182 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.58:053][487]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1938.75] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.58:053][487]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1938.75] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.58:053][487]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1938.75] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.58:054][487]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1938.75] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.58:054][487]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1938.75] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.14.58:075][487]LogPlayLevel: PlayLevel: Blueprint regeneration took 207 ms (1 blueprints)
+[2018.04.04-11.14.58:076][487]BlueprintLog: Info Blueprint HelloWorld failed to compile
+[2018.04.04-11.15.00:452][487]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:15:00)
+[2018.04.04-11.15.00:452][487]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.15.00:470][487]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018092s)
+[2018.04.04-11.15.00:471][487]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.15.00:471][487]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2018.04.04-11.15.00:471][487]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018997s)
+[2018.04.04-11.15.00:497][487]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.15.00:658][487]LogInit: FAudioDevice initialized.
+[2018.04.04-11.15.00:689][487]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.15.00:693][487]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.15.00
+[2018.04.04-11.15.00:693][487]LogWorld: Bringing up level for play took: 0.003093
+[2018.04.04-11.15.00:697][487]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 2.507
+[2018.04.04-11.15.00:697][487]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.04:177][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.04:217][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.21:996][957]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PowerBlock/Cube" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/Cube.uasset" SILENT=true
+[2018.04.04-11.15.22:041][957]LogSavePackage: Save=37.88ms
+[2018.04.04-11.15.22:041][957]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/CubeBF9441D148F4F968C1FBA78AAC2A9807.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/Cube.uasset'
+[2018.04.04-11.15.22:043][957]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerBlock/Cube.uasset
+[2018.04.04-11.15.32:993][245]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2018.04.04-11.15.39:611][ 33]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.15.39:637][ 33]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.39:637][ 33]BlueprintLog: New page: Pre-Play auto-recompile
+[2018.04.04-11.15.39:637][ 33]LogPlayLevel: [PlayLevel] Compiling HelloWorld before play...
+[2018.04.04-11.15.39:642][ 33]LogBlueprint:Error: [Compiler PersistentLevel.HelloWorld] Error Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.04.04-11.15.39:819][ 33]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1980.52] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 0 Warning(s) [in 179 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.39:819][ 33]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1980.52] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.39:819][ 33]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1980.52] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.39:819][ 33]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1980.52] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.39:820][ 33]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1980.52] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.39:820][ 33]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1980.52] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.39:840][ 33]LogPlayLevel: PlayLevel: Blueprint regeneration took 203 ms (1 blueprints)
+[2018.04.04-11.15.39:840][ 33]BlueprintLog: Info Blueprint HelloWorld failed to compile
+[2018.04.04-11.15.42:857][ 33]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:15:42)
+[2018.04.04-11.15.42:857][ 33]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.15.42:874][ 33]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016973s)
+[2018.04.04-11.15.42:875][ 33]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.15.42:875][ 33]LogPlayLevel: PIE: World Init took: (0.000711s)
+[2018.04.04-11.15.42:875][ 33]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017884s)
+[2018.04.04-11.15.42:899][ 33]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.15.43:053][ 33]LogInit: FAudioDevice initialized.
+[2018.04.04-11.15.43:086][ 33]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.15.43:090][ 33]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.15.43
+[2018.04.04-11.15.43:091][ 33]LogWorld: Bringing up level for play took: 0.003140
+[2018.04.04-11.15.43:092][ 33]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 2.902
+[2018.04.04-11.15.43:092][ 33]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.55:106][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.55:151][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.15.57:666][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.15.57:696][751]LogBlueprint:Error: [Compiler PersistentLevel.HelloWorld] Error Couldn't find object for bound event node  OnActorBeginOverlap (None)
+[2018.04.04-11.15.57:872][751]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1998.57] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 0 Warning(s) [in 178 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.57:872][751]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1998.57] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.57:872][751]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1998.57] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.57:872][751]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1998.57] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.57:873][751]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1998.57] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.57:873][751]LogBlueprint:Warning: [Compiler PersistentLevel.HelloWorld] Warning [1998.57] Compile of PersistentLevel.HelloWorld failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld)
+[2018.04.04-11.15.58:252][751]LogSavePackage: Save=560.98ms
+[2018.04.04-11.15.58:252][751]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldA7C96CD643BC48C73770FFBEB7B88BCB.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.15.58:256][751]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.15.58:391][751]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.15.58:953][751]LogSavePackage: Save=557.29ms
+[2018.04.04-11.15.58:953][751]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltDataDC2B7A5D4044E96BBFFE798768DC36E3.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.15.58:956][751]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.16.15:339][664]BlueprintLog: New page: Compile HelloWorld
+[2018.04.04-11.16.16:405][778]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.16.16:450][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.16.16:451][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.16.16:451][778]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:16:16)
+[2018.04.04-11.16.16:451][778]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.16.16:467][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016058s)
+[2018.04.04-11.16.16:467][778]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.16.16:467][778]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2018.04.04-11.16.16:468][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.016967s)
+[2018.04.04-11.16.16:493][778]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.16.16:645][778]LogInit: FAudioDevice initialized.
+[2018.04.04-11.16.16:692][778]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.16.16:696][778]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.16.16
+[2018.04.04-11.16.16:696][778]LogWorld: Bringing up level for play took: 0.003155
+[2018.04.04-11.16.16:699][778]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 0.509
+[2018.04.04-11.16.16:699][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.16.24:618][720]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.16.24:681][720]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.16.37:273][196]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.16.37:756][196]LogSavePackage: Save=459.62ms
+[2018.04.04-11.16.37:756][196]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld719E700F40EEF9E9D89663A21FDFB2BC.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.16.37:760][196]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.16.37:798][196]LogFileHelpers: Saving map 'HelloWorld' took 0.647
+[2018.04.04-11.16.39:700][416]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.04-11.16.43:069][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.16.43:558][790]LogSavePackage: Save=464.70ms
+[2018.04.04-11.16.43:558][790]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldD1265CBF44220E838A2542BCE10B187A.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.16.43:560][790]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.16.43:695][790]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.16.44:241][790]LogSavePackage: Save=542.17ms
+[2018.04.04-11.16.44:242][790]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltData6448FAC645CFA4FAD4DAA098EDD2BF44.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.16.44:245][790]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.17.35:543][796]LogStaticMesh: Building static mesh F_Frame_01...
+[2018.04.04-11.17.35:558][796]LogStaticMesh: Built static mesh [0.02s] /Game/F_Frame_01.F_Frame_01
+[2018.04.04-11.17.35:563][796]LogMaterial: Missing cached shader map for material lambert1, compiling. 
+[2018.04.04-11.17.52:204][753]LogStaticMesh: Building static mesh F_Frame_02...
+[2018.04.04-11.17.52:215][753]LogStaticMesh: Built static mesh [0.01s] /Game/F_Frame_02.F_Frame_02
+[2018.04.04-11.18.52:194][824]BlueprintLog: New page: Compile AlphaDoor
+[2018.04.04-11.18.52:214][824]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.18.52:214][824]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.18.53:648][925]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.18.53:671][925]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.18.53:671][925]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.18.59:970][925]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:18:59)
+[2018.04.04-11.18.59:970][925]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.18.59:986][925]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016527s)
+[2018.04.04-11.18.59:987][925]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.18.59:987][925]LogPlayLevel: PIE: World Init took: (0.000683s)
+[2018.04.04-11.18.59:987][925]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017408s)
+[2018.04.04-11.19.00:012][925]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.19.00:166][925]LogInit: FAudioDevice initialized.
+[2018.04.04-11.19.00:214][925]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.19.00:218][925]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.19.00
+[2018.04.04-11.19.00:219][925]LogWorld: Bringing up level for play took: 0.003377
+[2018.04.04-11.19.00:222][925]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 6.032
+[2018.04.04-11.19.00:222][925]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.19.02:750][215]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.19.02:811][215]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.19.05:924][569]LogEditorViewport: Clicking on Actor (LMB): AlphaDoor_C (AlphaDoor)
+[2018.04.04-11.19.09:321][949]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Facility_)
+[2018.04.04-11.20.43:524][965]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/PowerDoor/AlphaDoor" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerDoor/AlphaDoor.uasset" SILENT=true
+[2018.04.04-11.20.43:564][965]LogSavePackage: Save=32.29ms
+[2018.04.04-11.20.43:564][965]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/AlphaDoor75A2627F48191D418EDE9FB0EF0EE5D1.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerDoor/AlphaDoor.uasset'
+[2018.04.04-11.20.43:568][965]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/PowerDoor/AlphaDoor.uasset
+[2018.04.04-11.20.45:276][169]BlueprintLog: New page: Compile PressurePad
+[2018.04.04-11.20.45:283][169]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.45:283][169]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.45:510][169]BlueprintEditorCompileResults:Error: Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.45:510][169]BlueprintEditorCompileResults:Error: Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.45:510][169]LogBlueprint:Warning: [Compiler PressurePad] Warning [2286.21] Compile of PressurePad failed. 2 Fatal Issue(s) 0 Warning(s) [in 233 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.20.45:987][223]BlueprintLog: New page: Compile PressurePad
+[2018.04.04-11.20.45:994][223]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.45:994][223]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.46:218][223]BlueprintEditorCompileResults:Error: Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.46:218][223]BlueprintEditorCompileResults:Error: Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.46:218][223]LogBlueprint:Warning: [Compiler PressurePad] Warning [2286.92] Compile of PressurePad failed. 2 Fatal Issue(s) 0 Warning(s) [in 230 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.20.46:219][223]BlueprintLog: New page: Compile PressurePad
+[2018.04.04-11.20.46:225][223]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.46:225][223]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.46:451][223]BlueprintEditorCompileResults:Error: Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.46:451][223]BlueprintEditorCompileResults:Error: Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.46:451][223]LogBlueprint:Warning: [Compiler PressurePad] Warning [2287.15] Compile of PressurePad failed. 2 Fatal Issue(s) 0 Warning(s) [in 232 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.20.46:474][224]BlueprintLog: New page: Compile PressurePad
+[2018.04.04-11.20.46:481][224]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.46:481][224]LogBlueprint:Error: [Compiler PressurePad] Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.46:772][224]BlueprintEditorCompileResults:Error: Error Could not find a function named "Close" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Close
+[2018.04.04-11.20.46:772][224]BlueprintEditorCompileResults:Error: Error Could not find a function named "Open" in 'AlphaDoor_C'.
+Make sure 'AlphaDoor_C' has been compiled for  Open
+[2018.04.04-11.20.46:772][224]LogBlueprint:Warning: [Compiler PressurePad] Warning [2287.47] Compile of PressurePad failed. 2 Fatal Issue(s) 0 Warning(s) [in 297 ms] (/Game/Assets/PressurePad/PressurePad.PressurePad)
+[2018.04.04-11.22.40:071][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.22.40:600][993]LogSavePackage: Save=485.19ms
+[2018.04.04-11.22.40:600][993]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld060B012A408050A41E2053BABE817079.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.22.40:605][993]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.22.40:740][993]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.22.41:446][993]LogSavePackage: Save=546.83ms
+[2018.04.04-11.22.41:446][993]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltDataECF615504CE36320178ED798AF1EA4FF.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.22.41:449][993]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.22.42:126][ 68]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.22.42:159][ 68]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.22.42:159][ 68]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.22.43:563][ 68]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:22:43)
+[2018.04.04-11.22.43:563][ 68]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.22.43:580][ 68]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017569s)
+[2018.04.04-11.22.43:581][ 68]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.22.43:581][ 68]LogPlayLevel: PIE: World Init took: (0.000743s)
+[2018.04.04-11.22.43:581][ 68]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.018518s)
+[2018.04.04-11.22.43:607][ 68]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.22.43:761][ 68]LogInit: FAudioDevice initialized.
+[2018.04.04-11.22.43:795][ 68]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.22.43:800][ 68]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.22.43
+[2018.04.04-11.22.43:801][ 68]LogWorld: Bringing up level for play took: 0.003276
+[2018.04.04-11.22.43:802][ 68]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld 1.612
+[2018.04.04-11.22.43:803][ 68]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.22.52:516][112]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.22.52:559][112]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.26.44:992][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.26.45:496][938]LogSavePackage: Save=479.13ms
+[2018.04.04-11.26.45:496][938]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorldFD24C7444012DAB0D356F1B50CDCCFA1.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.26.45:498][938]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.26.45:634][938]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.26.46:151][938]LogSavePackage: Save=513.42ms
+[2018.04.04-11.26.46:151][938]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltDataA2A3690E4C6A1DD9C14319861473C168.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.26.46:154][938]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.26.48:314][189]LogEditorViewport: Clicking on Actor (LMB): PressurePad_C (PressurePad)
+[2018.04.04-11.26.48:992][267]Cmd: DELETE
+[2018.04.04-11.26.48:992][267]Cmd: ACTOR DELETE
+[2018.04.04-11.26.48:993][267]LogEditorActor: Deleted Actor: PressurePad_C
+[2018.04.04-11.26.49:016][267]LogEditorActor: Deleted 1 Actors (0.023 secs)
+[2018.04.04-11.26.52:109][637]LogEditorViewport: Clicking on Actor (LMB): Cube_C (Cube)
+[2018.04.04-11.27.04:635][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.04.04-11.27.05:126][113]LogSavePackage: Save=463.11ms
+[2018.04.04-11.27.05:126][113]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld1DB5C1F248F466C4326F9F9D2860850B.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap'
+[2018.04.04-11.27.05:131][113]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld.umap
+[2018.04.04-11.27.05:265][113]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Maps/HelloWorld_BuiltData" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset" SILENT=true
+[2018.04.04-11.27.05:818][113]LogSavePackage: Save=548.62ms
+[2018.04.04-11.27.05:819][113]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/HelloWorld_BuiltDataCB2351C94CB2938270BB3D89809031EC.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset'
+[2018.04.04-11.27.05:822][113]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Maps/HelloWorld_BuiltData.uasset
+[2018.04.04-11.27.08:250][387]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2018.04.04-11.27.14:373][387]LogSourceControl: FGitCheckInWorker: commit successful
+[2018.04.04-11.27.14:838][387]SourceControl: Info [master d352610] j
+[2018.04.04-11.27.14:838][387]SourceControl: Info  7 files changed, 0 insertions(+), 0 deletions(-)
+[2018.04.04-11.27.14:838][387]SourceControl: Info  delete mode 100644 Content/Assets/LaunchPad.uasset
+[2018.04.04-11.27.14:838][387]SourceControl: Info  rewrite Content/Assets/PowerBlock/Cube.uasset (63%)
+[2018.04.04-11.27.14:838][387]SourceControl: Info  rewrite Content/Assets/PowerDoor/AlphaDoor.uasset (85%)
+[2018.04.04-11.27.14:838][387]SourceControl: Info  create mode 100644 Content/Blueprints/DeathCollision.uasset
+[2018.04.04-11.27.14:838][387]SourceControl: Info  create mode 100644 Content/Blueprints/TriggerBox_Blueprint.uasset
+[2018.04.04-11.27.14:845][387]SourceControl: Info Commited [master d352610] j.
+[2018.04.04-11.37.07:646][519]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Maps/HelloWorld' took 0.023
+[2018.04.04-11.37.07:649][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Misc_Objects/LabCoats/lambert1] ([1] browsable assets)...
+[2018.04.04-11.37.07:665][519]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Misc_Objects/LabCoats/lambert1.lambert1]
+[2018.04.04-11.37.07:665][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Misc_Objects/LabCoats/lambert1]
+[2018.04.04-11.37.07:686][519]LogSavePackage: Save=13.88ms
+[2018.04.04-11.37.07:686][519]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/lambert1_Auto27AD84C0143A12262CDDB419A28F3DF68.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/LabCoats/lambert1_Auto2.uasset'
+[2018.04.04-11.37.07:688][519]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/LabCoats/lambert1_Auto2.uasset
+[2018.04.04-11.37.07:689][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Misc_Objects/LabCoats/lambert2] ([1] browsable assets)...
+[2018.04.04-11.37.07:705][519]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Misc_Objects/LabCoats/lambert2.lambert2]
+[2018.04.04-11.37.07:705][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Misc_Objects/LabCoats/lambert2]
+[2018.04.04-11.37.07:725][519]LogSavePackage: Save=13.55ms
+[2018.04.04-11.37.07:725][519]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/lambert2_Auto26655CAB542511791ED1F8694163B491D.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/LabCoats/lambert2_Auto2.uasset'
+[2018.04.04-11.37.07:727][519]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/LabCoats/lambert2_Auto2.uasset
+[2018.04.04-11.37.07:728][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Misc_Objects/LabCoats/M_White] ([1] browsable assets)...
+[2018.04.04-11.37.07:744][519]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Misc_Objects/LabCoats/M_White.M_White]
+[2018.04.04-11.37.07:744][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Misc_Objects/LabCoats/M_White]
+[2018.04.04-11.37.07:764][519]LogSavePackage: Save=12.86ms
+[2018.04.04-11.37.07:764][519]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/M_White_Auto26665709F4A969CF40F8B3FAFA2882FC2.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/LabCoats/M_White_Auto2.uasset'
+[2018.04.04-11.37.07:765][519]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/LabCoats/M_White_Auto2.uasset
+[2018.04.04-11.37.07:767][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Misc_Objects/Boats/M_Boat] ([1] browsable assets)...
+[2018.04.04-11.37.07:782][519]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Misc_Objects/Boats/M_Boat.M_Boat]
+[2018.04.04-11.37.07:782][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Misc_Objects/Boats/M_Boat]
+[2018.04.04-11.37.07:782][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/Boats/M_Boat" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/Boats/M_Boat_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.04.04-11.37.07:803][519]LogSavePackage: Save=14.76ms
+[2018.04.04-11.37.07:803][519]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/M_Boat_Auto288AC4BE9408983A929A2AD8B078E0917.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/Boats/M_Boat_Auto2.uasset'
+[2018.04.04-11.37.07:805][519]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/Boats/M_Boat_Auto2.uasset
+[2018.04.04-11.37.07:806][519]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Assets/Misc_Objects/Boats/M_Oars] ([1] browsable assets)...
+[2018.04.04-11.37.07:821][519]OBJ SavePackage:     Rendered thumbnail for [Material /Game/Assets/Misc_Objects/Boats/M_Oars.M_Oars]
+[2018.04.04-11.37.07:821][519]OBJ SavePackage: Finished generating thumbnails for package [/Game/Assets/Misc_Objects/Boats/M_Oars]
+[2018.04.04-11.37.07:821][519]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/Boats/M_Oars" FILE="F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/Boats/M_Oars_Auto2.uasset" SILENT=false AUTOSAVING=true
+[2018.04.04-11.37.07:842][519]LogSavePackage: Save=13.57ms
+[2018.04.04-11.37.07:842][519]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/M_Oars_Auto2E981496D4472CD6AAB9ABA80948C1CDC.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/Boats/M_Oars_Auto2.uasset'
+[2018.04.04-11.37.07:844][519]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Saved/Autosaves/Game/Assets/Misc_Objects/Boats/M_Oars_Auto2.uasset
+[2018.04.04-11.37.07:844][519]LogFileHelpers: Auto-saving content packages took 0.197
+[2018.04.04-11.37.11:688][933]LogTemp: Repeting last play command: Selected Viewport
+[2018.04.04-11.37.11:713][933]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.37.11:714][933]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.04.04-11.37.11:714][933]PIE: New page: PIE session: HelloWorld (4 Apr 2018 13:37:11)
+[2018.04.04-11.37.11:714][933]LogPlayLevel: Creating play world package: /Game/Maps/UEDPIE_0_HelloWorld
+[2018.04.04-11.37.11:731][933]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016596s)
+[2018.04.04-11.37.11:732][933]LogAIModule: Creating AISystem for world HelloWorld
+[2018.04.04-11.37.11:732][933]LogPlayLevel: PIE: World Init took: (0.000815s)
+[2018.04.04-11.37.11:732][933]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Maps/HelloWorld.HelloWorld to /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld (0.017608s)
+[2018.04.04-11.37.11:758][933]LogInit: XAudio2 using 'Headset Earphone (Corsair VOID RGB USB Gaming Headset )' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2018.04.04-11.37.11:914][933]LogInit: FAudioDevice initialized.
+[2018.04.04-11.37.11:944][933]LogLoad: Game class is 'FuseGM_C'
+[2018.04.04-11.37.11:948][933]LogWorld: Bringing World /Game/Maps/UEDPIE_0_HelloWorld.HelloWorld up for play (max tick rate 0) at 2018.04.04-12.37.11
+[2018.04.04-11.37.11:949][933]LogWorld: Bringing up level for play took: 0.003358
+[2018.04.04-11.37.11:950][933]PIE: Info Play in editor start time for /Game/Maps/UEDPIE_0_HelloWorld -0.239
+[2018.04.04-11.37.11:951][933]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.37.13:005][ 46]Cmd: LevelEditor.ToggleImmersive
+[2018.04.04-11.37.27:359][681]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.37.27:434][681]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel' has LevelScriptBlueprint '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld' with GeneratedClass '/Game/Maps/HelloWorld.HelloWorld_C' with ClassGeneratedBy '/Game/Maps/HelloWorld.HelloWorld:PersistentLevel.HelloWorld'
+[2018.04.04-11.38.13:005][847]LogMaterial: Missing cached shader map for material M_Chrome, compiling. 
+[2018.04.04-11.38.13:047][847]LogMaterial: Missing cached shader map for material M_Copper, compiling. 
+[2018.04.04-11.38.13:088][847]LogMaterial: Missing cached shader map for material M_Red, compiling. 
+[2018.04.04-11.38.13:130][847]LogMaterial: Missing cached shader map for material M_Grey, compiling. 
+[2018.04.04-11.38.13:182][847]LogMaterial: Missing cached shader map for material W_White, compiling. 
+[2018.04.04-11.38.13:232][847]LogMaterial: Missing cached shader map for material lambert2, compiling. 
+[2018.04.04-11.38.13:276][847]LogMaterial: Missing cached shader map for material M_Black, compiling. 
+[2018.04.04-11.38.13:319][847]LogMaterial: Missing cached shader map for material M_Blue, compiling. 
+[2018.04.04-11.38.13:706][847]LogContentBrowser: Native class hierarchy updated for 'SkeletonEditor' in 0.0018 seconds. Added 1 classes and 2 folders.
+[2018.04.04-11.38.14:078][847]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2018.04.04-11.38.14:163][847]LogSkeletalMesh: USkeletalMeshComponent::InitArticulated : Bodies already created (/Engine/Transient.World_12:PersistentLevel.Actor_0.DebugSkelMeshComponent_0) - call TermArticulated first.
+[2018.04.04-11.38.14:819][847]LogContentBrowser: Native class hierarchy updated for 'ClothingSystemEditorInterface' in 0.0015 seconds. Added 1 classes and 0 folders.
+[2018.04.04-11.38.37:901][ 24]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2018.04.04-11.38.43:040][608]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (LightHouse)
+[2018.04.04-14.43.06:007][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/Boats/M_Boat" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/Boats/M_Boat.uasset" SILENT=true
+[2018.04.04-14.43.06:026][415]LogSavePackage: Save=10.54ms
+[2018.04.04-14.43.06:026][415]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/M_BoatF676E5B448E4FE6A1B2CCDBF6E353A90.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/Boats/M_Boat.uasset'
+[2018.04.04-14.43.06:030][415]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/Boats/M_Boat.uasset
+[2018.04.04-14.43.06:033][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/Boats/M_Oars" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/Boats/M_Oars.uasset" SILENT=true
+[2018.04.04-14.43.06:044][415]LogSavePackage: Save=4.72ms
+[2018.04.04-14.43.06:044][415]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/M_OarsCFB247DD4C06C2BF2566648826370DF1.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/Boats/M_Oars.uasset'
+[2018.04.04-14.43.06:048][415]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/Boats/M_Oars.uasset
+[2018.04.04-14.43.06:051][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/LabCoats/lambert1" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/lambert1.uasset" SILENT=true
+[2018.04.04-14.43.06:063][415]LogSavePackage: Save=5.12ms
+[2018.04.04-14.43.06:063][415]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/lambert1FAC9C6974D5A8FE424881ABA54BD5753.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/lambert1.uasset'
+[2018.04.04-14.43.06:067][415]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/lambert1.uasset
+[2018.04.04-14.43.06:070][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/LabCoats/lambert2" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/lambert2.uasset" SILENT=true
+[2018.04.04-14.43.06:081][415]LogSavePackage: Save=4.43ms
+[2018.04.04-14.43.06:081][415]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/lambert28EC97084492DA08056086AA80E226527.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/lambert2.uasset'
+[2018.04.04-14.43.06:085][415]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/lambert2.uasset
+[2018.04.04-14.43.06:089][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Assets/Misc_Objects/LabCoats/M_White" FILE="F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/M_White.uasset" SILENT=true
+[2018.04.04-14.43.06:100][415]LogSavePackage: Save=4.79ms
+[2018.04.04-14.43.06:100][415]LogSavePackage: Moving 'F:/FMP/RPG_Game/RPG_Game/Saved/M_WhiteEE6490EF4F4BF309E271BEBC0617C559.tmp' to 'F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/M_White.uasset'
+[2018.04.04-14.43.06:104][415]LogSavePackage:Display: Finished SavePackage F:/FMP/RPG_Game/RPG_Game/Content/Assets/Misc_Objects/LabCoats/M_White.uasset
+[2018.04.04-14.43.06:581][416]Cmd: QUIT_EDITOR
+[2018.04.04-14.43.07:484][416]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2018.04.04-14.43.07:599][416]LogExit: Preparing to exit.
+[2018.04.04-14.43.08:991][416]LogExit: Editor shut down
+[2018.04.04-14.43.09:026][416]LogExit: Transaction tracking system shut down
+[2018.04.04-14.43.09:503][416]LogObj: Freed 0b from 0 cluster array pools.
+[2018.04.04-14.43.09:504][416]LogExit: Object subsystem successfully closed.
+[2018.04.04-14.43.09:633][416]LogD3D11RHI: Shutdown
+[2018.04.04-14.43.09:633][416]LogD3D11RHI: CleanupD3DDevice
+[2018.04.04-14.43.09:842][416]LogD3D11RHI: ~FD3D11DynamicRHI
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module ClothingSystemEditorInterface (542)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module SkeletonEditor (540)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (538)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (530)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (528)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module CrashTracker (526)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module SceneOutliner (524)
+[2018.04.04-14.43.09:883][416]LogModuleManager: Shutting down and abandoning module AddContentDialog (522)
+[2018.04.04-14.43.09:883][416]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2018.04.04-14.43.09:891][416]LogModuleManager: Shutting down and abandoning module WidgetCarousel (521)
+[2018.04.04-14.43.09:891][416]LogModuleManager: Shutting down and abandoning module EditorWidgets (518)
+[2018.04.04-14.43.09:891][416]LogModuleManager: Shutting down and abandoning module CollectionManager (516)
+[2018.04.04-14.43.09:891][416]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Collections/' was aborted.
+[2018.04.04-14.43.09:891][416]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/Developers/Jordan/Collections/' was aborted.
+[2018.04.04-14.43.09:891][416]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Saved/Collections/' was aborted.
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module StatsViewer (514)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module FoliageEdit (512)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module LandscapeEditor (510)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module MeshPaintMode (508)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (506)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module ActorPickerMode (504)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module GeometryMode (502)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module TextureAlignMode (500)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module BspMode (498)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module HardwareSurvey (496)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (494)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module AutomationWorker (492)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (490)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (488)
+[2018.04.04-14.43.09:892][416]LogModuleManager: Shutting down and abandoning module PlacementMode (487)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (484)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (482)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (480)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (478)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (476)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module Media (475)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (472)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module CharacterAI (470)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module AudioCapture (468)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module SequenceRecorder (467)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module SmartSnapping (464)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module SessionServices (462)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module ViewportSnapping (460)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module ViewportInteraction (458)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module ClothPainter (456)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module LogVisualizer (454)
+[2018.04.04-14.43.09:893][416]LogModuleManager: Shutting down and abandoning module IntroTutorials (452)
+[2018.04.04-14.43.09:894][416]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (451)
+[2018.04.04-14.43.09:894][416]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (448)
+[2018.04.04-14.43.09:894][416]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (446)
+[2018.04.04-14.43.09:894][416]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (444)
+[2018.04.04-14.43.09:894][416]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (442)
+[2018.04.04-14.43.09:894][416]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (441)
+[2018.04.04-14.43.09:941][416]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (438)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (436)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module InputBindingEditor (434)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module MergeActors (432)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module SizeMap (430)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module TreeMap (428)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module ReferenceViewer (426)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (424)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module LocalizationService (423)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module HardwareTargeting (420)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (418)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module UndoHistory (416)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module UserFeedback (414)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module XmlParser (412)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module Blutility (410)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (408)
+[2018.04.04-14.43.09:942][416]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (407)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (404)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module SettingsEditor (402)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module ProjectLauncher (400)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module SessionFrontend (398)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module ProfilerClient (396)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module DeviceManager (394)
+[2018.04.04-14.43.09:943][416]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (393)
+[2018.04.04-14.43.09:997][416]LogModuleManager: Shutting down and abandoning module AutomationController (390)
+[2018.04.04-14.43.09:997][416]LogModuleManager: Shutting down and abandoning module AutomationWindow (388)
+[2018.04.04-14.43.09:997][416]LogModuleManager: Shutting down and abandoning module Layers (386)
+[2018.04.04-14.43.09:997][416]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (384)
+[2018.04.04-14.43.09:997][416]LogModuleManager: Shutting down and abandoning module DetailCustomizations (382)
+[2018.04.04-14.43.09:998][416]LogModuleManager: Shutting down and abandoning module PackagesDialog (380)
+[2018.04.04-14.43.09:998][416]LogModuleManager: Shutting down and abandoning module Persona (378)
+[2018.04.04-14.43.09:998][416]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (377)
+[2018.04.04-14.43.09:998][416]LogModuleManager: Shutting down and abandoning module AnimGraph (375)
+[2018.04.04-14.43.09:998][416]LogModuleManager: Shutting down and abandoning module Kismet (372)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module ClassViewer (370)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module Toolbox (368)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module ModuleUI (366)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module MovieSceneTools (364)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module OutputLog (362)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module GammaUI (360)
+[2018.04.04-14.43.10:013][416]LogModuleManager: Shutting down and abandoning module Documentation (358)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (356)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module MovieScene (354)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module Niagara (352)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module NiagaraEditor (351)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (348)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module AnalyticsET (346)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module PortalServices (344)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module PortalRpc (342)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module MessagingRpc (340)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module AIModule (338)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module GameplayDebugger (337)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module AITestSuite (335)
+[2018.04.04-14.43.10:015][416]LogModuleManager: Shutting down and abandoning module ProfilerService (332)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module TaskGraph (330)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SubstanceEditor (328)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SteamVRController (326)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SteamVR (324)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (322)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (320)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module OculusLibrary (318)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module OculusInput (316)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (314)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (312)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module CableComponent (310)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (308)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module AndroidPermission (306)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (302)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module HTML5Networking (300)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module AlembicImporter (298)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module AlembicLibrary (297)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module GeometryCache (296)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (295)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (290)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SuperSearch (289)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (286)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module PluginBrowser (284)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (282)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (280)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module DesktopPlatform (279)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module UObjectPlugin (276)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (274)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (272)
+[2018.04.04-14.43.10:197][416]LogModuleManager: Shutting down and abandoning module GitSourceControl (270)
+[2018.04.04-14.43.10:199][416]LogModuleManager: Shutting down and abandoning module SourceControl (269)
+[2018.04.04-14.43.10:199][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (266)
+[2018.04.04-14.43.10:199][416]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (264)
+[2018.04.04-14.43.10:199][416]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (262)
+[2018.04.04-14.43.10:199][416]LogModuleManager: Shutting down and abandoning module Paper2DEditor (260)
+[2018.04.04-14.43.10:200][416]LogModuleManager: Shutting down and abandoning module MeshPaint (259)
+[2018.04.04-14.43.10:200][416]LogModuleManager: Shutting down and abandoning module LevelEditor (257)
+[2018.04.04-14.43.10:201][416]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (256)
+[2018.04.04-14.43.10:201][416]LogModuleManager: Shutting down and abandoning module MainFrame (254)
+[2018.04.04-14.43.10:201][416]LogModuleManager: Shutting down and abandoning module HotReload (253)
+[2018.04.04-14.43.10:202][416]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (248)
+[2018.04.04-14.43.10:202][416]LogModuleManager: Shutting down and abandoning module PhysXVehicles (246)
+[2018.04.04-14.43.10:202][416]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (244)
+[2018.04.04-14.43.10:202][416]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (242)
+[2018.04.04-14.43.10:202][416]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (240)
+[2018.04.04-14.43.10:202][416]LogModuleManager: Shutting down and abandoning module UdpMessaging (238)
+[2018.04.04-14.43.10:302][416]LogModuleManager: Shutting down and abandoning module TcpMessaging (236)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module SubstanceCore (234)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2018.04.04-14.43.10:403][416]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2018.04.04-14.43.10:409][416]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2018.04.04-14.43.10:409][416]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2018.04.04-14.43.10:409][416]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2018.04.04-14.43.10:409][416]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2018.04.04-14.43.10:411][416]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2018.04.04-14.43.10:412][416]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2018.04.04-14.43.10:417][416]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2018.04.04-14.43.10:417][416]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2018.04.04-14.43.10:417][416]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2018.04.04-14.43.10:417][416]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2018.04.04-14.43.10:417][416]LogModuleManager: Shutting down and abandoning module Core (164)
+[2018.04.04-14.43.10:417][416]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2018.04.04-14.43.10:689][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2018.04.04-14.43.10:689][416]LogDirectoryWatcher: A directory notification for 'F:/FMP/RPG_Game/RPG_Game/Content/' was aborted.
+[2018.04.04-14.43.10:689][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2018.04.04-14.43.10:689][416]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2018.04.04-14.43.10:698][416]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2018.04.04-14.43.10:730][416]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2018.04.04-14.43.10:806][416]LogDerivedDataCache: Shutdown
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2018.04.04-14.43.10:806][416]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2018.04.04-14.43.10:808][416]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2018.04.04-14.43.10:809][416]LogOnline:Display: Unloading online subsystem: NULL
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2018.04.04-14.43.10:809][416]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2018.04.04-14.43.10:809][416]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2018.04.04-14.43.10:809][416]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B3B512C89-423E-6601-6B36-70AC00874A23%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f2ee2cd141fd990cd7bc44856aa9a1ea%7C3996f32fd2fe4f04a289bdcb1f9016df%7Cd35f91c7-4e6c-478a-b9f5-ce22f1949bcb&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2018.04.04-14.43.10:830][416]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2018.04.04-14.43.10:833][416]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2018.04.04-14.43.10:843][416]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2018.04.04-14.43.10:844][416]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2018.04.04-14.43.10:850][416]LogExit: Exiting.
+[2018.04.04-14.43.10:921][416]Log file closed, 04/04/18 15:43:10
